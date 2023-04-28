@@ -1,0 +1,849 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_23_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.23-20230423",
+            "comparison": false,
+            "hidden": false,
+            "id": 342,
+            "name": "WRLINUX_10_23_BASE",
+            "short_description": "Wind River Linux 10_23 Baseline",
+            "sort_priority": 6,
+            "update_environment": null,
+            "updated": "2023-04-28T00:04:08+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.23-20230423",
+            "branch": 342,
+            "collection": "core",
+            "id": 942434,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2023-04-23T00:04:30+0000",
+            "vcs_last_commit": "2023-04-23T00:04:17+0000",
+            "vcs_last_fetch": "2023-04-23T00:04:30+0000",
+            "vcs_last_rev": "cdc1014ccb2a229033c9d64280b8af0514d26bb3",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "wr-10.23-20230423",
+            "branch": 342,
+            "collection": "openembedded-layer",
+            "id": 942457,
+            "layer": 7,
+            "local_path": "",
+            "updated": "2023-04-23T03:04:11+0000",
+            "vcs_last_commit": "2023-04-23T02:04:52+0000",
+            "vcs_last_fetch": "2023-04-23T03:04:11+0000",
+            "vcs_last_rev": "90255385068dc25ee3e77b0b3f7e798ab59199a5",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 42597
+        },
+        {
+            "actual_branch": "wr-10.23-20230423",
+            "branch": 342,
+            "collection": "meta-python",
+            "id": 942618,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2023-04-23T08:04:18+0000",
+            "vcs_last_commit": "2023-04-09T08:04:55+0000",
+            "vcs_last_fetch": "2023-04-23T08:04:41+0000",
+            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 42597
+        },
+        {
+            "actual_branch": "",
+            "branch": 342,
+            "collection": "scanners-layer",
+            "id": 942707,
+            "layer": 304,
+            "local_path": "",
+            "updated": "2023-04-23T08:04:25+0000",
+            "vcs_last_commit": "2023-04-10T19:04:50+0000",
+            "vcs_last_fetch": "2023-04-23T08:04:25+0000",
+            "vcs_last_rev": "82475c74132fa1dd361a7113fa50cf14014d9952",
+            "vcs_subdir": "meta-security-compliance",
+            "version": null,
+            "yp_compatible_version": 42597
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 111117,
+            "layerbranch": 942707,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 111118,
+            "layerbranch": 942707,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 111119,
+            "layerbranch": 942707,
+            "required": true
+        },
+        {
+            "dependency": 305,
+            "id": 111120,
+            "layerbranch": 942707,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "openembedded-layer",
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "scanners-layer",
+            "comparison": false,
+            "description": "This layer is meant to contain programs to help in security compliance and auditing.",
+            "id": 304,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-security-compliance",
+            "status": "P",
+            "summary": "Security compliance and auditing",
+            "updated": "2019-07-29T23:07:37+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-security",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-security/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "lynis_3.0.8.bb",
+            "filepath": "recipes-auditors/lynis",
+            "homepage": "",
+            "id": 1763273,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 942707,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "lynis",
+            "pr": "r0",
+            "provides": "lynis ",
+            "pv": "3.0.8",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Lynis is a free and open source security and auditing tool.",
+            "updated": "2023-04-23T08:04:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "openscap-daemon_0.1.10.bb",
+            "filepath": "recipes-openscap/openscap-daemon",
+            "homepage": "",
+            "id": 1763274,
+            "inherits": "python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
+            "layerbranch": 942707,
+            "license": "LGPL-2.1-only",
+            "pe": "",
+            "pn": "openscap-daemon",
+            "pr": "r0",
+            "provides": "openscap-daemon ",
+            "pv": "0.1.10",
+            "section": "base",
+            "srcrev": "f25b16afb6ac761fea13132ff406fba4cdfd2b76",
+            "summary": "",
+            "updated": "2023-04-23T08:04:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DENABLE_PYTHON_COVERAGE=OFF -DSSG_PRODUCT_OPENEMBEDDED=ON ",
+            "description": "",
+            "filename": "scap-security-guide_git.bb",
+            "filepath": "recipes-openscap/scap-security-guide",
+            "homepage": "",
+            "id": 1763275,
+            "inherits": "cmake pkgconfig python3-dir python3native python3targetconfig",
+            "layerbranch": 942707,
+            "license": "LGPL-2.1-only",
+            "pe": "",
+            "pn": "scap-security-guide",
+            "pr": "r0",
+            "provides": "scap-security-guide ",
+            "pv": "0.1.44+gitX",
+            "section": "base",
+            "srcrev": "5fdfdcb2e95afbd86ace555beca5d20cbf1043ed",
+            "summary": "",
+            "updated": "2023-04-23T08:04:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DENABLE_PYTHON_COVERAGE=OFF ",
+            "description": "",
+            "filename": "scap-security-guide_0.1.44.bb",
+            "filepath": "recipes-openscap/scap-security-guide",
+            "homepage": "",
+            "id": 1763276,
+            "inherits": "cmake pkgconfig python3-dir python3native python3targetconfig",
+            "layerbranch": 942707,
+            "license": "LGPL-2.1-only",
+            "pe": "",
+            "pn": "scap-security-guide",
+            "pr": "r0",
+            "provides": "scap-security-guide ",
+            "pv": "0.1.44",
+            "section": "base",
+            "srcrev": "8cb2d0f351faff5440742258782281164953b0a6",
+            "summary": "",
+            "updated": "2023-04-23T08:04:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "oe-scap_1.0.bb",
+            "filepath": "recipes-openscap/oe-scap",
+            "homepage": "",
+            "id": 1763277,
+            "inherits": "",
+            "layerbranch": 942707,
+            "license": "MIT",
+            "pe": "",
+            "pn": "oe-scap",
+            "pr": "r0",
+            "provides": "oe-scap ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "7147871d7f37d408c0dd7720ef0fd3ec1b54ad98",
+            "summary": "",
+            "updated": "2023-04-23T08:04:24+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DENABLE_PROBES_LINUX=ON -DENABLE_PROBES_UNIX=ON                   -DENABLE_PROBES_SOLARIS=OFF -DENABLE_PROBES_INDEPENDENT=ON                   -DENABLE_OSCAP_UTIL=ON -DENABLE_OSCAP_UTIL_SSH=ON                   -DENABLE_OSCAP_UTIL_DOCKER=OFF -DENABLE_OSCAP_UTIL_CHROOT=OFF                   -DENABLE_OSCAP_UTIL_PODMAN=OFF -DENABLE_OSCAP_UTIL_VM=OFF                   -DENABLE_PROBES_WINDOWS=OFF -DENABLE_VALGRIND=OFF                   -DENABLE_SCE=ON -DENABLE_MITRE=OFF -DENABLE_TESTS=OFF                   -DCMAKE_SKIP_INSTALL_RPATH=ON -DCMAKE_SKIP_RPATH=ON                    -DWITH_CRYPTO=gcrypt   -DENABLE_PERL=ON -DENABLE_PYTHON3=ON -DENABLE_OSCAP_UTIL_AS_RPM=ON  ",
+            "description": "",
+            "filename": "openscap_1.3.7.bb",
+            "filepath": "recipes-openscap/openscap",
+            "homepage": "",
+            "id": 1763278,
+            "inherits": "cmake perlnative pkgconfig python3-dir python3native python3targetconfig systemd",
+            "layerbranch": 942707,
+            "license": "LGPL-2.1-only",
+            "pe": "",
+            "pn": "openscap",
+            "pr": "r0",
+            "provides": "openscap ",
+            "pv": "1.3.7",
+            "section": "base",
+            "srcrev": "55efbfda0f617e05862ab6ed4862e10dbee52b03",
+            "summary": "",
+            "updated": "2023-04-23T08:04:25+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DENABLE_PROBES_LINUX=ON -DENABLE_PROBES_UNIX=ON                   -DENABLE_PROBES_SOLARIS=OFF -DENABLE_PROBES_INDEPENDENT=ON                   -DENABLE_OSCAP_UTIL=ON -DENABLE_OSCAP_UTIL_SSH=ON                   -DENABLE_OSCAP_UTIL_DOCKER=OFF -DENABLE_OSCAP_UTIL_CHROOT=OFF                   -DENABLE_OSCAP_UTIL_PODMAN=OFF -DENABLE_OSCAP_UTIL_VM=OFF                   -DENABLE_PROBES_WINDOWS=OFF -DENABLE_VALGRIND=OFF                   -DENABLE_SCE=ON -DENABLE_MITRE=OFF -DENABLE_TESTS=OFF                   -DCMAKE_SKIP_INSTALL_RPATH=ON -DCMAKE_SKIP_RPATH=ON                    -DWITH_CRYPTO=gcrypt   -DENABLE_PERL=ON -DENABLE_PYTHON3=ON -DENABLE_OSCAP_UTIL_AS_RPM=ON  ",
+            "description": "",
+            "filename": "openscap_git.bb",
+            "filepath": "recipes-openscap/openscap",
+            "homepage": "",
+            "id": 1763279,
+            "inherits": "cmake perlnative pkgconfig python3-dir python3native python3targetconfig",
+            "layerbranch": 942707,
+            "license": "LGPL-2.1-only",
+            "pe": "",
+            "pn": "openscap",
+            "pr": "r0",
+            "provides": "openscap ",
+            "pv": "1.3.3+gitX",
+            "section": "base",
+            "srcrev": "a85943eee400fdbe59234d1c4a02d8cf710c4625",
+            "summary": "",
+            "updated": "2023-04-23T08:04:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "The /etc/openembedded-release file contains operating system identification data.",
+            "filename": "openembedded-release_1.0.bb",
+            "filepath": "recipes-core/openembedded-release",
+            "homepage": "",
+            "id": 1763280,
+            "inherits": "allarch",
+            "layerbranch": 942707,
+            "license": "MIT",
+            "pe": "",
+            "pn": "openembedded-release",
+            "pr": "r0",
+            "provides": "openembedded-release ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Operating release identification",
+            "updated": "2023-04-23T08:04:25+0000"
+        }
+    ],
+    "wrtemplates": []
+}
