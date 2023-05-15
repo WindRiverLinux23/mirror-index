@@ -415,20 +415,6 @@
         },
         {
             "description": "",
-            "id": 42590,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1"
-        },
-        {
-            "description": "",
-            "id": 42591,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42594,
             "image_url": "",
             "link_url": "",
@@ -475,6 +461,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
         }
     ],
     "branches": [
@@ -487,41 +480,41 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-04-28T00:04:08+0000",
+            "updated": "2023-05-15T00:05:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230509",
             "branch": 342,
             "collection": "xilinx",
             "id": 942573,
             "layer": 436,
             "local_path": "",
-            "updated": "2023-04-23T07:04:22+0000",
-            "vcs_last_commit": "2023-04-23T02:04:31+0000",
-            "vcs_last_fetch": "2023-04-23T07:04:36+0000",
-            "vcs_last_rev": "b26b681248b4f35b27a7905d88382da794dbf09f",
+            "updated": "2023-05-11T05:05:30+0000",
+            "vcs_last_commit": "2023-05-11T03:05:01+0000",
+            "vcs_last_fetch": "2023-05-11T05:05:30+0000",
+            "vcs_last_rev": "3db4ff58f7df527ad8c1755ccfbd55e8a8612012",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
-            "yp_compatible_version": 42597
+            "yp_compatible_version": 42594
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230509",
             "branch": 342,
             "collection": "xilinx-bsp",
             "id": 942575,
             "layer": 437,
             "local_path": "",
-            "updated": "2023-04-23T07:04:22+0000",
-            "vcs_last_commit": "2023-04-23T02:04:31+0000",
-            "vcs_last_fetch": "2023-04-23T07:04:46+0000",
-            "vcs_last_rev": "b26b681248b4f35b27a7905d88382da794dbf09f",
+            "updated": "2023-05-08T20:05:39+0000",
+            "vcs_last_commit": "2023-05-08T19:05:13+0000",
+            "vcs_last_fetch": "2023-05-08T20:05:39+0000",
+            "vcs_last_rev": "922547415e733b03bc10ba4eb709560a0c2da69e",
             "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
-            "yp_compatible_version": 42597
+            "yp_compatible_version": 42594
         }
     ],
     "layerDependencies": [
@@ -574,109 +567,102 @@
     ],
     "machines": [
         {
-            "description": "Machine support for ZCU106 Evaluation Board.",
+            "description": " ZCU106 evaluation board.",
             "id": 65034,
             "layerbranch": 942575,
             "name": "zcu106-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZCU1285 Evaluation Board.",
+            "description": " ZCU1285 evaluation board.",
             "id": 65035,
             "layerbranch": 942575,
             "name": "zcu1285-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZC702 Evaluation Board.",
+            "description": " ZC702 evaluation boards.",
             "id": 65036,
             "layerbranch": 942575,
             "name": "zc702-zynq7",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "vmk180-versal",
+            "description": " VMK180 evaluation board.",
             "id": 65037,
             "layerbranch": 942575,
             "name": "vmk180-versal",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZCU216 Evaluation Board.",
+            "description": " ZCU216 evaluation board.",
             "id": 65038,
             "layerbranch": 942575,
             "name": "zcu216-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZCU111 Evaluation Board.",
+            "description": " ZCU111 evaluation board.",
             "id": 65039,
             "layerbranch": 942575,
             "name": "zcu111-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "vck-sc-zynqmp",
-            "id": 65040,
-            "layerbranch": 942575,
-            "name": "vck-sc-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
-        },
-        {
-            "description": "Machine support for ZCU208 Evaluation Board.",
+            "description": " ZCU208 evaluation board.",
             "id": 65041,
             "layerbranch": 942575,
             "name": "zcu208-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZCU104 Evaluation Board.",
+            "description": " ZCU104 evaluation board.",
             "id": 65042,
             "layerbranch": 942575,
             "name": "zcu104-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZC706 Evaluation Board.",
+            "description": " ZC706 evaluation boards.",
             "id": 65043,
             "layerbranch": 942575,
             "name": "zc706-zynq7",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "vck-versal",
+            "description": " VCK190 evaluation board.",
             "id": 65044,
             "layerbranch": 942575,
             "name": "vck190-versal",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "vck500-versal",
+            "description": " VCK5000 evaluation board.",
             "id": 65045,
             "layerbranch": 942575,
             "name": "vck5000-versal",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZCU1275 Evaluation Board.",
+            "description": " ZCU1275 evaluation board.",
             "id": 65046,
             "layerbranch": 942575,
             "name": "zcu1275-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for Xilinx KC705 Embedded Kit.",
+            "description": " KC705 evaluation board.",
             "id": 65047,
             "layerbranch": 942575,
             "name": "kc705-microblazeel",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
-            "description": "Machine support for ZCU102 Evaluation Board.",
+            "description": " ZCU102 evaluation board.",
             "id": 65048,
             "layerbranch": 942575,
             "name": "zcu102-zynqmp",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-05-08T20:05:39+0000"
         },
         {
             "description": "Machine support for ZC1254 Evaluation Board.",
@@ -684,6 +670,62 @@
             "layerbranch": 942575,
             "name": "zc1254-zynqmp",
             "updated": "2023-04-23T07:04:46+0000"
+        },
+        {
+            "description": " AC701 evaluation board.",
+            "id": 66955,
+            "layerbranch": 942575,
+            "name": "ac701-microblazeel",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " KCU105 evaluation board.",
+            "id": 66956,
+            "layerbranch": 942575,
+            "name": "kcu105-microblazeel",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " VCU118 evaluation board.",
+            "id": 66957,
+            "layerbranch": 942575,
+            "name": "vcu118-microblazeel",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " VEK280 evaluation boards.",
+            "id": 66958,
+            "layerbranch": 942575,
+            "name": "vek280-versal",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " VHK158 evaluation board.",
+            "id": 66959,
+            "layerbranch": 942575,
+            "name": "vhk158-versal",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " VPK120 evaluation board.",
+            "id": 66960,
+            "layerbranch": 942575,
+            "name": "vpk120-versal",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " VPK180 evaluation board.",
+            "id": 66961,
+            "layerbranch": 942575,
+            "name": "vpk180-versal",
+            "updated": "2023-05-08T20:05:39+0000"
+        },
+        {
+            "description": " ZCU670 evaluation board.",
+            "id": 66962,
+            "layerbranch": 942575,
+            "name": "zcu670-zynqmp",
+            "updated": "2023-05-08T20:05:39+0000"
         }
     ],
     "recipes": [
@@ -705,29 +747,6 @@
             "pr": "r0",
             "provides": "kc705-bitstream virtual/bitstream",
             "pv": "2022.2",
-            "section": "bsp",
-            "srcrev": "",
-            "summary": "KC705 Pre-built Bitstream",
-            "updated": "2023-04-23T07:04:46+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "A Pre-built bitstream for the KC705, which is capable of booting a Linux system.",
-            "filename": "kc705-bitstream_2022.1.bb",
-            "filepath": "recipes-bsp/reference-design",
-            "homepage": "http://www.xilinx.com",
-            "id": 1761125,
-            "inherits": "deploy xilinx-fetch-restricted",
-            "layerbranch": 942575,
-            "license": "Proprietary",
-            "pe": "",
-            "pn": "kc705-bitstream",
-            "pr": "r0",
-            "provides": "kc705-bitstream virtual/bitstream",
-            "pv": "2022.1",
             "section": "bsp",
             "srcrev": "",
             "summary": "KC705 Pre-built Bitstream",

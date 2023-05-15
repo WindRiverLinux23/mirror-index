@@ -415,20 +415,6 @@
         },
         {
             "description": "",
-            "id": 42590,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1"
-        },
-        {
-            "description": "",
-            "id": 42591,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42594,
             "image_url": "",
             "link_url": "",
@@ -475,6 +461,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
         }
     ],
     "branches": [
@@ -487,7 +480,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-04-28T00:04:08+0000",
+            "updated": "2023-05-15T00:05:09+0000",
             "updates_enabled": true
         }
     ],
@@ -509,16 +502,16 @@
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230511",
             "branch": 342,
             "collection": "freescale-layer",
             "id": 942705,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-04-23T08:04:39+0000",
-            "vcs_last_commit": "2023-04-10T19:04:51+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:57+0000",
-            "vcs_last_rev": "a49d0e80fb82ea168f158b27f06d5d1c79c3db0a",
+            "updated": "2023-05-11T02:05:11+0000",
+            "vcs_last_commit": "2023-05-11T02:05:23+0000",
+            "vcs_last_fetch": "2023-05-11T02:05:11+0000",
+            "vcs_last_rev": "7480f9b356173fc542beda48b818b490ec3bed4c",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
@@ -626,7 +619,7 @@
             "id": 65064,
             "layerbranch": 942705,
             "name": "imx6qdlsabresd",
-            "updated": "2023-04-23T08:04:45+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "description": " NXP i.MX28 Evaluation Kit",
@@ -864,7 +857,7 @@
             "id": 65098,
             "layerbranch": 942705,
             "name": "imx6qdlsabreauto",
-            "updated": "2023-04-23T08:04:45+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "description": " LS1046A in 64-bit mode",
@@ -1091,7 +1084,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:45+0000"
+            "updated": "2023-05-11T02:05:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1374,52 +1367,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Freescale i.MX firmware for 8 family",
-            "filename": "firmware-imx-8_8.18.bb",
-            "filepath": "recipes-bsp/firmware-imx",
-            "homepage": "",
-            "id": 1763047,
-            "inherits": "deploy fsl-eula-unpack nopackages",
-            "layerbranch": 942705,
-            "license": "Proprietary",
-            "pe": "",
-            "pn": "firmware-imx-8",
-            "pr": "r0",
-            "provides": "firmware-imx-8 ",
-            "pv": "8.18",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Freescale i.MX firmware for 8 family",
-            "updated": "2023-04-23T08:04:46+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Freescale i.MX firmware for 8M and 8M Mini family",
-            "filename": "firmware-imx-8m_8.18.bb",
-            "filepath": "recipes-bsp/firmware-imx",
-            "homepage": "",
-            "id": 1763048,
-            "inherits": "deploy fsl-eula-unpack",
-            "layerbranch": 942705,
-            "license": "Proprietary",
-            "pe": "",
-            "pn": "firmware-imx-8m",
-            "pr": "r0",
-            "provides": "firmware-imx-8m ",
-            "pv": "8.18",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Freescale i.MX firmware for 8M and 8M Mini family",
-            "updated": "2023-04-23T08:04:46+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
             "description": "Sound Open Firmware",
             "filename": "firmware-sof-imx_2.3.0.bb",
             "filepath": "recipes-bsp/firmware-imx",
@@ -1457,9 +1404,9 @@
             "provides": "firmware-nxp-wifi ",
             "pv": "1.0",
             "section": "kernel",
-            "srcrev": "982bb10dfabfb9e7b9dc106c59a4fbb2c45bfb44",
+            "srcrev": "bacbeb4789c1b13d13aab12ada29217ce8c3e905",
             "summary": "Wi-Fi firmware redistributed by NXP",
-            "updated": "2023-04-23T08:04:46+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1650,54 +1597,8 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "i.MX U-Boot suppporting i.MX reference boards.",
-            "filename": "u-boot-imx-mfgtool_2022.04.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 1763059,
-            "inherits": "cml1 deploy fsl-u-boot-localversion kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign uuu_bootloader_tag",
-            "layerbranch": 942705,
-            "license": "GPL-2.0-or-later",
-            "pe": "",
-            "pn": "u-boot-imx-mfgtool",
-            "pr": "r0",
-            "provides": "u-boot-imx-mfgtool u-boot-mfgtool",
-            "pv": "2022.04",
-            "section": "base",
-            "srcrev": "7376547b9e424b2d0f42dfe96394168c781ca297",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-04-23T08:04:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
             "description": "U-Boot based on mainline U-Boot used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was submitted for revision and it takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "u-boot-fslc-mfgtool_2023.01.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 1763060,
-            "inherits": "cml1 deploy fsl-u-boot-localversion kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 942705,
-            "license": "GPL-2.0-or-later",
-            "pe": "",
-            "pn": "u-boot-fslc-mfgtool",
-            "pr": "r0",
-            "provides": "u-boot-fslc-mfgtool u-boot-mfgtool",
-            "pv": "2023.01+gitX",
-            "section": "base",
-            "srcrev": "3b524eeb247425edbfe5bb10c3fd289b0f34855a",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-04-23T08:04:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "U-Boot based on mainline U-Boot used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was submitted for revision and it takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "u-boot-fslc_2023.01.bb",
+            "filename": "u-boot-fslc_2023.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1763061,
@@ -1707,12 +1608,12 @@
             "pe": "",
             "pn": "u-boot-fslc",
             "pr": "r0",
-            "provides": "u-boot-fslc virtual/bootloader u-boot",
-            "pv": "2023.01+gitX",
+            "provides": "u-boot-fslc virtual/bootloader u-boot u-boot-mfgtool",
+            "pv": "2023.04+gitX",
             "section": "base",
-            "srcrev": "3b524eeb247425edbfe5bb10c3fd289b0f34855a",
+            "srcrev": "4912909b874b7c075006d05b893483cee631870f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1753,12 +1654,12 @@
             "pe": "",
             "pn": "u-boot-imx",
             "pr": "r0",
-            "provides": "u-boot-imx virtual/bootloader u-boot",
+            "provides": "u-boot-imx virtual/bootloader u-boot u-boot-mfgtool",
             "pv": "2022.04",
             "section": "base",
             "srcrev": "7376547b9e424b2d0f42dfe96394168c781ca297",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1766,7 +1667,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-boot bootloader mxsboot tool",
-            "filename": "u-boot-fslc-mxsboot_2023.01.bb",
+            "filename": "u-boot-fslc-mxsboot_2023.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1763064,
@@ -1777,11 +1678,11 @@
             "pn": "u-boot-fslc-mxsboot",
             "pr": "r0",
             "provides": "u-boot-fslc-mxsboot u-boot-mxsboot",
-            "pv": "2023.01+gitX",
+            "pv": "2023.04+gitX",
             "section": "bootloader",
-            "srcrev": "3b524eeb247425edbfe5bb10c3fd289b0f34855a",
+            "srcrev": "4912909b874b7c075006d05b893483cee631870f",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1848,9 +1749,9 @@
             "provides": "imx-atf ",
             "pv": "2.6+gitX",
             "section": "BSP",
-            "srcrev": "3c1583ba0a5d11e5116332e91065cb3740153a46",
+            "srcrev": "616a4588f333522d50a55bedd2b9a90a51474a75",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1963,9 +1864,9 @@
             "provides": "imx-lib ",
             "pv": "5.9+X",
             "section": "multimedia",
-            "srcrev": "87ddd80953835eb29027d1d5a12044a08e809e40",
+            "srcrev": "43e5ee7dc4f88d883f8ce2bea309f8708be88a3e",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1986,9 +1887,9 @@
             "provides": "imx-test ",
             "pv": "7.0+X",
             "section": "base",
-            "srcrev": "68243988862f0e66a37754b4dbe4e7833b903f0c",
+            "srcrev": "75cb486d616e6561f803073b250a1d26e03a0d92",
             "summary": "Test programs for i.MX BSP",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2111,7 +2012,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "ARM Trusted Firmware",
-            "filename": "qoriq-atf-tools_2.4.bb",
+            "filename": "qoriq-atf-tools_2.6.bb",
             "filepath": "recipes-bsp/atf",
             "homepage": "",
             "id": 1763079,
@@ -2122,11 +2023,11 @@
             "pn": "qoriq-atf-tools",
             "pr": "r0",
             "provides": "qoriq-atf-tools ",
-            "pv": "2.4",
+            "pv": "2.6+X",
             "section": "base",
-            "srcrev": "bb4957067d4b96a6ee197a333425948e409e990d",
+            "srcrev": "616a4588f333522d50a55bedd2b9a90a51474a75",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2134,7 +2035,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "ARM Trusted Firmware",
-            "filename": "qoriq-atf_2.4.bb",
+            "filename": "qoriq-atf_2.6.bb",
             "filepath": "recipes-bsp/atf",
             "homepage": "",
             "id": 1763080,
@@ -2145,11 +2046,11 @@
             "pn": "qoriq-atf",
             "pr": "r0",
             "provides": "qoriq-atf ",
-            "pv": "2.4",
+            "pv": "2.6+X",
             "section": "base",
-            "srcrev": "bb4957067d4b96a6ee197a333425948e409e990d",
+            "srcrev": "616a4588f333522d50a55bedd2b9a90a51474a75",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-05-11T02:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2216,9 +2117,9 @@
             "provides": "imx-boot imx-boot",
             "pv": "1.0",
             "section": "BSP",
-            "srcrev": "3bfcfccb71ddf894be9c402732ccb229fe72099e",
+            "srcrev": "d489494622585a47b4be88988595b0e4f9598f39",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-05-11T02:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2239,9 +2140,9 @@
             "provides": "imx-mkimage ",
             "pv": "git",
             "section": "BSP",
-            "srcrev": "3bfcfccb71ddf894be9c402732ccb229fe72099e",
+            "srcrev": "d489494622585a47b4be88988595b0e4f9598f39",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-05-11T02:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2776,7 +2677,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fmacro-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot-native=   -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fmacro-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot-native= '     --sysroot='/tmp/tmpadhpz7wc/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-avresample --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --disable-libmp3lame --disable-openssl --enable-pic --enable-postproc --enable-pthreads --disable-sdl2 --enable-shared --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib",
+            "configopts": "              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fmacro-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot-native=   -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/ffmpeg-4.4.1=/usr/src/debug/ffmpeg/4.4.1-r0  -fmacro-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/build=/usr/src/debug/ffmpeg/4.4.1-r0  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot-native= '     --sysroot='/tmp/tmpep99e69s/tmp-glibc/work/core2-32-oe-linux/ffmpeg/4.4.1-r0/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-avresample --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --disable-libmp3lame --disable-openssl --enable-pic --enable-postproc --enable-pthreads --disable-sdl2 --enable-shared --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
             "filename": "ffmpeg_4.4.1.bb",
             "filepath": "recipes-multimedia/ffmpeg",
@@ -2793,7 +2694,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3136,9 +3037,9 @@
             "provides": "jailhouse ",
             "pv": "0.12",
             "section": "jailhouse",
-            "srcrev": "d9fffb8035a8a2b8d1182c750bd0e90bb4c0027a",
+            "srcrev": "8faaeb45b989f6f74f0d56e6ae9aaddbf5ebfb06",
             "summary": "Jailhouse, i.MX fork",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3527,9 +3428,9 @@
             "provides": "optee-client ",
             "pv": "3.19.0.imx",
             "section": "base",
-            "srcrev": "644022f8970c832a40be00747fcec70c7b5d488c",
+            "srcrev": "01231b7a7ce03cdf9d3f48e7baa0bce17aac28f7",
             "summary": "OPTEE Client libs",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3550,9 +3451,9 @@
             "provides": "optee-test ",
             "pv": "3.19.0.imx",
             "section": "base",
-            "srcrev": "5c1dbb531b304f7ae100958f6261b6cefea49b62",
+            "srcrev": "7c314e6a0cec0ba19246eb4f1959859d7a6536d6",
             "summary": "OPTEE test",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3573,9 +3474,9 @@
             "provides": "optee-os ",
             "pv": "3.19.0.imx",
             "section": "base",
-            "srcrev": "00919403f040fad4f8603e605932281ff8451b1d",
+            "srcrev": "ad4e8389bb2c38efe39853925eec571ac778c575",
             "summary": "OPTEE OS",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3780,9 +3681,9 @@
             "provides": "kernel-module-nxp89xx ",
             "pv": "git",
             "section": "base",
-            "srcrev": "5cda905576fd26eca6b49d0f0fb5e2bb3c0bf441",
+            "srcrev": "98e5b28b1a7afea9dbded4067e93bfd584531a79",
             "summary": "NXP Wi-Fi driver for module 88w8997/8987",
-            "updated": "2023-04-23T08:04:54+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3927,29 +3828,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel provided and supported by NXP with focus on i.MX Family Reference Boards. It includes support for many IPs such as GPU, VPU and IPU.",
-            "filename": "linux-imx-mfgtool_6.1.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 1763158,
-            "inherits": "cml1 deploy fsl-kernel-localversion fsl-vivante-kernel-driver-handler image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
-            "layerbranch": 942705,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-imx-mfgtool",
-            "pr": "r0",
-            "provides": "linux-imx-mfgtool linux-mfgtool",
-            "pv": "6.1.1+gitX",
-            "section": "base",
-            "srcrev": "29549c7073bf72cfb2c4614d37de45ec36b60475",
-            "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2023-04-23T08:04:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
             "description": "Linux kernel based on mainline kernel used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was applied in linux-next and takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
             "filename": "linux-fslc_6.1.bb",
             "filepath": "recipes-kernel/linux",
@@ -3961,12 +3839,12 @@
             "pe": "",
             "pn": "linux-fslc",
             "pr": "r0",
-            "provides": "linux-fslc  virtual/kernel",
-            "pv": "6.1.20+gitX",
+            "provides": "linux-fslc  virtual/kernel linux-mfgtool",
+            "pv": "6.1.24+gitX",
             "section": "base",
-            "srcrev": "526cda8a8d928f0db2593a192ef36071817af6c5",
+            "srcrev": "4c5917cbbb13c618abe50bb85048b784bd1b1095",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3974,7 +3852,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux Kernel provided by NXP as the part of release distribution. Main focus is set on i.MX Family Reference Boards. It includes support for many NXP Proprietary IPs (GPU, VPU, IPU). Latest stable Kernel patchlevel is applied and maintained by Community.",
-            "filename": "linux-fslc-imx_5.15.bb",
+            "filename": "linux-fslc-imx_6.1.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 1763160,
@@ -3984,58 +3862,12 @@
             "pe": "",
             "pn": "linux-fslc-imx",
             "pr": "r0",
-            "provides": "linux-fslc-imx  virtual/kernel",
-            "pv": "5.15.87+gitX",
+            "provides": "linux-fslc-imx  virtual/kernel linux-mfgtool",
+            "pv": "6.1.24+gitX",
             "section": "base",
-            "srcrev": "0eb4504bd3b8fd125e83ec62da9ba039519f96c8",
+            "srcrev": "897d73a656fe33d0c4549c5de1d07797f99d6871",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2023-04-23T08:04:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Linux kernel based on mainline kernel used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was applied in linux-next and takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "linux-fslc-lts-mfgtool_5.15.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 1763161,
-            "inherits": "cml1 deploy fsl-kernel-localversion fsl-vivante-kernel-driver-handler image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
-            "layerbranch": 942705,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-fslc-lts-mfgtool",
-            "pr": "r0",
-            "provides": "linux-fslc-lts-mfgtool linux-mfgtool",
-            "pv": "5.15.105+gitX",
-            "section": "base",
-            "srcrev": "c63907aefe3cb74f9da09a3c827eb3cf0115c0fe",
-            "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2023-04-23T08:04:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Linux kernel based on mainline kernel used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was applied in linux-next and takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "linux-fslc-mfgtool_6.1.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 1763162,
-            "inherits": "cml1 deploy fsl-kernel-localversion fsl-vivante-kernel-driver-handler image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
-            "layerbranch": 942705,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-fslc-mfgtool",
-            "pr": "r0",
-            "provides": "linux-fslc-mfgtool linux-mfgtool",
-            "pv": "6.1.20+gitX",
-            "section": "base",
-            "srcrev": "526cda8a8d928f0db2593a192ef36071817af6c5",
-            "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4122,35 +3954,12 @@
             "pe": "",
             "pn": "linux-imx",
             "pr": "r0",
-            "provides": "linux-imx  virtual/kernel",
+            "provides": "linux-imx  virtual/kernel linux-mfgtool",
             "pv": "6.1.1+gitX",
             "section": "base",
             "srcrev": "29549c7073bf72cfb2c4614d37de45ec36b60475",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2023-04-23T08:04:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Linux kernel based on mainline kernel used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was applied in linux-next and takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "linux-fslc-lts_5.15.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 1763167,
-            "inherits": "cml1 deploy fsl-kernel-localversion fsl-vivante-kernel-driver-handler image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
-            "layerbranch": 942705,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-fslc-lts",
-            "pr": "r0",
-            "provides": "linux-fslc-lts  virtual/kernel",
-            "pv": "5.15.105+gitX",
-            "section": "base",
-            "srcrev": "c63907aefe3cb74f9da09a3c827eb3cf0115c0fe",
-            "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4426,7 +4235,7 @@
             "section": "base",
             "srcrev": "3f8f336b5d2cf7ea7aa4e047d669d093fc46dfe6",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-05-11T02:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4472,7 +4281,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-05-11T02:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -4495,7 +4304,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-05-11T02:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -4611,6 +4420,52 @@
             "srcrev": "9d3305731c3be8de05c9f223a79959d448506a37",
             "summary": "Vulkan Utilities and Tools",
             "updated": "2023-04-23T08:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Freescale i.MX firmware for 8 family",
+            "filename": "imx-boot-firmware-files_8.18.bb",
+            "filepath": "recipes-bsp/firmware-imx",
+            "homepage": "",
+            "id": 1799877,
+            "inherits": "deploy fsl-eula-unpack nopackages",
+            "layerbranch": 942705,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "imx-boot-firmware-files",
+            "pr": "r0",
+            "provides": "imx-boot-firmware-files ",
+            "pv": "8.18",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Freescale i.MX firmware for 8 family",
+            "updated": "2023-05-11T02:05:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Image deploy tool for i.MX chips",
+            "filename": "uuu-bin_1.4.243.bb",
+            "filepath": "recipes-devtools/uuu",
+            "homepage": "https://github.com/NXPmicro/mfgtools",
+            "id": 1799878,
+            "inherits": "allarch",
+            "layerbranch": 942705,
+            "license": "BSD-3-Clause & LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "uuu-bin",
+            "pr": "r0",
+            "provides": "uuu-bin ",
+            "pv": "1.4.243",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Universal Update Utility - Binaries",
+            "updated": "2023-05-11T02:05:11+0000"
         }
     ],
     "wrtemplates": []
