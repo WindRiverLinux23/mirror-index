@@ -517,16 +517,31 @@
             "yp_compatible_version": 42596
         },
         {
+            "actual_branch": "wr-10.23-20230601",
+            "branch": 342,
+            "collection": "meta-intel-fpga",
+            "id": 948794,
+            "layer": 380,
+            "local_path": "",
+            "updated": "2023-06-02T00:06:36+0000",
+            "vcs_last_commit": "2023-06-02T00:06:58+0000",
+            "vcs_last_fetch": "2023-06-02T00:06:36+0000",
+            "vcs_last_rev": "5ec4df2c49dfbdf54fae9b441af3ef21d2b41c2b",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 42597
+        },
+        {
             "actual_branch": "",
             "branch": 342,
-            "collection": "wr-kernel-dev",
-            "id": 942526,
-            "layer": 487,
+            "collection": "intel-socfpga",
+            "id": 948796,
+            "layer": 118,
             "local_path": "",
-            "updated": "2023-04-23T23:04:21+0000",
-            "vcs_last_commit": "2023-04-23T22:04:34+0000",
-            "vcs_last_fetch": "2023-04-23T23:04:21+0000",
-            "vcs_last_rev": "f3979c7b1e81caaca0778bb317038e3de2ed777c",
+            "updated": "2023-06-08T04:06:51+0000",
+            "vcs_last_commit": "2023-06-08T01:06:18+0000",
+            "vcs_last_fetch": "2023-06-08T04:06:51+0000",
+            "vcs_last_rev": "863ec63b482650a322368fa5c9aad76f457212b3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -535,15 +550,27 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 110923,
-            "layerbranch": 942526,
+            "id": 113900,
+            "layerbranch": 948796,
+            "required": true
+        },
+        {
+            "dependency": 380,
+            "id": 113901,
+            "layerbranch": 948796,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 110924,
-            "layerbranch": 942526,
+            "id": 113902,
+            "layerbranch": 948796,
             "required": true
+        },
+        {
+            "dependency": 237,
+            "id": 113903,
+            "layerbranch": 948796,
+            "required": false
         }
     ],
     "layerItems": [
@@ -586,26 +613,53 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-kernel-dev",
+            "collection": "intel-socfpga",
             "comparison": false,
-            "description": "This layer contains bbappends and templates used to customize kernel source and/or headers. Please see README for details.",
-            "id": 487,
+            "description": "Intel socfpga BSP",
+            "id": 118,
             "index_preference": 0,
-            "layer_type": "S",
+            "layer_type": "B",
             "mailing_list_url": "",
-            "name": "wr-kernel-dev",
+            "name": "intel-socfpga",
             "status": "P",
-            "summary": "Kernel Source Customization",
-            "updated": "2023-03-08T19:03:04+0000",
+            "summary": "Intel socfpga BSP",
+            "updated": "2018-05-30T22:05:42+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/wr-kernel-dev",
+            "vcs_url": "#BASE_URL#/intel-socfpga",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-intel-fpga",
+            "comparison": false,
+            "description": "This is a layer used by BSP intel-socfpga",
+            "id": 380,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel-fpga",
+            "status": "P",
+            "summary": "This is a layer used by BSP intel-socfpga",
+            "updated": "2021-04-21T00:04:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-fpga",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         }
     ],
-    "machines": [],
+    "machines": [
+        {
+            "description": " Intel Stratix 10 SoC",
+            "id": 68726,
+            "layerbranch": 948796,
+            "name": "intel-socfpga-64",
+            "updated": "2023-06-01T23:06:03+0000"
+        }
+    ],
     "recipes": [
         {
             "bbclassextend": "",
@@ -613,75 +667,54 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "linux-libc-headers-custom.bb",
-            "filepath": "recipes-kernel/linux-libc-headers",
+            "filename": "s10-u-boot-scr.bb",
+            "filepath": "recipes-bsp/s10-u-boot-scr",
             "homepage": "",
-            "id": 1760816,
-            "inherits": "",
-            "layerbranch": 942526,
-            "license": "",
+            "id": 1800824,
+            "inherits": "deploy nopackages",
+            "layerbranch": 948796,
+            "license": "MIT",
             "pe": "",
-            "pn": "linux-libc-headers-custom",
-            "pr": "",
-            "provides": "",
-            "pv": "",
-            "section": "",
+            "pn": "s10-u-boot-scr",
+            "pr": "r0",
+            "provides": "s10-u-boot-scr ",
+            "pv": "1.0",
+            "section": "base",
             "srcrev": "",
-            "summary": "",
-            "updated": "2023-04-23T23:04:21+0000"
+            "summary": "U-boot boot scripts for stratix10",
+            "updated": "2023-06-01T23:06:04+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " ",
             "description": "",
-            "filename": "linux-yocto-custom.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "https://www.yoctoproject.org/",
-            "id": 1760817,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
-            "layerbranch": 942526,
-            "license": "GPL-2.0-only",
+            "filename": "intel-rsu_git.bb",
+            "filepath": "recipes-bsp/intel-rsu",
+            "homepage": "https://github.com/altera-opensource/intel-rsu",
+            "id": 1800825,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 948796,
+            "license": "GPL-2.0-or-later",
             "pe": "",
-            "pn": "linux-yocto-custom",
+            "pn": "intel-rsu",
             "pr": "r0",
-            "provides": "linux-yocto-custom  virtual/kernel",
-            "pv": "1.0",
-            "section": "kernel",
-            "srcrev": "",
-            "summary": "Linux kernel",
-            "updated": "2023-04-23T23:04:21+0000"
+            "provides": "intel-rsu ",
+            "pv": "1.0.0",
+            "section": "intel-rsu",
+            "srcrev": "41c98ae4bb0680003a240372eec1a0d1594ca829",
+            "summary": "Intel Remote System Update Tool",
+            "updated": "2023-06-01T23:06:04+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 102820,
-            "layerbranch": 942526,
-            "name": "feature/kernel-alt-headers",
-            "updated": "2023-04-23T03:04:30+0000"
-        },
-        {
-            "description": "",
-            "id": 102821,
-            "layerbranch": 942526,
-            "name": "feature/kernel-dev",
-            "updated": "2023-04-23T03:04:30+0000"
-        },
-        {
-            "description": "",
-            "id": 102822,
-            "layerbranch": 942526,
-            "name": "feature/kernfeatures-clear",
-            "updated": "2023-04-23T03:04:30+0000"
-        },
-        {
-            "description": "",
-            "id": 102823,
-            "layerbranch": 942526,
-            "name": "feature/custom-kernel",
-            "updated": "2023-04-23T03:04:30+0000"
+            "id": 105680,
+            "layerbranch": 948796,
+            "name": "default",
+            "updated": "2023-06-01T23:06:03+0000"
         }
     ]
 }

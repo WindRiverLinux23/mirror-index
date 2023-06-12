@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-05-29T00:05:08+0000",
+            "updated": "2023-06-12T00:06:08+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +493,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-05-29T03:05:44+0000",
-            "vcs_last_commit": "2023-05-29T02:05:28+0000",
-            "vcs_last_fetch": "2023-05-29T03:05:44+0000",
-            "vcs_last_rev": "d74cbab89d2e20f5931f360ae5e225ee822654e7",
+            "updated": "2023-06-12T00:06:40+0000",
+            "vcs_last_commit": "2023-06-11T23:06:21+0000",
+            "vcs_last_fetch": "2023-06-12T00:06:40+0000",
+            "vcs_last_rev": "05bf0b433accc7132652a9b32f95b1c675fd8803",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -508,10 +508,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-05-25T21:05:00+0000",
-            "vcs_last_commit": "2023-05-25T04:05:39+0000",
-            "vcs_last_fetch": "2023-05-25T21:05:00+0000",
-            "vcs_last_rev": "6a533d9da97e20d7db007caf02c6aa9b6f5b6925",
+            "updated": "2023-06-12T08:06:39+0000",
+            "vcs_last_commit": "2023-06-12T07:06:53+0000",
+            "vcs_last_fetch": "2023-06-12T08:06:39+0000",
+            "vcs_last_rev": "e324a7d12fa96f783e743fadde060e4d3f58791a",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -523,10 +523,10 @@
             "id": 942566,
             "layer": 469,
             "local_path": "",
-            "updated": "2023-05-23T04:05:45+0000",
-            "vcs_last_commit": "2023-05-23T03:05:03+0000",
-            "vcs_last_fetch": "2023-05-23T04:05:45+0000",
-            "vcs_last_rev": "26a6c594a68519bfdfc7588b84465698b52d0fe3",
+            "updated": "2023-06-12T07:06:35+0000",
+            "vcs_last_commit": "2023-06-11T22:06:07+0000",
+            "vcs_last_fetch": "2023-06-12T07:06:35+0000",
+            "vcs_last_rev": "dd10db68aaba1287b3e0c2ce136683f75045e13b",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42594
@@ -538,10 +538,10 @@
             "id": 942567,
             "layer": 471,
             "local_path": "",
-            "updated": "2023-05-11T02:05:57+0000",
-            "vcs_last_commit": "2023-05-11T01:05:13+0000",
-            "vcs_last_fetch": "2023-05-11T02:05:57+0000",
-            "vcs_last_rev": "4112c2de88fd026c6cb2be50596c9d93e2fd98a9",
+            "updated": "2023-06-06T21:06:35+0000",
+            "vcs_last_commit": "2023-06-06T20:06:52+0000",
+            "vcs_last_fetch": "2023-06-06T21:06:35+0000",
+            "vcs_last_rev": "d3581ea2091521787b88e4dce25d4a1928957d74",
             "vcs_subdir": "meta-sdk",
             "version": null,
             "yp_compatible_version": 42594
@@ -568,10 +568,10 @@
             "id": 942705,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-05-29T04:05:13+0000",
-            "vcs_last_commit": "2023-05-29T03:05:16+0000",
-            "vcs_last_fetch": "2023-05-29T04:05:13+0000",
-            "vcs_last_rev": "7ac6f434005df3740fb19edcc42c11b55c800713",
+            "updated": "2023-06-12T07:06:23+0000",
+            "vcs_last_commit": "2023-05-31T01:05:06+0000",
+            "vcs_last_fetch": "2023-06-12T07:06:23+0000",
+            "vcs_last_rev": "185ac336a32d39b38ee80eb38912a93a4d21bd1e",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
@@ -583,10 +583,10 @@
             "id": 947848,
             "layer": 113,
             "local_path": "",
-            "updated": "2023-05-25T19:05:46+0000",
-            "vcs_last_commit": "2023-05-25T18:05:52+0000",
-            "vcs_last_fetch": "2023-05-25T19:05:46+0000",
-            "vcs_last_rev": "a71a416f0dec116f5146779825e63a2ea239b76d",
+            "updated": "2023-06-08T19:06:32+0000",
+            "vcs_last_commit": "2023-06-08T17:06:09+0000",
+            "vcs_last_fetch": "2023-06-08T19:06:32+0000",
+            "vcs_last_rev": "cad7b3e2348c9c3d018c1b569538af2476a080a7",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -771,7 +771,7 @@
             "id": 68595,
             "layerbranch": 947848,
             "name": "nxp-imx6",
-            "updated": "2023-05-25T02:05:43+0000"
+            "updated": "2023-06-08T19:06:32+0000"
         }
     ],
     "recipes": [],
@@ -781,7 +781,7 @@
             "id": 105671,
             "layerbranch": 947848,
             "name": "default",
-            "updated": "2023-05-25T02:05:43+0000"
+            "updated": "2023-06-05T02:06:02+0000"
         }
     ]
 }
