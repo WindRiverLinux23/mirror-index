@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-12T00:06:08+0000",
+            "updated": "2023-06-16T00:06:06+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +493,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-12T00:06:40+0000",
-            "vcs_last_commit": "2023-06-11T23:06:21+0000",
-            "vcs_last_fetch": "2023-06-12T00:06:40+0000",
-            "vcs_last_rev": "05bf0b433accc7132652a9b32f95b1c675fd8803",
+            "updated": "2023-06-15T03:06:30+0000",
+            "vcs_last_commit": "2023-06-15T02:06:48+0000",
+            "vcs_last_fetch": "2023-06-15T03:06:30+0000",
+            "vcs_last_rev": "b307150882d79381759309cb05ba27896e288a25",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -523,10 +523,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-06-12T08:06:39+0000",
-            "vcs_last_commit": "2023-06-12T07:06:53+0000",
-            "vcs_last_fetch": "2023-06-12T08:06:39+0000",
-            "vcs_last_rev": "e324a7d12fa96f783e743fadde060e4d3f58791a",
+            "updated": "2023-06-15T01:06:53+0000",
+            "vcs_last_commit": "2023-06-15T00:06:43+0000",
+            "vcs_last_fetch": "2023-06-15T01:06:53+0000",
+            "vcs_last_rev": "a4e31e4b0e7415ebb1c8041b4729c37f545c0704",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -683,7 +683,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/gcc-8-sanitizers/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/gcc-8-sanitizers/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
             "description": "",
             "filename": "gcc-8-sanitizers_8.3.bb",
             "filepath": "recipes-devtools/gcc8",
@@ -700,13 +700,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:04+0000"
+            "updated": "2023-06-15T01:06:50+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/x86_64-linux/gcc-8-cross-i686/8.3.0-r0/recipe-sysroot                  --enable-poison-system-directories     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/x86_64-linux/gcc-8-cross-i686/8.3.0-r0/recipe-sysroot                  --enable-poison-system-directories     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
             "description": "",
             "filename": "gcc-8-cross_8.3.bb",
             "filepath": "recipes-devtools/gcc8",
@@ -723,7 +723,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:04+0000"
+            "updated": "2023-06-15T01:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -746,13 +746,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:04+0000"
+            "updated": "2023-06-15T01:06:50+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/gcc-8-runtime/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --cache-file=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/gcc-8-runtime/8.3.0-r0/gcc-8.3.0/build.i686-oe-linux.i686-oe-linux/config.cache",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/gcc-8-runtime/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --cache-file=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/gcc-8-runtime/8.3.0-r0/gcc-8.3.0/build.i686-oe-linux.i686-oe-linux/config.cache",
             "description": "",
             "filename": "gcc-8-runtime_8.3.bb",
             "filepath": "recipes-devtools/gcc8",
@@ -769,13 +769,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Runtime libraries from GCC",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:50+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/libgcc-8/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/libgcc-8/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
             "description": "",
             "filename": "libgcc-8_8.3.bb",
             "filepath": "recipes-devtools/gcc8",
@@ -792,13 +792,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:50+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0     --with-build-time-tools=/tmp/tmp3hl_0vs1/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/8.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/8.3.0-r0/recipe-sysroot                  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0     --with-build-time-tools=/tmp/tmpzbop7x_d/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/8.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/8.3.0-r0/recipe-sysroot                  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array",
             "description": "",
             "filename": "gcc-cross-canadian_8.3.bb",
             "filepath": "recipes-devtools/gcc8",
@@ -815,7 +815,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -838,13 +838,13 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/gcc-9-sanitizers/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/gcc-9-sanitizers/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "",
             "filename": "gcc-9-sanitizers_9.3.bb",
             "filepath": "recipes-devtools/gcc9",
@@ -861,7 +861,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -884,13 +884,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/libgcc-9/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/libgcc-9/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "",
             "filename": "libgcc-9_9.3.bb",
             "filepath": "recipes-devtools/gcc9",
@@ -907,13 +907,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:05+0000"
+            "updated": "2023-06-15T01:06:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/x86_64-linux/gcc-9-cross-i686/9.3.0-r0/recipe-sysroot                  --enable-poison-system-directories     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/x86_64-linux/gcc-9-cross-i686/9.3.0-r0/recipe-sysroot                  --enable-poison-system-directories     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "",
             "filename": "gcc-9-cross_9.3.bb",
             "filepath": "recipes-devtools/gcc9",
@@ -930,13 +930,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/gcc-9-runtime/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmp3hl_0vs1/tmp-glibc/work/core2-32-oe-linux/gcc-9-runtime/9.3.0-r0/gcc-9.3.0/build.i686-oe-linux.i686-oe-linux/config.cache",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/gcc-9-runtime/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpzbop7x_d/tmp-glibc/work/core2-32-oe-linux/gcc-9-runtime/9.3.0-r0/gcc-9.3.0/build.i686-oe-linux.i686-oe-linux/config.cache",
             "description": "",
             "filename": "gcc-9-runtime_9.3.bb",
             "filepath": "recipes-devtools/gcc9",
@@ -953,13 +953,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Runtime libraries from GCC",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0     --with-build-time-tools=/tmp/tmp3hl_0vs1/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/9.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmp3hl_0vs1/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/9.3.0-r0/recipe-sysroot                  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0     --with-build-time-tools=/tmp/tmpzbop7x_d/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/9.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbop7x_d/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/9.3.0-r0/recipe-sysroot                  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "",
             "filename": "gcc-cross-canadian_9.3.bb",
             "filepath": "recipes-devtools/gcc9",
@@ -976,7 +976,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -999,7 +999,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1022,7 +1022,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The implementation of SOME/IP",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1045,7 +1045,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1068,7 +1068,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1091,7 +1091,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-11T23:06:06+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1114,7 +1114,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1137,7 +1137,7 @@
             "section": "x11",
             "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
             "summary": "Chromium Virtual Keyboard",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1160,7 +1160,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Kiosk",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1183,7 +1183,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1206,7 +1206,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1229,7 +1229,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1252,7 +1252,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-11T23:06:07+0000"
+            "updated": "2023-06-15T01:06:53+0000"
         }
     ],
     "wrtemplates": [
@@ -1717,6 +1717,13 @@
             "layerbranch": 942441,
             "name": "feature/signed-container",
             "updated": "2023-06-11T20:06:53+0000"
+        },
+        {
+            "description": "Enable dm-verity support",
+            "id": 106534,
+            "layerbranch": 942441,
+            "name": "feature/dm-verity",
+            "updated": "2023-06-13T07:06:53+0000"
         }
     ]
 }
