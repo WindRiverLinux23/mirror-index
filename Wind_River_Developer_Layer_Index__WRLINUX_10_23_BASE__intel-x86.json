@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-16T00:06:06+0000",
+            "updated": "2023-06-25T00:06:09+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +493,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-15T03:06:30+0000",
-            "vcs_last_commit": "2023-06-15T02:06:48+0000",
-            "vcs_last_fetch": "2023-06-15T03:06:30+0000",
-            "vcs_last_rev": "b307150882d79381759309cb05ba27896e288a25",
+            "updated": "2023-06-20T21:06:40+0000",
+            "vcs_last_commit": "2023-06-20T20:06:09+0000",
+            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
+            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -508,10 +508,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-06-15T01:06:53+0000",
-            "vcs_last_commit": "2023-06-15T00:06:43+0000",
-            "vcs_last_fetch": "2023-06-15T01:06:53+0000",
-            "vcs_last_rev": "a4e31e4b0e7415ebb1c8041b4729c37f545c0704",
+            "updated": "2023-06-22T16:06:18+0000",
+            "vcs_last_commit": "2023-06-22T15:06:21+0000",
+            "vcs_last_fetch": "2023-06-22T16:06:18+0000",
+            "vcs_last_rev": "d0896cb4ecf1bd6683970c01229b8fe89b77ee77",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -553,10 +553,10 @@
             "id": 942615,
             "layer": 32,
             "local_path": "",
-            "updated": "2023-06-13T22:06:34+0000",
-            "vcs_last_commit": "2023-06-13T19:06:38+0000",
-            "vcs_last_fetch": "2023-06-13T22:06:34+0000",
-            "vcs_last_rev": "b2031e41ea8ff48f8a730db9f1f4982469922078",
+            "updated": "2023-06-18T22:06:33+0000",
+            "vcs_last_commit": "2023-06-18T20:06:35+0000",
+            "vcs_last_fetch": "2023-06-18T22:06:33+0000",
+            "vcs_last_rev": "4c6162444b0bd44e15536822f8eeb6f02870b1fb",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -835,13 +835,6 @@
             "id": 102830,
             "layerbranch": 942615,
             "name": "feature/intel-persistent-memory",
-            "updated": "2023-04-23T07:04:28+0000"
-        },
-        {
-            "description": "Add Intel TCC to the image",
-            "id": 102831,
-            "layerbranch": 942615,
-            "name": "feature/intel-tcc",
             "updated": "2023-04-23T07:04:28+0000"
         },
         {
