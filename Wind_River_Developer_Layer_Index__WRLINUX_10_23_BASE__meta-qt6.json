@@ -480,23 +480,23 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -508,10 +508,10 @@
             "id": 951828,
             "layer": 482,
             "local_path": "",
-            "updated": "2023-06-21T21:06:24+0000",
-            "vcs_last_commit": "2023-06-21T21:06:05+0000",
-            "vcs_last_fetch": "2023-06-21T21:06:24+0000",
-            "vcs_last_rev": "99551fe901334dac62ec95c929896887b3087d41",
+            "updated": "2023-06-29T18:06:37+0000",
+            "vcs_last_commit": "2023-06-29T17:06:04+0000",
+            "vcs_last_fetch": "2023-06-29T18:06:37+0000",
+            "vcs_last_rev": "f8a61a090b1dbe090a50d0da252ddcf4d7e91b66",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42598
@@ -523,12 +523,6 @@
             "id": 115311,
             "layerbranch": 951828,
             "required": true
-        },
-        {
-            "dependency": 483,
-            "id": 115312,
-            "layerbranch": 951828,
-            "required": false
         }
     ],
     "layerItems": [
@@ -853,13 +847,13 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=share/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmpqmmg0fm6/tmp-glibc/work/core2-32-oe-linux/qtgraphs/6.6.0-r0/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -D__harfbuzz_broken_config_file=TRUE ",
+            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=share/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmpc32lvleh/tmp-glibc/work/core2-32-oe-linux/qtgraphs/6.6.0-r0/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -D__harfbuzz_broken_config_file=TRUE ",
             "description": "",
             "filename": "qtgraphs_git.bb",
             "filepath": "recipes-qt/qt6",
             "homepage": "",
             "id": 1820651,
-            "inherits": "cmake perlnative pkgconfig ptest python3-dir python3native qt6-cmake qt6-paths srcrev-update",
+            "inherits": "cmake features_check perlnative pkgconfig ptest python3-dir python3native qt6-cmake qt6-paths srcrev-update",
             "layerbranch": 951828,
             "license": "The-Qt-Company-Commercial | (GPL-3.0-only & Qt-GPL-exception-1.0) & GFDL-1.3-no-invariants-only & BSD-3-Clause",
             "pe": "",
@@ -870,19 +864,19 @@
             "section": "base",
             "srcrev": "bbf45e762979b929ce69f0a66c8b308b57e9b522",
             "summary": "",
-            "updated": "2023-06-21T21:06:06+0000"
+            "updated": "2023-06-29T18:06:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=share/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmpqmmg0fm6/tmp-glibc/work/core2-32-oe-linux/qtdatavis3d/6.6.0-r0/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -D__harfbuzz_broken_config_file=TRUE ",
+            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=share/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmpc32lvleh/tmp-glibc/work/core2-32-oe-linux/qtdatavis3d/6.6.0-r0/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -D__harfbuzz_broken_config_file=TRUE ",
             "description": "",
             "filename": "qtdatavis3d_git.bb",
             "filepath": "recipes-qt/qt6",
             "homepage": "",
             "id": 1820652,
-            "inherits": "cmake perlnative pkgconfig ptest python3-dir python3native qt6-cmake qt6-paths srcrev-update",
+            "inherits": "cmake features_check perlnative pkgconfig ptest python3-dir python3native qt6-cmake qt6-paths srcrev-update",
             "layerbranch": 951828,
             "license": "The-Qt-Company-Commercial | (GPL-3.0-only & Qt-GPL-exception-1.0) & GFDL-1.3-no-invariants-only",
             "pe": "",
@@ -893,7 +887,7 @@
             "section": "base",
             "srcrev": "1c351c31aed4e52141ba7f72f04abcd46fc41a2a",
             "summary": "",
-            "updated": "2023-06-21T21:06:06+0000"
+            "updated": "2023-06-29T18:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1698,7 +1692,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta package for building an installable Qt6 toolchain and SDK",
-            "updated": "2023-06-21T21:06:19+0000"
+            "updated": "2023-06-26T02:06:17+0000"
         },
         {
             "bbclassextend": "",

@@ -480,38 +480,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "raspberrypi",
             "id": 942571,
             "layer": 381,
             "local_path": "",
-            "updated": "2023-04-23T07:04:22+0000",
-            "vcs_last_commit": "2023-04-23T02:04:17+0000",
-            "vcs_last_fetch": "2023-04-23T07:04:16+0000",
-            "vcs_last_rev": "de57c41c65005f073af6b7c89d2ca513ff39c9fa",
+            "updated": "2023-06-25T01:06:44+0000",
+            "vcs_last_commit": "2023-06-18T08:06:59+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:44+0000",
+            "vcs_last_rev": "eae62fcbf4d69e89e8aaee067f089ec82b47a989",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
@@ -923,7 +923,7 @@
             "section": "base",
             "srcrev": "648ffc470824c43eb0d16c485f4c24816b32cd6f",
             "summary": "",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-06-25T01:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1113,7 +1113,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    -DCMAKE_BUILD_TYPE=Release     -DBoost_INCLUDE_DIR=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/git-r0/recipe-sysroot/usr/include     -DCMAKE_LIBRARY_PATH=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/git-r0/recipe-sysroot/usr/lib   -DENABLE_OPENCV=0 -DENABLE_QT=0 -DENABLE_TFLITE=0 -DENABLE_X11=0",
+            "configopts": "    -DCMAKE_BUILD_TYPE=Release     -DBoost_INCLUDE_DIR=/tmp/tmpcm6109dt/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/1.1.2+gitX-r0/recipe-sysroot/usr/include     -DCMAKE_LIBRARY_PATH=/tmp/tmpcm6109dt/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/1.1.2+gitX-r0/recipe-sysroot/usr/lib  -DENABLE_COMPILE_FLAGS_FOR_TARGET=i686  -DENABLE_OPENCV=0 -DENABLE_QT=0 -DENABLE_TFLITE=0 -DENABLE_X11=0",
             "description": "This is a small suite of libcamera-based apps that aim to copy the functionality of the existing \\\"raspicam\\\" apps.",
             "filename": "rpi-libcamera-apps_git.bb",
             "filepath": "recipes-multimedia/libcamera-apps",
@@ -1126,11 +1126,11 @@
             "pn": "rpi-libcamera-apps",
             "pr": "r0",
             "provides": "rpi-libcamera-apps ",
-            "pv": "git",
+            "pv": "1.1.2+gitX",
             "section": "console/utils",
-            "srcrev": "22a52590c33a813743b4e6337478c208201c77b1",
+            "srcrev": "12098520a3dec36ba796655baac7efece457f8d8",
             "summary": "A suite of libcamera-based apps for the Raspberry Pi",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-06-25T01:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1162,7 +1162,7 @@
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-motor_3.2.6.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_Motor",
             "id": 1761028,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
@@ -1176,7 +1176,7 @@
             "section": "base",
             "srcrev": "2251bfc0501d0acfb96c0a43f4f2b4c6a10ca14e",
             "summary": "CircuitPython helper library provides higher level objects to control motors and servos.",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-06-25T01:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1185,7 +1185,7 @@
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-pca9685_3.3.4.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_PCA9685",
             "id": 1761029,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
@@ -1199,7 +1199,7 @@
             "section": "base",
             "srcrev": "2780c4102f4c23fbab252aa1198b61ba7e2d1b2c",
             "summary": "CircuitPython driver for motor, stepper, and servo based on PCA9685.",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-06-25T01:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1208,7 +1208,7 @@
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-blinka_6.2.2.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_Blinka",
             "id": 1761030,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
@@ -1222,7 +1222,7 @@
             "section": "base",
             "srcrev": "dc688f354fe779c9267c208b99f310af87e79272",
             "summary": "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-06-25T01:06:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1231,7 +1231,7 @@
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-busdevice_5.0.5.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_BusDevice",
             "id": 1761031,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
@@ -1245,7 +1245,7 @@
             "section": "base",
             "srcrev": "1bfe8005293205e2f7b2cc498ab5a946f1133b40",
             "summary": "CircuitPython bus device classes to manage bus sharing.",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-06-25T01:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1254,7 +1254,7 @@
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-motorkit_1.6.1.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_MotorKit",
             "id": 1761032,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
@@ -1268,7 +1268,7 @@
             "section": "base",
             "srcrev": "8c1462b4129b21f6db156d1517abb017bb74b982",
             "summary": "CircuitPython helper library for DC & Stepper Motor FeatherWing, Shield, and Pi Hat kits.",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-06-25T01:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1680,9 +1680,9 @@
             "provides": "udev-rules-rpi ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "5ce3ef2b7f377c23fea440ca9df0e30f3f8447cf",
             "summary": "",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-06-25T01:06:44+0000"
         },
         {
             "bbclassextend": "",

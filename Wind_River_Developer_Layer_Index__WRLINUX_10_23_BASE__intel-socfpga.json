@@ -480,23 +480,23 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -508,10 +508,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-06-22T16:06:18+0000",
-            "vcs_last_commit": "2023-06-22T15:06:21+0000",
-            "vcs_last_fetch": "2023-06-22T16:06:18+0000",
-            "vcs_last_rev": "d0896cb4ecf1bd6683970c01229b8fe89b77ee77",
+            "updated": "2023-06-30T00:06:43+0000",
+            "vcs_last_commit": "2023-06-30T00:06:49+0000",
+            "vcs_last_fetch": "2023-06-30T00:06:43+0000",
+            "vcs_last_rev": "1e988e7682e8c2011e8edbdbfab28d0c29dc3eac",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -538,10 +538,10 @@
             "id": 948796,
             "layer": 118,
             "local_path": "",
-            "updated": "2023-06-08T04:06:51+0000",
-            "vcs_last_commit": "2023-06-08T01:06:18+0000",
-            "vcs_last_fetch": "2023-06-08T04:06:51+0000",
-            "vcs_last_rev": "863ec63b482650a322368fa5c9aad76f457212b3",
+            "updated": "2023-06-29T01:06:07+0000",
+            "vcs_last_commit": "2023-06-29T00:06:57+0000",
+            "vcs_last_fetch": "2023-06-29T01:06:07+0000",
+            "vcs_last_rev": "e19bb07d4edd21093f32c5b4bb0f1ccffb24bdff",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -565,12 +565,6 @@
             "id": 113902,
             "layerbranch": 948796,
             "required": true
-        },
-        {
-            "dependency": 237,
-            "id": 113903,
-            "layerbranch": 948796,
-            "required": false
         }
     ],
     "layerItems": [
@@ -657,7 +651,7 @@
             "id": 68726,
             "layerbranch": 948796,
             "name": "intel-socfpga-64",
-            "updated": "2023-06-01T23:06:03+0000"
+            "updated": "2023-06-27T22:06:37+0000"
         }
     ],
     "recipes": [
@@ -703,9 +697,9 @@
             "provides": "intel-rsu ",
             "pv": "1.0.0",
             "section": "intel-rsu",
-            "srcrev": "41c98ae4bb0680003a240372eec1a0d1594ca829",
+            "srcrev": "4018a2487db84ae91f72d5eafcd10c279e7bd72a",
             "summary": "Intel Remote System Update Tool",
-            "updated": "2023-06-01T23:06:04+0000"
+            "updated": "2023-06-25T23:06:34+0000"
         }
     ],
     "wrtemplates": [

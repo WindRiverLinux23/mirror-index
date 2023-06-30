@@ -480,68 +480,68 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Xilinx Standalone Distro",
-            "id": 12406,
+            "id": 12946,
             "layerbranch": 942574,
             "name": "xilinx-standalone-nolto",
-            "updated": "2023-05-08T20:05:49+0000"
+            "updated": "2023-06-25T01:06:19+0000"
         },
         {
             "description": "Xilinx Standalone Distro (lto)",
-            "id": 12407,
+            "id": 12947,
             "layerbranch": 942574,
             "name": "xilinx-standalone",
-            "updated": "2023-04-23T07:04:41+0000"
+            "updated": "2023-06-25T01:06:19+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230509",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "xilinx",
             "id": 942573,
             "layer": 436,
             "local_path": "",
-            "updated": "2023-06-12T08:06:51+0000",
-            "vcs_last_commit": "2023-06-11T18:06:05+0000",
-            "vcs_last_fetch": "2023-06-12T08:06:51+0000",
-            "vcs_last_rev": "334180dbc311ae4b76b79e73fc8c608e75e78156",
+            "updated": "2023-06-25T01:06:25+0000",
+            "vcs_last_commit": "2023-06-24T22:06:55+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:25+0000",
+            "vcs_last_rev": "9afa931fd10633d51e3d624e33224ae2f1e1eeeb",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 42594
         },
         {
-            "actual_branch": "wr-10.23-20230509",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "xilinx-standalone",
             "id": 942574,
             "layer": 435,
             "local_path": "",
-            "updated": "2023-05-25T20:05:23+0000",
-            "vcs_last_commit": "2023-05-24T18:05:07+0000",
-            "vcs_last_fetch": "2023-05-25T20:05:23+0000",
-            "vcs_last_rev": "466a6fb3f38e7f4ca8a25a1cef147f78fa50e098",
+            "updated": "2023-06-25T21:06:40+0000",
+            "vcs_last_commit": "2023-06-25T20:06:09+0000",
+            "vcs_last_fetch": "2023-06-25T21:06:40+0000",
+            "vcs_last_rev": "c276302e0548151f268e4df9b1eb1f6399d2e019",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
             "yp_compatible_version": 42594
@@ -643,7 +643,7 @@
             "section": "base",
             "srcrev": "AUTOINC",
             "summary": "",
-            "updated": "2023-05-08T20:05:49+0000"
+            "updated": "2023-06-25T01:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -666,7 +666,7 @@
             "section": "base",
             "srcrev": "AUTOINC",
             "summary": "PSM firmware for versal devices",
-            "updated": "2023-05-08T20:05:50+0000"
+            "updated": "2023-06-25T01:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -689,7 +689,7 @@
             "section": "base",
             "srcrev": "AUTOINC",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-05-08T20:05:49+0000"
+            "updated": "2023-06-25T01:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -712,7 +712,7 @@
             "section": "base",
             "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
             "summary": "PSM firmware for versal devices",
-            "updated": "2023-05-08T20:05:50+0000"
+            "updated": "2023-06-25T01:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -735,7 +735,7 @@
             "section": "base",
             "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-05-08T20:05:50+0000"
+            "updated": "2023-06-25T01:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -758,7 +758,7 @@
             "section": "base",
             "srcrev": "AUTOINC",
             "summary": "",
-            "updated": "2023-05-08T20:05:50+0000"
+            "updated": "2023-06-25T01:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -781,7 +781,7 @@
             "section": "base",
             "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
             "summary": "",
-            "updated": "2023-05-08T20:05:49+0000"
+            "updated": "2023-06-25T01:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -804,7 +804,7 @@
             "section": "base",
             "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
             "summary": "",
-            "updated": "2023-05-08T20:05:50+0000"
+            "updated": "2023-06-25T01:06:19+0000"
         }
     ],
     "wrtemplates": []

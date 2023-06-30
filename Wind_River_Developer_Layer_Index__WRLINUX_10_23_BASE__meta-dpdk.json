@@ -480,38 +480,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "dpdk",
             "id": 942704,
             "layer": 192,
             "local_path": "",
-            "updated": "2023-04-23T08:04:39+0000",
-            "vcs_last_commit": "2023-02-14T18:02:56+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:39+0000",
-            "vcs_last_rev": "bc2aa0364683e2ae48be598ecca9bc2e515cb53b",
+            "updated": "2023-06-28T02:06:53+0000",
+            "vcs_last_commit": "2023-06-28T02:06:03+0000",
+            "vcs_last_fetch": "2023-06-28T02:06:53+0000",
+            "vcs_last_rev": "de94f3e109971f540970fd5dd022b71520425e33",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42598
@@ -523,12 +523,6 @@
             "id": 111108,
             "layerbranch": 942704,
             "required": true
-        },
-        {
-            "dependency": 194,
-            "id": 111109,
-            "layerbranch": 942704,
-            "required": false
         }
     ],
     "layerItems": [
@@ -594,7 +588,7 @@
             "section": "base",
             "srcrev": "7bcd45ce824d0ea2a9f30d16855613a93521851b",
             "summary": "",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-06-25T02:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -617,7 +611,7 @@
             "section": "base",
             "srcrev": "4fceceed5b5e9fbf04acffd66239c79d81e79260",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T02:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -640,7 +634,7 @@
             "section": "base",
             "srcrev": "7bcd45ce824d0ea2a9f30d16855613a93521851b",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T02:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -663,7 +657,7 @@
             "section": "base",
             "srcrev": "4fceceed5b5e9fbf04acffd66239c79d81e79260",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T02:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -686,7 +680,7 @@
             "section": "base",
             "srcrev": "4a589f7bed00fc7009c93d430bd214ac7ad2bb6b",
             "summary": "DPDK Kernel Module igb_uio",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T02:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -709,7 +703,7 @@
             "section": "base",
             "srcrev": "d4ff1f9bcf8b03556b625ab6e16958598482e861",
             "summary": "Utilities and example programs for use with XDP",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T02:06:08+0000"
         }
     ],
     "wrtemplates": []

@@ -480,98 +480,98 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-05-16T19:05:39+0000",
-            "vcs_last_commit": "2023-05-16T18:05:10+0000",
-            "vcs_last_fetch": "2023-05-16T19:05:39+0000",
-            "vcs_last_rev": "0d15b84c544045ca0acd911d1af1678f5506951b",
+            "updated": "2023-06-27T19:06:42+0000",
+            "vcs_last_commit": "2023-06-27T18:06:31+0000",
+            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
+            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "perl-layer",
             "id": 942647,
             "layer": 13,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:24+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:34+0000",
+            "vcs_last_commit": "2023-05-28T12:05:55+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:34+0000",
+            "vcs_last_rev": "155b2f1a7e4a2002b2dfdd5ef600815904b23ef5",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "signing-key",
             "id": 942700,
             "layer": 129,
             "local_path": "",
-            "updated": "2023-05-24T01:05:18+0000",
-            "vcs_last_commit": "2023-05-24T00:05:09+0000",
-            "vcs_last_fetch": "2023-05-24T01:05:18+0000",
-            "vcs_last_rev": "911cfa5adccce22a83ba87d9794e89ca3d2c96d0",
+            "updated": "2023-06-28T02:06:37+0000",
+            "vcs_last_commit": "2023-06-28T02:06:36+0000",
+            "vcs_last_fetch": "2023-06-28T02:06:37+0000",
+            "vcs_last_rev": "878697ee214c8dec67d2615be4e176f4937610f6",
             "vcs_subdir": "meta-signing-key",
             "version": null,
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "secure-core",
             "id": 942701,
             "layer": 149,
             "local_path": "",
-            "updated": "2023-04-23T08:04:39+0000",
-            "vcs_last_commit": "2023-03-11T05:03:03+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:20+0000",
-            "vcs_last_rev": "72b576a252402bfbabaa9d1ef3c86b0320aba44c",
+            "updated": "2023-06-25T01:06:46+0000",
+            "vcs_last_commit": "2023-06-24T23:06:36+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:46+0000",
+            "vcs_last_rev": "f33e4d614073385e6e82c6342cb6a113e99d869a",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "efi-secure-boot",
             "id": 942710,
             "layer": 126,
             "local_path": "",
-            "updated": "2023-06-15T20:06:33+0000",
-            "vcs_last_commit": "2023-06-15T19:06:13+0000",
-            "vcs_last_fetch": "2023-06-15T20:06:33+0000",
-            "vcs_last_rev": "170f0c6f6162a3d223aeab8dc39207129566eb0f",
+            "updated": "2023-06-28T02:06:04+0000",
+            "vcs_last_commit": "2023-06-28T02:06:36+0000",
+            "vcs_last_fetch": "2023-06-28T02:06:04+0000",
+            "vcs_last_rev": "878697ee214c8dec67d2615be4e176f4937610f6",
             "vcs_subdir": "meta-efi-secure-boot",
             "version": null,
             "yp_compatible_version": 42597
@@ -607,12 +607,6 @@
             "id": 111130,
             "layerbranch": 942710,
             "required": true
-        },
-        {
-            "dependency": 120,
-            "id": 111131,
-            "layerbranch": 942710,
-            "required": false
         }
     ],
     "layerItems": [
@@ -777,7 +771,7 @@
             "section": "bootloaders",
             "srcrev": "5202f80c32bdcab0469785e953bf9fa8dd4eaaa1",
             "summary": "shim is a trivial EFI application.",
-            "updated": "2023-06-15T20:06:33+0000"
+            "updated": "2023-06-25T01:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -800,7 +794,7 @@
             "section": "base",
             "srcrev": "392836a46ce3c92b55dc88a1aebbcfdfc5dcddce",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-06-25T01:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -823,7 +817,7 @@
             "section": "base",
             "srcrev": "392836a46ce3c92b55dc88a1aebbcfdfc5dcddce",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2023-06-15T20:06:33+0000"
+            "updated": "2023-06-25T01:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -869,7 +863,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-06-25T01:06:14+0000"
         }
     ],
     "wrtemplates": []

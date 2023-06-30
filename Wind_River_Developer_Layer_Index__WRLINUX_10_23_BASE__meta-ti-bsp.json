@@ -480,38 +480,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "meta-arm",
             "id": 942709,
             "layer": 474,
             "local_path": "",
-            "updated": "2023-06-05T02:06:10+0000",
-            "vcs_last_commit": "2023-06-05T00:06:45+0000",
-            "vcs_last_fetch": "2023-06-05T02:06:10+0000",
-            "vcs_last_rev": "f9fe5ce918feca7e9a2a3c1c644f6d1427b07062",
+            "updated": "2023-06-28T01:06:02+0000",
+            "vcs_last_commit": "2023-06-28T01:06:47+0000",
+            "vcs_last_fetch": "2023-06-28T01:06:02+0000",
+            "vcs_last_rev": "8b963aa47bfdfbb1f10148918f4e725e31395956",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42597
@@ -523,10 +523,10 @@
             "id": 942712,
             "layer": 473,
             "local_path": "",
-            "updated": "2023-04-23T08:04:39+0000",
-            "vcs_last_commit": "2023-04-10T19:04:52+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:09+0000",
-            "vcs_last_rev": "2034a71693dd6d77fe61578bd7e37459513e5cea",
+            "updated": "2023-06-28T03:06:15+0000",
+            "vcs_last_commit": "2023-06-28T03:06:03+0000",
+            "vcs_last_fetch": "2023-06-28T03:06:15+0000",
+            "vcs_last_rev": "b33f01b750667ec81102f8021b1948c0341aa552",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 42598
@@ -544,12 +544,6 @@
             "id": 111137,
             "layerbranch": 942712,
             "required": true
-        },
-        {
-            "dependency": 476,
-            "id": 111138,
-            "layerbranch": 942712,
-            "required": false
         }
     ],
     "layerItems": [

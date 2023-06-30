@@ -480,38 +480,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "clang-layer",
             "id": 942671,
             "layer": 353,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-10T19:04:48+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:50+0000",
-            "vcs_last_rev": "e3afdff27437d3091210cf55d982b911426b0b23",
+            "updated": "2023-06-28T03:06:08+0000",
+            "vcs_last_commit": "2023-06-28T03:06:24+0000",
+            "vcs_last_fetch": "2023-06-28T03:06:08+0000",
+            "vcs_last_rev": "0c790809fd7084b8654539c92c84bcdb37f9a4b5",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
@@ -523,12 +523,6 @@
             "id": 111087,
             "layerbranch": 942671,
             "required": true
-        },
-        {
-            "dependency": 354,
-            "id": 111088,
-            "layerbranch": 942671,
-            "required": false
         }
     ],
     "layerItems": [
@@ -899,7 +893,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DLLVM_PACKAGE_VERSION=15.%     -DPYTHON_CMD=/tmp/tmpghd3cy68/tmp-glibc/work/core2-32-oe-linux/bcc/0.26.0+gitX-r0/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.11/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
+            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DLLVM_PACKAGE_VERSION=15.%     -DPYTHON_CMD=/tmp/tmpc3rvergd/tmp-glibc/work/core2-32-oe-linux/bcc/0.26.0+gitX-r0/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.11/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
             "description": "",
             "filename": "bcc_0.26.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/bcc",
@@ -916,7 +910,7 @@
             "section": "base",
             "srcrev": "9b5af1b0c140c8dbcbd9b821dccf2f7fceb6429c",
             "summary": "BPF Compiler Collection (BCC)",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-06-25T01:06:34+0000"
         },
         {
             "bbclassextend": "",

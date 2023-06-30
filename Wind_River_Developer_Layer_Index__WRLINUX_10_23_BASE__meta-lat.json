@@ -480,140 +480,140 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 12409,
+            "id": 12944,
             "layerbranch": 942663,
             "name": "lat",
-            "updated": "2023-04-23T08:04:21+0000"
+            "updated": "2023-06-25T01:06:05+0000"
         },
         {
             "description": "OpenEmbedded",
-            "id": 12410,
+            "id": 12945,
             "layerbranch": 942663,
             "name": "ostree",
-            "updated": "2023-04-23T08:04:21+0000"
+            "updated": "2023-06-25T01:06:05+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-05-16T19:05:39+0000",
-            "vcs_last_commit": "2023-05-16T18:05:10+0000",
-            "vcs_last_fetch": "2023-05-16T19:05:39+0000",
-            "vcs_last_rev": "0d15b84c544045ca0acd911d1af1678f5506951b",
+            "updated": "2023-06-27T19:06:42+0000",
+            "vcs_last_commit": "2023-06-27T18:06:31+0000",
+            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
+            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:41+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:24+0000",
+            "vcs_last_commit": "2023-05-07T09:05:40+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:24+0000",
+            "vcs_last_rev": "2c543c3698ef54eece61d6fb6e5f3e5483ab7a97",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "filesystems-layer",
             "id": 942644,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:18+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:51+0000",
+            "vcs_last_commit": "2023-05-16T04:05:12+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:51+0000",
+            "vcs_last_rev": "8fa3f9ae2caab563a953cd60ff35b2a028ebd4dd",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-06-19T21:06:32+0000",
-            "vcs_last_commit": "2023-06-19T20:06:06+0000",
-            "vcs_last_fetch": "2023-06-19T21:06:32+0000",
-            "vcs_last_rev": "26f3b85bbf222bd2b6d4db673a424ace93089ace",
+            "updated": "2023-06-28T20:06:27+0000",
+            "vcs_last_commit": "2023-06-28T19:06:10+0000",
+            "vcs_last_fetch": "2023-06-28T20:06:27+0000",
+            "vcs_last_rev": "c732f01cf0ac676c0a46561c79fcca45ffa168fd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "gnome-layer",
             "id": 942648,
             "layer": 15,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:46+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:49+0000",
+            "vcs_last_commit": "2023-05-28T13:05:58+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:49+0000",
+            "vcs_last_rev": "9e5e6faa1b90e095b57fc79b42f1557e7423a9a9",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "multimedia-layer",
             "id": 942649,
             "layer": 16,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:04+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:00+0000",
+            "vcs_last_commit": "2023-05-28T13:05:01+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:00+0000",
+            "vcs_last_rev": "f8e3d25430e344d33f9854fda1858d54b3fa4168",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "xfce-layer",
             "id": 942652,
             "layer": 5,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
+            "updated": "2023-06-25T01:06:31+0000",
             "vcs_last_commit": "2023-04-09T08:04:55+0000",
             "vcs_last_fetch": "2023-04-23T08:04:43+0000",
             "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
@@ -622,31 +622,31 @@
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "virtualization-layer",
             "id": 942653,
             "layer": 45,
             "local_path": "",
-            "updated": "2023-06-14T20:06:37+0000",
-            "vcs_last_commit": "2023-06-14T19:06:54+0000",
-            "vcs_last_fetch": "2023-06-14T20:06:37+0000",
-            "vcs_last_rev": "a9f4310797f292cbc6943cd596035a37520f2c72",
+            "updated": "2023-06-28T20:06:50+0000",
+            "vcs_last_commit": "2023-06-28T19:06:37+0000",
+            "vcs_last_fetch": "2023-06-28T20:06:50+0000",
+            "vcs_last_rev": "a6e91184b0f55ef78f0df353ff248ee8e5f86bcc",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "lat-layer",
             "id": 942663,
             "layer": 421,
             "local_path": "",
-            "updated": "2023-06-20T19:06:49+0000",
-            "vcs_last_commit": "2023-06-20T01:06:47+0000",
-            "vcs_last_fetch": "2023-06-20T19:06:49+0000",
-            "vcs_last_rev": "b937f78e529faf39cac9793ace87dcc247cb71a7",
+            "updated": "2023-06-28T21:06:47+0000",
+            "vcs_last_commit": "2023-06-28T20:06:27+0000",
+            "vcs_last_fetch": "2023-06-28T21:06:47+0000",
+            "vcs_last_rev": "6d5ab39b3ce0f49b94efebb9249ecd28972f4eb3",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42596
@@ -706,12 +706,6 @@
             "id": 111051,
             "layerbranch": 942663,
             "required": true
-        },
-        {
-            "dependency": 495,
-            "id": 111052,
-            "layerbranch": 942663,
-            "required": false
         }
     ],
     "layerItems": [
@@ -929,7 +923,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2023-06-19T01:06:41+0000"
+            "updated": "2023-06-25T01:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -952,7 +946,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2023-06-08T23:06:37+0000"
+            "updated": "2023-06-25T01:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -975,7 +969,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2023-05-22T23:05:54+0000"
+            "updated": "2023-06-25T01:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -998,7 +992,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Wind River Linux Assembly Tool appsdk",
-            "updated": "2023-05-22T23:05:54+0000"
+            "updated": "2023-06-25T01:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1021,7 +1015,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Wind River Linux Assembly Tool appsdk",
-            "updated": "2023-05-22T23:05:54+0000"
+            "updated": "2023-06-25T01:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1044,7 +1038,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OSTree Network/Disk Image deployment tool",
-            "updated": "2023-05-22T23:05:54+0000"
+            "updated": "2023-06-25T01:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1067,7 +1061,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OSTree Network/Disk Image deployment tool",
-            "updated": "2023-05-22T23:05:55+0000"
+            "updated": "2023-06-25T01:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1090,7 +1084,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2023-05-22T23:05:55+0000"
+            "updated": "2023-06-25T01:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1113,7 +1107,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2023-05-22T23:05:55+0000"
+            "updated": "2023-06-25T01:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1136,7 +1130,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2023-05-22T23:05:55+0000"
+            "updated": "2023-06-25T01:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1159,7 +1153,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Load and Run container images into Docker",
-            "updated": "2023-06-11T21:06:47+0000"
+            "updated": "2023-06-25T01:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1182,7 +1176,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-18T02:05:02+0000"
+            "updated": "2023-06-25T01:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1205,7 +1199,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Full image create script",
-            "updated": "2023-06-19T01:06:42+0000"
+            "updated": "2023-06-28T00:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1228,7 +1222,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Full image create script",
-            "updated": "2023-06-19T01:06:42+0000"
+            "updated": "2023-06-28T00:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1251,7 +1245,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-19T01:06:41+0000"
+            "updated": "2023-06-25T01:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1274,16 +1268,16 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T23:05:57+0000"
+            "updated": "2023-06-25T20:06:58+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 102833,
+            "id": 106574,
             "layerbranch": 942663,
             "name": "feature/ostree",
-            "updated": "2023-05-22T23:05:53+0000"
+            "updated": "2023-06-25T01:06:05+0000"
         }
     ]
 }

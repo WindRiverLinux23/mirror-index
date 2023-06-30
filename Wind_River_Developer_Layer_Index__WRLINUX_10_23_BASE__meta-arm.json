@@ -480,38 +480,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "meta-arm",
             "id": 942709,
             "layer": 474,
             "local_path": "",
-            "updated": "2023-06-05T02:06:10+0000",
-            "vcs_last_commit": "2023-06-05T00:06:45+0000",
-            "vcs_last_fetch": "2023-06-05T02:06:10+0000",
-            "vcs_last_rev": "f9fe5ce918feca7e9a2a3c1c644f6d1427b07062",
+            "updated": "2023-06-28T01:06:02+0000",
+            "vcs_last_commit": "2023-06-28T01:06:47+0000",
+            "vcs_last_fetch": "2023-06-28T01:06:02+0000",
+            "vcs_last_rev": "8b963aa47bfdfbb1f10148918f4e725e31395956",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42597
@@ -523,12 +523,6 @@
             "id": 111124,
             "layerbranch": 942709,
             "required": true
-        },
-        {
-            "dependency": 475,
-            "id": 111125,
-            "layerbranch": 942709,
-            "required": false
         }
     ],
     "layerItems": [
@@ -839,7 +833,7 @@
             "configopts": "",
             "description": "Trusted Firmware-M image signing scripts",
             "filename": "trusted-firmware-m-scripts-native_1.7.0.bb",
-            "filepath": "recipes-devtools/trusted-firmware-m-scripts",
+            "filepath": "recipes-bsp/trusted-firmware-m",
             "homepage": "https://git.trustedfirmware.org/trusted-firmware-m.git",
             "id": 1763308,
             "inherits": "native nopackages relocatable",
@@ -853,7 +847,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware image signing scripts",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-06-25T01:06:40+0000"
         },
         {
             "bbclassextend": "",
@@ -928,7 +922,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM= -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tf-m-tests -DMCUBOOT_PATH=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mcuboot -DQCBOR_PATH=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../qcbor",
+            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM= -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tf-m-tests -DTFM_EXTRAS_REPO_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tfm-extras -DMCUBOOT_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mcuboot -DQCBOR_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../qcbor",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_1.7.0.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -945,7 +939,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T01:06:40+0000"
         },
         {
             "bbclassextend": "",
@@ -991,7 +985,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T20:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,7 +1031,7 @@
             "section": "base",
             "srcrev": "635697544170b78167ed698393a72d6e522032e1",
             "summary": "SCP and MCP Firmware",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-06-25T01:06:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1843,6 +1837,52 @@
             "srcrev": "8a81f5d2406f146b15a705d49b256efaa5fa3ba9",
             "summary": "A Linux kernel module providing user space access to Trusted Services",
             "updated": "2023-04-23T08:04:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "UEFI EDK2 Firmware for Arm reference platforms",
+            "filename": "edk2-firmware_202211.bb",
+            "filepath": "recipes-bsp/uefi",
+            "homepage": "https://github.com/tianocore/edk2",
+            "id": 1820904,
+            "inherits": "deploy",
+            "layerbranch": 942709,
+            "license": "BSD-2-Clause-Patent",
+            "pe": "",
+            "pn": "edk2-firmware",
+            "pr": "r0",
+            "provides": "edk2-firmware virtual/bootloader",
+            "pv": "202211",
+            "section": "base",
+            "srcrev": "",
+            "summary": "UEFI EDK2 Firmware",
+            "updated": "2023-06-25T01:06:41+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "fvp-tc1.bb",
+            "filepath": "recipes-devtools/fvp",
+            "homepage": "https://developer.arm.com/tools-and-software/open-source-software/arm-platforms-software/arm-ecosystem-fvps",
+            "id": 1820905,
+            "inherits": "",
+            "layerbranch": 942709,
+            "license": "Proprietary & Apache-2.0 & Python-2.0 & GPL-3.0-with-GCC-exception & Zlib & NCSA & LGPL-2.0-or-later & MIT & BSD-3-Clause",
+            "pe": "",
+            "pn": "fvp-tc1",
+            "pr": "r0",
+            "provides": "fvp-tc1 ",
+            "pv": "11.18.28_Linux64",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Arm Fixed Virtual Platform - TC1 Ecosystem Reference Design",
+            "updated": "2023-06-25T01:06:41+0000"
         }
     ],
     "wrtemplates": []

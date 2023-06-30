@@ -480,53 +480,53 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-05-16T19:05:39+0000",
-            "vcs_last_commit": "2023-05-16T18:05:10+0000",
-            "vcs_last_fetch": "2023-05-16T19:05:39+0000",
-            "vcs_last_rev": "0d15b84c544045ca0acd911d1af1678f5506951b",
+            "updated": "2023-06-27T19:06:42+0000",
+            "vcs_last_commit": "2023-06-27T18:06:31+0000",
+            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
+            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-06-19T21:06:32+0000",
-            "vcs_last_commit": "2023-06-19T20:06:06+0000",
-            "vcs_last_fetch": "2023-06-19T21:06:32+0000",
-            "vcs_last_rev": "26f3b85bbf222bd2b6d4db673a424ace93089ace",
+            "updated": "2023-06-28T20:06:27+0000",
+            "vcs_last_commit": "2023-06-28T19:06:10+0000",
+            "vcs_last_fetch": "2023-06-28T20:06:27+0000",
+            "vcs_last_rev": "c732f01cf0ac676c0a46561c79fcca45ffa168fd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
@@ -766,7 +766,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "An open source implementation of the diameter protocol",
-            "updated": "2023-04-23T08:04:34+0000"
+            "updated": "2023-06-25T01:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -835,7 +835,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "A user-mode PPPoE client and server suite for Linux",
-            "updated": "2023-04-23T08:04:35+0000"
+            "updated": "2023-06-25T01:06:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -910,7 +910,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/frr/8.4.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-fpm --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
+            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmphhb208ge/tmp-glibc/work/core2-32-oe-linux/frr/8.4.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-fpm --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
             "description": "FRRouting is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.",
             "filename": "frr_8.4.2.bb",
             "filepath": "recipes-protocols/frr",
@@ -927,7 +927,7 @@
             "section": "net",
             "srcrev": "62ac43de9f3bc470586cf4f51fadf013bf542b32",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2023-04-23T08:04:36+0000"
+            "updated": "2023-06-25T01:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -973,7 +973,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "RADIUS protocol client library",
-            "updated": "2023-04-23T08:04:36+0000"
+            "updated": "2023-06-25T01:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1226,13 +1226,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "nfacct is the command line tool to create/retrieve/delete accounting objects",
-            "updated": "2023-04-23T08:04:37+0000"
+            "updated": "2023-06-25T01:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " LIBS=-ltirpc CPPFLAGS=-I/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/conntrack-tools/1.4.7-r0/recipe-sysroot/usr/include/tirpc  --enable-cthelper --enable-cttimeout --disable-systemd",
+            "configopts": " LIBS=-ltirpc CPPFLAGS=-I/tmp/tmphdug426d/tmp-glibc/work/core2-32-oe-linux/conntrack-tools/1.4.7-r0/recipe-sysroot/usr/include/tirpc  --enable-cthelper --enable-cttimeout --disable-systemd",
             "description": "",
             "filename": "conntrack-tools_1.4.7.bb",
             "filepath": "recipes-filter/conntrack-tools",
@@ -1249,7 +1249,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Connection tracking userspace tools for Linux",
-            "updated": "2023-04-23T08:04:37+0000"
+            "updated": "2023-06-26T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2100,7 +2100,7 @@
             "section": "base",
             "srcrev": "6c02c6a469d62a047f230b0ccf03f72328312d2b",
             "summary": "nbdkit is a toolkit for creating NBD servers.",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-06-25T01:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2359,7 +2359,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-Dintrospection=true -Dpie=true -Dvapi=enabled -Dintrospection=enabled ",
+            "configopts": "-Dintrospection=enabled -Dpie=true  -Dvapi=enabled",
             "description": "",
             "filename": "spice-gtk_0.42.bb",
             "filepath": "recipes-support/spice",
@@ -2376,7 +2376,7 @@
             "section": "base",
             "srcrev": "f04479c16f0969fb394ebe74b6eff74e560a42f0",
             "summary": "A Gtk client and libraries for SPICE remote desktop servers.",
-            "updated": "2023-04-23T08:04:44+0000"
+            "updated": "2023-06-25T01:06:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2888,7 +2888,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
+            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmphhb208ge/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmphhb208ge/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
             "description": "The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.",
             "filename": "ntp_4.2.8p15.bb",
             "filepath": "recipes-support/ntp",
@@ -2905,7 +2905,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-06-25T01:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3026,7 +3026,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-libexpat=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/unbound/1.17.1-r0/recipe-sysroot/usr \t\t--with-ssl=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/unbound/1.17.1-r0/recipe-sysroot/usr                 --enable-largefile   --disable-dnscrypt --disable-systemd",
+            "configopts": "--with-libexpat=/tmp/tmphhb208ge/tmp-glibc/work/core2-32-oe-linux/unbound/1.17.1-r0/recipe-sysroot/usr \t\t--with-ssl=/tmp/tmphhb208ge/tmp-glibc/work/core2-32-oe-linux/unbound/1.17.1-r0/recipe-sysroot/usr                 --enable-largefile   --disable-dnscrypt --disable-systemd",
             "description": "Unbound's design is a set of modular components which incorporate \tfeatures including enhanced security (DNSSEC) validation, Internet Protocol \tVersion 6 (IPv6), and a client resolver library API as an integral part of the \tarchitecture",
             "filename": "unbound_1.17.1.bb",
             "filepath": "recipes-support/unbound",
@@ -3043,7 +3043,7 @@
             "section": "net",
             "srcrev": "90831af981221bbce1cd7b15055562336760e484",
             "summary": "Unbound is a validating, recursive, and caching DNS resolver",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-06-25T01:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3250,7 +3250,7 @@
             "section": "libdevel",
             "srcrev": "592552a165cc569dac7674cb7fc9de3dc829906f",
             "summary": "C++ library for client-side URL transfers",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-06-25T01:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3963,7 +3963,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:54+0000"
+            "updated": "2023-06-25T01:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -4883,7 +4883,7 @@
             "section": "misc",
             "srcrev": "",
             "summary": "VLAN provides vconfig utility",
-            "updated": "2023-04-23T08:04:01+0000"
+            "updated": "2023-06-25T01:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5044,7 +5044,7 @@
             "section": "libs",
             "srcrev": "1873d3bfc2da771672bd8e7e8f41f57e0af77f33",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2023-06-19T21:06:32+0000"
+            "updated": "2023-06-28T20:06:27+0000"
         },
         {
             "bbclassextend": "",

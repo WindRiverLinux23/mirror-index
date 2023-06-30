@@ -480,52 +480,52 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-25T00:06:09+0000",
+            "updated": "2023-06-30T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Wind River Linux Tiny development",
-            "id": 12411,
+            "id": 12976,
             "layerbranch": 942665,
             "name": "wrlinux-tiny",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "Wind River Linux Graphics development",
-            "id": 12412,
+            "id": 12977,
             "layerbranch": 942665,
             "name": "wrlinux-graphics",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "Wind River Linux development",
-            "id": 12413,
+            "id": 12978,
             "layerbranch": 942665,
             "name": "wrlinux",
-            "updated": "2023-04-23T23:04:10+0000"
+            "updated": "2023-06-30T00:06:24+0000"
         },
         {
             "description": "Wind River Linux Installer development",
-            "id": 12414,
+            "id": 12979,
             "layerbranch": 942665,
             "name": "wrlinux-installer",
-            "updated": "2023-05-12T02:05:07+0000"
+            "updated": "2023-06-30T00:06:24+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-20T21:06:40+0000",
-            "vcs_last_commit": "2023-06-20T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-20T21:06:40+0000",
-            "vcs_last_rev": "8a6417eba3cc0fe7c5f40c0aca523b02212e34be",
+            "updated": "2023-06-30T07:06:40+0000",
+            "vcs_last_commit": "2023-06-30T06:06:04+0000",
+            "vcs_last_fetch": "2023-06-30T07:06:40+0000",
+            "vcs_last_rev": "b00df2eb573f8a8c65f82b410b5f2799c6b99911",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -552,67 +552,52 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-06-22T16:06:18+0000",
-            "vcs_last_commit": "2023-06-22T15:06:21+0000",
-            "vcs_last_fetch": "2023-06-22T16:06:18+0000",
-            "vcs_last_rev": "d0896cb4ecf1bd6683970c01229b8fe89b77ee77",
+            "updated": "2023-06-30T00:06:43+0000",
+            "vcs_last_commit": "2023-06-30T00:06:49+0000",
+            "vcs_last_fetch": "2023-06-30T00:06:43+0000",
+            "vcs_last_rev": "1e988e7682e8c2011e8edbdbfab28d0c29dc3eac",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-05-16T19:05:39+0000",
-            "vcs_last_commit": "2023-05-16T18:05:10+0000",
-            "vcs_last_fetch": "2023-05-16T19:05:39+0000",
-            "vcs_last_rev": "0d15b84c544045ca0acd911d1af1678f5506951b",
+            "updated": "2023-06-27T19:06:42+0000",
+            "vcs_last_commit": "2023-06-27T18:06:31+0000",
+            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
+            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
-            "branch": 342,
-            "collection": "realtime",
-            "id": 942569,
-            "layer": 48,
-            "local_path": "",
-            "updated": "2023-04-23T07:04:22+0000",
-            "vcs_last_commit": "2023-04-23T03:04:17+0000",
-            "vcs_last_fetch": "2023-04-23T07:04:54+0000",
-            "vcs_last_rev": "6c60d1451cfca0b7fcdf65ea892985013eefcae0",
-            "vcs_subdir": "",
-            "version": "1",
-            "yp_compatible_version": 42597
-        },
-        {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:41+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:24+0000",
+            "vcs_last_commit": "2023-05-07T09:05:40+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:24+0000",
+            "vcs_last_rev": "2c543c3698ef54eece61d6fb6e5f3e5483ab7a97",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "meta-initramfs",
             "id": 942643,
             "layer": 4,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
+            "updated": "2023-06-25T01:06:31+0000",
             "vcs_last_commit": "2023-04-09T08:04:55+0000",
             "vcs_last_fetch": "2023-04-23T08:04:08+0000",
             "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
@@ -621,103 +606,103 @@
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "filesystems-layer",
             "id": 942644,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:18+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:51+0000",
+            "vcs_last_commit": "2023-05-16T04:05:12+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:51+0000",
+            "vcs_last_rev": "8fa3f9ae2caab563a953cd60ff35b2a028ebd4dd",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "webserver",
             "id": 942645,
             "layer": 10,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:28+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:02+0000",
+            "vcs_last_commit": "2023-05-07T09:05:20+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:02+0000",
+            "vcs_last_rev": "963d04aa8a507b56d79d0c643032613ebe7767ed",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-06-19T21:06:32+0000",
-            "vcs_last_commit": "2023-06-19T20:06:06+0000",
-            "vcs_last_fetch": "2023-06-19T21:06:32+0000",
-            "vcs_last_rev": "26f3b85bbf222bd2b6d4db673a424ace93089ace",
+            "updated": "2023-06-28T20:06:27+0000",
+            "vcs_last_commit": "2023-06-28T19:06:10+0000",
+            "vcs_last_fetch": "2023-06-28T20:06:27+0000",
+            "vcs_last_rev": "c732f01cf0ac676c0a46561c79fcca45ffa168fd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "perl-layer",
             "id": 942647,
             "layer": 13,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:24+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:34+0000",
+            "vcs_last_commit": "2023-05-28T12:05:55+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:34+0000",
+            "vcs_last_rev": "155b2f1a7e4a2002b2dfdd5ef600815904b23ef5",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "gnome-layer",
             "id": 942648,
             "layer": 15,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:46+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:49+0000",
+            "vcs_last_commit": "2023-05-28T13:05:58+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:49+0000",
+            "vcs_last_rev": "9e5e6faa1b90e095b57fc79b42f1557e7423a9a9",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "multimedia-layer",
             "id": 942649,
             "layer": 16,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
-            "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:04+0000",
-            "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
+            "updated": "2023-06-25T01:06:00+0000",
+            "vcs_last_commit": "2023-05-28T13:05:01+0000",
+            "vcs_last_fetch": "2023-06-25T01:06:00+0000",
+            "vcs_last_rev": "f8e3d25430e344d33f9854fda1858d54b3fa4168",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "xfce-layer",
             "id": 942652,
             "layer": 5,
             "local_path": "",
-            "updated": "2023-04-23T08:04:18+0000",
+            "updated": "2023-06-25T01:06:31+0000",
             "vcs_last_commit": "2023-04-09T08:04:55+0000",
             "vcs_last_fetch": "2023-04-23T08:04:43+0000",
             "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
@@ -726,16 +711,16 @@
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20230618",
             "branch": 342,
             "collection": "virtualization-layer",
             "id": 942653,
             "layer": 45,
             "local_path": "",
-            "updated": "2023-06-14T20:06:37+0000",
-            "vcs_last_commit": "2023-06-14T19:06:54+0000",
-            "vcs_last_fetch": "2023-06-14T20:06:37+0000",
-            "vcs_last_rev": "a9f4310797f292cbc6943cd596035a37520f2c72",
+            "updated": "2023-06-28T20:06:50+0000",
+            "vcs_last_commit": "2023-06-28T19:06:37+0000",
+            "vcs_last_fetch": "2023-06-28T20:06:50+0000",
+            "vcs_last_rev": "a6e91184b0f55ef78f0df353ff248ee8e5f86bcc",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42597
@@ -747,10 +732,10 @@
             "id": 942665,
             "layer": 164,
             "local_path": "",
-            "updated": "2023-06-22T16:06:49+0000",
-            "vcs_last_commit": "2023-06-22T15:06:21+0000",
-            "vcs_last_fetch": "2023-06-22T16:06:49+0000",
-            "vcs_last_rev": "d72cc6dff553007a5439127b40e31bfe79c08505",
+            "updated": "2023-06-30T00:06:24+0000",
+            "vcs_last_commit": "2023-06-29T23:06:53+0000",
+            "vcs_last_fetch": "2023-06-30T00:06:24+0000",
+            "vcs_last_rev": "54fd930f9497ce8b4b7e8956243ae0e0c42d6fa2",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 42596
@@ -808,12 +793,6 @@
         {
             "dependency": 13,
             "id": 111067,
-            "layerbranch": 942665,
-            "required": true
-        },
-        {
-            "dependency": 48,
-            "id": 111068,
             "layerbranch": 942665,
             "required": true
         },
@@ -1138,25 +1117,6 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "realtime",
-            "comparison": false,
-            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
-            "id": 48,
-            "index_preference": 900,
-            "layer_type": "A",
-            "mailing_list_url": "",
-            "name": "meta-realtime",
-            "status": "P",
-            "summary": "Realtime related kernel components",
-            "updated": "2018-05-30T22:05:35+0000",
-            "usage_url": "README",
-            "vcs_url": "#BASE_URL#/meta-realtime",
-            "vcs_web_commit_url": "",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
             "collection": "wrlinux",
             "comparison": false,
             "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
@@ -1237,7 +1197,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Imports container images into Docker",
-            "updated": "2023-05-22T03:05:44+0000"
+            "updated": "2023-06-30T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1260,7 +1220,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs kernel boot",
-            "updated": "2023-05-22T03:05:44+0000"
+            "updated": "2023-06-30T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1283,7 +1243,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:44+0000"
+            "updated": "2023-06-30T00:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1306,7 +1266,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "tiny init",
-            "updated": "2023-05-22T03:05:45+0000"
+            "updated": "2023-06-30T00:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1329,7 +1289,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:45+0000"
+            "updated": "2023-06-30T00:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1352,7 +1312,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:45+0000"
+            "updated": "2023-06-30T00:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1375,7 +1335,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2023-05-22T03:05:46+0000"
+            "updated": "2023-06-30T00:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1398,7 +1358,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2023-05-22T03:05:46+0000"
+            "updated": "2023-06-30T00:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1421,7 +1381,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:47+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1444,7 +1404,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:47+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1467,7 +1427,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:47+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1490,7 +1450,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:47+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1513,7 +1473,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:47+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1536,7 +1496,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:48+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1559,7 +1519,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:48+0000"
+            "updated": "2023-06-30T00:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1582,7 +1542,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:48+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1605,7 +1565,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:48+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1628,7 +1588,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:48+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1651,7 +1611,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Packages required by bsp",
-            "updated": "2023-05-22T03:05:48+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1674,7 +1634,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:49+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1697,7 +1657,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:49+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1720,7 +1680,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:49+0000"
+            "updated": "2023-06-30T00:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1743,7 +1703,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:49+0000"
+            "updated": "2023-06-30T00:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1766,7 +1726,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:49+0000"
+            "updated": "2023-06-30T00:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1789,7 +1749,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:50+0000"
+            "updated": "2023-06-30T00:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1812,7 +1772,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:50+0000"
+            "updated": "2023-06-30T00:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1835,7 +1795,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:51+0000"
+            "updated": "2023-06-30T00:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1858,7 +1818,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:51+0000"
+            "updated": "2023-06-30T00:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1881,7 +1841,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:52+0000"
+            "updated": "2023-06-30T00:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1904,429 +1864,429 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-22T03:05:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 102835,
+            "id": 107247,
             "layerbranch": 942665,
             "name": "feature/lxc",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102836,
+            "id": 107248,
             "layerbranch": 942665,
             "name": "feature/python-tkinter",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102837,
+            "id": 107249,
             "layerbranch": 942665,
             "name": "feature/ips",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102838,
+            "id": 107250,
             "layerbranch": 942665,
             "name": "feature/yaffs2-utils",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102839,
+            "id": 107251,
             "layerbranch": 942665,
             "name": "feature/encrypted-storage",
-            "updated": "2023-05-23T22:05:02+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102840,
+            "id": 107252,
             "layerbranch": 942665,
             "name": "feature/docker",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Generate a container image",
-            "id": 102841,
+            "id": 107253,
             "layerbranch": 942665,
             "name": "feature/container-base",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102842,
+            "id": 107254,
             "layerbranch": 942665,
             "name": "feature/initramfs-integrated",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102843,
+            "id": 107255,
             "layerbranch": 942665,
             "name": "feature/LAMP",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102844,
+            "id": 107256,
             "layerbranch": 942665,
             "name": "feature/ids-basic",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102845,
+            "id": 107257,
             "layerbranch": 942665,
             "name": "feature/benchmark",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102846,
+            "id": 107258,
             "layerbranch": 942665,
             "name": "feature/debug",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102847,
+            "id": 107259,
             "layerbranch": 942665,
             "name": "feature/nfsd",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102848,
+            "id": 107260,
             "layerbranch": 942665,
             "name": "feature/openssl-no-weak-ciphers",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Enable bcc and related kernel options",
-            "id": 102849,
+            "id": 107261,
             "layerbranch": 942665,
             "name": "feature/bcc",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102850,
+            "id": 107262,
             "layerbranch": 942665,
             "name": "feature/pts",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102851,
+            "id": 107263,
             "layerbranch": 942665,
             "name": "feature/iotop",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102852,
+            "id": 107264,
             "layerbranch": 942665,
             "name": "feature/wr-theme-gray",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102853,
+            "id": 107265,
             "layerbranch": 942665,
             "name": "feature/xfce",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102854,
+            "id": 107266,
             "layerbranch": 942665,
             "name": "feature/bpf",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102855,
+            "id": 107267,
             "layerbranch": 942665,
             "name": "feature/nfc",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102856,
+            "id": 107268,
             "layerbranch": 942665,
             "name": "feature/initramfs-install",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102857,
+            "id": 107269,
             "layerbranch": 942665,
             "name": "feature/firewall",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102858,
+            "id": 107270,
             "layerbranch": 942665,
             "name": "feature/initramfs",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102859,
+            "id": 107271,
             "layerbranch": 942665,
             "name": "feature/posix-timers",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102860,
+            "id": 107272,
             "layerbranch": 942665,
             "name": "feature/dhcp-server-kea",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Install package cronie to image",
-            "id": 102861,
+            "id": 107273,
             "layerbranch": 942665,
             "name": "feature/task-scheduler",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Enable BSP extras packages support",
-            "id": 102862,
+            "id": 107274,
             "layerbranch": 942665,
             "name": "feature/bsp-extras",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102863,
+            "id": 107275,
             "layerbranch": 942665,
             "name": "feature/systemdebug",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Enable libvirt and related components utilities and kernel options",
-            "id": 102864,
+            "id": 107276,
             "layerbranch": 942665,
             "name": "feature/libvirt",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102865,
+            "id": 107277,
             "layerbranch": 942665,
             "name": "feature/syslog-ng",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102866,
+            "id": 107278,
             "layerbranch": 942665,
             "name": "feature/test",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Add plymouth splash screen to image",
-            "id": 102867,
+            "id": 107279,
             "layerbranch": 942665,
             "name": "feature/plymouth",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "Enable kernel options and related components for hosting guests",
-            "id": 102868,
+            "id": 107280,
             "layerbranch": 942665,
             "name": "feature/virt-host",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102869,
+            "id": 107281,
             "layerbranch": 942665,
             "name": "feature/full_nohz",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102870,
+            "id": 107282,
             "layerbranch": 942665,
             "name": "feature/criu",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102871,
+            "id": 107283,
             "layerbranch": 942665,
             "name": "feature/edac",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102872,
+            "id": 107284,
             "layerbranch": 942665,
             "name": "feature/krb5",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102873,
+            "id": 107285,
             "layerbranch": 942665,
             "name": "feature/ipv6",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102874,
+            "id": 107286,
             "layerbranch": 942665,
             "name": "feature/tpm2",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "install mariadb into image",
-            "id": 102875,
+            "id": 107287,
             "layerbranch": 942665,
             "name": "feature/mariadb",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102876,
+            "id": 107288,
             "layerbranch": 942665,
             "name": "feature/libhugetlbfs",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:22+0000"
         },
         {
             "description": "",
-            "id": 102877,
+            "id": 107289,
             "layerbranch": 942665,
             "name": "feature/lttng",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102878,
+            "id": 107290,
             "layerbranch": 942665,
             "name": "feature/agent-proxy",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102879,
+            "id": 107291,
             "layerbranch": 942665,
             "name": "feature/network-bond-libteam",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102880,
+            "id": 107292,
             "layerbranch": 942665,
             "name": "feature/selinux",
-            "updated": "2023-05-18T02:05:44+0000"
+            "updated": "2023-06-30T00:06:23+0000"
+        },
+        {
+            "description": "",
+            "id": 107293,
+            "layerbranch": 942665,
+            "name": "feature/secure-boot",
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "Add tcf-agent into image",
-            "id": 102881,
+            "id": 107294,
             "layerbranch": 942665,
             "name": "feature/wr-ide-tools",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102882,
+            "id": 107295,
             "layerbranch": 942665,
             "name": "feature/wr-theme-blue",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102883,
+            "id": 107296,
             "layerbranch": 942665,
             "name": "feature/efi-secure-boot",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102884,
+            "id": 107297,
             "layerbranch": 942665,
             "name": "feature/kexec",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102885,
+            "id": 107298,
             "layerbranch": 942665,
             "name": "feature/ima",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102886,
+            "id": 107299,
             "layerbranch": 942665,
             "name": "feature/software-entropy",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102887,
+            "id": 107300,
             "layerbranch": 942665,
             "name": "feature/session-manager",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102888,
+            "id": 107301,
             "layerbranch": 942665,
             "name": "feature/pam-faillock",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102889,
+            "id": 107302,
             "layerbranch": 942665,
             "name": "feature/pam-wheel",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "build and include container images in rootfs images",
-            "id": 102890,
+            "id": 107303,
             "layerbranch": 942665,
             "name": "feature/run-container",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102891,
+            "id": 107304,
             "layerbranch": 942665,
             "name": "feature/kdump",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102892,
+            "id": 107305,
             "layerbranch": 942665,
             "name": "feature/stig",
-            "updated": "2023-06-21T02:06:07+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         },
         {
             "description": "",
-            "id": 102893,
+            "id": 107306,
             "layerbranch": 942665,
             "name": "feature/ldconfig",
-            "updated": "2023-04-23T08:04:53+0000"
-        },
-        {
-            "description": "",
-            "id": 105387,
-            "layerbranch": 942665,
-            "name": "feature/secure-boot",
-            "updated": "2023-05-15T03:05:32+0000"
+            "updated": "2023-06-30T00:06:23+0000"
         }
     ]
 }
