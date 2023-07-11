@@ -468,6 +468,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
         }
     ],
     "branches": [
@@ -480,7 +487,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-06-30T00:06:08+0000",
+            "updated": "2023-07-11T00:07:10+0000",
             "updates_enabled": true
         }
     ],

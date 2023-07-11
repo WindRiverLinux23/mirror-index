@@ -1,0 +1,3 @@
+    <project name="github.com.iovisor.bcc" remote="base" path="layers/wrlinux-src-dl/git/github.com.iovisor.bcc" bare="True" />
+    <project name="github.com.libbpf.bpftool" remote="base" path="layers/wrlinux-src-dl/git/github.com.libbpf.bpftool.git" bare="True" />
+    <project name="github.com.libbpf.blazesym" remote="base" path="layers/wrlinux-src-dl/git/github.com.libbpf.blazesym.git" bare="True" />
