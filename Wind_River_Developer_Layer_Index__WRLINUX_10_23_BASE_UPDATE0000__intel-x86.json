@@ -1,0 +1,855 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_23_BASE_UPDATE0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_23_BASE_UPDATE0000",
+            "comparison": false,
+            "hidden": false,
+            "id": 344,
+            "name": "WRLINUX_10_23_BASE_UPDATE0000",
+            "short_description": "WRLinux 10_23 Base Update 0000",
+            "sort_priority": 7,
+            "update_environment": null,
+            "updated": "2023-07-11T00:07:12+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "core",
+            "id": 943349,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2023-07-11T06:07:49+0000",
+            "vcs_last_commit": "2023-07-10T06:07:05+0000",
+            "vcs_last_fetch": "2023-07-11T06:07:49+0000",
+            "vcs_last_rev": "10c10189c6e2114f9d055fe2551f6fed90773caa",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "intel-qat",
+            "id": 943372,
+            "layer": 193,
+            "local_path": "",
+            "updated": "2023-04-27T07:04:09+0000",
+            "vcs_last_commit": "2023-03-25T03:03:59+0000",
+            "vcs_last_fetch": "2023-04-27T07:04:09+0000",
+            "vcs_last_rev": "1e17fe8f397262bd017a1f1e40d65d8d8588bbdc",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42599
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "wrlinux",
+            "id": 943385,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2023-07-11T06:07:11+0000",
+            "vcs_last_commit": "2023-07-06T13:07:23+0000",
+            "vcs_last_fetch": "2023-07-11T06:07:11+0000",
+            "vcs_last_rev": "4b33cd6e7104dd3a652ffc801165d45bdafb7aea",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "intel",
+            "id": 943389,
+            "layer": 166,
+            "local_path": "",
+            "updated": "2023-06-30T00:06:56+0000",
+            "vcs_last_commit": "2023-06-18T08:06:31+0000",
+            "vcs_last_fetch": "2023-06-30T00:06:56+0000",
+            "vcs_last_rev": "8800c6abc99623e24caf678b30952567f27c73c1",
+            "vcs_subdir": "",
+            "version": "5",
+            "yp_compatible_version": 42598
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "intel-x86",
+            "id": 943396,
+            "layer": 32,
+            "local_path": "",
+            "updated": "2023-06-30T00:06:39+0000",
+            "vcs_last_commit": "2023-06-27T00:06:35+0000",
+            "vcs_last_fetch": "2023-06-30T00:06:39+0000",
+            "vcs_last_rev": "38ba881b1e0b48379bf3b040a35044c2a7c75444",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42596
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 111524,
+            "layerbranch": 943396,
+            "required": true
+        },
+        {
+            "dependency": 166,
+            "id": 111525,
+            "layerbranch": 943396,
+            "required": true
+        },
+        {
+            "dependency": 193,
+            "id": 111526,
+            "layerbranch": 943396,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 111527,
+            "layerbranch": 943396,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 111528,
+            "layerbranch": 943396,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "intel-x86",
+            "comparison": false,
+            "description": "Common BSP, also known as intel-x86-32/64, provide a few carefully selected tune options and generic hardware support to cover the majority of current Intel CPUs and devices.  See the README.hardware for more information.",
+            "id": 32,
+            "index_preference": 100,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "intel-x86",
+            "status": "P",
+            "summary": "Common Intel x86 BSP",
+            "updated": "2018-05-30T22:05:07+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/intel-x86",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "intel",
+            "comparison": false,
+            "description": "Official layer for Intel platform/board support. This layer itself (at the top level) contains common components, and then there are sub-layers for each BSP which are listed individually in this index.\r\n\r\nThis layer includes support for DPDK.",
+            "id": 166,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel",
+            "status": "P",
+            "summary": "Intel board support common layer",
+            "updated": "2018-05-30T22:05:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "intel-qat",
+            "comparison": false,
+            "description": "The Intel QuickAssist Adapter family provides customers with a scalable, flexible, and extendable way to offer Intel QuickAssist Technology crypto acceleration and compression capabilities to their existing product lines.",
+            "id": 193,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-intel-qat",
+            "status": "P",
+            "summary": "intel qat layer",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-qat",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Intel X86 (64bit) PCs and servers",
+            "id": 65635,
+            "layerbranch": 943396,
+            "name": "intel-x86-64",
+            "updated": "2023-04-27T07:04:54+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "Intel Runtime Development Tools",
+            "filename": "rdk-tools.bb",
+            "filepath": "recipes-devtools/rdk-tools",
+            "homepage": "https://www.intel.com",
+            "id": 1771652,
+            "inherits": "kernel-arch kernel-module-split meson meson-routines module module-base pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 943396,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "rdk-tools",
+            "pr": "grr_deliver11",
+            "provides": "rdk-tools ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -Denable_kmods=false                 -Dexamples=all  ",
+            "description": "Intel(r) Data Plane Development Kit",
+            "filename": "dpdk_21.11.0.bb",
+            "filepath": "recipes-devtools/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 1771653,
+            "inherits": "meson meson-routines python3-dir python3native qemu siteinfo",
+            "layerbranch": 943396,
+            "license": "BSD-3-Clause & LGPL-2.1-only & GPL-2.0-only",
+            "pe": "",
+            "pn": "dpdk",
+            "pr": "r0",
+            "provides": "dpdk ",
+            "pv": "21.11.0",
+            "section": "base",
+            "srcrev": "45f04d88ae8fa6217812abdaa623d66b05fc7b6a",
+            "summary": "",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "rtl8723bs-bt_git.bb",
+            "filepath": "recipes-bsp/rtl8723bs",
+            "homepage": "",
+            "id": 1771654,
+            "inherits": "",
+            "layerbranch": 943396,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "rtl8723bs-bt",
+            "pr": "r0",
+            "provides": "rtl8723bs-bt ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "07cda47e386f7bece859323f55b5a6a0df51c63b",
+            "summary": "",
+            "updated": "2023-04-27T07:04:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "TMON is conceived as a tool to help visualize, tune, and test the complex thermal subsystem",
+            "filename": "tmon_1.0.bb",
+            "filepath": "recipes-kernel/tmon",
+            "homepage": "",
+            "id": 1771655,
+            "inherits": "",
+            "layerbranch": 943396,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "tmon",
+            "pr": "r0",
+            "provides": "tmon ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
+            "updated": "2023-04-27T07:04:55+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Install \"require\" features together such as: edac/kdump/intel-qat/intel-sst ... to rootfs or image.",
+            "id": 103108,
+            "layerbranch": 943396,
+            "name": "feature/intel-x86-dev",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "description": "Install intel-speed-select to rootfs",
+            "id": 103109,
+            "layerbranch": 943396,
+            "name": "feature/intel-sst",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "description": "Install Intel RDK tools to the image",
+            "id": 103110,
+            "layerbranch": 943396,
+            "name": "feature/intel-rdk",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "description": "Add QAT drivers to the image",
+            "id": 103111,
+            "layerbranch": 943396,
+            "name": "feature/intel-qat",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "description": "Add TSN support to the image",
+            "id": 103112,
+            "layerbranch": 943396,
+            "name": "feature/intel-tsn",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
+            "id": 103113,
+            "layerbranch": 943396,
+            "name": "feature/intel-persistent-memory",
+            "updated": "2023-04-27T07:04:54+0000"
+        },
+        {
+            "description": "",
+            "id": 103115,
+            "layerbranch": 943396,
+            "name": "default",
+            "updated": "2023-06-16T00:06:10+0000"
+        }
+    ]
+}

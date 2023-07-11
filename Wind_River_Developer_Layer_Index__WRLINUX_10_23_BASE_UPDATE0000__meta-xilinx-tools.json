@@ -1,0 +1,912 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_23_BASE_UPDATE0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_23_BASE_UPDATE0000",
+            "comparison": false,
+            "hidden": false,
+            "id": 344,
+            "name": "WRLINUX_10_23_BASE_UPDATE0000",
+            "short_description": "WRLinux 10_23 Base Update 0000",
+            "sort_priority": 7,
+            "update_environment": null,
+            "updated": "2023-07-11T00:07:12+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "core",
+            "id": 943349,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2023-07-11T06:07:49+0000",
+            "vcs_last_commit": "2023-07-10T06:07:05+0000",
+            "vcs_last_fetch": "2023-07-11T06:07:49+0000",
+            "vcs_last_rev": "10c10189c6e2114f9d055fe2551f6fed90773caa",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "xilinx",
+            "id": 943381,
+            "layer": 436,
+            "local_path": "",
+            "updated": "2023-06-29T23:06:18+0000",
+            "vcs_last_commit": "2023-06-24T22:06:55+0000",
+            "vcs_last_fetch": "2023-06-29T23:06:18+0000",
+            "vcs_last_rev": "9afa931fd10633d51e3d624e33224ae2f1e1eeeb",
+            "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 42594
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "xilinx-standalone",
+            "id": 943392,
+            "layer": 435,
+            "local_path": "",
+            "updated": "2023-06-30T00:06:03+0000",
+            "vcs_last_commit": "2023-06-25T20:06:09+0000",
+            "vcs_last_fetch": "2023-06-30T00:06:03+0000",
+            "vcs_last_rev": "c276302e0548151f268e4df9b1eb1f6399d2e019",
+            "vcs_subdir": "meta-xilinx-standalone",
+            "version": null,
+            "yp_compatible_version": 42594
+        },
+        {
+            "actual_branch": "",
+            "branch": 344,
+            "collection": "xilinx-tools",
+            "id": 943397,
+            "layer": 357,
+            "local_path": "",
+            "updated": "2023-05-29T01:05:23+0000",
+            "vcs_last_commit": "2023-05-24T18:05:23+0000",
+            "vcs_last_fetch": "2023-05-29T01:05:23+0000",
+            "vcs_last_rev": "6dce0bce633c983d3572f4ae152c201b5d27e69a",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 42597
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 111529,
+            "layerbranch": 943397,
+            "required": true
+        },
+        {
+            "dependency": 436,
+            "id": 111530,
+            "layerbranch": 943397,
+            "required": true
+        },
+        {
+            "dependency": 435,
+            "id": 111531,
+            "layerbranch": 943397,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-tools",
+            "comparison": false,
+            "description": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
+            "id": 357,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-tools",
+            "status": "P",
+            "summary": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2020-07-06T01:07:38+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx-tools",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone",
+            "comparison": false,
+            "description": "This layer is meant to augment Yocto/OE functionality to provide a\r\nBaremetal/Standalone Toolchain as well as a generic version of various\r\nfirmware that is required to boot a ZynqMP or Versal system.\r\n\r\nFor optimized versions of the firmware and additional components you must\r\nuse the meta-xilinx-tools layer.",
+            "id": 435,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone",
+            "status": "P",
+            "summary": "This layer provides a Baremetal/Standalone Toolchain as well as a generic version of various firmware that is required to boot a ZynqMP or Versal system.",
+            "updated": "2022-03-03T00:03:58+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx",
+            "comparison": false,
+            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "id": 436,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-core",
+            "status": "P",
+            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "mb-realoc",
+            "filename": "mb-realoc.bb",
+            "filepath": "recipes-utils/mb-realoc",
+            "homepage": "",
+            "id": 1771656,
+            "inherits": "deploy",
+            "layerbranch": 943397,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "mb-realoc",
+            "pr": "r0",
+            "provides": "mb-realoc virtual/elfrealloc",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-27T07:04:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Recipe to extract bitstream",
+            "filename": "bitstream-extraction_git.bb",
+            "filepath": "recipes-bsp/bitstream",
+            "homepage": "",
+            "id": 1771657,
+            "inherits": "deploy image-artifact-names xsct-tc xsctbase xsctbit",
+            "layerbranch": 943397,
+            "license": "MIT",
+            "pe": "",
+            "pn": "bitstream-extraction",
+            "pr": "r0",
+            "provides": "bitstream-extraction virtual/bitstream",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "download.bit is a bitstream with an elf binary in it. This recipe will take a bitstream without any elf binary in it and add an elf file to it. By default fs-boot.elf is embedded into the bitstream, this can be overriding by setting DATA_FILE in your build environment",
+            "filename": "bitstream-microblaze_1.0.bb",
+            "filepath": "recipes-bsp/bitstream",
+            "homepage": "",
+            "id": 1771658,
+            "inherits": "deploy image-artifact-names",
+            "layerbranch": 943397,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "bitstream-microblaze",
+            "pr": "r0",
+            "provides": "bitstream-microblaze ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Generates download.bit using updatemem",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Image Selector",
+            "filename": "imgsel_git.bb",
+            "filepath": "recipes-bsp/imgsel",
+            "homepage": "",
+            "id": 1771659,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 943397,
+            "license": "MIT",
+            "pe": "",
+            "pn": "imgsel",
+            "pr": "r0",
+            "provides": "imgsel virtual/imgsel",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "summary": "",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Recipe to copy and install externally built XSA to deploy",
+            "filename": "external-hdf.bb",
+            "filepath": "recipes-bsp/hdf",
+            "homepage": "",
+            "id": 1771663,
+            "inherits": "deploy",
+            "layerbranch": 943397,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "external-hdf",
+            "pr": "r0",
+            "provides": "external-hdf virtual/hdf",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "d084dd895cbdc7475f65dda9c3fb5dbdf66d78b2",
+            "summary": "",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Image Recovery",
+            "filename": "imgrcry_git.bb",
+            "filepath": "recipes-bsp/imgrcry",
+            "homepage": "",
+            "id": 1771664,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 943397,
+            "license": "MIT",
+            "pe": "",
+            "pn": "imgrcry",
+            "pr": "r0",
+            "provides": "imgrcry virtual/imgrcry",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "summary": "",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx BSP u-boot device trees from within layer.",
+            "filename": "uboot-device-tree.bb",
+            "filepath": "recipes-bsp/uboot-device-tree",
+            "homepage": "",
+            "id": 1771665,
+            "inherits": "deploy devicetree kernel-arch python3-dir python3native xsct-tc xsctbase xsctdt xsctyaml",
+            "layerbranch": 943397,
+            "license": "MIT & GPL-2.0-or-later",
+            "pe": "",
+            "pn": "uboot-device-tree",
+            "pr": "r0",
+            "provides": "uboot-device-tree virtual/uboot-dtb",
+            "pv": "xilinx-v2023.1+gitX",
+            "section": "bsp",
+            "srcrev": "0bd6e466ba52c49da0dd31601233d926ccf5f9be",
+            "summary": "Xilinx BSP u-boot device trees",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "FS-BOOT generator",
+            "filename": "fs-boot_git.bb",
+            "filepath": "recipes-bsp/fsboot",
+            "homepage": "",
+            "id": 1771666,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctfsboot xsctyaml",
+            "layerbranch": 943397,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fs-boot",
+            "pr": "r0",
+            "provides": "fs-boot virtual/fsboot",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "summary": "",
+            "updated": "2023-05-15T02:05:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-mat-muld_2023.1.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 1771667,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 943397,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-mat-muld",
+            "pr": "r0",
+            "provides": "openamp-fw-mat-muld ",
+            "pv": "2023.1+gitX",
+            "section": "base",
+            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "summary": "",
+            "updated": "2023-05-15T02:05:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-rpc-demo_2023.1.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 1771668,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 943397,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-rpc-demo",
+            "pr": "r0",
+            "provides": "openamp-fw-rpc-demo ",
+            "pv": "2023.1+gitX",
+            "section": "base",
+            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "summary": "",
+            "updated": "2023-05-15T02:05:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-echo-testd_2023.1.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 1771670,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 943397,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-echo-testd",
+            "pr": "r0",
+            "provides": "openamp-fw-echo-testd ",
+            "pv": "2023.1+gitX",
+            "section": "base",
+            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "summary": "",
+            "updated": "2023-05-15T02:05:09+0000"
+        }
+    ],
+    "wrtemplates": []
+}
