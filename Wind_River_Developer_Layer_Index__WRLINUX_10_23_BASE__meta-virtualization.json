@@ -487,65 +487,65 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-07-11T00:07:10+0000",
+            "updated": "2023-07-25T00:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-10T07:07:31+0000",
-            "vcs_last_commit": "2023-07-10T06:07:05+0000",
-            "vcs_last_fetch": "2023-07-10T07:07:31+0000",
-            "vcs_last_rev": "10c10189c6e2114f9d055fe2551f6fed90773caa",
+            "updated": "2023-07-25T12:07:39+0000",
+            "vcs_last_commit": "2023-07-25T09:07:44+0000",
+            "vcs_last_fetch": "2023-07-25T12:07:39+0000",
+            "vcs_last_rev": "c2cc4f00f242276692d4dac7b8d2a27ba8b3df76",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-06-27T19:06:42+0000",
-            "vcs_last_commit": "2023-06-27T18:06:31+0000",
-            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
-            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
+            "updated": "2023-07-17T20:07:39+0000",
+            "vcs_last_commit": "2023-07-17T19:07:29+0000",
+            "vcs_last_fetch": "2023-07-17T20:07:39+0000",
+            "vcs_last_rev": "c747f099ba9e51189b73b2a1949761945940d89a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-06-25T01:06:24+0000",
-            "vcs_last_commit": "2023-05-07T09:05:40+0000",
-            "vcs_last_fetch": "2023-06-25T01:06:24+0000",
-            "vcs_last_rev": "2c543c3698ef54eece61d6fb6e5f3e5483ab7a97",
+            "updated": "2023-07-13T20:07:37+0000",
+            "vcs_last_commit": "2023-06-23T05:06:41+0000",
+            "vcs_last_fetch": "2023-07-13T20:07:37+0000",
+            "vcs_last_rev": "30b2c1c064dc9f3a9cf3c974e18e6f5c5c0c964e",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "filesystems-layer",
             "id": 942644,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-06-25T01:06:51+0000",
+            "updated": "2023-07-13T20:07:13+0000",
             "vcs_last_commit": "2023-05-16T04:05:12+0000",
             "vcs_last_fetch": "2023-06-25T01:06:51+0000",
             "vcs_last_rev": "8fa3f9ae2caab563a953cd60ff35b2a028ebd4dd",
@@ -554,31 +554,31 @@
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-06-28T20:06:27+0000",
-            "vcs_last_commit": "2023-06-28T19:06:10+0000",
-            "vcs_last_fetch": "2023-06-28T20:06:27+0000",
-            "vcs_last_rev": "c732f01cf0ac676c0a46561c79fcca45ffa168fd",
+            "updated": "2023-07-21T10:07:50+0000",
+            "vcs_last_commit": "2023-07-21T08:07:25+0000",
+            "vcs_last_fetch": "2023-07-21T10:07:50+0000",
+            "vcs_last_rev": "67047a14a496a0e1e348f36e4f32ba064b0640fe",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "virtualization-layer",
             "id": 942653,
             "layer": 45,
             "local_path": "",
-            "updated": "2023-06-28T20:06:50+0000",
-            "vcs_last_commit": "2023-06-28T19:06:37+0000",
-            "vcs_last_fetch": "2023-06-28T20:06:50+0000",
-            "vcs_last_rev": "a6e91184b0f55ef78f0df353ff248ee8e5f86bcc",
+            "updated": "2023-07-25T02:07:39+0000",
+            "vcs_last_commit": "2023-07-21T12:07:14+0000",
+            "vcs_last_fetch": "2023-07-25T02:07:39+0000",
+            "vcs_last_rev": "1598fef496a0a2c8f01b6cab69c4ad4b04aa91c3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42597
@@ -773,7 +773,7 @@
             "section": "base",
             "srcrev": "323aa69a68362a432f15d5e8050e74a0637aaf1e",
             "summary": "User-mode networking for unprivileged network namespaces.",
-            "updated": "2023-04-23T08:04:46+0000"
+            "updated": "2023-07-25T02:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -796,7 +796,7 @@
             "section": "base",
             "srcrev": "00d5d07ab1c8afcf481ffa5958719943b6ecfde4",
             "summary": "Runc hook for setting up default bridge networking.",
-            "updated": "2023-04-23T08:04:46+0000"
+            "updated": "2023-07-25T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -819,7 +819,7 @@
             "section": "networking",
             "srcrev": "771c989a9a957b2e487c9312eaee3bfb87638be5",
             "summary": "OpenvSwitch",
-            "updated": "2023-06-25T01:06:04+0000"
+            "updated": "2023-07-25T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -842,7 +842,7 @@
             "section": "base",
             "srcrev": "888ddad6bde1dc6d7dbfc8daa7d015251b72e02c",
             "summary": "A general purpose TCP-IP emulator",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -865,7 +865,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Container Network Interface - networking for Linux containers",
-            "updated": "2023-06-28T20:06:50+0000"
+            "updated": "2023-07-25T02:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -888,7 +888,7 @@
             "section": "devel/go",
             "srcrev": "a3e58764f50597b6217fec07e9bff7225c4a1719",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -911,7 +911,7 @@
             "section": "devel/go",
             "srcrev": "b4a58d95188dd092ae20072bac14cece0e67c388",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -934,7 +934,7 @@
             "section": "devel/go",
             "srcrev": "d6e1431feb32348e0650bf7551ac5cffd01d857b",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -957,7 +957,7 @@
             "section": "devel/go",
             "srcrev": "5d8e5aad40bedb696205b96b786f1d0e1326b3f8",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -980,7 +980,7 @@
             "section": "devel/go",
             "srcrev": "666120de432aea38ab06bd5c818f04f4129882c9",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1003,7 +1003,7 @@
             "section": "devel/go",
             "srcrev": "28602af35aceda2f8d571bad7ca37a54cf0250bc",
             "summary": "",
-            "updated": "2023-04-23T08:04:47+0000"
+            "updated": "2023-07-25T02:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1026,7 +1026,7 @@
             "section": "devel/go",
             "srcrev": "4ccf312bf1d35e5dbda654e57a9be4c3f3cd0366",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1049,7 +1049,7 @@
             "section": "devel/go",
             "srcrev": "14f550f51af52180c2eefed15e5fd18d63c0a64a",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1072,7 +1072,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "console for runx",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -1095,7 +1095,7 @@
             "section": "devel/go",
             "srcrev": "f79a8a8ca69da163eee19ab442bedad7a35bba5a",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1118,7 +1118,7 @@
             "section": "devel/go",
             "srcrev": "2c00daeb6c3b45114c80ac44119e7b8801fdd852",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1141,7 +1141,7 @@
             "section": "devel/go",
             "srcrev": "136d54f81f00414c45c3c68dd47e98cc97519c5e",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1164,7 +1164,7 @@
             "section": "devel/go",
             "srcrev": "27ecc97192df1bf053a22b04463f2b51b8b8373e",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1187,7 +1187,7 @@
             "section": "devel/go",
             "srcrev": "5f6efc7ef2759c81b7ba876593971bfce311eab3",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1210,7 +1210,7 @@
             "section": "devel/go",
             "srcrev": "05017fcccf23c823bfdea560dcc958a136e54fb7",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1233,7 +1233,7 @@
             "section": "devel/go",
             "srcrev": "d26492970760ca5d33129d2d799e34be5c4782eb",
             "summary": "",
-            "updated": "2023-04-23T08:04:48+0000"
+            "updated": "2023-07-25T02:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1256,7 +1256,7 @@
             "section": "devel/go",
             "srcrev": "af855d7e6014ec848882bb2ed7d40d536872d275",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -1279,7 +1279,7 @@
             "section": "devel/go",
             "srcrev": "e8d801238da6f0dfd14078d68f9b53fa50a7eeb5",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1302,7 +1302,7 @@
             "section": "devel/go",
             "srcrev": "9cbd2a1374f46905c68a4eb3694a130610adc62a",
             "summary": "",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -1325,7 +1325,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python binding to the Networking and Cryptography (NaCl) library",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1348,7 +1348,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python library to use the pseudo-tty of a docker container",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1371,7 +1371,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Flask extension adding a decorator for CORS support",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1394,7 +1394,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Make entry_points specified in setup.py load more quickly",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1417,7 +1417,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "WSGI HTTP Server for UNIX",
-            "updated": "2023-04-23T08:04:49+0000"
+            "updated": "2023-07-25T02:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1440,7 +1440,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A decorator for caching properties in classes.",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1463,7 +1463,7 @@
             "section": "base",
             "srcrev": "4a64ff7c1b8116a1894e72eee2a19706e970001f",
             "summary": "A tool for generating SELinux security policies for containers",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1486,7 +1486,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1509,7 +1509,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1532,7 +1532,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Cross-platform colored terminal text.",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1555,7 +1555,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "New Relic Python Agent",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1578,7 +1578,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Automatic error monitoring for django, flask, etc.",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1601,7 +1601,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The low-level, core functionality of boto 3.",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1624,7 +1624,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for the docker credentials store API",
-            "updated": "2023-04-23T08:04:50+0000"
+            "updated": "2023-07-25T02:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1647,7 +1647,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Dot Env Handler",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1670,7 +1670,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pythonic argument parser, that will make you smile",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1693,7 +1693,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Amazon Web Services API",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1716,7 +1716,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python library for the Docker Engine API.",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -1739,7 +1739,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "a lightweight and portable command-line YAML processor ",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1762,7 +1762,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1785,7 +1785,7 @@
             "section": "firmware",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1808,7 +1808,7 @@
             "section": "base",
             "srcrev": "18dc73d27edb55ebe9cb13c58d59af3da3bd374b",
             "summary": "",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1831,7 +1831,7 @@
             "section": "firmware",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:51+0000"
+            "updated": "2023-07-25T02:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1854,7 +1854,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Detect if we are running in a virtual machine",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-07-25T02:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1877,7 +1877,7 @@
             "section": "base",
             "srcrev": "b3adb5fd1496833e4e2cebc958d3919178cd5e3d",
             "summary": "IRQ allocation daemon",
-            "updated": "2023-04-23T08:04:52+0000"
+            "updated": "2023-07-25T02:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1900,7 +1900,7 @@
             "section": "console/tools",
             "srcrev": "556c2e817c9cf23b675eb4eaa2dc091f7bb3039f",
             "summary": "Xen hypervisor tools",
-            "updated": "2023-06-25T01:06:02+0000"
+            "updated": "2023-07-25T02:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1923,7 +1923,7 @@
             "section": "console/tools",
             "srcrev": "7eef80e06ed2282bbcec3619d860c6aacb0515d8",
             "summary": "Xen hypervisor tools",
-            "updated": "2023-06-25T01:06:03+0000"
+            "updated": "2023-07-25T02:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1946,7 +1946,7 @@
             "section": "console/tools",
             "srcrev": "e4a5fb9227889bec99ab212b839680f4d5b51e60",
             "summary": "Xen hypervisor",
-            "updated": "2023-06-25T01:06:04+0000"
+            "updated": "2023-07-25T02:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1969,7 +1969,7 @@
             "section": "base",
             "srcrev": "3e800027016ea4eb19887bf626b46f45fc43fa5d",
             "summary": "Xen Test Framework",
-            "updated": "2023-06-25T01:06:04+0000"
+            "updated": "2023-07-25T02:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1992,7 +1992,7 @@
             "section": "console/tools",
             "srcrev": "556c2e817c9cf23b675eb4eaa2dc091f7bb3039f",
             "summary": "Xen hypervisor",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-07-25T02:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2015,7 +2015,7 @@
             "section": "console/tools",
             "srcrev": "e4a5fb9227889bec99ab212b839680f4d5b51e60",
             "summary": "Xen hypervisor",
-            "updated": "2023-06-25T01:06:04+0000"
+            "updated": "2023-07-25T02:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2038,7 +2038,7 @@
             "section": "console/tools",
             "srcrev": "e4a5fb9227889bec99ab212b839680f4d5b51e60",
             "summary": "Xen hypervisor tools",
-            "updated": "2023-06-25T01:06:03+0000"
+            "updated": "2023-07-25T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2061,7 +2061,7 @@
             "section": "base",
             "srcrev": "c0c07d218b482dd07f9068b52a6e7468ae4172ac",
             "summary": "The tiny Init service for HyperContainer",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-07-25T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2084,7 +2084,7 @@
             "section": "base",
             "srcrev": "51592ea406f48faeccab288f65dcba6c4a67cd90",
             "summary": "FUSE implementation of overlayfs.",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-07-25T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2107,7 +2107,7 @@
             "section": "console/network",
             "srcrev": "0ea3fe3d829b5085307cd27a512708d99ef48199",
             "summary": "Diod is a user space server for the kernel v9fs client.",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-07-25T02:07:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2130,7 +2130,7 @@
             "section": "console/tools",
             "srcrev": "e254e0b19651d3b8a20225b40281c9974a95dec4",
             "summary": "",
-            "updated": "2023-04-23T08:04:54+0000"
+            "updated": "2023-07-25T02:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2153,13 +2153,13 @@
             "section": "console/tools",
             "srcrev": "41600b602815a9c42620cd5a96c5b88739fc6d9b",
             "summary": "",
-            "updated": "2023-06-25T01:06:01+0000"
+            "updated": "2023-07-25T02:07:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_MANPAGE=OFF                  -DWITH_FUSE=OFF                  -DWITH_SPDK=OFF                  -DWITH_LEVELDB=OFF                  -DWITH_LTTNG=OFF                  -DWITH_BABELTRACE=OFF                  -DWITH_TESTS=OFF                  -DWITH_MGR=OFF                  -DWITH_MGR_DASHBOARD_FRONTEND=OFF                  -DWITH_SYSTEM_BOOST=ON                  -DWITH_SYSTEM_ROCKSDB=ON                  -DWITH_RDMA=OFF                  -DWITH_RADOSGW_AMQP_ENDPOINT=OFF                  -DPYTHON_INSTALL_DIR=/usr/lib/python3.11/site-packages -DPYTHON_DESIRED=3                  -DPython3_EXECUTABLE=/tmp/tmptn7x884l/tmp-glibc/work/core2-32-oe-linux/ceph/15.2.15-r0/recipe-sysroot-native/usr/bin/python3-native/python3                  -DWITH_RADOSGW_KAFKA_ENDPOINT=OFF                  -DWITH_REENTRANT_STRSIGNAL=ON  ",
+            "configopts": "-DWITH_MANPAGE=OFF                  -DWITH_FUSE=OFF                  -DWITH_SPDK=OFF                  -DWITH_LEVELDB=OFF                  -DWITH_LTTNG=OFF                  -DWITH_BABELTRACE=OFF                  -DWITH_TESTS=OFF                  -DWITH_MGR=OFF                  -DWITH_MGR_DASHBOARD_FRONTEND=OFF                  -DWITH_SYSTEM_BOOST=ON                  -DWITH_SYSTEM_ROCKSDB=ON                  -DWITH_RDMA=OFF                  -DWITH_RADOSGW_AMQP_ENDPOINT=OFF                  -DPYTHON_INSTALL_DIR=/usr/lib/python3.11/site-packages -DPYTHON_DESIRED=3                  -DPython3_EXECUTABLE=/tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/ceph/15.2.15-r0/recipe-sysroot-native/usr/bin/python3-native/python3                  -DWITH_RADOSGW_KAFKA_ENDPOINT=OFF                  -DWITH_REENTRANT_STRSIGNAL=ON  ",
             "description": "",
             "filename": "ceph_15.2.15.bb",
             "filepath": "recipes-extended/ceph",
@@ -2176,7 +2176,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "User space components of the Ceph file system",
-            "updated": "2023-06-25T01:06:00+0000"
+            "updated": "2023-07-25T02:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2199,7 +2199,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic container image",
-            "updated": "2023-04-23T08:04:54+0000"
+            "updated": "2023-07-25T02:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2222,7 +2222,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:54+0000"
+            "updated": "2023-07-25T02:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2245,7 +2245,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-07-25T02:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2268,7 +2268,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:00+0000"
+            "updated": "2023-07-25T02:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2291,7 +2291,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-07-25T02:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2314,7 +2314,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-07-25T02:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2337,7 +2337,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-07-25T02:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2360,7 +2360,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:55+0000"
+            "updated": "2023-07-25T02:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2383,7 +2383,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-07-25T02:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2406,7 +2406,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-07-25T02:07:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -2429,7 +2429,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Ultimate executable compressor.",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-07-25T02:07:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -2452,7 +2452,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Data compression library",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-07-25T02:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2475,7 +2475,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-07-25T02:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2498,13 +2498,13 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:56+0000"
+            "updated": "2023-07-25T02:07:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-nsca-user=nagios                  --with-nsca-grp=nagios                  --with-libmcrypt-prefix=/tmp/tmp225m5lee/tmp-glibc/work/core2-32-oe-linux/nagios-nsca/2.9.2-r0/recipe-sysroot                  ac_cv_path_LIBMCRYPT_CONFIG=/tmp/tmp225m5lee/tmp-glibc/work/core2-32-oe-linux/nagios-nsca/2.9.2-r0/recipe-sysroot/usr/bin/crossscripts/libmcrypt-config                  ac_cv_lib_wrap_main=no                  ac_cv_path_PERL=/usr/bin/perl  ",
+            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-nsca-user=nagios                  --with-nsca-grp=nagios                  --with-libmcrypt-prefix=/tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/nagios-nsca/2.9.2-r0/recipe-sysroot                  ac_cv_path_LIBMCRYPT_CONFIG=/tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/nagios-nsca/2.9.2-r0/recipe-sysroot/usr/bin/crossscripts/libmcrypt-config                  ac_cv_lib_wrap_main=no                  ac_cv_path_PERL=/usr/bin/perl  ",
             "description": "Nagios Service Check Acceptor",
             "filename": "nagios-nsca_2.9.2.bb",
             "filepath": "recipes-extended/nagios",
@@ -2521,13 +2521,13 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:57+0000"
+            "updated": "2023-07-25T02:07:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-sysroot=/tmp/tmp225m5lee/tmp-glibc/work/core2-32-oe-linux/nagios-plugins/2.2.1-r0/recipe-sysroot                  --with-nagios-user=nagios                  --with-nagios-group=nagios                  --without-apt-get-command                  --with-trusted-path=/bin:/sbin:/usr/bin:/usr/sbin                  ac_cv_path_PERL=/usr/bin/perl   --with-gnutls=/tmp/tmp225m5lee/tmp-glibc/work/core2-32-oe-linux/nagios-plugins/2.2.1-r0/recipe-sysroot --without-ipv6 --without-ldap --without-mysql --without-pgsql      --without-snmpget-command --without-snmpgetnext-command --with-openssl=/tmp/tmp225m5lee/tmp-glibc/work/core2-32-oe-linux/nagios-plugins/2.2.1-r0/recipe-sysroot --enable-nls",
+            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-sysroot=/tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/nagios-plugins/2.2.1-r0/recipe-sysroot                  --with-nagios-user=nagios                  --with-nagios-group=nagios                  --without-apt-get-command                  --with-trusted-path=/bin:/sbin:/usr/bin:/usr/sbin                  ac_cv_path_PERL=/usr/bin/perl   --with-gnutls=/tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/nagios-plugins/2.2.1-r0/recipe-sysroot --without-ipv6 --without-ldap --without-mysql --without-pgsql      --without-snmpget-command --without-snmpgetnext-command --with-openssl=/tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/nagios-plugins/2.2.1-r0/recipe-sysroot --enable-nls",
             "description": "A host/service/network monitoring and management system plugins",
             "filename": "nagios-plugins_2.2.1.bb",
             "filepath": "recipes-extended/nagios",
@@ -2544,13 +2544,13 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:57+0000"
+            "updated": "2023-07-25T02:07:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --cross-file /tmp/tmptn7x884l/tmp-glibc/work/core2-32-oe-linux/libvirt/9.2.0-r0/meson-libvirt.cross      -Dinit_script=none     -Drunstatedir=/run     -Dtests=enabled        -Dapparmor_profiles=disabled -Daudit=disabled -Ddtrace=disabled -Ddriver_esx=enabled -Dfirewalld=enabled -Dfuse=enabled -Ddriver_hyperv=disabled -Dcapng=disabled -Dlibpcap=enabled -Ddriver_libvirtd=enabled -Ddriver_libxl=disabled -Ddriver_lxc=enabled -Dnetcf=enabled -Dnumactl=disabled  -Dnumad=disabled -Ddriver_openvz=enabled -Dpolkit=disabled -Ddriver_qemu=enabled -Dqemu_user=qemu -Dqemu_group=qemu -Ddriver_remote=enabled -Dsasl=disabled -Dselinux=disabled -Ddriver_test=enabled -Dudev=enabled -Dpciaccess=enabled -Ddriver_vbox=enabled -Ddriver_vmware=enabled -Dwireshark_dissector=disabled -Dyajl=enabled",
+            "configopts": " --cross-file /tmp/tmpf7_xkydx/tmp-glibc/work/core2-32-oe-linux/libvirt/9.2.0-r0/meson-libvirt.cross      -Dinit_script=none     -Drunstatedir=/run     -Dtests=enabled        -Dapparmor_profiles=disabled -Daudit=disabled -Ddtrace=disabled -Ddriver_esx=enabled -Dfirewalld=enabled -Dfuse=enabled -Ddriver_hyperv=disabled -Dcapng=disabled -Dlibpcap=enabled -Ddriver_libvirtd=enabled -Ddriver_libxl=disabled -Ddriver_lxc=enabled -Dnetcf=enabled -Dnumactl=disabled  -Dnumad=disabled -Ddriver_openvz=enabled -Dpolkit=disabled -Ddriver_qemu=enabled -Dqemu_user=qemu -Dqemu_group=qemu -Ddriver_remote=enabled -Dsasl=disabled -Dselinux=disabled -Ddriver_test=enabled -Dudev=enabled -Dpciaccess=enabled -Ddriver_vbox=enabled -Ddriver_vmware=enabled -Dwireshark_dissector=disabled -Dyajl=enabled",
             "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux.",
             "filename": "libvirt_9.2.0.bb",
             "filepath": "recipes-extended/libvirt",
@@ -2567,7 +2567,7 @@
             "section": "console/tools",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:01+0000"
+            "updated": "2023-07-25T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2590,7 +2590,7 @@
             "section": "base",
             "srcrev": "e0bfc34682744a74b850fa217e9c206a9eb80612",
             "summary": "",
-            "updated": "2023-04-23T08:04:57+0000"
+            "updated": "2023-07-25T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2613,7 +2613,7 @@
             "section": "base",
             "srcrev": "6b23764a1439f9d08b2ed2f363da522460d8a22b",
             "summary": "Xvisor is an open-source type-1 hypervisor, which aims at providing a monolithic, light-weight, portable, and flexible virtualization solution.",
-            "updated": "2023-04-23T08:04:57+0000"
+            "updated": "2023-07-25T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2636,7 +2636,7 @@
             "section": "devel/python",
             "srcrev": "e02c4607923af64311c70ae9a06d6794355e9a61",
             "summary": "",
-            "updated": "2023-06-25T01:06:00+0000"
+            "updated": "2023-07-25T02:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2659,7 +2659,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "uXen type-2 Open Source hypervisor Linux guest tools",
-            "updated": "2023-04-23T08:04:57+0000"
+            "updated": "2023-07-25T02:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2682,7 +2682,7 @@
             "section": "base",
             "srcrev": "1e99e5e4f409da91638eb79067ec738994c28ef5",
             "summary": "Virtual Machine Viewer",
-            "updated": "2023-04-23T08:04:57+0000"
+            "updated": "2023-07-25T02:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2705,7 +2705,7 @@
             "section": "base",
             "srcrev": "336751fb10ef24e65cd2f25c450da1d52ff5b33c",
             "summary": "Native Linux KVM tool",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2728,7 +2728,7 @@
             "section": "libs/devel",
             "srcrev": "",
             "summary": "Support InfiniBand verbs",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2751,7 +2751,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic Application container image",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2774,7 +2774,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Curl Application container image",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2797,7 +2797,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2820,7 +2820,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot script for Xen on Raspberry Pi 4",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2843,7 +2843,7 @@
             "section": "bootloader",
             "srcrev": "9159040dab25e2f1e7b447fcbfcd5397b1d618e8",
             "summary": "Device Tree Lopper",
-            "updated": "2023-04-23T08:04:58+0000"
+            "updated": "2023-07-25T02:07:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2866,7 +2866,7 @@
             "section": "bootloader",
             "srcrev": "c001fc01a43e7a06447c06ea3d50bd60641322b8",
             "summary": "Python Library for the Device Tree Compiler",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2889,7 +2889,7 @@
             "section": "devel",
             "srcrev": "25509cd5563356638e78d33ec7e5354225fbd3db",
             "summary": "Kernel configuration fragments",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2912,7 +2912,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "runx stuff",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2935,7 +2935,7 @@
             "section": "base",
             "srcrev": "1148847739f9a9f47b92e34e4f309dc109d4dba9",
             "summary": "",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2958,7 +2958,7 @@
             "section": "base",
             "srcrev": "e03f7d7453fabffb17e1540f28666c26178d3cbf",
             "summary": "",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2981,7 +2981,7 @@
             "section": "base",
             "srcrev": "04c77eb20e9bd603cab5c711bcbe7c69db58b040",
             "summary": "",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3004,7 +3004,7 @@
             "section": "base",
             "srcrev": "bcc35aeca3ef6fa0976005c9e93525906aefed2f",
             "summary": "",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3027,7 +3027,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Hypervisor-based Runtime for OCI",
-            "updated": "2023-04-23T08:04:59+0000"
+            "updated": "2023-07-25T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3050,7 +3050,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2023-04-23T08:04:00+0000"
+            "updated": "2023-07-25T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3073,7 +3073,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "packagegroups for various kubernets (and variants) roles",
-            "updated": "2023-04-23T08:04:00+0000"
+            "updated": "2023-07-25T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3096,7 +3096,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "All packages for container host",
-            "updated": "2023-04-23T08:04:00+0000"
+            "updated": "2023-07-25T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3115,11 +3115,11 @@
             "pn": "busybox-initrd",
             "pr": "r0",
             "provides": "busybox-initrd ",
-            "pv": "1.36.0",
+            "pv": "1.36.1",
             "section": "base",
             "srcrev": "",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-07-25T02:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3142,7 +3142,7 @@
             "section": "console/utils",
             "srcrev": "727adc05220e9b8b594c5bc2124bef5b2e0abe7a",
             "summary": "",
-            "updated": "2023-06-25T01:06:55+0000"
+            "updated": "2023-07-25T02:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3165,7 +3165,7 @@
             "section": "devel/go",
             "srcrev": "65fac7b55eb714642e9359458656939349dcb766",
             "summary": "",
-            "updated": "2023-06-25T01:06:48+0000"
+            "updated": "2023-07-25T02:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3188,7 +3188,7 @@
             "section": "base",
             "srcrev": "90cccc1c21f26fbc473a201ce3b30d77667c7635",
             "summary": "A container network stack",
-            "updated": "2023-06-25T01:06:05+0000"
+            "updated": "2023-07-25T02:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3211,7 +3211,7 @@
             "section": "base",
             "srcrev": "d8d72fea155c144ed3bf298a35a1aba5625a5656",
             "summary": "A container init that is so simple it's effectively brain-dead.",
-            "updated": "2023-04-23T08:04:01+0000"
+            "updated": "2023-07-25T02:07:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -3234,7 +3234,7 @@
             "section": "base",
             "srcrev": "b9f42a0e7bb46efea0c9e3d8610c96ab53b467f8",
             "summary": "Minimal init for containers",
-            "updated": "2023-04-23T08:04:01+0000"
+            "updated": "2023-07-25T02:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3257,7 +3257,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux container runtime",
-            "updated": "2023-06-06T02:06:10+0000"
+            "updated": "2023-07-25T02:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3280,7 +3280,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux container runtime",
-            "updated": "2023-06-06T02:06:10+0000"
+            "updated": "2023-07-25T02:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3303,7 +3303,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:46+0000"
+            "updated": "2023-07-25T02:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3326,7 +3326,7 @@
             "section": "base",
             "srcrev": "24ec539932580a6bc96d6eb2341141b6d7198b39",
             "summary": "",
-            "updated": "2023-04-23T08:04:02+0000"
+            "updated": "2023-07-25T02:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3349,7 +3349,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Multi-container orchestration for Docker",
-            "updated": "2023-06-25T01:06:48+0000"
+            "updated": "2023-07-25T02:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -3372,7 +3372,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Multi-container orchestration for Docker",
-            "updated": "2023-04-23T08:04:02+0000"
+            "updated": "2023-07-25T02:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3395,7 +3395,7 @@
             "section": "base",
             "srcrev": "74afe26887f814d1c39925a1624851ef3590e79c",
             "summary": "A daemonless container engine",
-            "updated": "2023-06-14T20:06:36+0000"
+            "updated": "2023-07-25T02:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3418,7 +3418,7 @@
             "section": "base",
             "srcrev": "6172f29f980ade93adf85627329cc65b309c6f08",
             "summary": "A daemonless container engine",
-            "updated": "2023-06-25T01:06:58+0000"
+            "updated": "2023-07-25T02:07:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3441,7 +3441,7 @@
             "section": "base",
             "srcrev": "4015e49763e5a738026a5bbfcf32b38b5a4fa650",
             "summary": "A simple CLI tool for packing rootfs into a single-layer OCI image",
-            "updated": "2023-04-23T08:04:03+0000"
+            "updated": "2023-07-25T02:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3464,7 +3464,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2023-06-25T01:06:54+0000"
+            "updated": "2023-07-25T02:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3487,7 +3487,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2023-06-27T21:06:54+0000"
+            "updated": "2023-07-25T02:07:27+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -3510,7 +3510,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2023-06-25T01:06:55+0000"
+            "updated": "2023-07-25T02:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3533,7 +3533,7 @@
             "section": "base",
             "srcrev": "0105384f68e16803891d0a17d9067b1def6a2778",
             "summary": "oci-runtime-tool is a collection of tools for working with the OCI runtime specification",
-            "updated": "2023-04-23T08:04:05+0000"
+            "updated": "2023-07-25T02:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3556,7 +3556,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A tool that facilitates building OCI container images.",
-            "updated": "2023-06-25T01:06:45+0000"
+            "updated": "2023-07-25T02:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3579,7 +3579,7 @@
             "section": "base",
             "srcrev": "23befa0b232877b5b502b828e24161d801bd67f6",
             "summary": "Convert `docker inspect` to opencontainers (OCI compatible) runc spec.",
-            "updated": "2023-04-23T08:04:06+0000"
+            "updated": "2023-07-25T02:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3602,7 +3602,7 @@
             "section": "base",
             "srcrev": "b6109acd4d81e8a33dd07d94e6a7f9c706d8356c",
             "summary": "runc container cli tools",
-            "updated": "2023-06-25T01:06:58+0000"
+            "updated": "2023-07-25T02:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3625,7 +3625,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "runc container cli tools",
-            "updated": "2023-06-25T01:06:58+0000"
+            "updated": "2023-07-25T02:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3648,7 +3648,7 @@
             "section": "devel/go",
             "srcrev": "7ceeb8af52593e37d8ef28bd350f50044b7adf1d",
             "summary": "",
-            "updated": "2023-04-23T08:04:06+0000"
+            "updated": "2023-07-25T02:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3671,7 +3671,7 @@
             "section": "devel/go",
             "srcrev": "02efb9a75ee11e05937b535cc5f228f9343ab2f5",
             "summary": "",
-            "updated": "2023-04-23T08:04:06+0000"
+            "updated": "2023-07-25T02:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3694,7 +3694,7 @@
             "section": "devel/go",
             "srcrev": "4dd4b25de38418174a6e859e8a32eaccca32dccc",
             "summary": "",
-            "updated": "2023-06-25T01:06:48+0000"
+            "updated": "2023-07-25T02:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3717,7 +3717,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "CLI and validation tools for Kubelet Container Runtime Interface (CRI)",
-            "updated": "2023-06-25T01:06:46+0000"
+            "updated": "2023-07-25T02:07:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3740,7 +3740,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration Package for container hosts",
-            "updated": "2023-06-14T20:06:36+0000"
+            "updated": "2023-07-25T02:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3763,7 +3763,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "LXCFS is a userspace filesystem created to avoid kernel limitations",
-            "updated": "2023-06-25T01:06:55+0000"
+            "updated": "2023-07-25T02:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3786,7 +3786,7 @@
             "section": "base",
             "srcrev": "cb1a462dd8427e33355f6907394a0646f5a26bf2",
             "summary": "A container-focused DNS server",
-            "updated": "2023-06-25T01:06:06+0000"
+            "updated": "2023-07-25T02:07:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3809,7 +3809,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "umoci modifies Open Container images",
-            "updated": "2023-04-23T08:04:07+0000"
+            "updated": "2023-07-25T02:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3832,7 +3832,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface",
-            "updated": "2023-06-25T01:06:46+0000"
+            "updated": "2023-07-25T02:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3855,7 +3855,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "podman-tui is a Terminal User Interface to interact with podman",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-07-25T02:07:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3878,7 +3878,7 @@
             "section": "base",
             "srcrev": "d79588e6c1d2ff2053206a650adc1d30af591908",
             "summary": "Work with remote images registries - retrieving information, images, signing content",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-07-25T02:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3901,7 +3901,7 @@
             "section": "console/tools",
             "srcrev": "d46f40f4ff0c724e0b9f0f8a2e8c043806897e94",
             "summary": "CRIU",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3924,7 +3924,7 @@
             "section": "base",
             "srcrev": "835383b17f302b1c855ec9dd378bd045c073e001",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2023-06-25T01:06:45+0000"
+            "updated": "2023-07-25T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3947,7 +3947,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Light-weight package to set up cgroups at system boot.",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3970,7 +3970,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The Docker toolset to pack, ship, store, and deliver content",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3993,7 +3993,7 @@
             "section": "base",
             "srcrev": "11f9988298305d36f64248a6ee55318e60bf170b",
             "summary": "A collection of tools for working with the OCI image format specification",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4016,7 +4016,7 @@
             "section": "devel/go",
             "srcrev": "5dd12d0cfe7f152f80558d591504ce685299311e",
             "summary": "",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4039,7 +4039,7 @@
             "section": "base",
             "srcrev": "e214d4ebf0a1274b1c63b095fd55ae61c7e92947",
             "summary": "",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4062,7 +4062,7 @@
             "section": "devel/go",
             "srcrev": "d5e0c0615acee7028e1e2740a11102313be88de1",
             "summary": "",
-            "updated": "2023-04-23T08:04:08+0000"
+            "updated": "2023-07-25T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4085,7 +4085,7 @@
             "section": "console/utils",
             "srcrev": "05e692346ca73e022754332a7da641230dae2ffe",
             "summary": "",
-            "updated": "2023-04-23T08:04:09+0000"
+            "updated": "2023-07-25T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4108,7 +4108,7 @@
             "section": "console/utils",
             "srcrev": "9a3af8f438d89ffc176f3c76c164088e64bb6b19",
             "summary": "An OCI container runtime monitor",
-            "updated": "2023-06-25T01:06:45+0000"
+            "updated": "2023-07-25T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -4131,7 +4131,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Docker-compatible CLI for containerd",
-            "updated": "2023-04-23T08:04:09+0000"
+            "updated": "2023-07-25T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -4154,7 +4154,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Docker-compatible CLI for containerd",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-07-25T02:07:38+0000"
         }
     ],
     "wrtemplates": []

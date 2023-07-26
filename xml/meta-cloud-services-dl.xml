@@ -1,1 +1,0 @@
-    <project name="github.com.ansible.ansible" remote="base" path="layers/wrlinux-src-dl/git/github.com.ansible.ansible.git" bare="True" />

@@ -487,38 +487,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-07-11T00:07:10+0000",
+            "updated": "2023-07-25T00:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-10T07:07:31+0000",
-            "vcs_last_commit": "2023-07-10T06:07:05+0000",
-            "vcs_last_fetch": "2023-07-10T07:07:31+0000",
-            "vcs_last_rev": "10c10189c6e2114f9d055fe2551f6fed90773caa",
+            "updated": "2023-07-25T12:07:39+0000",
+            "vcs_last_commit": "2023-07-25T09:07:44+0000",
+            "vcs_last_fetch": "2023-07-25T12:07:39+0000",
+            "vcs_last_rev": "c2cc4f00f242276692d4dac7b8d2a27ba8b3df76",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-06-27T19:06:42+0000",
-            "vcs_last_commit": "2023-06-27T18:06:31+0000",
-            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
-            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
+            "updated": "2023-07-17T20:07:39+0000",
+            "vcs_last_commit": "2023-07-17T19:07:29+0000",
+            "vcs_last_fetch": "2023-07-17T20:07:39+0000",
+            "vcs_last_rev": "c747f099ba9e51189b73b2a1949761945940d89a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -2809,7 +2809,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2023-04-23T01:04:56+0000"
+            "updated": "2023-07-11T22:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7461,7 +7461,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp_9mvl3jb/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp_9mvl3jb/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp_9mvl3jb/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp_9mvl3jb/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/recipe-sysroot/usr/lib/python3.11/site-packages/numpy/core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp93dlpt16/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp93dlpt16/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp93dlpt16/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp93dlpt16/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0-r0/recipe-sysroot/usr/lib/python3.11/site-packages/numpy/core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
             "description": "",
             "filename": "opencv_4.7.0.bb",
             "filepath": "recipes-support/opencv",
@@ -7478,7 +7478,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2023-04-23T01:04:41+0000"
+            "updated": "2023-07-13T20:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -8398,7 +8398,7 @@
             "section": "libs",
             "srcrev": "fddf01938d3789e06cc1c3774e4cd0c7d2a89976",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2023-04-23T01:04:51+0000"
+            "updated": "2023-07-13T20:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -8720,7 +8720,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "FLTK is a cross-platform C++ GUI toolkit",
-            "updated": "2023-04-23T01:04:54+0000"
+            "updated": "2023-07-12T01:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -9479,7 +9479,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:37+0000"
+            "updated": "2023-07-13T20:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -9525,7 +9525,7 @@
             "section": "devel",
             "srcrev": "0d6e3307bbdb8df4d56043d5f373eeeffe4cbef3",
             "summary": "The GNU portability library",
-            "updated": "2023-06-25T01:06:24+0000"
+            "updated": "2023-07-17T20:07:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10192,7 +10192,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2023-06-25T01:06:39+0000"
+            "updated": "2023-07-17T14:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -10215,7 +10215,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2023-04-23T01:04:09+0000"
+            "updated": "2023-07-17T14:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -10836,7 +10836,7 @@
             "section": "System Environment/Libraries",
             "srcrev": "",
             "summary": "GObject-based XIM protocol library",
-            "updated": "2023-04-23T01:04:15+0000"
+            "updated": "2023-07-13T20:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -12337,7 +12337,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-ncurses                 --disable-rpath-hack  --with-x --x-includes=/tmp/tmp_9mvl3jb/tmp-glibc/work/core2-32-oe-linux/dialog/1.3-20210509-r0/recipe-sysroot/usr/include --x-libraries=/tmp/tmp_9mvl3jb/tmp-glibc/work/core2-32-oe-linux/dialog/1.3-20210509-r0/recipe-sysroot/usr/lib",
+            "configopts": "--with-ncurses                 --disable-rpath-hack  --with-x --x-includes=/tmp/tmp6yvsluks/tmp-glibc/work/core2-32-oe-linux/dialog/1.3-20210509-r0/recipe-sysroot/usr/include --x-libraries=/tmp/tmp6yvsluks/tmp-glibc/work/core2-32-oe-linux/dialog/1.3-20210509-r0/recipe-sysroot/usr/lib",
             "description": "Dialog lets you to present a variety of questions or display messages using dialog boxes from a shell script (or any scripting language).",
             "filename": "dialog_1.3-20210509.bb",
             "filepath": "recipes-extended/dialog",
@@ -12354,7 +12354,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "display dialog boxes from shell scripts",
-            "updated": "2023-04-23T01:04:28+0000"
+            "updated": "2023-07-17T20:07:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12515,7 +12515,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2023-06-25T01:06:33+0000"
+            "updated": "2023-07-13T20:07:22+0000"
         },
         {
             "bbclassextend": "",

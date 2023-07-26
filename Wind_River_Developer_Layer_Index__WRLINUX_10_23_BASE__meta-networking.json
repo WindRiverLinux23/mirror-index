@@ -487,53 +487,53 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2023-07-11T00:07:10+0000",
+            "updated": "2023-07-25T00:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-10T07:07:31+0000",
-            "vcs_last_commit": "2023-07-10T06:07:05+0000",
-            "vcs_last_fetch": "2023-07-10T07:07:31+0000",
-            "vcs_last_rev": "10c10189c6e2114f9d055fe2551f6fed90773caa",
+            "updated": "2023-07-25T12:07:39+0000",
+            "vcs_last_commit": "2023-07-25T09:07:44+0000",
+            "vcs_last_fetch": "2023-07-25T12:07:39+0000",
+            "vcs_last_rev": "c2cc4f00f242276692d4dac7b8d2a27ba8b3df76",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-06-27T19:06:42+0000",
-            "vcs_last_commit": "2023-06-27T18:06:31+0000",
-            "vcs_last_fetch": "2023-06-27T19:06:42+0000",
-            "vcs_last_rev": "885134f8cf0a543994279c33b450e4e935788cf4",
+            "updated": "2023-07-17T20:07:39+0000",
+            "vcs_last_commit": "2023-07-17T19:07:29+0000",
+            "vcs_last_fetch": "2023-07-17T20:07:39+0000",
+            "vcs_last_rev": "c747f099ba9e51189b73b2a1949761945940d89a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230711",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-06-28T20:06:27+0000",
-            "vcs_last_commit": "2023-06-28T19:06:10+0000",
-            "vcs_last_fetch": "2023-06-28T20:06:27+0000",
-            "vcs_last_rev": "c732f01cf0ac676c0a46561c79fcca45ffa168fd",
+            "updated": "2023-07-21T10:07:50+0000",
+            "vcs_last_commit": "2023-07-21T08:07:25+0000",
+            "vcs_last_fetch": "2023-07-21T10:07:50+0000",
+            "vcs_last_rev": "67047a14a496a0e1e348f36e4f32ba064b0640fe",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
@@ -917,9 +917,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmphhb208ge/tmp-glibc/work/core2-32-oe-linux/frr/8.4.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-fpm --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
+            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpsq5wbbok/tmp-glibc/work/core2-32-oe-linux/frr/8.4.4-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-fpm --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
             "description": "FRRouting is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.",
-            "filename": "frr_8.4.2.bb",
+            "filename": "frr_8.4.4.bb",
             "filepath": "recipes-protocols/frr",
             "homepage": "https://frrouting.org/",
             "id": 1761783,
@@ -930,11 +930,11 @@
             "pn": "frr",
             "pr": "r0",
             "provides": "frr ",
-            "pv": "8.4.2",
+            "pv": "8.4.4",
             "section": "net",
-            "srcrev": "62ac43de9f3bc470586cf4f51fadf013bf542b32",
+            "srcrev": "45e36c0c00a517ad1606135b18c5753e210cfc0d",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-07-11T22:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1923,7 +1923,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-07-13T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2021,9 +2021,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libpcap=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.3-r0/recipe-sysroot/usr ",
+            "configopts": " --with-libpcap=/tmp/tmpsq5wbbok/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.4-r0/recipe-sysroot/usr ",
             "description": "",
-            "filename": "tcpreplay_4.4.3.bb",
+            "filename": "tcpreplay_4.4.4.bb",
             "filepath": "recipes-support/tcpreplay",
             "homepage": "https://tcpreplay.appneta.com/",
             "id": 1761831,
@@ -2034,11 +2034,11 @@
             "pn": "tcpreplay",
             "pr": "r0",
             "provides": "tcpreplay ",
-            "pv": "4.4.3",
+            "pv": "4.4.4",
             "section": "net",
             "srcrev": "",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-07-11T22:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2299,7 +2299,7 @@
             "bugtracker": "",
             "configopts": "  --without-cap-ng --with-crypto --disable-smb --without-smi",
             "description": "",
-            "filename": "tcpdump_4.99.3.bb",
+            "filename": "tcpdump_4.99.4.bb",
             "filepath": "recipes-support/tcpdump",
             "homepage": "http://www.tcpdump.org/",
             "id": 1761843,
@@ -2310,11 +2310,11 @@
             "pn": "tcpdump",
             "pr": "r0",
             "provides": "tcpdump ",
-            "pv": "4.99.3",
+            "pv": "4.99.4",
             "section": "net",
             "srcrev": "",
             "summary": "A sophisticated network protocol analyzer",
-            "updated": "2023-04-23T08:04:43+0000"
+            "updated": "2023-07-21T10:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3815,7 +3815,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --enable-nls",
+            "configopts": "  --without-systemdsystemunitdir --enable-nls",
             "description": "a graphical user interface that allows the user to change print settings",
             "filename": "system-config-printer_1.5.18.bb",
             "filepath": "dynamic-layers/meta-python/recipes-printing/system-config-printer",
@@ -3832,7 +3832,7 @@
             "section": "base",
             "srcrev": "895d3dec50c93bfd4f142bac9bfcc13051bf84cb",
             "summary": "",
-            "updated": "2023-04-23T08:04:53+0000"
+            "updated": "2023-07-13T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -4988,13 +4988,13 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --enable-gre     --enable-linux-smp-stats     --enable-reload     --enable-reload-error-restart     --enable-targetbased     --enable-static-daq     --with-dnet-includes=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include     --with-dnet-libraries=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib     --with-libpcre-includes=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include     --with-libpcre-libraries=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib     --with-daq-includes=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include     --with-daq-libraries=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib    --disable-open-appid --with-lzma-includes=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include --with-lzma-libraries=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib --with-openssl-includes=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include --with-openssl-libraries=/tmp/tmpl9bl3kjr/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib --enable-nls",
+            "configopts": "     --enable-gre     --enable-linux-smp-stats     --enable-reload     --enable-reload-error-restart     --enable-targetbased     --enable-static-daq     --with-dnet-includes=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include     --with-dnet-libraries=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib     --with-libpcre-includes=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include     --with-libpcre-libraries=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib     --with-daq-includes=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include     --with-daq-libraries=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib    --disable-open-appid --with-lzma-includes=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include --with-lzma-libraries=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib --with-openssl-includes=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/include --with-openssl-libraries=/tmp/tmp6k93h7dh/tmp-glibc/work/core2-32-oe-linux/snort/2.9.20-r0/recipe-sysroot/usr/lib --enable-nls",
             "description": "snort - a free lightweight network intrusion detection system for UNIX and Windows.",
             "filename": "snort_2.9.20.bb",
             "filepath": "recipes-connectivity/snort",
             "homepage": "http://www.snort.org/",
             "id": 1761960,
-            "inherits": "autotools gettext pkgconfig siteconfig siteinfo update-rc.d",
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 942646,
             "license": "GPL-2.0-only",
             "pe": "",
@@ -5005,7 +5005,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:02+0000"
+            "updated": "2023-07-12T03:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -5051,7 +5051,7 @@
             "section": "libs",
             "srcrev": "1873d3bfc2da771672bd8e7e8f41f57e0af77f33",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2023-06-28T20:06:27+0000"
+            "updated": "2023-07-13T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -5512,6 +5512,29 @@
             "srcrev": "",
             "summary": "Tool for getting the date/time from a remote machine.",
             "updated": "2023-04-23T08:04:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DINSTALL_LIB_DIR:PATH=lib                  -DINSTALL_CMAKE_DIR:PATH=lib/cmake/vsomeip3                  -DCMAKE_CXX_STANDARD=14                  -DTEST_IP_MASTER=10.0.3.1                   -DTEST_IP_SLAVE=10.0.3.2                   -DTEST_IP_SLAVE_SECOND=10.0.3.3                   ",
+            "description": "The vsomeip stack implements the http://some-ip.com/ (Scalable service-Oriented MiddlewarE over IP (SOME/IP)) protocol.",
+            "filename": "vsomeip_3.1.20.3.bb",
+            "filepath": "recipes-protocols/vsomeip",
+            "homepage": "https://github.com/COVESA/vsomeip",
+            "id": 1829523,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 942646,
+            "license": "MPL-2.0",
+            "pe": "",
+            "pn": "vsomeip",
+            "pr": "r0",
+            "provides": "vsomeip ",
+            "pv": "3.1.20.3",
+            "section": "net",
+            "srcrev": "13f9c89ced6ffaeb1faf485152e27e1f40d234cd",
+            "summary": "The implementation of SOME/IP",
+            "updated": "2023-07-17T02:07:32+0000"
         }
     ],
     "wrtemplates": []
