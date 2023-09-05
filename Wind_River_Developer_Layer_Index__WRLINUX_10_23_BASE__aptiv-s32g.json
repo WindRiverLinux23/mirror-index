@@ -485,25 +485,25 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -515,10 +515,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-07-25T21:07:56+0000",
-            "vcs_last_commit": "2023-07-25T21:07:43+0000",
-            "vcs_last_fetch": "2023-07-25T21:07:56+0000",
-            "vcs_last_rev": "d3fb93a0c3997d9c4bb5b92f1f9e6c307b574786",
+            "updated": "2023-09-04T12:09:39+0000",
+            "vcs_last_commit": "2023-09-04T11:09:20+0000",
+            "vcs_last_fetch": "2023-09-04T12:09:39+0000",
+            "vcs_last_rev": "650365632d71c72abe8c9c95409ccb615066e330",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -530,9 +530,9 @@
             "id": 946272,
             "layer": 439,
             "local_path": "",
-            "updated": "2023-07-17T00:07:53+0000",
+            "updated": "2023-08-09T21:08:09+0000",
             "vcs_last_commit": "2023-07-16T20:07:41+0000",
-            "vcs_last_fetch": "2023-07-17T00:07:53+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:09+0000",
             "vcs_last_rev": "2dbcfd03119c7404bb2ded00b2f22965016c56c5",
             "vcs_subdir": "",
             "version": "1",
@@ -545,9 +545,9 @@
             "id": 946273,
             "layer": 441,
             "local_path": "",
-            "updated": "2023-07-21T01:07:36+0000",
+            "updated": "2023-08-09T21:08:18+0000",
             "vcs_last_commit": "2023-07-21T00:07:20+0000",
-            "vcs_last_fetch": "2023-07-21T01:07:36+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:18+0000",
             "vcs_last_rev": "debda09727c8b5d7a2af88ef2e6c8c7ae958a831",
             "vcs_subdir": "",
             "version": "1",
@@ -655,10 +655,10 @@
     "machines": [
         {
             "description": " Aptiv CVC-FL board",
-            "id": 66981,
+            "id": 75491,
             "layerbranch": 946273,
             "name": "aptiv-cvc-fl",
-            "updated": "2023-06-15T00:06:39+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         }
     ],
     "recipes": [
@@ -683,7 +683,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-09T20:05:01+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -706,23 +706,23 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-09T20:05:01+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 104354,
+            "id": 108356,
             "layerbranch": 946273,
             "name": "feature/disable_flexcan3",
-            "updated": "2023-05-09T20:05:01+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "description": "",
-            "id": 104355,
+            "id": 108357,
             "layerbranch": 946273,
             "name": "default",
-            "updated": "2023-05-16T20:05:36+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         }
     ]
 }

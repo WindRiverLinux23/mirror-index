@@ -485,122 +485,122 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 12408,
+            "id": 13127,
             "layerbranch": 942650,
             "name": "anaconda",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:04+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-07-17T20:07:39+0000",
-            "vcs_last_commit": "2023-07-17T19:07:29+0000",
-            "vcs_last_fetch": "2023-07-17T20:07:39+0000",
-            "vcs_last_rev": "c747f099ba9e51189b73b2a1949761945940d89a",
+            "updated": "2023-08-29T20:08:00+0000",
+            "vcs_last_commit": "2023-08-27T20:08:07+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:00+0000",
+            "vcs_last_rev": "9e1469795d179b98dd44542fbe5f0739d42c2335",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-07-13T20:07:37+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-06-23T05:06:41+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:37+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:18+0000",
             "vcs_last_rev": "30b2c1c064dc9f3a9cf3c974e18e6f5c5c0c964e",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "meta-initramfs",
             "id": 942643,
             "layer": 4,
             "local_path": "",
-            "updated": "2023-07-13T20:07:13+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-04-09T08:04:55+0000",
-            "vcs_last_fetch": "2023-04-23T08:04:08+0000",
+            "vcs_last_fetch": "2023-08-09T20:08:14+0000",
             "vcs_last_rev": "2d89a469e5f6a209fdc50bf447cd645929e4b735",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "filesystems-layer",
             "id": 942644,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-07-13T20:07:13+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-05-16T04:05:12+0000",
-            "vcs_last_fetch": "2023-06-25T01:06:51+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:40+0000",
             "vcs_last_rev": "8fa3f9ae2caab563a953cd60ff35b2a028ebd4dd",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-07-21T10:07:50+0000",
-            "vcs_last_commit": "2023-07-21T08:07:25+0000",
-            "vcs_last_fetch": "2023-07-21T10:07:50+0000",
-            "vcs_last_rev": "67047a14a496a0e1e348f36e4f32ba064b0640fe",
+            "updated": "2023-08-29T20:08:06+0000",
+            "vcs_last_commit": "2023-08-29T20:08:04+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:06+0000",
+            "vcs_last_rev": "ca7ea82839005a79a2c4d7ab7d34ceba45fafe80",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "gnome-layer",
             "id": 942648,
             "layer": 15,
             "local_path": "",
-            "updated": "2023-07-13T20:07:13+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-05-28T13:05:58+0000",
-            "vcs_last_fetch": "2023-06-25T01:06:49+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:25+0000",
             "vcs_last_rev": "9e5e6faa1b90e095b57fc79b42f1557e7423a9a9",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -613,9 +613,9 @@
             "id": 942650,
             "layer": 235,
             "local_path": "",
-            "updated": "2023-06-25T01:06:41+0000",
+            "updated": "2023-08-09T21:08:04+0000",
             "vcs_last_commit": "2023-06-18T08:06:35+0000",
-            "vcs_last_fetch": "2023-06-25T01:06:41+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:04+0000",
             "vcs_last_rev": "6b9cdbbb4fd349b9ab5ac3a614daa3efe53daace",
             "vcs_subdir": "",
             "version": "2",
@@ -849,7 +849,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "GNOME keyboard library",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -872,7 +872,7 @@
             "section": "devel",
             "srcrev": "a8268944c8a6064697ccb4d24e52dc666ab03ed4",
             "summary": "ProductMD is a Python library providing parsers for metadatarelated to composes and installation media",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -895,7 +895,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -918,7 +918,7 @@
             "section": "devel",
             "srcrev": "1c21ffdeda9eed27e5ad8ec16aee467f8daecd50",
             "summary": "A text UI framework",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -941,7 +941,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -964,7 +964,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:15+0000"
+            "updated": "2023-08-09T21:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -976,7 +976,7 @@
             "filepath": "recipes-installer/images",
             "homepage": "",
             "id": 1762275,
-            "inherits": "anaconda_image core-image fs-uuid grub-efi grub-efi-cfg image image-artifact-names image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-p",
+            "inherits": "anaconda_image core-image fs-uuid image image-artifact-names image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk",
             "layerbranch": 942650,
             "license": "MIT",
             "pe": "",
@@ -987,7 +987,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:16+0000"
+            "updated": "2023-08-09T21:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1010,7 +1010,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:16+0000"
+            "updated": "2023-08-09T21:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1033,7 +1033,7 @@
             "section": "devel",
             "srcrev": "63b22fe4a7b2f98739279b2a4c6107eebd8d5a58",
             "summary": "Dasbus is a DBus library written in Python 3, based on GLib and inspired by pydbus.",
-            "updated": "2023-04-23T08:04:16+0000"
+            "updated": "2023-08-09T21:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1056,7 +1056,7 @@
             "section": "devel",
             "srcrev": "8c4148afc95b1e95a317e23f0e4cedbd9760ad7d",
             "summary": "The anaconda package",
-            "updated": "2023-04-23T08:04:16+0000"
+            "updated": "2023-08-09T21:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1079,7 +1079,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:16+0000"
+            "updated": "2023-08-09T21:08:04+0000"
         }
     ],
     "wrtemplates": []

@@ -485,25 +485,25 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -515,10 +515,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-07-25T21:07:56+0000",
-            "vcs_last_commit": "2023-07-25T21:07:43+0000",
-            "vcs_last_fetch": "2023-07-25T21:07:56+0000",
-            "vcs_last_rev": "d3fb93a0c3997d9c4bb5b92f1f9e6c307b574786",
+            "updated": "2023-09-04T12:09:39+0000",
+            "vcs_last_commit": "2023-09-04T11:09:20+0000",
+            "vcs_last_fetch": "2023-09-04T12:09:39+0000",
+            "vcs_last_rev": "650365632d71c72abe8c9c95409ccb615066e330",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -530,9 +530,9 @@
             "id": 946272,
             "layer": 439,
             "local_path": "",
-            "updated": "2023-07-17T00:07:53+0000",
+            "updated": "2023-08-09T21:08:09+0000",
             "vcs_last_commit": "2023-07-16T20:07:41+0000",
-            "vcs_last_fetch": "2023-07-17T00:07:53+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:09+0000",
             "vcs_last_rev": "2dbcfd03119c7404bb2ded00b2f22965016c56c5",
             "vcs_subdir": "",
             "version": "1",
@@ -621,10 +621,10 @@
     "machines": [
         {
             "description": " NXP S32G2/G3 SoC",
-            "id": 66980,
+            "id": 75490,
             "layerbranch": 946272,
             "name": "nxp-s32g",
-            "updated": "2023-06-19T20:06:55+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         }
     ],
     "recipes": [
@@ -649,7 +649,7 @@
             "section": "base",
             "srcrev": "f04e9e5a6c8ea3bf5962b5665b393fb89ebc31b8",
             "summary": "",
-            "updated": "2023-07-17T00:07:53+0000"
+            "updated": "2023-08-09T21:08:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -672,7 +672,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Pre-built Cortex-M7 toolchain",
-            "updated": "2023-05-09T20:05:53+0000"
+            "updated": "2023-08-09T21:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -695,7 +695,7 @@
             "section": "base",
             "srcrev": "39104f1b57cc40cb1e21042cfab01d25fde638ee",
             "summary": "Sample M7 Bootloader",
-            "updated": "2023-05-09T20:05:53+0000"
+            "updated": "2023-08-09T21:08:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -718,7 +718,7 @@
             "section": "bootloaders",
             "srcrev": "ec57ab5ab89c86df5749a67a3ef23e7fe28c87a5",
             "summary": "U-Boot bootloader tools",
-            "updated": "2023-06-13T07:06:35+0000"
+            "updated": "2023-08-09T21:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -741,7 +741,7 @@
             "section": "bootloaders",
             "srcrev": "ec57ab5ab89c86df5749a67a3ef23e7fe28c87a5",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-06-13T07:06:35+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -764,7 +764,7 @@
             "section": "base",
             "srcrev": "6bbd669a317fdc1965f83c3f0b9b3acff2ffc21b",
             "summary": "",
-            "updated": "2023-05-11T02:05:29+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +787,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-13T07:06:35+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -810,7 +810,7 @@
             "section": "base",
             "srcrev": "0e37289cb8c62a6da7666842af2942a858e5c862",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2023-07-10T02:07:06+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -833,7 +833,7 @@
             "section": "base",
             "srcrev": "2083f642759d039f0e107bc856a29cc127aa67ca",
             "summary": "Add support for SJA1105 switch for S32V234EVB, BB Mini, S32G-PROCEVB-S plus S32GRV-PLATEVB and S32G-VNP-RDB",
-            "updated": "2023-05-09T20:05:54+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -856,7 +856,7 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-05-22T03:05:02+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -879,7 +879,7 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-06-25T19:06:42+0000"
+            "updated": "2023-08-09T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -902,7 +902,7 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-06-25T19:06:42+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -925,37 +925,37 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-05-22T03:05:02+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 104348,
+            "id": 108352,
             "layerbranch": 946272,
             "name": "feature/m7_boot",
-            "updated": "2023-05-09T20:05:52+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         },
         {
             "description": "",
-            "id": 104349,
+            "id": 108353,
             "layerbranch": 946272,
             "name": "feature/secure-boot-parallel",
-            "updated": "2023-05-09T20:05:52+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         },
         {
             "description": "",
-            "id": 104350,
+            "id": 108354,
             "layerbranch": 946272,
             "name": "feature/omit_atf",
-            "updated": "2023-05-09T20:05:52+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         },
         {
             "description": "",
-            "id": 104351,
+            "id": 108355,
             "layerbranch": 946272,
             "name": "default",
-            "updated": "2023-05-09T20:05:52+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         }
     ]
 }

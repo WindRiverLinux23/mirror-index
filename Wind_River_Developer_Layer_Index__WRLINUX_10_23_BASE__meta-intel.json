@@ -485,40 +485,40 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "intel",
             "id": 942614,
             "layer": 166,
             "local_path": "",
-            "updated": "2023-07-13T20:07:48+0000",
-            "vcs_last_commit": "2023-07-10T20:07:23+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:48+0000",
-            "vcs_last_rev": "f0d5bc2a90ce3960fd0f401f8ad1d2b92136c009",
+            "updated": "2023-08-29T20:08:44+0000",
+            "vcs_last_commit": "2023-08-27T20:08:06+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:44+0000",
+            "vcs_last_rev": "d005694187e3e37eba6598683b651abc866e7c22",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 42598
@@ -587,24 +587,24 @@
     "machines": [
         {
             "description": " 64 bit Intel Skylake CPU (and later) with MMX, SSE, SSE2, SSE3, SSE4.1, SSE4.2, AVX, and AVX2 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 65050,
+            "id": 75486,
             "layerbranch": 942614,
             "name": "intel-skylake-64",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 65051,
+            "id": 75487,
             "layerbranch": 942614,
             "name": "intel-corei7-64",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "description": " 32 bit Intel Core 2 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 65052,
+            "id": 75488,
             "layerbranch": 942614,
             "name": "intel-core2-32",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         }
     ],
     "recipes": [
@@ -629,7 +629,7 @@
             "section": "base",
             "srcrev": "df5bd0bc2a522afcb8945a6797592b04838db753",
             "summary": "Slim Bootloader Host Tools",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -652,7 +652,7 @@
             "section": "base",
             "srcrev": "ba42217699ecfdf6a335285039a44ac4140fa8c4",
             "summary": "intel-cmt-cat",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -675,7 +675,7 @@
             "section": "base",
             "srcrev": "0d6f19420bebaa92b0e3dcb6b81e352820f1f1cc",
             "summary": "Intel(R) METEE Library",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -698,7 +698,7 @@
             "section": "base",
             "srcrev": "e74a3ce334b52577081e14a1656f74ccb3f1ef69",
             "summary": "Intel(R) oneVPL runtime for Intel GPU accelerated media processing",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -721,7 +721,7 @@
             "section": "base",
             "srcrev": "5d7b6af5b483e6ddc0d9746efc97edfebf508e1d",
             "summary": "oneAPI Video Processing Library",
-            "updated": "2023-06-25T01:06:17+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -744,7 +744,7 @@
             "section": "base",
             "srcrev": "012af72d1fc55dfc89c29fc148dcfea939f2e9d9",
             "summary": "VA driver for Intel Gen based graphics hardware",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -767,7 +767,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -790,13 +790,13 @@
             "section": "base",
             "srcrev": "0014aec56fea2f30c1374f40861e1bccdd53d0cb",
             "summary": "Intel\u00ae Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/Intel-Media-SDK/MediaSDK/issues",
-            "configopts": " -DMFX_INCLUDE=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/intel-mediasdk/22.6.5-r0/git/api/include  -DENABLE_X11_DRI3=ON -DENABLE_ITT=ON  -DENABLE_OPENCL=OFF -DBUILD_SAMPLES=ON  -DENABLE_WAYLAND=OFF",
+            "configopts": " -DMFX_INCLUDE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-mediasdk/22.6.5-r0/git/api/include  -DENABLE_X11_DRI3=ON -DENABLE_ITT=ON  -DENABLE_OPENCL=OFF -DBUILD_SAMPLES=ON  -DENABLE_WAYLAND=OFF",
             "description": "Intel(R) Media SDK provides an API to access hardware-accelerated video decode, encode and filtering on Intel\u00ae platforms with integrated graphics.",
             "filename": "intel-mediasdk_22.6.5.bb",
             "filepath": "recipes-multimedia/mediasdk",
@@ -813,7 +813,7 @@
             "section": "base",
             "srcrev": "73c6ca577f83b1c451e28517e6bd41045c2f9097",
             "summary": "Intel(R) Media SDK for hardware accelerated media processing",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -836,7 +836,7 @@
             "section": "base",
             "srcrev": "e315d53984ebe0e40dbb71b213bcf2cba42496f4",
             "summary": "Intel(R) Processor Trace Decoder Library",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -859,7 +859,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -882,7 +882,7 @@
             "section": "lib",
             "srcrev": "2df39cf5f1b9ccaa2973f6ef273857e4dc46f0cf",
             "summary": "Intelligent Storage Acceleration Library",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -905,13 +905,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae oneAPI runtime libraries environment set up",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  -DARCH=intel64  -DTOOLCHAIN_OPTIONS=' --sysroot=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/intel-crypto-mb/2021.6-r0/recipe-sysroot' ",
+            "configopts": "  -DARCH=intel64  -DTOOLCHAIN_OPTIONS=' --sysroot=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-crypto-mb/2021.6-r0/recipe-sysroot' ",
             "description": "Intel\u00ae Integrated Performance Primitives (Intel\u00ae IPP) Cryptography is a secure, fast and lightweight library of building blocks for cryptography, highly-optimized for various Intel\u00ae CPUs.",
             "filename": "intel-crypto-mb_2021.6.bb",
             "filepath": "recipes-oneapi/crypto",
@@ -928,7 +928,7 @@
             "section": "base",
             "srcrev": "3ae57715fbc7383ef527cab0b824d736b60fa06d",
             "summary": "Crypto Multi-buffer Library",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -951,13 +951,13 @@
             "section": "base",
             "srcrev": "240685db73e3169e66dbb625b4d5fa1ad06ec79b",
             "summary": "oneAPI DPC++ Library (oneDPL)",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                  -DIGC_DIR=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/intel-compute-runtime/23.09.25812.14-r0/recipe-sysroot/usr/include/igc                  -DBUILD_TYPE=Release                  -DSKIP_UNIT_TESTS=1                  -DCCACHE_ALLOWED=FALSE                  -DNEO_DISABLE_LD_LLD=ON                  -DNEO_DISABLE_LD_GOLD=ON                     -DBUILD_WITH_L0=OFF                                      -Docloc_cmd_prefix=ocloc                                     ",
+            "configopts": "                  -DIGC_DIR=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-compute-runtime/23.09.25812.14-r0/recipe-sysroot/usr/include/igc                  -DBUILD_TYPE=Release                  -DSKIP_UNIT_TESTS=1                  -DCCACHE_ALLOWED=FALSE                  -DNEO_DISABLE_LD_LLD=ON                  -DNEO_DISABLE_LD_GOLD=ON                     -DBUILD_WITH_L0=OFF                                      -Docloc_cmd_prefix=ocloc                                     ",
             "description": "The Intel(R) Graphics Compute Runtime for OpenCL(TM) is an open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.",
             "filename": "intel-compute-runtime_23.09.25812.14.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/compute-runtime",
@@ -974,13 +974,13 @@
             "section": "base",
             "srcrev": "d26a2d106c2f0973cdf9fd8c91ba35a377988c1e",
             "summary": "The Intel(R) Graphics Compute Runtime for OpenCL(TM)",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DLLVM_DIR=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/vc-intrinsics/1_0.1.0+gitX-r0/recipe-sysroot/usr/lib ",
+            "configopts": "-DLLVM_DIR=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/vc-intrinsics/1_0.1.0+gitX-r0/recipe-sysroot/usr/lib ",
             "description": "VC Intrinsics project contains a set of new intrinsics on top of core LLVM IR instructions that represent SIMD semantics of a program targeting GPU",
             "filename": "vc-intrinsics_0.1.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/vc-intrinsics",
@@ -997,13 +997,13 @@
             "section": "base",
             "srcrev": "b2c98d943986a27016bc735b84ed1655943ef749",
             "summary": "VC Intrinsics",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/opencl-clang/14.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
+            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/opencl-clang/14.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
             "description": "Common clang has OpenCL-oriented API and is capable  to compile OpenCL C kernels to SPIR-V modules.",
             "filename": "opencl-clang_14.0.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/opencl-clang",
@@ -1020,13 +1020,13 @@
             "section": "base",
             "srcrev": "06c7c0d7f5cbd13810d79489a533fa6c5b6c7d9f",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/opencl-clang/15.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
+            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/opencl-clang/15.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
             "description": "Common clang has OpenCL-oriented API and is capable  to compile OpenCL C kernels to SPIR-V modules.",
             "filename": "opencl-clang_15.0.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/opencl-clang",
@@ -1043,13 +1043,13 @@
             "section": "base",
             "srcrev": "c78c1f884ffe8b40e1681a90ebde1a919c08ddb1",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DIGC_OPTION__LLVM_PREFERRED_VERSION=15.%                   -DPYTHON_EXECUTABLE=/tmp/tmp_skfj7ez/tmp-glibc/hosttools/python3                   -DVC_INTRINSICS_SRC=\"/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/git/vc-intrinsics\"                   -DIGC_OPTION__LLVM_MODE=Prebuilds                   -DLLVM_TABLEGEN=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_LINK_EXE=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/recipe-sysroot-native/usr/bin/llvm-link                   -DCLANG_EXE=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/recipe-sysroot-native/usr/bin/clang                     -DIGC_BUILD__VC_ENABLED=ON -DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON -DIGC_OPTION__SPIRV_TRANSLATOR_MODE=Prebuilds",
+            "configopts": "                   -DIGC_OPTION__LLVM_PREFERRED_VERSION=15.%                   -DPYTHON_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/hosttools/python3                   -DVC_INTRINSICS_SRC=\"/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/git/vc-intrinsics\"                   -DIGC_OPTION__LLVM_MODE=Prebuilds                   -DLLVM_TABLEGEN=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_LINK_EXE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/recipe-sysroot-native/usr/bin/llvm-link                   -DCLANG_EXE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.13463.18-r0/recipe-sysroot-native/usr/bin/clang                     -DIGC_BUILD__VC_ENABLED=ON -DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON -DIGC_OPTION__SPIRV_TRANSLATOR_MODE=Prebuilds",
             "description": "The Intel(R) Graphics Compiler for OpenCL(TM) is an llvm based compiler for OpenCL(TM) targeting Intel Gen graphics hardware architecture.",
             "filename": "intel-graphics-compiler_1.0.13463.18.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/igc",
@@ -1066,13 +1066,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2023-06-25T01:06:16+0000"
+            "updated": "2023-08-09T21:08:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DISPC_INCLUDE_TESTS=OFF                    -DISPC_INCLUDE_EXAMPLES=OFF                    -DISPC_NO_DUMPS=ON                    -DARM_ENABLED=OFF                    -DISPC_CROSS=ON                    -DISPC_ANDROID_TARGET=OFF                    -DISPC_FREEBSD_TARGET=OFF                    -DISPC_WINDOWS_TARGET=OFF                    -DISPC_IOS_TARGET=OFF                    -DISPC_PS4_TARGET=OFF                    -DSYSROOT_DIR=/tmp/tmp_skfj7ez/tmp-glibc/sysroots                   -DCLANG_EXECUTABLE=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/clang                   -DCLANGPP_EXECUTABLE=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/clang++                   -DLLVM_DIS_EXECUTABLE=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/llvm-dis                   -DLLVM_AS_EXECUTABLE=/tmp/tmp_skfj7ez/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/llvm-as                    ",
+            "configopts": "                    -DISPC_INCLUDE_TESTS=OFF                    -DISPC_INCLUDE_EXAMPLES=OFF                    -DISPC_NO_DUMPS=ON                    -DARM_ENABLED=OFF                    -DISPC_CROSS=ON                    -DISPC_ANDROID_TARGET=OFF                    -DISPC_FREEBSD_TARGET=OFF                    -DISPC_WINDOWS_TARGET=OFF                    -DISPC_IOS_TARGET=OFF                    -DISPC_PS4_TARGET=OFF                    -DSYSROOT_DIR=/tmp/tmpp3x4twl8/tmp-glibc/sysroots                   -DCLANG_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/clang                   -DCLANGPP_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/clang++                   -DLLVM_DIS_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/llvm-dis                   -DLLVM_AS_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/ispc/1.19.0-r0/recipe-sysroot-native/usr/bin/llvm-as                    ",
             "description": "ispc is a compiler for a variant of the C programming language, with extensions for single program, multiple data programming.",
             "filename": "ispc_1.19.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-core/ispc",
@@ -1089,7 +1089,7 @@
             "section": "base",
             "srcrev": "ee43967286215a0511c2bc090e604848b4a32bed",
             "summary": "Intel(R) Implicit SPMD Program Compiler",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1112,13 +1112,13 @@
             "section": "lib",
             "srcrev": "928065bd62372d2824900a86c5438bba407c98d1",
             "summary": "Deep Neural Network Library",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:15+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DPYTHON_EXECUTABLE=/tmp/tmpue_vcoy0/tmp-glibc/hosttools/python3  -DNETWORK_CN=ON  -DNETWORK_NM=OFF",
+            "configopts": " -DPYTHON_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/hosttools/python3  -DNETWORK_CN=ON  -DNETWORK_NM=OFF",
             "description": "Intel Local Manageability Service allows applications to access the Intel Active Management Technology (AMT) firmware via the Intel Management Engine Interface (MEI).",
             "filename": "lms_2245.0.0.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-bsp/amt",
@@ -1135,7 +1135,7 @@
             "section": "base",
             "srcrev": "4db4ceb3f70cd1b907747646dda6785db7b247d7",
             "summary": "Intel(R) Local Managability Service",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1158,7 +1158,7 @@
             "section": "base",
             "srcrev": "941e8121c0a8280264288cde921b490bc5a7ece7",
             "summary": "Linux thermal daemon",
-            "updated": "2023-07-13T20:07:48+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1181,13 +1181,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Utility for managing Intel Optane DC persistent memory modules",
-            "updated": "2023-06-25T01:06:16+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DPYTHON_EXECUTABLE=/tmp/tmpp4cczzrf/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.3.1-r0/recipe-sysroot-native/usr/bin/python3-native/python3                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpp4cczzrf/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.3.1-r0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_SYSTEM_PROTOBUF=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                     -DENABLE_INTEL_GPU=TRUE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0 -DENABLE_INTEL_MYRIAD=ON -DVPU_FIRMWARE_USB-MA2X8X_FILE=../usb-ma2x8x.mvcmd -DVPU_FIRMWARE_PCIE-MA2X8X_FILE=../pcie-ma2x8x.mvcmd",
+            "configopts": "                    -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DPYTHON_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.3.1-r0/recipe-sysroot-native/usr/bin/python3-native/python3                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.3.1-r0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_SYSTEM_PROTOBUF=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                     -DENABLE_INTEL_GPU=TRUE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0 -DENABLE_INTEL_MYRIAD=ON -DVPU_FIRMWARE_USB-MA2X8X_FILE=../usb-ma2x8x.mvcmd -DVPU_FIRMWARE_PCIE-MA2X8X_FILE=../pcie-ma2x8x.mvcmd",
             "description": "This toolkit allows developers to deploy pre-trained deep learning models through a high-level C++ Inference Engine API integrated with application logic.",
             "filename": "openvino-inference-engine_2022.3.1.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-support/opencv",
@@ -1204,7 +1204,7 @@
             "section": "base",
             "srcrev": "cf2c7da568934870c29acc961a4498ff9cbd8d9c",
             "summary": "OpenVINO(TM) Toolkit - Deep Learning Deployment Toolkit",
-            "updated": "2023-07-13T20:07:48+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1227,7 +1227,7 @@
             "section": "base",
             "srcrev": "1919ae9d42c19d8f3bafc2417256ab3a67b6db79",
             "summary": "OpenVINO(TM) Toolkit - Open Model Zoo repository",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1250,13 +1250,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/openvkl/1.3.2-r0/recipe-sysroot-native/usr/bin/ispc                     ",
+            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/openvkl/1.3.2-r0/recipe-sysroot-native/usr/bin/ispc                     ",
             "description": "Intel(R) Open Volume Kernel Library (Intel(R) Open VKL) is a collection of high-performance volume computation kernels. The target users of Open VKL are graphics application engineers who want to improve the performance of their volume rendering applications by leveraging Open VKL\u2019s performance-optimized kernels, which include volume traversal and sampling functionality for a variety of volumetric data formats. The kernels are optimized for the latest Intel(R) processors with support for SSE, AVX, AVX2, and AVX-512 instructions.",
             "filename": "openvkl_1.3.2.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-oneapi/openvkl",
@@ -1273,13 +1273,13 @@
             "section": "base",
             "srcrev": "fac6c96b24ae73941716b7368ffc289eb9c47532",
             "summary": "Intel(R) Open Volume Kernel Library",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/ospray/2.11.0-r0/recipe-sysroot-native/usr/bin/ispc                   -DOSPRAY_ENABLE_APPS_BENCHMARK=OFF                   -DOSPRAY_ENABLE_APPS_TESTING=OFF                    ",
+            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/ospray/2.11.0-r0/recipe-sysroot-native/usr/bin/ispc                   -DOSPRAY_ENABLE_APPS_BENCHMARK=OFF                   -DOSPRAY_ENABLE_APPS_TESTING=OFF                    ",
             "description": "Intel OSPRay is an open source, scalable, and portable ray tracing engine for high-performance, high-fidelity visualization on Intel Architecture CPUs.",
             "filename": "ospray_2.11.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-oneapi/ospray",
@@ -1296,7 +1296,7 @@
             "section": "base",
             "srcrev": "cdb39c88a2fb806feaae30de897acd30297f8e94",
             "summary": "Intel OSPray, Ray Tracing based Rendering Engine",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1319,7 +1319,7 @@
             "section": "base",
             "srcrev": "0fcb306c9176221219dd15e27fe0527ed334948f",
             "summary": "Collection of high-performance ray tracing kernels",
-            "updated": "2023-06-25T01:06:16+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1342,7 +1342,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae oneAPI DPC++/C++ Compiler runtime files",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1365,7 +1365,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae oneAPI DPC++/C++ Compiler",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1388,7 +1388,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae oneAPI DPC++/C++ Compiler & Intel\u00ae C++ Compiler Classic runtime common files",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1411,7 +1411,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae oneAPI Math Kernel Library (oneMKL)",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1434,7 +1434,7 @@
             "section": "base",
             "srcrev": "f47553a875382a64c9998bb89a93cd5c8739cc07",
             "summary": "rkcommon - C++/CMake infrastructure",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1457,7 +1457,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae Open Image Denoise",
-            "updated": "2023-04-23T07:04:17+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1480,7 +1480,7 @@
             "section": "base",
             "srcrev": "bb7fff05b801e26c3d7858e03e509d1089914d59",
             "summary": "oneAPI Level Zero Specification Headers and Loader",
-            "updated": "2023-04-23T07:04:18+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1503,7 +1503,7 @@
             "section": "base",
             "srcrev": "0a5ca5375265f0f12cdaee68574030408dd1c352",
             "summary": "OpenVINO Model Optimzer",
-            "updated": "2023-04-23T07:04:18+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1526,7 +1526,7 @@
             "section": "kernel",
             "srcrev": "a75c1de6b3fa87885556c67619429cfa87cc048f",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2023-04-23T07:04:18+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1549,7 +1549,7 @@
             "section": "kernel/network",
             "srcrev": "",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2023-04-23T07:04:18+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1572,7 +1572,7 @@
             "section": "kernel/network",
             "srcrev": "",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2023-04-23T07:04:18+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1591,11 +1591,11 @@
             "pn": "linux-intel",
             "pr": "r0",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "6.1.26+gitX",
+            "pv": "6.1.38+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-06-25T01:06:17+0000"
+            "updated": "2023-08-29T20:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1618,7 +1618,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-06-25T01:06:17+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1641,7 +1641,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-06-25T01:06:16+0000"
+            "updated": "2023-08-29T20:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1664,7 +1664,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1687,7 +1687,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1710,7 +1710,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1733,13 +1733,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DMD_PLATFORM=linux -DMD_LIBDRM_SRC=/tmp/tmpue_vcoy0/tmp-glibc/work/core2-32-oe-linux/metrics-discovery/1.12.163-r0/recipe-sysroot/usr/include ",
+            "configopts": " -DMD_PLATFORM=linux -DMD_LIBDRM_SRC=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/metrics-discovery/1.12.163-r0/recipe-sysroot/usr/include ",
             "description": "This software is a user mode library that provides access to GPU performance data.",
             "filename": "metrics-discovery_1.12.163.bb",
             "filepath": "recipes-graphics/metrics-discovery",
@@ -1756,7 +1756,7 @@
             "section": "lib",
             "srcrev": "4ff7a8bffd54f01e534015cb020c39e22a3f1012",
             "summary": "Intel Metrics Discovery Application Programming Interface",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1779,7 +1779,7 @@
             "section": "x11",
             "srcrev": "3a291be22cfe70e41bad8a376fa278efa651fdff",
             "summary": "libva-utils is a collection of utilities from libva project",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1802,7 +1802,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Video Acceleration (VA) API for Linux",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1825,7 +1825,7 @@
             "section": "base",
             "srcrev": "26ffef5199abcec625651562eb319e983037297d",
             "summary": "Intel(R) Graphics Memory Management Library",
-            "updated": "2023-04-23T07:04:19+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1848,7 +1848,7 @@
             "section": "x11/drivers",
             "srcrev": "",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2023-04-23T07:04:20+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1871,7 +1871,7 @@
             "section": "lib",
             "srcrev": "cacc352159c5bdaf1c21846cecdd1eb7b031e1d3",
             "summary": "Intel(R) unified HDCP SDK",
-            "updated": "2023-04-23T07:04:20+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -1894,7 +1894,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Update Intel CPU microcode",
-            "updated": "2023-04-23T07:04:20+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1902,7 +1902,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20230512.bb",
+            "filename": "intel-microcode_20230808.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
             "id": 1761185,
@@ -1913,11 +1913,11 @@
             "pn": "intel-microcode",
             "pr": "r0",
             "provides": "intel-microcode ",
-            "pv": "20230512",
+            "pv": "20230808",
             "section": "base",
-            "srcrev": "752cd0a7f09244f9336b7bb6d570e780e502c290",
+            "srcrev": "6788bb07eb5f9e9b83c31ea1364150fe898f450a",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2023-06-25T01:06:16+0000"
+            "updated": "2023-08-29T20:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1940,7 +1940,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2023-04-23T07:04:20+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1963,7 +1963,7 @@
             "section": "lib",
             "srcrev": "231a1d5243cd45c7a6b511b667f1ec52178fdda8",
             "summary": "libXCam is a project for extended camera(not limited in camera) features and focus on image quality improvement and video analysis",
-            "updated": "2023-04-23T07:04:20+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1986,7 +1986,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:20+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         }
     ],
     "wrtemplates": []

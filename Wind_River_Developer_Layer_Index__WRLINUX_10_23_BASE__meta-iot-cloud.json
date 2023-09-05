@@ -485,70 +485,70 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-07-17T20:07:39+0000",
-            "vcs_last_commit": "2023-07-17T19:07:29+0000",
-            "vcs_last_fetch": "2023-07-17T20:07:39+0000",
-            "vcs_last_rev": "c747f099ba9e51189b73b2a1949761945940d89a",
+            "updated": "2023-08-29T20:08:00+0000",
+            "vcs_last_commit": "2023-08-27T20:08:07+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:00+0000",
+            "vcs_last_rev": "9e1469795d179b98dd44542fbe5f0739d42c2335",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-07-13T20:07:37+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-06-23T05:06:41+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:37+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:18+0000",
             "vcs_last_rev": "30b2c1c064dc9f3a9cf3c974e18e6f5c5c0c964e",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-07-21T10:07:50+0000",
-            "vcs_last_commit": "2023-07-21T08:07:25+0000",
-            "vcs_last_fetch": "2023-07-21T10:07:50+0000",
-            "vcs_last_rev": "67047a14a496a0e1e348f36e4f32ba064b0640fe",
+            "updated": "2023-08-29T20:08:06+0000",
+            "vcs_last_commit": "2023-08-29T20:08:04+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:06+0000",
+            "vcs_last_rev": "ca7ea82839005a79a2c4d7ab7d34ceba45fafe80",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
@@ -560,9 +560,9 @@
             "id": 942706,
             "layer": 247,
             "local_path": "",
-            "updated": "2023-06-27T21:06:05+0000",
+            "updated": "2023-08-09T21:08:39+0000",
             "vcs_last_commit": "2023-06-27T01:06:22+0000",
-            "vcs_last_fetch": "2023-06-27T21:06:05+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:39+0000",
             "vcs_last_rev": "d888df35762b561424cc264255e2b2624fbe8dd4",
             "vcs_subdir": "",
             "version": null,
@@ -721,7 +721,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:52+0000"
+            "updated": "2023-08-09T21:08:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -744,7 +744,7 @@
             "section": "base",
             "srcrev": "3572824c55a1ad3634dd32c1f1dd729e59bbdedc",
             "summary": "",
-            "updated": "2023-06-25T01:06:52+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -767,7 +767,7 @@
             "section": "base",
             "srcrev": "85fe8977e98cc0e84609e9250ba34b0d455b96df",
             "summary": "",
-            "updated": "2023-06-25T01:06:53+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -790,7 +790,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:53+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -813,7 +813,7 @@
             "section": "base",
             "srcrev": "038b7e32d70bec2b9108f3e3ec999795729ec6fe",
             "summary": "",
-            "updated": "2023-06-25T01:06:54+0000"
+            "updated": "2023-08-09T21:08:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -836,7 +836,7 @@
             "section": "base",
             "srcrev": "062f7e5c34f7eb9a7e10c352364f4057fd67607a",
             "summary": "",
-            "updated": "2023-06-25T01:06:54+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -859,7 +859,7 @@
             "section": "base",
             "srcrev": "0c9cd1b323e58816fafe8d4db303b17ac2101b19",
             "summary": "",
-            "updated": "2023-06-25T01:06:55+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -882,7 +882,7 @@
             "section": "base",
             "srcrev": "6f18cb8e7f98dc875f37906aec3feeb3b5b9ef5f",
             "summary": "",
-            "updated": "2023-06-25T01:06:55+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -905,7 +905,7 @@
             "section": "base",
             "srcrev": "0528d52fc15767f4b3ba535ff35453d4e6b78f07",
             "summary": "",
-            "updated": "2023-06-25T01:06:55+0000"
+            "updated": "2023-08-09T21:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -928,7 +928,7 @@
             "section": "devel/python",
             "srcrev": "c4cee625e5b0b0f410e22ca60f701eff98f288d0",
             "summary": "",
-            "updated": "2023-06-25T01:06:56+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -951,7 +951,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Additional functools in the spirit of stdlib\u2019s functools.",
-            "updated": "2023-06-25T01:06:56+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -974,7 +974,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:56+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -997,7 +997,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1020,7 +1020,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1043,7 +1043,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1066,7 +1066,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1089,7 +1089,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1112,7 +1112,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:57+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1135,7 +1135,7 @@
             "section": "devel/python",
             "srcrev": "0900d346e5569018644dcee850d679de3c915efb",
             "summary": "",
-            "updated": "2023-06-25T01:06:58+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1158,7 +1158,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:58+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1181,7 +1181,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:58+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1204,7 +1204,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1227,7 +1227,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Objects and routines pertaining to date and time",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1250,7 +1250,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1273,7 +1273,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1296,7 +1296,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:59+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1319,7 +1319,7 @@
             "section": "base",
             "srcrev": "2016fe9817ad03b26aa5f1a475f5b79ad6757b96",
             "summary": "Converts a Python dictionary or other native data type into a valid XML string.",
-            "updated": "2023-06-25T01:06:00+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1342,7 +1342,7 @@
             "section": "devel/python",
             "srcrev": "29c8281dee7fe8dae8c66c7c40ce7c058ec2ab0f",
             "summary": "",
-            "updated": "2023-06-25T01:06:00+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1365,7 +1365,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:00+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1388,7 +1388,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "TCP port monitoring utilities",
-            "updated": "2023-06-25T01:06:01+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1411,7 +1411,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:01+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1434,7 +1434,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Basic inter-process locks",
-            "updated": "2023-06-25T01:06:01+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1457,7 +1457,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A library for automatically generating command line interfaces",
-            "updated": "2023-06-25T01:06:01+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1480,7 +1480,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:02+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1503,7 +1503,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "SCP module for Paramiko",
-            "updated": "2023-06-25T01:06:02+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1526,7 +1526,7 @@
             "section": "devel/python",
             "srcrev": "bb429dac1a686807c69b916f03dd843fa10b0927",
             "summary": "",
-            "updated": "2023-06-25T01:06:02+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1549,7 +1549,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:02+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1572,7 +1572,7 @@
             "section": "base",
             "srcrev": "edbae30f83f370f9d2f1e43d02e3793081e1cd25",
             "summary": "A better directory iterator and faster os.walk()",
-            "updated": "2023-06-25T01:06:02+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1595,7 +1595,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:03+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1618,7 +1618,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:03+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1641,7 +1641,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:03+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1664,7 +1664,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:03+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -1687,7 +1687,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:05+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1710,7 +1710,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:05+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1733,7 +1733,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:06+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1756,13 +1756,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:06+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2/1.12.6-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2/1.12.6-r0/recipe-sysroot/usr  ",
             "description": "Next generation AWS IoT Client SDK for C++ using the AWS Common Runtime",
             "filename": "aws-iot-device-sdk-cpp-v2_1.12.6.bb",
             "filepath": "recipes-aws/aws-iot-device-sdk-cpp-v2",
@@ -1779,13 +1779,13 @@
             "section": "base",
             "srcrev": "df16ccb07cc303e2f7f9b01d8ecb511214025612",
             "summary": "",
-            "updated": "2023-06-25T01:06:06+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2-samples/1.12.6-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2-samples/1.12.6-r0/recipe-sysroot/usr  ",
             "description": "Next generation AWS IoT Client SDK for C++ using the AWS Common Runtime",
             "filename": "aws-iot-device-sdk-cpp-v2-samples_1.12.6.bb",
             "filepath": "recipes-aws/aws-iot-device-sdk-cpp-v2",
@@ -1802,7 +1802,7 @@
             "section": "base",
             "srcrev": "df16ccb07cc303e2f7f9b01d8ecb511214025612",
             "summary": "",
-            "updated": "2023-06-25T01:06:06+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1825,13 +1825,13 @@
             "section": "base",
             "srcrev": "8f3ac3f087d56287eb7f428880dec134a3aa81f3",
             "summary": "",
-            "updated": "2023-06-25T01:06:07+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-auth/0.5.2-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-auth/0.5.2-r0/recipe-sysroot/usr  ",
             "description": "C99 library implementation of AWS client-side authentication: standard credentials providers and signing.",
             "filename": "aws-c-auth_0.5.2.bb",
             "filepath": "recipes-aws/aws-c-auth",
@@ -1848,13 +1848,13 @@
             "section": "base",
             "srcrev": "c74534c13264868bbbd14b419c291580d3dd9141",
             "summary": "",
-            "updated": "2023-06-25T01:06:07+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-s3/0.1.16-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-s3/0.1.16-r0/recipe-sysroot/usr  ",
             "description": "C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.",
             "filename": "aws-c-s3_0.1.16.bb",
             "filepath": "recipes-aws/aws-c-s3",
@@ -1871,7 +1871,7 @@
             "section": "base",
             "srcrev": "cab7afd181c22029f3d0a9a3675c597c12c2aa8d",
             "summary": "",
-            "updated": "2023-06-25T01:06:07+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1894,13 +1894,13 @@
             "section": "base",
             "srcrev": "c9588d0f1aed99dbdd5b114d458b3e4daf31e824",
             "summary": "s2n",
-            "updated": "2023-06-25T01:06:07+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-checksums/0.1.11-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-checksums/0.1.11-r0/recipe-sysroot/usr  ",
             "description": "Cross-Platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations.",
             "filename": "aws-checksums_0.1.11.bb",
             "filepath": "recipes-aws/aws-checksums",
@@ -1917,7 +1917,7 @@
             "section": "base",
             "srcrev": "99bb0ad4b89d335d638536694352c45e0d2188f5",
             "summary": "",
-            "updated": "2023-06-25T01:06:08+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1940,7 +1940,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:08+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1963,7 +1963,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:08+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1986,7 +1986,7 @@
             "section": "base",
             "srcrev": "aa2cf25e5e4bd163e6e88844c8dadc65888b1d10",
             "summary": "",
-            "updated": "2023-06-27T21:06:05+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2009,7 +2009,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A file-driven approach to the creation of an entire AWS Greengrass group",
-            "updated": "2023-06-25T01:06:09+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2032,7 +2032,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:09+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2055,7 +2055,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:10+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2078,13 +2078,13 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:10+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmp1tzvrvn4/tmp-glibc/work/core2-32-oe-linux/aws-c-cal/0.5.12-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-cal/0.5.12-r0/recipe-sysroot/usr  ",
             "description": "AWS Crypto Abstraction Layer: Cross-Platform, C99 wrapper for cryptography primitives.",
             "filename": "aws-c-cal_0.5.12.bb",
             "filepath": "recipes-aws/aws-c-cal",
@@ -2101,13 +2101,13 @@
             "section": "base",
             "srcrev": "c4c5b175e05f2affe5e3f0203ca6c8bc5cdd8f51",
             "summary": "",
-            "updated": "2023-06-27T21:06:05+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-compression/0.2.11-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-compression/0.2.11-r0/recipe-sysroot/usr  ",
             "description": "This is a cross-platform C99 implementation of compression algorithms such as gzip, and huffman encoding/decoding.",
             "filename": "aws-c-compression_0.2.11.bb",
             "filepath": "recipes-aws/aws-c-compression",
@@ -2124,13 +2124,13 @@
             "section": "base",
             "srcrev": "25cd4134377b6e2ed787d42a3a221582bdc1fa57",
             "summary": "",
-            "updated": "2023-06-25T01:06:10+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-event-stream/0.2.7-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-event-stream/0.2.7-r0/recipe-sysroot/usr  ",
             "description": "C99 implementation of the vnd.amazon.event-stream content-type.",
             "filename": "aws-c-event-stream_0.2.7.bb",
             "filepath": "recipes-aws/aws-c-event-stream",
@@ -2147,13 +2147,13 @@
             "section": "base",
             "srcrev": "e87537be561d753ec82e783bc0929b1979c585f8",
             "summary": "",
-            "updated": "2023-06-25T01:06:11+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-crt-cpp/0.13.7-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-crt-cpp/0.13.7-r0/recipe-sysroot/usr  ",
             "description": "C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++.",
             "filename": "aws-crt-cpp_0.13.7.bb",
             "filepath": "recipes-aws/aws-crt-cpp",
@@ -2170,13 +2170,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:11+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-mqtt/0.7.6-r0/recipe-sysroot/usr   -DMQTT_WITH_WEBSOCKETS:BOOL=ON",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-mqtt/0.7.6-r0/recipe-sysroot/usr   -DMQTT_WITH_WEBSOCKETS:BOOL=ON",
             "description": "C99 implementation of the MQTT 3.1.1 specification.",
             "filename": "aws-c-mqtt_0.7.6.bb",
             "filepath": "recipes-aws/aws-c-mqtt",
@@ -2193,13 +2193,13 @@
             "section": "base",
             "srcrev": "0a70bf814845e487b7e4862af7ad9e4a1199b5f4",
             "summary": "",
-            "updated": "2023-06-25T01:06:11+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-io/0.9.9-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-io/0.9.9-r0/recipe-sysroot/usr  ",
             "description": "This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols.",
             "filename": "aws-c-io_0.9.9.bb",
             "filepath": "recipes-aws/aws-c-io",
@@ -2216,13 +2216,13 @@
             "section": "base",
             "srcrev": "977065a455158fffa1c33214b33aa2b7fc273416",
             "summary": "",
-            "updated": "2023-06-25T01:06:11+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-iot/0.0.5-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-iot/0.0.5-r0/recipe-sysroot/usr  ",
             "description": "C99 implementation of AWS IoT cloud services integration with devices.",
             "filename": "aws-c-iot_0.0.5.bb",
             "filepath": "recipes-aws/aws-c-iot",
@@ -2239,13 +2239,13 @@
             "section": "base",
             "srcrev": "f2057934f5ea9072c47d42babe77e8d241982c90",
             "summary": "",
-            "updated": "2023-06-25T01:06:12+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpim99mfnj/tmp-glibc/work/core2-32-oe-linux/aws-c-http/0.6.4-r0/recipe-sysroot/usr  ",
+            "configopts": "     -DBUILD_TESTING=OFF     -DCMAKE_PREFIX_PATH=/tmp/tmpl0b8magc/tmp-glibc/work/core2-32-oe-linux/aws-c-http/0.6.4-r0/recipe-sysroot/usr  ",
             "description": "C99 implementation of the HTTP/1.1 and HTTP/2 specifications",
             "filename": "aws-c-http_0.6.4.bb",
             "filepath": "recipes-aws/aws-c-http",
@@ -2262,7 +2262,7 @@
             "section": "base",
             "srcrev": "fa1692ae103dcc40e3d0a9db1b29acfc204a294e",
             "summary": "",
-            "updated": "2023-06-25T01:06:12+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2285,7 +2285,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python client for Mapbox services",
-            "updated": "2023-06-25T01:06:12+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2308,7 +2308,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:12+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2331,7 +2331,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2354,7 +2354,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2377,7 +2377,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2400,7 +2400,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2423,7 +2423,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2446,7 +2446,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "IoT Cloud base image",
-            "updated": "2023-06-25T01:06:13+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2469,7 +2469,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "IoT Cloud base image",
-            "updated": "2023-06-25T01:06:14+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2492,7 +2492,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "IoT Cloud base image",
-            "updated": "2023-06-25T01:06:14+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2515,7 +2515,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "IoT Cloud base image",
-            "updated": "2023-06-25T01:06:14+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2538,7 +2538,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An object oriented API for Open IoT Service Platform",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2561,7 +2561,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2584,7 +2584,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2607,7 +2607,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2630,7 +2630,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:15+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2653,7 +2653,7 @@
             "section": "base",
             "srcrev": "f8073a7b63b6c98b9fcc5ff1f6b1415ad1a22581",
             "summary": "Rclone - rsync for cloud storage. ",
-            "updated": "2023-06-25T01:06:16+0000"
+            "updated": "2023-08-09T21:08:39+0000"
         }
     ],
     "wrtemplates": []

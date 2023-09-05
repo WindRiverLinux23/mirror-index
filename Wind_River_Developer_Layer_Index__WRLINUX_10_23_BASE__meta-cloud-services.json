@@ -485,70 +485,70 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "filesystems-layer",
             "id": 942644,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-07-13T20:07:13+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-05-16T04:05:12+0000",
-            "vcs_last_fetch": "2023-06-25T01:06:51+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:40+0000",
             "vcs_last_rev": "8fa3f9ae2caab563a953cd60ff35b2a028ebd4dd",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "networking-layer",
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-07-21T10:07:50+0000",
-            "vcs_last_commit": "2023-07-21T08:07:25+0000",
-            "vcs_last_fetch": "2023-07-21T10:07:50+0000",
-            "vcs_last_rev": "67047a14a496a0e1e348f36e4f32ba064b0640fe",
+            "updated": "2023-08-29T20:08:06+0000",
+            "vcs_last_commit": "2023-08-29T20:08:04+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:06+0000",
+            "vcs_last_rev": "ca7ea82839005a79a2c4d7ab7d34ceba45fafe80",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "virtualization-layer",
             "id": 942653,
             "layer": 45,
             "local_path": "",
-            "updated": "2023-07-25T02:07:39+0000",
-            "vcs_last_commit": "2023-07-21T12:07:14+0000",
-            "vcs_last_fetch": "2023-07-25T02:07:39+0000",
-            "vcs_last_rev": "1598fef496a0a2c8f01b6cab69c4ad4b04aa91c3",
+            "updated": "2023-08-29T20:08:18+0000",
+            "vcs_last_commit": "2023-08-27T20:08:17+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:18+0000",
+            "vcs_last_rev": "da24a9a52bb5ba35ba140e03f4d1bc3b98699743",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42597
@@ -560,9 +560,9 @@
             "id": 942654,
             "layer": 141,
             "local_path": "",
-            "updated": "2023-07-13T20:07:21+0000",
+            "updated": "2023-08-09T21:08:24+0000",
             "vcs_last_commit": "2023-07-12T01:07:11+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:21+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:24+0000",
             "vcs_last_rev": "93c271c64f477eb52da802c9ecae42b6533beda4",
             "vcs_subdir": "",
             "version": null,
@@ -715,7 +715,7 @@
             "section": "devel/python",
             "srcrev": "5c6dfff68759ccc9794b609db45872950077e98b",
             "summary": "",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -738,7 +738,7 @@
             "section": "base",
             "srcrev": "c374840910c823f7669cf2e1229c7df7192ae880",
             "summary": "Puppet provider for virtual switches.",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -761,7 +761,7 @@
             "section": "base",
             "srcrev": "d2e822d8a8bda61f0774debbfce363a7347ed893",
             "summary": "Shadow Password Module",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -784,7 +784,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -807,7 +807,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A simple pluggable Hierarchical Database",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -830,7 +830,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NSS and PAM module for using LDAP as a naming service",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -853,7 +853,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Facter gathers basic facts about nodes (systems)",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -876,7 +876,7 @@
             "section": "base",
             "srcrev": "5555aae843f57241d005e330b9cb65602d56db0f",
             "summary": "The CELT codec is a compression algorithm for audio",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -899,7 +899,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Open source Puppet is a configuration management system",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -922,7 +922,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -945,7 +945,7 @@
             "section": "base",
             "srcrev": "0b4822be3d2242e83c28ab7fed6c5817adc322d5",
             "summary": "Puppet Labs Standard Library module",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -968,13 +968,13 @@
             "section": "libs/devel",
             "srcrev": "",
             "summary": "Userspace RDMA Connection Manager",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "ac_cv_file__etc_debian_version=no                 ac_cv_file__etc_SuSE_release=no                 ac_cv_file__etc_redhat_release=no \t\t\t\tac_cv_file__etc_centos_release=no                 --with-mountutildir=/usr/sbin                 --disable-fusermount                 TARGET_PYTHON=/usr/bin/python3                 PYTHON=/tmp/tmp13x6iqm8/tmp-glibc/work/core2-32-oe-linux/glusterfs/6.1-r0/recipe-sysroot-native/usr/bin/python3-native/python3                 BUILD_PYTHON_INC=/tmp/tmp13x6iqm8/tmp-glibc/work/core2-32-oe-linux/glusterfs/6.1-r0/recipe-sysroot/usr/include/python3.11                 BUILD_PYTHON_LIB=python3.11                 BUILD_PYTHON_SITE_PACKAGES=/usr/lib/python3.11/site-packages                  --disable-debug --enable-georeplication --enable-ibverbs --without-ocf --disable-valgrind",
+            "configopts": "ac_cv_file__etc_debian_version=no                 ac_cv_file__etc_SuSE_release=no                 ac_cv_file__etc_redhat_release=no \t\t\t\tac_cv_file__etc_centos_release=no                 --with-mountutildir=/usr/sbin                 --disable-fusermount                 TARGET_PYTHON=/usr/bin/python3                 PYTHON=/tmp/tmp78r24qsg/tmp-glibc/work/core2-32-oe-linux/glusterfs/6.1-r0/recipe-sysroot-native/usr/bin/python3-native/python3                 BUILD_PYTHON_INC=/tmp/tmp78r24qsg/tmp-glibc/work/core2-32-oe-linux/glusterfs/6.1-r0/recipe-sysroot/usr/include/python3.11                 BUILD_PYTHON_LIB=python3.11                 BUILD_PYTHON_SITE_PACKAGES=/usr/lib/python3.11/site-packages                  --disable-debug --enable-georeplication --enable-ibverbs --without-ocf --disable-valgrind",
             "description": "GlusterFS is an open source, distributed file system capable of scaling to several petabytes (actually, 72 brontobytes!) and handling thousands of clients.  GlusterFS clusters together storage building blocks over Infiniband RDMA or TCP/IP interconnect, aggregating disk and memory resources and managing data in a single global namespace.",
             "filename": "glusterfs_6.1.bb",
             "filepath": "recipes-extended/glusterfs",
@@ -991,7 +991,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Glusterfs distributed filesystem",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1014,7 +1014,7 @@
             "section": "network",
             "srcrev": "1d3fdf93bbe5002c5023da50402368a817488691",
             "summary": "Decentralized Cluster Membership, Failure Detection, and Orchestration.",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,7 +1037,7 @@
             "section": "base",
             "srcrev": "944cc71026c007e7de9467ec3f38f0ad14464fcc",
             "summary": "",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1060,7 +1060,7 @@
             "section": "base",
             "srcrev": "678fb10cdeae25ab309e99e655148f0bf65f9710",
             "summary": "Provides data migration for Consul server nodes",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         }
     ],
     "wrtemplates": []

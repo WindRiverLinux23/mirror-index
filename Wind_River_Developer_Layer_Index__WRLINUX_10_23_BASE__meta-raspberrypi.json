@@ -485,25 +485,25 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -515,9 +515,9 @@
             "id": 942571,
             "layer": 381,
             "local_path": "",
-            "updated": "2023-06-25T01:06:44+0000",
+            "updated": "2023-08-09T21:08:38+0000",
             "vcs_last_commit": "2023-06-18T08:06:59+0000",
-            "vcs_last_fetch": "2023-06-25T01:06:44+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:38+0000",
             "vcs_last_rev": "eae62fcbf4d69e89e8aaee067f089ec82b47a989",
             "vcs_subdir": "",
             "version": null,
@@ -581,101 +581,101 @@
     "machines": [
         {
             "description": " RaspberryPi Zero board (https://www.raspberrypi.org/blog/raspberry-pi-zero)",
-            "id": 65010,
+            "id": 75428,
             "layerbranch": 942571,
             "name": "raspberrypi0",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi 4 in 64 bits mode",
-            "id": 65011,
+            "id": 75429,
             "layerbranch": 942571,
             "name": "raspberrypi4-64",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi http://www.raspberrypi.org/ Board",
-            "id": 65012,
+            "id": 75430,
             "layerbranch": 942571,
             "name": "raspberrypi",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi 2",
-            "id": 65013,
+            "id": 75431,
             "layerbranch": 942571,
             "name": "raspberrypi2",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi 4 in 32 bit mode",
-            "id": 65014,
+            "id": 75432,
             "layerbranch": 942571,
             "name": "raspberrypi4",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi 3 in 64 bits mode",
-            "id": 65015,
+            "id": 75433,
             "layerbranch": 942571,
             "name": "raspberrypi3-64",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi Compute Module 3 (CM3)",
-            "id": 65016,
+            "id": 75434,
             "layerbranch": 942571,
             "name": "raspberrypi-cm3",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi boards in 32 bit mode",
-            "id": 65017,
+            "id": 75435,
             "layerbranch": 942571,
             "name": "raspberrypi-armv7",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi boards in 64 bit mode",
-            "id": 65018,
+            "id": 75436,
             "layerbranch": 942571,
             "name": "raspberrypi-armv8",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 64 bits mode",
-            "id": 65019,
+            "id": 75437,
             "layerbranch": 942571,
             "name": "raspberrypi0-2w-64",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi Zero  WiFi board (https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)",
-            "id": 65020,
+            "id": 75438,
             "layerbranch": 942571,
             "name": "raspberrypi0-wifi",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi 3 in 32 bits mode",
-            "id": 65021,
+            "id": 75439,
             "layerbranch": 942571,
             "name": "raspberrypi3",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi Compute Module (CM1)",
-            "id": 65022,
+            "id": 75440,
             "layerbranch": 942571,
             "name": "raspberrypi-cm",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 32 bits mode",
-            "id": 65023,
+            "id": 75441,
             "layerbranch": 942571,
             "name": "raspberrypi0-2w",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:38+0000"
         }
     ],
     "recipes": [
@@ -700,7 +700,7 @@
             "section": "devel/libs",
             "srcrev": "22b44e4765b4b78dc5b22394fff484e353d5914d",
             "summary": "",
-            "updated": "2023-04-23T07:04:11+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -723,7 +723,7 @@
             "section": "base",
             "srcrev": "e1460098eeca5ea573f92814691bb378e15530d9",
             "summary": "Platform detection for use by libraries like Adafruit-Blinka.",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -746,7 +746,7 @@
             "section": "devel/python",
             "srcrev": "be1942a69b2592ddacd9dc833d2668a19aafd8d2",
             "summary": "",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -769,7 +769,7 @@
             "section": "base",
             "srcrev": "383b615ce9ff5bbefdf77652799f380016fda353",
             "summary": "Pure python (i.e. no native extensions) access to Linux IO    including I2C and SPI. Drop in replacement for smbus and spidev modules.",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -792,7 +792,7 @@
             "section": "base",
             "srcrev": "d1e8ac7ad9dcd65ab83749db3e5c96ffee80ebb7",
             "summary": "CircuitPython data descriptor classes to represent hardware registers on I2C and SPI devices.",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -815,7 +815,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -838,7 +838,7 @@
             "section": "devel/python",
             "srcrev": "b949681af69b45f0f7f4bb53b6770037b5b02178",
             "summary": "",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +861,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -884,7 +884,7 @@
             "section": "devel/libs",
             "srcrev": "fbba9a7dcef0f352a11f8a2a5f6cbc15b62c0829",
             "summary": "",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -907,7 +907,7 @@
             "section": "base",
             "srcrev": "6e79e995bbc75c5fdd5305bd7fe029758cfade2f",
             "summary": "Installation scripts and binaries for the Raspberry Pi 4 EEPROM",
-            "updated": "2023-04-23T07:04:12+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -930,7 +930,7 @@
             "section": "base",
             "srcrev": "648ffc470824c43eb0d16c485f4c24816b32cd6f",
             "summary": "",
-            "updated": "2023-06-25T01:06:44+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -953,7 +953,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -976,7 +976,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "cmdline.txt file used to boot the kernel on a Raspberry Pi device",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -999,7 +999,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GPIO shutdown bindings for SysV init",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1022,7 +1022,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot scripts for Raspberry Pi",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1045,7 +1045,7 @@
             "section": "base",
             "srcrev": "439b6198a9b340de5998dd14a26a0d9d38a6bcac",
             "summary": "",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1068,7 +1068,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Raspberrypi firmware libraries which are required by picamera library",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1091,13 +1091,13 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "A commandline OMX player for the Raspberry Pi",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "              --cross-prefix=i686-oe-linux-         --ld=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --cc=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --cxx=\"i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --arch=i686     --target-os=\"linux\"     --enable-cross-compile     --extra-cflags=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fmacro-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot-native=   -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --extra-ldflags=\"-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fmacro-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot-native= \"     --sysroot=\"/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config   --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-avresample --enable-bzlib --enable-libdrm --enable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-pic --enable-postproc --enable-pthreads --enable-rpi --enable-sand --disable-sdl2 --enable-shared --disable-libsnappy --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --enable-vout-egl --disable-libvpx --enable-libx264 --enable-libxcb --enable-outdev=xv --enable-zlib",
+            "configopts": "              --cross-prefix=i686-oe-linux-         --ld=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --cc=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --cxx=\"i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --arch=i686     --target-os=\"linux\"     --enable-cross-compile     --extra-cflags=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fmacro-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot-native=   -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     --extra-ldflags=\"-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/git=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fmacro-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/build=/usr/src/debug/rpidistro-ffmpeg/4.3.4-r0  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot-native= \"     --sysroot=\"/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-ffmpeg/4.3.4-r0/recipe-sysroot\"     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config   --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-avresample --enable-bzlib --enable-libdrm --enable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-pic --enable-postproc --enable-pthreads --enable-rpi --enable-sand --disable-sdl2 --enable-shared --disable-libsnappy --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --enable-vout-egl --disable-libvpx --enable-libx264 --enable-libxcb --enable-outdev=xv --enable-zlib",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
             "filename": "rpidistro-ffmpeg_4.3.4.bb",
             "filepath": "recipes-multimedia/rpidistro-ffmpeg",
@@ -1114,13 +1114,13 @@
             "section": "libs",
             "srcrev": "246e1a55a0eca931537d8706acd8b133c07beb05",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    -DCMAKE_BUILD_TYPE=Release     -DBoost_INCLUDE_DIR=/tmp/tmpcm6109dt/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/1.1.2+gitX-r0/recipe-sysroot/usr/include     -DCMAKE_LIBRARY_PATH=/tmp/tmpcm6109dt/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/1.1.2+gitX-r0/recipe-sysroot/usr/lib  -DENABLE_COMPILE_FLAGS_FOR_TARGET=i686  -DENABLE_OPENCV=0 -DENABLE_QT=0 -DENABLE_TFLITE=0 -DENABLE_X11=0",
+            "configopts": "    -DCMAKE_BUILD_TYPE=Release     -DBoost_INCLUDE_DIR=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/1.1.2+gitX-r0/recipe-sysroot/usr/include     -DCMAKE_LIBRARY_PATH=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpi-libcamera-apps/1.1.2+gitX-r0/recipe-sysroot/usr/lib  -DENABLE_COMPILE_FLAGS_FOR_TARGET=i686  -DENABLE_OPENCV=0 -DENABLE_QT=0 -DENABLE_TFLITE=0 -DENABLE_X11=0",
             "description": "This is a small suite of libcamera-based apps that aim to copy the functionality of the existing \\\"raspicam\\\" apps.",
             "filename": "rpi-libcamera-apps_git.bb",
             "filepath": "recipes-multimedia/libcamera-apps",
@@ -1137,7 +1137,7 @@
             "section": "console/utils",
             "srcrev": "12098520a3dec36ba796655baac7efece457f8d8",
             "summary": "A suite of libcamera-based apps for the Raspberry Pi",
-            "updated": "2023-06-25T01:06:44+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1160,7 +1160,7 @@
             "section": "base",
             "srcrev": "7e4f1d379d698c44501fb84b886fadf3fc164b70",
             "summary": "Python interface to the Raspberry Pi camera module",
-            "updated": "2023-04-23T07:04:13+0000"
+            "updated": "2023-08-09T21:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1183,7 +1183,7 @@
             "section": "base",
             "srcrev": "2251bfc0501d0acfb96c0a43f4f2b4c6a10ca14e",
             "summary": "CircuitPython helper library provides higher level objects to control motors and servos.",
-            "updated": "2023-06-25T01:06:43+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1206,7 +1206,7 @@
             "section": "base",
             "srcrev": "2780c4102f4c23fbab252aa1198b61ba7e2d1b2c",
             "summary": "CircuitPython driver for motor, stepper, and servo based on PCA9685.",
-            "updated": "2023-06-25T01:06:44+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1229,7 +1229,7 @@
             "section": "base",
             "srcrev": "dc688f354fe779c9267c208b99f310af87e79272",
             "summary": "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.",
-            "updated": "2023-06-25T01:06:42+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1252,7 +1252,7 @@
             "section": "base",
             "srcrev": "1bfe8005293205e2f7b2cc498ab5a946f1133b40",
             "summary": "CircuitPython bus device classes to manage bus sharing.",
-            "updated": "2023-06-25T01:06:43+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1275,13 +1275,13 @@
             "section": "base",
             "srcrev": "8c1462b4129b21f6db156d1517abb017bb74b982",
             "summary": "CircuitPython helper library for DC & Stepper Motor FeatherWing, Shield, and Pi Hat kits.",
-            "updated": "2023-06-25T01:06:43+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-lua     --disable-screen     --disable-caca     --enable-vlm     --enable-tremor     --disable-aa     --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     --disable-css       --enable-a52 --enable-alsa --disable-dc1394 --enable-dv1394 --enable-dvbpsi --disable-dvdnav --enable-fluidsynth --enable-fontconfig --enable-freetype --enable-fribidi --disable-gles2 --disable-gst-decode --enable-harfbuzz --enable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmp06mcsp99/tmp-glibc/work/core2-32-oe-linux/rpidistro-vlc/3.0.17-r0/recipe-sysroot/usr --disable-mad --enable-omxil --enable-omxil-vout --enable-rpi-omxil --enable-mmal --enable-mmal-avcodec --disable-ncurses --enable-neon --enable-notify --disable-ogg --disable-opus --enable-png --disable-postproc --disable-pulse --disable-sftp --disable-speex --disable-svg --disable-svgdec --enable-udev --disable-upnp --enable-v4l2 --disable-vnc --disable-vorbis --disable-vpx --with-x --enable-xcb --enable-x264 --enable-nls",
+            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-lua     --disable-screen     --disable-caca     --enable-vlm     --enable-tremor     --disable-aa     --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     --disable-css       --enable-a52 --enable-alsa --disable-dc1394 --enable-dv1394 --enable-dvbpsi --disable-dvdnav --enable-fluidsynth --enable-fontconfig --enable-freetype --enable-fribidi --disable-gles2 --disable-gst-decode --enable-harfbuzz --enable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmpv9fqgpe5/tmp-glibc/work/core2-32-oe-linux/rpidistro-vlc/3.0.17-r0/recipe-sysroot/usr --disable-mad --enable-omxil --enable-omxil-vout --enable-rpi-omxil --enable-mmal --enable-mmal-avcodec --disable-ncurses --enable-neon --enable-notify --disable-ogg --disable-opus --enable-png --disable-postproc --disable-pulse --disable-sftp --disable-speex --disable-svg --disable-svgdec --enable-udev --disable-upnp --enable-v4l2 --disable-vnc --disable-vorbis --disable-vpx --with-x --enable-xcb --enable-x264 --enable-nls",
             "description": "Video player and streamer - davinci edition",
             "filename": "rpidistro-vlc_3.0.17.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/rpidistro-vlc",
@@ -1298,7 +1298,7 @@
             "section": "multimedia",
             "srcrev": "b276eb0d7bc3213363e97dbb681ef7c927be6c73",
             "summary": "",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1321,7 +1321,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python module to control the Raspberry Pi Sense HAT used in the Astro Pi mission",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1344,7 +1344,7 @@
             "section": "kernel",
             "srcrev": "541e5a05d152e7e6f0d9be45622e4a3741e51c02",
             "summary": "Linux kernel firmware files from Raspbian distribution",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1367,7 +1367,7 @@
             "section": "kernel",
             "srcrev": "e7fd166981ab4bb9a36c2d1500205a078a35714d",
             "summary": "Linux kernel Bluetooth firmware files from Raspbian distribution",
-            "updated": "2023-04-23T07:04:14+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1390,7 +1390,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1413,7 +1413,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1436,7 +1436,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1459,7 +1459,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1482,7 +1482,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1505,7 +1505,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1528,7 +1528,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1551,7 +1551,7 @@
             "section": "graphics",
             "srcrev": "e2ee6faa0d01a5ece06bcc74a47f37d7e6837310",
             "summary": "Some examples using the DispmanX API on the Raspberry Pi",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1574,7 +1574,7 @@
             "section": "base",
             "srcrev": "54fd97ae4066a10b6b02089bc769ceed328737e0",
             "summary": "",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1597,7 +1597,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1620,7 +1620,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:15+0000"
+            "updated": "2023-08-09T21:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1643,7 +1643,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1666,7 +1666,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1689,7 +1689,7 @@
             "section": "base",
             "srcrev": "5ce3ef2b7f377c23fea440ca9df0e30f3f8447cf",
             "summary": "",
-            "updated": "2023-06-25T01:06:44+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1712,7 +1712,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1735,7 +1735,7 @@
             "section": "kernel",
             "srcrev": "fd4775bf90e037551532fc214a958074830bb80d",
             "summary": "Script to properly configure BT-HCI on Raspberry Pi",
-            "updated": "2023-04-23T07:04:16+0000"
+            "updated": "2023-08-09T21:08:37+0000"
         }
     ],
     "wrtemplates": []

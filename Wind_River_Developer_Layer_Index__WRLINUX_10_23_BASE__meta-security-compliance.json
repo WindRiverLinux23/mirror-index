@@ -485,54 +485,54 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-07-17T20:07:39+0000",
-            "vcs_last_commit": "2023-07-17T19:07:29+0000",
-            "vcs_last_fetch": "2023-07-17T20:07:39+0000",
-            "vcs_last_rev": "c747f099ba9e51189b73b2a1949761945940d89a",
+            "updated": "2023-08-29T20:08:00+0000",
+            "vcs_last_commit": "2023-08-27T20:08:07+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:00+0000",
+            "vcs_last_rev": "9e1469795d179b98dd44542fbe5f0739d42c2335",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-07-13T20:07:37+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-06-23T05:06:41+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:37+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:18+0000",
             "vcs_last_rev": "30b2c1c064dc9f3a9cf3c974e18e6f5c5c0c964e",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -545,9 +545,9 @@
             "id": 942707,
             "layer": 304,
             "local_path": "",
-            "updated": "2023-06-28T20:06:20+0000",
+            "updated": "2023-08-09T21:08:53+0000",
             "vcs_last_commit": "2023-06-28T18:06:07+0000",
-            "vcs_last_fetch": "2023-06-28T20:06:20+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:53+0000",
             "vcs_last_rev": "6436f869af2600ad14eb50971abda76f582a2138",
             "vcs_subdir": "meta-security-compliance",
             "version": null,
@@ -681,7 +681,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Lynis is a free and open source security and auditing tool.",
-            "updated": "2023-04-23T08:04:24+0000"
+            "updated": "2023-08-09T21:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -704,7 +704,7 @@
             "section": "base",
             "srcrev": "f25b16afb6ac761fea13132ff406fba4cdfd2b76",
             "summary": "",
-            "updated": "2023-04-23T08:04:24+0000"
+            "updated": "2023-08-09T21:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +727,7 @@
             "section": "base",
             "srcrev": "5fdfdcb2e95afbd86ace555beca5d20cbf1043ed",
             "summary": "",
-            "updated": "2023-04-23T08:04:24+0000"
+            "updated": "2023-08-09T21:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -750,7 +750,7 @@
             "section": "base",
             "srcrev": "8cb2d0f351faff5440742258782281164953b0a6",
             "summary": "",
-            "updated": "2023-04-23T08:04:24+0000"
+            "updated": "2023-08-09T21:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -773,7 +773,7 @@
             "section": "base",
             "srcrev": "7147871d7f37d408c0dd7720ef0fd3ec1b54ad98",
             "summary": "",
-            "updated": "2023-04-23T08:04:24+0000"
+            "updated": "2023-08-09T21:08:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -796,7 +796,7 @@
             "section": "base",
             "srcrev": "55efbfda0f617e05862ab6ed4862e10dbee52b03",
             "summary": "",
-            "updated": "2023-06-21T02:06:16+0000"
+            "updated": "2023-08-09T21:08:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -819,7 +819,7 @@
             "section": "base",
             "srcrev": "a85943eee400fdbe59234d1c4a02d8cf710c4625",
             "summary": "",
-            "updated": "2023-04-23T08:04:25+0000"
+            "updated": "2023-08-09T21:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -842,7 +842,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Operating release identification",
-            "updated": "2023-04-23T08:04:25+0000"
+            "updated": "2023-08-09T21:08:53+0000"
         }
     ],
     "wrtemplates": []

@@ -485,64 +485,79 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 12415,
+            "id": 13111,
             "layerbranch": 942696,
             "name": "fslc-xwayland",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "description": "",
-            "id": 12416,
+            "id": 13112,
             "layerbranch": 942696,
             "name": "fslc-framebuffer",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "description": "",
-            "id": 12417,
+            "id": 13113,
             "layerbranch": 942696,
             "name": "fsl-framebuffer",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "description": "",
-            "id": 12418,
+            "id": 13114,
             "layerbranch": 942696,
             "name": "fslc-x11",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "description": "",
-            "id": 12419,
+            "id": 13115,
             "layerbranch": 942696,
             "name": "fslc-wayland",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "description": "",
-            "id": 12420,
+            "id": 13116,
             "layerbranch": 942696,
             "name": "fsl-xwayland",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "description": "",
-            "id": 12421,
+            "id": 13117,
             "layerbranch": 942696,
             "name": "fsl-wayland",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         }
     ],
     "layerBranches": [
+        {
+            "actual_branch": "wr-10.23-20230828",
+            "branch": 342,
+            "collection": "core",
+            "id": 942434,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 42596
+        },
         {
             "actual_branch": "wr-10.23-20230423",
             "branch": 342,
@@ -550,17 +565,83 @@
             "id": 942696,
             "layer": 470,
             "local_path": "",
-            "updated": "2023-05-10T23:05:28+0000",
-            "vcs_last_commit": "2023-05-10T03:05:36+0000",
-            "vcs_last_fetch": "2023-05-10T23:05:28+0000",
-            "vcs_last_rev": "60959d167e9663ceabf3cc86d1051e7187581611",
+            "updated": "2023-09-05T01:09:59+0000",
+            "vcs_last_commit": "2023-09-05T00:09:39+0000",
+            "vcs_last_fetch": "2023-09-05T01:09:59+0000",
+            "vcs_last_rev": "8209fb4344b5ffd067f9ca8550a5c706cc0fd4cf",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
+        },
+        {
+            "actual_branch": "wr-10.23-20230828",
+            "branch": 342,
+            "collection": "yocto",
+            "id": 942699,
+            "layer": 59,
+            "local_path": "",
+            "updated": "2023-08-29T20:08:23+0000",
+            "vcs_last_commit": "2023-08-27T20:08:17+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:23+0000",
+            "vcs_last_rev": "d57ef402df54665a004c10bab3353d178c076365",
+            "vcs_subdir": "meta-poky",
+            "version": "3",
+            "yp_compatible_version": 42596
         }
     ],
-    "layerDependencies": [],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 118311,
+            "layerbranch": 942696,
+            "required": true
+        },
+        {
+            "dependency": 59,
+            "id": 118312,
+            "layerbranch": 942696,
+            "required": true
+        }
+    ],
     "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "yocto",
+            "comparison": false,
+            "description": "Poky is an integration of various components to form a complete prepackaged\r\nbuild system and development environment. It features support for building\r\ncustomised embedded device style images. There are reference demo images\r\nfeaturing a X11/Matchbox/GTK themed UI called Sato. The system supports\r\ncross-architecture application development using QEMU emulation and a\r\nstandalone toolchain and SDK with IDE integration.",
+            "id": 59,
+            "index_preference": 800,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "meta-poky",
+            "status": "P",
+            "summary": "Poky reference distribution for the Yocto Project",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-yocto",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
         {
             "collection": "freescale-distro",
             "comparison": false,
@@ -604,7 +685,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -627,7 +708,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community packagegroup - tools/testapps",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -650,7 +731,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - full set of all GStreamer 1.0 plugins",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -673,7 +754,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -696,7 +777,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - networking",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -719,7 +800,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - set of GStreamer 1.0 plugins with commercial licence flag",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -742,7 +823,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +846,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Communtiy package group - tools/benchmark",
-            "updated": "2023-04-23T08:04:40+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -788,7 +869,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - set of commonly used GStreamer 1.0 plugins",
-            "updated": "2023-05-10T23:05:28+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -811,7 +892,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2023-04-23T08:04:40+0000"
+            "updated": "2023-08-09T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +915,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:40+0000"
+            "updated": "2023-08-09T20:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -857,7 +938,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:40+0000"
+            "updated": "2023-08-09T20:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -880,7 +961,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:40+0000"
+            "updated": "2023-08-09T20:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +984,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:40+0000"
+            "updated": "2023-08-09T20:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +1007,7 @@
             "section": "base",
             "srcrev": "f67165c2bb2af3060ecae7d20d6f731173485ad0",
             "summary": "single-file public domain (or MIT licensed) libraries for C/C++",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -949,7 +1030,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C++ library for half precision floating point arithmetics",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -972,7 +1053,7 @@
             "section": "multimedia",
             "srcrev": "490564815d8049dbdd79087f546835b673ba6e88",
             "summary": "RTSP server for live-stream from a v4l2 video source",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -995,7 +1076,7 @@
             "section": "base",
             "srcrev": "909c7abbff0ee35610f07f6fadeaf3a2eadce36e",
             "summary": "Low level header only C++11 RAII wrapper classes for the OpenVX API",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1018,7 +1099,7 @@
             "section": "base",
             "srcrev": "e39a407c5ae880792d8843ada65a19dd26b3dca7",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1041,7 +1122,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1064,7 +1145,7 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T20:08:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1087,7 +1168,7 @@
             "section": "devel",
             "srcrev": "8f0c6b04b2257a520aaab38421b2e090204b69df",
             "summary": "",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1110,7 +1191,7 @@
             "section": "base",
             "srcrev": "2c77d1ed4e9ae477b32ebb22c5dfb8e5cb530a8e",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1133,7 +1214,7 @@
             "section": "base",
             "srcrev": "21254804a56ae96e8385c2652733c338d62da04f",
             "summary": "Experimental low level header only C++11 RAII wrapper classes for the OpenCL API",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-08-09T20:08:25+0000"
         }
     ],
     "wrtemplates": []

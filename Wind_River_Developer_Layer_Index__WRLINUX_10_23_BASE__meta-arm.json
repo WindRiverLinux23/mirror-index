@@ -485,40 +485,40 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "meta-arm",
             "id": 942709,
             "layer": 474,
             "local_path": "",
-            "updated": "2023-07-13T20:07:22+0000",
-            "vcs_last_commit": "2023-07-12T01:07:59+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:22+0000",
-            "vcs_last_rev": "88c0a27f44e52b918d125eb0138b497b981cadf3",
+            "updated": "2023-08-29T20:08:08+0000",
+            "vcs_last_commit": "2023-08-27T20:08:14+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:08+0000",
+            "vcs_last_rev": "8f1368fd6d3475d6d53148f7b4be4c3b1e1049b5",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42597
@@ -575,31 +575,31 @@
     "machines": [
         {
             "description": "",
-            "id": 65118,
+            "id": 75479,
             "layerbranch": 942709,
             "name": "qemuarm64-secureboot",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "description": "",
-            "id": 65119,
+            "id": 75480,
             "layerbranch": 942709,
             "name": "qemuarm-secureboot",
-            "updated": "2023-04-23T08:04:37+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "description": "Generic Arm64 machine for typical SystemReady platforms, which",
-            "id": 65120,
+            "id": 75481,
             "layerbranch": 942709,
             "name": "generic-arm64",
-            "updated": "2023-04-23T08:04:37+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "description": "Generic Arm64 machine for typical SystemReady platforms, which",
-            "id": 65121,
+            "id": 75482,
             "layerbranch": 942709,
             "name": "qemu-generic-arm64",
-            "updated": "2023-04-23T08:04:37+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         }
     ],
     "recipes": [
@@ -624,7 +624,7 @@
             "section": "base",
             "srcrev": "edf6ef4b06b42c58292faea78498aff76bdf68ed",
             "summary": "GN is a meta-build system that generates build files for Ninja",
-            "updated": "2023-04-23T08:04:37+0000"
+            "updated": "2023-08-09T21:08:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -647,7 +647,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pure-Python implementation of HSS/LMS Digital Signatures (RFC 8554)",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -670,7 +670,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Corstone-1000-23 Ecosystem Reference Design",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -693,7 +693,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Armv8-R Base Architecture Envelope Model FVP",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -716,7 +716,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Library Ecosystem Reference Design",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -739,7 +739,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Armv-A Base RevC Architecture Envelope Model FVP",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -762,7 +762,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Neoverse-N1 Ecosystem Reference Design",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -785,7 +785,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - SGI-575 Ecosystem Reference Design",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -808,7 +808,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Corstone-500 Ecosystem Reference Design",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -831,7 +831,7 @@
             "section": "base",
             "srcrev": "78ce8ef47c55a489b0ca575b981cd4856d03f44b",
             "summary": "OpenCSD - An open source CoreSight(tm) Trace Decode library",
-            "updated": "2023-06-05T02:06:10+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -854,7 +854,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware image signing scripts",
-            "updated": "2023-06-25T01:06:40+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -877,13 +877,13 @@
             "section": "base",
             "srcrev": "6a944e7ee1f1c3ab9b2a57efd24c58503122db02",
             "summary": "DS-5 Streamline Gator daemon",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-kernel-dir=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/boot-wrapper-aarch64/gitX-r0/kernel --with-dtb=/tmp/tmp2jn12bjp/tmp-glibc/work/qemux86-oe-linux/boot-wrapper-aarch64/gitX-r0/kernel/dummy.dtb --with-cmdline=\\\"\\\" --enable-psci --enable-gicv3 ",
+            "configopts": " --with-kernel-dir=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/boot-wrapper-aarch64/gitX-r0/kernel --with-dtb=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/boot-wrapper-aarch64/gitX-r0/kernel/dummy.dtb --with-cmdline=\\\"\\\" --enable-psci --enable-gicv3 ",
             "description": "",
             "filename": "boot-wrapper-aarch64_git.bb",
             "filepath": "recipes-bsp/boot-wrapper-aarch64",
@@ -900,7 +900,7 @@
             "section": "base",
             "srcrev": "d3b1a15d18542b2086e72bfdc3fc43f454772a3b",
             "summary": "Linux aarch64 boot wrapper with FDT support",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -923,13 +923,13 @@
             "section": "base",
             "srcrev": "79e9522d26fc2a88a44af149034acc27312b73a1",
             "summary": "Hafnium",
-            "updated": "2023-04-23T08:04:38+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM= -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tf-m-tests -DTFM_EXTRAS_REPO_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tfm-extras -DMCUBOOT_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mcuboot -DQCBOR_PATH=/tmp/tmp5sb45rws/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../qcbor",
+            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM= -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tf-m-tests -DTFM_EXTRAS_REPO_PATH=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../tfm-extras -DMCUBOOT_PATH=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../mcuboot -DQCBOR_PATH=/tmp/tmpeiycaw1h/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.7.0-r0/git/tfm/../qcbor",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_1.7.0.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -946,7 +946,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2023-06-25T01:06:40+0000"
+            "updated": "2023-08-09T21:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -969,7 +969,7 @@
             "section": "base",
             "srcrev": "9881bb93a3bc0a3ea37e9f093e09ab4b360a9e48",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -992,7 +992,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-07-13T20:07:19+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1015,7 +1015,7 @@
             "section": "base",
             "srcrev": "f7b3be91ab954c495912fc7bc48383cd83bfec2d",
             "summary": "",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1038,7 +1038,7 @@
             "section": "base",
             "srcrev": "635697544170b78167ed698393a72d6e522032e1",
             "summary": "SCP and MCP Firmware",
-            "updated": "2023-06-25T01:06:40+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1061,7 +1061,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1084,7 +1084,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1107,13 +1107,13 @@
             "section": "base",
             "srcrev": "f80f052277c88a67c55e107b550f504eeea947d3",
             "summary": "EDK2 Base Tools",
-            "updated": "2023-04-23T08:04:39+0000"
+            "updated": "2023-08-09T21:08:22+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/psatest                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-ps-api-test/git-r0/git/psatest                   ",
             "description": "Protected Storage PSA certification tests (psa-arch-test) for Trusted Services",
             "filename": "ts-psa-ps-api-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1130,13 +1130,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "Parts of PSA certification tests (psa-arch-test) for Trusted Services",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/trusted-services=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/trusted-services=/usr/src/debug/ts-sp-crypto/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/build=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/build=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git=/usr/src/debug/ts-sp-crypto/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/trusted-services=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git/trusted-services=/usr/src/debug/ts-sp-crypto/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/build=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/build=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git=/usr/src/debug/ts-sp-crypto/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-crypto/git-r0/git=/usr/src/debug/ts-sp-crypto/git-r0 \" ",
             "description": "Trusted Services crypto service provider",
             "filename": "ts-sp-crypto_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1153,13 +1153,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/psatest                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-crypto-api-test/git-r0/git/psatest                   ",
             "description": "Crypto PSA certification tests (psa-arch-test)",
             "filename": "ts-psa-crypto-api-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1176,13 +1176,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "Parts of PSA certification tests (psa-arch-test) for Trusted Services",
-            "updated": "2023-07-13T20:07:22+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/trusted-services=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/trusted-services=/usr/src/debug/ts-sp-env-test/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/build=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/build=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git=/usr/src/debug/ts-sp-env-test/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/trusted-services=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git/trusted-services=/usr/src/debug/ts-sp-env-test/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/build=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/build=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git=/usr/src/debug/ts-sp-env-test/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-env-test/git-r0/git=/usr/src/debug/ts-sp-env-test/git-r0 \" ",
             "description": "Trusted Services test_runner service provider",
             "filename": "ts-sp-env-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1199,13 +1199,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/trusted-services=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/trusted-services=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/build=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/build=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git=/usr/src/debug/ts-sp-smm-gateway/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/trusted-services=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git/trusted-services=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/build=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/build=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git=/usr/src/debug/ts-sp-smm-gateway/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-smm-gateway/git-r0/git=/usr/src/debug/ts-sp-smm-gateway/git-r0 \" ",
             "description": "Trusted Services service provider for UEFI SMM services",
             "filename": "ts-sp-smm-gateway_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1222,13 +1222,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-uefi-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
             "description": "Trusted Services uefi-test deployment for arm-linux.                Used for running service level tests from Linux user-space                on an Arm platform with real deployments of UEFI SMM services.",
             "filename": "ts-uefi-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1245,13 +1245,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:22+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/trusted-services=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/trusted-services=/usr/src/debug/ts-sp-its/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/build=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/build=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git=/usr/src/debug/ts-sp-its/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/trusted-services=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git/trusted-services=/usr/src/debug/ts-sp-its/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/build=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/build=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git=/usr/src/debug/ts-sp-its/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-its/git-r0/git=/usr/src/debug/ts-sp-its/git-r0 \" ",
             "description": "Trusted Services internal secure storage service provider",
             "filename": "ts-sp-its_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1268,13 +1268,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/libts/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
             "description": "Trusted Services libts library for the arm-linux enviroment.                Used for locating and accessing services from a Linux userspace client",
             "filename": "libts_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1291,13 +1291,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:22+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-demo/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
             "description": "Trusted Services ts-demo deployment for arm-linux.                Used for running simple TS demo from Linux user-space                on an Arm platform with real deployments of trusted services.",
             "filename": "ts-demo_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1314,13 +1314,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/trusted-services=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/trusted-services=/usr/src/debug/ts-sp-attestation/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/build=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/build=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git=/usr/src/debug/ts-sp-attestation/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/trusted-services=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git/trusted-services=/usr/src/debug/ts-sp-attestation/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/build=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/build=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git=/usr/src/debug/ts-sp-attestation/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-attestation/git-r0/git=/usr/src/debug/ts-sp-attestation/git-r0 \" ",
             "description": "Trusted Services attestation service provider",
             "filename": "ts-sp-attestation_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1337,13 +1337,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-remote-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
             "description": "Trusted Services ts-remote-test deployment for arm-linux.",
             "filename": "ts-remote-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1360,13 +1360,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/psatest                   -DPSA_TARGET_QCBOR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/psaqcbor                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/psatest                   -DPSA_TARGET_QCBOR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-iat-api-test/git-r0/git/psaqcbor                   ",
             "description": "Initial Attestation PSA certification tests (psa-arch-test) for Trusted Services",
             "filename": "ts-psa-iat-api-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1383,13 +1383,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "Parts of PSA certification tests (psa-arch-test) for Trusted Services",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-service-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                   ",
             "description": "Trusted Services ts-service-test deployment for arm-linux.                Used for running service level tests from Linux user-space                on an Arm platform with real deployments of trusted services.",
             "filename": "ts-service-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1406,13 +1406,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/psatest                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DTS_EXTERNAL_LIB_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/toolchain.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/recipe-sysroot/usr/arm-linux/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/recipe-sysroot/usr/arm-linux/newlib                                     -DPSA_ARCH_TESTS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-psa-its-api-test/git-r0/git/psatest                   ",
             "description": "Internal Trusted Storage PSA certification tests (psa-arch-test) for Trusted Services",
             "filename": "ts-psa-its-api-test_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1429,13 +1429,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "Parts of PSA certification tests (psa-arch-test) for Trusted Services",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot/usr/opteesp/newlib                   -DNEWLIB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/newlib                   -DNEWLIB_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot\"                   ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot/usr/opteesp/newlib                   -DNEWLIB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/git/newlib                   -DNEWLIB_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-newlib/4.1.0-r0/recipe-sysroot\"                   ",
             "description": "",
             "filename": "ts-newlib_4.1.0.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1452,13 +1452,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "Newlib static libraries built with Trusted Services opteesp deployment options",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/trusted-services=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/trusted-services=/usr/src/debug/ts-sp-se-proxy/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/build=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/build=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git=/usr/src/debug/ts-sp-se-proxy/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/trusted-services=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git/trusted-services=/usr/src/debug/ts-sp-se-proxy/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/build=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/build=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git=/usr/src/debug/ts-sp-se-proxy/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-se-proxy/git-r0/git=/usr/src/debug/ts-sp-se-proxy/git-r0 \" ",
             "description": "Trusted Services proxy service providers",
             "filename": "ts-sp-se-proxy_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1475,13 +1475,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/trusted-services=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/trusted-services=/usr/src/debug/ts-sp-storage/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/build=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/build=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git=/usr/src/debug/ts-sp-storage/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/trusted-services=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git/trusted-services=/usr/src/debug/ts-sp-storage/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/build=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/build=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git=/usr/src/debug/ts-sp-storage/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-storage/git-r0/git=/usr/src/debug/ts-sp-storage/git-r0 \" ",
             "description": "Trusted Services secure storage service provider",
             "filename": "ts-sp-storage_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1498,7 +1498,7 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1521,7 +1521,7 @@
             "section": "base",
             "srcrev": "d638536d0fe01acd5e39ffa1bd100b3da82d92c7",
             "summary": "OPTEE fTPM Microsoft TA",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1544,7 +1544,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Services test/demo linux tools",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1567,7 +1567,7 @@
             "section": "base",
             "srcrev": "dd2d39b49975d2ada7870fe2b7f5a84d0d3860dc",
             "summary": "OP-TEE Client API",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1590,7 +1590,7 @@
             "section": "base",
             "srcrev": "8e74d47616a20eaa23ca692f4bbbf917a236ed94",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2023-07-13T20:07:21+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1613,7 +1613,7 @@
             "section": "base",
             "srcrev": "1ee647035939e073a2e8dddb727c0f019cc035f1",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1636,7 +1636,7 @@
             "section": "base",
             "srcrev": "1ee647035939e073a2e8dddb727c0f019cc035f1",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1659,7 +1659,7 @@
             "section": "base",
             "srcrev": "da5282a011b40621a2cf7a296c11a35c833ed91b",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1682,7 +1682,7 @@
             "section": "base",
             "srcrev": "f301ee9df2129c0db683e726c91dc2cefe4cdb65",
             "summary": "OP-TEE examples",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1705,7 +1705,7 @@
             "section": "base",
             "srcrev": "a98d01e1b9168eaed96bcd0bac0df67c44a81081",
             "summary": "OP-TEE examples",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1728,7 +1728,7 @@
             "section": "base",
             "srcrev": "5db8ab4c733d5b2f4afac3e9aef0a26634c4b444",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1751,7 +1751,7 @@
             "section": "base",
             "srcrev": "e7cba71cc6e2ecd02f412c7e9ee104f0a5dffc6f",
             "summary": "OP-TEE Client API",
-            "updated": "2023-04-23T08:04:41+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1774,7 +1774,7 @@
             "section": "base",
             "srcrev": "8e74d47616a20eaa23ca692f4bbbf917a236ed94",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1797,7 +1797,7 @@
             "section": "base",
             "srcrev": "18e3be71f65a405dfb5d97603ae71b3c11759861",
             "summary": "FF-A Debugfs Linux kernel module",
-            "updated": "2023-07-13T20:07:20+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1820,7 +1820,7 @@
             "section": "kernel",
             "srcrev": "e8b3f31d7a60648343ecbd45ab58dbcfc425b22c",
             "summary": "Linux kernel",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-08-09T21:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1843,7 +1843,7 @@
             "section": "base",
             "srcrev": "8a81f5d2406f146b15a705d49b256efaa5fa3ba9",
             "summary": "A Linux kernel module providing user space access to Trusted Services",
-            "updated": "2023-04-23T08:04:42+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1866,7 +1866,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2023-06-25T01:06:41+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1889,13 +1889,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - TC1 Ecosystem Reference Design",
-            "updated": "2023-06-25T01:06:41+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test1/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/build=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/build=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git=/usr/src/debug/ts-sp-spm-test1/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test1/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/build=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/build=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git=/usr/src/debug/ts-sp-spm-test1/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test1/git-r0/git=/usr/src/debug/ts-sp-spm-test1/git-r0 \" ",
             "description": "Trusted Services SPMC test SPs",
             "filename": "ts-sp-spm-test1_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1912,13 +1912,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:22+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test2/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/build=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/build=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git=/usr/src/debug/ts-sp-spm-test2/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test2/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/build=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/build=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git=/usr/src/debug/ts-sp-spm-test2/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test2/git-r0/git=/usr/src/debug/ts-sp-spm-test2/git-r0 \" ",
             "description": "Trusted Services SPMC test SPs",
             "filename": "ts-sp-spm-test2_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1935,13 +1935,13 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:22+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test3/git-r0  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/build=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/build=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpswc15r4f/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git=/usr/src/debug/ts-sp-spm-test3/git-r0 \" ",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/mbedtls                   -DOPENAMP_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/openamp                   -DLIBMETAL_SOURCE_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/libmetal                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DSP_PACKAGING_METHOD=\"embedded\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/trusted-services/environments/opteesp/default_toolchain_file.cmake                   -Dlibts_ROOT=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git/trusted-services=/usr/src/debug/ts-sp-spm-test3/git-r0  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/build=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/build=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git=/usr/src/debug/ts-sp-spm-test3/git-r0  -fdebug-prefix-map=/tmp/tmpeiycaw1h/tmp-glibc/work/core2-32-oe-linux/ts-sp-spm-test3/git-r0/git=/usr/src/debug/ts-sp-spm-test3/git-r0 \" ",
             "description": "Trusted Services SPMC test SPs",
             "filename": "ts-sp-spm-test3_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1958,7 +1958,7 @@
             "section": "base",
             "srcrev": "08b3d39471f4914186bd23793dc920e83b0e3197",
             "summary": "",
-            "updated": "2023-07-13T20:07:22+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         }
     ],
     "wrtemplates": []

@@ -485,55 +485,55 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "signing-key",
             "id": 942700,
             "layer": 129,
             "local_path": "",
-            "updated": "2023-07-13T20:07:11+0000",
+            "updated": "2023-08-29T20:08:04+0000",
             "vcs_last_commit": "2023-06-24T18:06:26+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:11+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:10+0000",
             "vcs_last_rev": "442504fcb60c2db0f5c7749301029c4b5a31aedf",
             "vcs_subdir": "meta-signing-key",
             "version": null,
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "secure-core",
             "id": 942701,
             "layer": 149,
             "local_path": "",
-            "updated": "2023-07-13T20:07:27+0000",
-            "vcs_last_commit": "2023-07-10T20:07:22+0000",
-            "vcs_last_fetch": "2023-07-13T20:07:27+0000",
-            "vcs_last_rev": "e5bf872fbf6291a93cc4e40146f5d92ce397140c",
+            "updated": "2023-08-29T20:08:28+0000",
+            "vcs_last_commit": "2023-08-27T20:08:18+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:28+0000",
+            "vcs_last_rev": "a7ba7ebb130499bf64656a0628a1d1b51201bb0b",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": 42597
@@ -635,7 +635,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2023-04-23T08:04:19+0000"
+            "updated": "2023-08-09T21:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -658,7 +658,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The root image of SecureCore.",
-            "updated": "2023-04-23T08:04:20+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -681,7 +681,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs kernel boot",
-            "updated": "2023-06-25T01:06:45+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -704,7 +704,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-06-25T01:06:46+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +727,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The root image of SecureCore.",
-            "updated": "2023-04-23T08:04:20+0000"
+            "updated": "2023-08-09T21:08:34+0000"
         }
     ],
     "wrtemplates": []

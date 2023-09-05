@@ -485,32 +485,113 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230511",
+            "actual_branch": "wr-10.23-20230828",
+            "branch": 342,
+            "collection": "core",
+            "id": 942434,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "wr-10.23-20230808",
             "branch": 342,
             "collection": "meta-ml",
             "id": 942568,
             "layer": 472,
             "local_path": "",
-            "updated": "2023-05-11T02:05:03+0000",
-            "vcs_last_commit": "2023-05-11T01:05:13+0000",
-            "vcs_last_fetch": "2023-05-11T02:05:03+0000",
-            "vcs_last_rev": "4112c2de88fd026c6cb2be50596c9d93e2fd98a9",
+            "updated": "2023-09-05T01:09:10+0000",
+            "vcs_last_commit": "2023-09-05T00:09:50+0000",
+            "vcs_last_fetch": "2023-09-05T01:09:10+0000",
+            "vcs_last_rev": "b4086d13a9b9d80d38c4519dc2471ea0e0ff69f0",
             "vcs_subdir": "meta-ml",
+            "version": null,
+            "yp_compatible_version": 42597
+        },
+        {
+            "actual_branch": "wr-10.23-20230711",
+            "branch": 342,
+            "collection": "freescale-layer",
+            "id": 942705,
+            "layer": 231,
+            "local_path": "",
+            "updated": "2023-08-09T21:08:46+0000",
+            "vcs_last_commit": "2023-08-07T22:08:30+0000",
+            "vcs_last_fetch": "2023-08-09T21:08:46+0000",
+            "vcs_last_rev": "c9a90fbe27ad0c8b218bbc3ec0d18fe53e9e145b",
+            "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
         }
     ],
-    "layerDependencies": [],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 118316,
+            "layerbranch": 942568,
+            "required": true
+        },
+        {
+            "dependency": 231,
+            "id": 118317,
+            "layerbranch": 942568,
+            "required": true
+        }
+    ],
     "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "freescale-layer",
+            "comparison": false,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
         {
             "collection": "meta-ml",
             "comparison": false,
@@ -554,7 +635,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -577,13 +658,13 @@
             "section": "console/tools",
             "srcrev": "52b2447247f535663ac1c292e088b4b27d2910ef",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/flatbuffers/2.0.7-r0/recipe-sysroot-native/usr/bin/flatc ",
+            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/flatbuffers/2.0.7-r0/recipe-sysroot-native/usr/bin/flatc ",
             "description": "",
             "filename": "flatbuffers_2.0.7.bb",
             "filepath": "recipes-devtools/flatbuffers",
@@ -600,30 +681,30 @@
             "section": "console/tools",
             "srcrev": "8367664f15c3ea2ee58c67dacf9d630b49466de5",
             "summary": "Memory Efficient Serialization Library",
-            "updated": "2023-05-11T02:05:01+0000"
+            "updated": "2023-08-09T20:08:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DONNX_CUSTOM_PROTOC_EXECUTABLE=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/onnxruntime/1.10.0-r0/recipe-sysroot-native/usr/bin/onnxruntime-native/protoc -DCMAKE_BUILD_TYPE=RelWithDebInfo    -Donnxruntime_ARMNN_BN_USE_CPU=OFF  -Donnxruntime_ARMNN_RELU_USE_CPU=OFF  -Donnxruntime_USE_AUTOML=OFF  -Donnxruntime_USE_BRAINSLICE=OFF  -Donnxruntime_CROSS_COMPILING=OFF   -Donnxruntime_BUILD_CSHARP=OFF  -Donnxruntime_USE_CUDA=OFF  -Donnxruntime_DEV_MODE=OFF  -Donnxruntime_USE_DML=OFF  -Donnxruntime_USE_DNNL=OFF -Donnxruntime_USE_EIGEN_FOR_BLAS=ON  -Donnxruntime_USE_EIGEN_THREADPOOL=OFF  -Donnxruntime_USE_FULL_PROTOBUF=OFF  -Donnxruntime_USE_GEMMLOWP=OFF  -Donnxruntime_ENABLE_LANGUAGE_INTEROP_OPS=OFF  -Donnxruntime_BUILD_JAVA=OFF  -Donnxruntime_USE_JEMALLOC=OFF  -Donnxruntime_USE_LLVM=OFF  -Donnxruntime_ENABLE_MICROSOFT_INTERNAL=OFF  -Donnxruntime_USE_MIMALLOC=OFF  -Donnxruntime_USE_MKLML=OFF  -Donnxruntime_USE_NGRAPH=OFF -Donnxruntime_USE_NNAPI_BUILTIN=ON  -Donnxruntime_USE_NSYNC=OFF  -Donnxruntime_USE_NUPHAR=OFF  -Donnxruntime_USE_OPENBLAS=OFF -Donnxruntime_USE_OPENMP=ON  -Donnxruntime_USE_OPENVINO=OFF  -Donnxruntime_DISABLE_CONTRIB_OPS=OFF  -Donnxruntime_PYBIND_EXPORT_OPSCHEMA=OFF  -Donnxruntime_USE_PREBUILT_PB=OFF -Donnxruntime_ENABLE_PYTHON=ON -Donnxruntime_GENERATE_TEST_REPORTS=ON  -Donnxruntime_RUN_ONNX_TESTS=OFF  -Donnxruntime_BUILD_SERVER=OFF -Donnxruntime_BUILD_SHARED_LIB=ON  -Donnxruntime_MSVC_STATIC_RUNTIME=OFF  -Donnxruntime_USE_TELEMETRY=OFF  -Donnxruntime_USE_TENSORRT=OFF  -Donnxruntime_USE_TRT=OFF  -Donnxruntime_USE_TVM=OFF  -Donnxruntime_USE_VSI_NPU=OFF  -Donnxruntime_BUILD:x86=OFF",
+            "configopts": "     -DONNX_CUSTOM_PROTOC_EXECUTABLE=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/onnxruntime/1.13.1-r0/recipe-sysroot-native/usr/bin/onnxruntime-native/protoc     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_BUILD_TYPE=RelWithDebInfo     -Donnxruntime_BUILD_UNIT_TESTS=ON    -Donnxruntime_ARMNN_BN_USE_CPU=OFF  -Donnxruntime_ARMNN_RELU_USE_CPU=OFF  -Donnxruntime_USE_AUTOML=OFF  -Donnxruntime_USE_BRAINSLICE=OFF -Donnxruntime_CROSS_COMPILING=ON  -Donnxruntime_BUILD_CSHARP=OFF  -Donnxruntime_USE_CUDA=OFF  -Donnxruntime_DEV_MODE=OFF  -Donnxruntime_USE_DML=OFF  -Donnxruntime_USE_DNNL=OFF  -Donnxruntime_USE_EIGEN_FOR_BLAS=OFF  -Donnxruntime_USE_EIGEN_THREADPOOL=OFF  -Donnxruntime_USE_FULL_PROTOBUF=OFF  -Donnxruntime_USE_GEMMLOWP=OFF  -Donnxruntime_ENABLE_LANGUAGE_INTEROP_OPS=OFF  -Donnxruntime_BUILD_JAVA=OFF  -Donnxruntime_USE_JEMALLOC=OFF  -Donnxruntime_USE_LLVM=OFF  -Donnxruntime_ENABLE_MICROSOFT_INTERNAL=OFF  -Donnxruntime_USE_MIMALLOC=OFF  -Donnxruntime_USE_MKLML=OFF  -Donnxruntime_USE_NGRAPH=OFF -Donnxruntime_USE_NNAPI_BUILTIN=ON  -Donnxruntime_USE_NSYNC=OFF  -Donnxruntime_USE_NUPHAR=OFF  -Donnxruntime_USE_OPENBLAS=OFF  -Donnxruntime_USE_OPENMP=OFF  -Donnxruntime_USE_OPENVINO=OFF  -Donnxruntime_DISABLE_CONTRIB_OPS=OFF  -Donnxruntime_PYBIND_EXPORT_OPSCHEMA=OFF  -Donnxruntime_USE_PREBUILT_PB=OFF -Donnxruntime_ENABLE_PYTHON=ON  -Donnxruntime_GENERATE_TEST_REPORTS=OFF  -Donnxruntime_RUN_ONNX_TESTS=OFF  -Donnxruntime_BUILD_SERVER=OFF -Donnxruntime_BUILD_SHARED_LIB=ON  -Donnxruntime_MSVC_STATIC_RUNTIME=OFF  -Donnxruntime_USE_TELEMETRY=OFF  -Donnxruntime_USE_TENSORRT=OFF  -Donnxruntime_USE_TRT=OFF  -Donnxruntime_USE_TVM=OFF  -Donnxruntime_BUILD:x86=OFF",
             "description": "cross-platform, high performance scoring engine for ML models",
-            "filename": "onnxruntime_1.10.0.bb",
+            "filename": "onnxruntime_1.13.1.bb",
             "filepath": "recipes-libraries/onnxruntime",
             "homepage": "",
             "id": 1760947,
-            "inherits": "cmake python3-dir python3native",
+            "inherits": "cmake python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 942568,
             "license": "MIT & Apache-2.0",
             "pe": "",
             "pn": "onnxruntime",
             "pr": "r0",
             "provides": "onnxruntime ",
-            "pv": "1.10.0",
+            "pv": "1.13.1",
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -631,7 +712,7 @@
             "bugtracker": "",
             "configopts": "     -Dprotobuf_BUILD_TESTS=OFF     -Dprotobuf_BUILD_EXAMPLES=OFF     -Dprotobuf_BUILD_SHARED_LIBS=OFF  ",
             "description": "Parts of ONNX Runtime that needs to be compiled for native system",
-            "filename": "onnxruntime-native_1.10.0.bb",
+            "filename": "onnxruntime-native_1.13.1.bb",
             "filepath": "recipes-libraries/onnxruntime",
             "homepage": "",
             "id": 1760948,
@@ -642,17 +723,17 @@
             "pn": "onnxruntime-native",
             "pr": "r0",
             "provides": "onnxruntime-native ",
-            "pv": "1.10.0",
+            "pv": "1.13.1",
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T07:04:45+0000"
+            "updated": "2023-08-09T20:08:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_SYSROOT=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-host-tools/2.10.0-r0/recipe-sysroot  ",
+            "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_SYSROOT=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-host-tools/2.10.0-r0/recipe-sysroot  ",
             "description": "Host tools required for build of TensorFlow Lite C++ Library unit tests and Evaluation Tools",
             "filename": "tensorflow-lite-host-tools_2.10.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -669,13 +750,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:01+0000"
+            "updated": "2023-08-09T20:08:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_SYSROOT=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite/2.10.0-r0/recipe-sysroot     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite/2.10.0-r0/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite/2.10.0-r0/git/tensorflow/lite/   -DTFLITE_ENABLE_ETHOSU=off",
+            "configopts": "     -DCMAKE_SYSROOT=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite/2.10.0-r0/recipe-sysroot     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite/2.10.0-r0/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite/2.10.0-r0/git/tensorflow/lite/   -DTFLITE_ENABLE_ETHOSU=off",
             "description": "TensorFlow Lite C++ Library",
             "filename": "tensorflow-lite_2.10.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -692,13 +773,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTIM_VX_INSTALL=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTIM_VX_INSTALL=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.10.0-r0/git  ",
             "description": "TensorFlow Lite VX Delegate",
             "filename": "tensorflow-lite-vx-delegate_2.10.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -715,7 +796,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -736,9 +817,9 @@
             "provides": "nn-imx ",
             "pv": "1.3.0",
             "section": "base",
-            "srcrev": "da5357bb1e8bd2be4c5b50b3e8abe440102dc4b4",
+            "srcrev": "33ff4eafb99046142bd92efe30debf0159d6ab28",
             "summary": "",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -757,11 +838,11 @@
             "pn": "pytorch",
             "pr": "r0",
             "provides": "pytorch ",
-            "pv": "1.9.1.post2",
+            "pv": "2.0.0",
             "section": "base",
-            "srcrev": "ef997d8f79877295e69e5cf34b524eea603c1fae",
+            "srcrev": "6948822f1d3e6cdbbd067b9e21885b697a70f18a",
             "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -780,11 +861,11 @@
             "pn": "torchvision",
             "pr": "r0",
             "provides": "torchvision ",
-            "pv": "0.10.0",
+            "pv": "0.15.1",
             "section": "base",
-            "srcrev": "ef997d8f79877295e69e5cf34b524eea603c1fae",
+            "srcrev": "b9efb9490cc06a5907c43453493c738d4647f74a",
             "summary": "The torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -815,7 +896,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "deepview-rt_2.4.46.1-aarch64.bb",
+            "filename": "deepview-rt_2.4.46.2-aarch64.bb",
             "filepath": "recipes-libraries/deepview-rt",
             "homepage": "",
             "id": 1760957,
@@ -830,13 +911,13 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-08T02:08:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCONFIG=YOCTO     -DCMAKE_SYSROOT=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tim-vx/1.1.42-r0/recipe-sysroot     -DTIM_VX_ENABLE_TEST=off     -DTIM_VX_USE_EXTERNAL_OVXLIB=on     -DOVXLIB_INC=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tim-vx/1.1.42-r0/recipe-sysroot/usr/include/OVXLIB  ",
+            "configopts": "     -DCONFIG=YOCTO     -DCMAKE_SYSROOT=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tim-vx/1.1.42-r0/recipe-sysroot     -DTIM_VX_ENABLE_TEST=off     -DTIM_VX_USE_EXTERNAL_OVXLIB=on     -DOVXLIB_INC=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tim-vx/1.1.42-r0/recipe-sysroot/usr/include/OVXLIB  ",
             "description": "TIM-VX is a software integration module provided by VeriSilicon to facilitate deployment of Neural-Networks on OpenVX enabled ML accelerators. It serves as the backend binding for runtime frameworks such as Android NN, Tensorflow-Lite, MLIR, TVM and more.",
             "filename": "tim-vx_1.1.42.bb",
             "filepath": "recipes-libraries/tim-vx",
@@ -851,9 +932,9 @@
             "provides": "tim-vx ",
             "pv": "1.1.42",
             "section": "base",
-            "srcrev": "f66e297e4bd4e4ef810f4fd527ff49559c01438d",
+            "srcrev": "79b4c9904fb7faa4db93b949ce5a81438f3e1d9e",
             "summary": "Tensor Interface Module for OpenVX",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -874,15 +955,15 @@
             "provides": "tvm ",
             "pv": "0.7.0",
             "section": "base",
-            "srcrev": "c8fc7971a23cb2da3154eb19e41d546ad9e77e65",
+            "srcrev": "d71312a9c5b81737f97c89c06a316151fc1d9fef",
             "summary": "Open Deep Learning Compiler Stack",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     build=cross_compile     os=linux     toolchain_prefix=' '     extra_cxx_flags='-fPIC -Wno-error=strict-overflow -Wno-error=array-bounds '      Werror=0 cppthreads=1 debug=0 embed_kernels=0 examples=1 opencl=0 benchmark_tests=0 validation_tests=0  MAXLINELENGTH=2097152",
+            "configopts": "     build=cross_compile     os=linux     toolchain_prefix=' '     extra_cxx_flags='-fPIC -Wno-error=strict-overflow -Wno-error=array-bounds '      Werror=0 cppthreads=1 debug=0 embed_kernels=0 examples=1 opencl=0 benchmark_tests=0 validation_tests=0  ",
             "description": "The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs.",
             "filename": "arm-compute-library_22.05.bb",
             "filepath": "recipes-libraries/arm-compute-library",
@@ -897,9 +978,9 @@
             "provides": "arm-compute-library ",
             "pv": "22.05",
             "section": "base",
-            "srcrev": "e9658b24c2dfac18961b0b098173732f39f4a31b",
+            "srcrev": "37fc035060646db5048648da01db3738f08e3bfa",
             "summary": "The ARM Computer Vision and Machine Learning library",
-            "updated": "2023-05-11T02:05:02+0000"
+            "updated": "2023-08-09T20:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -922,7 +1003,7 @@
             "section": "base",
             "srcrev": "e905828f16e3c374da7da9af30a5922086da4400",
             "summary": "A GStreamer NNstreamer pipelines real-time profiling plugin",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -945,7 +1026,7 @@
             "section": "AI",
             "srcrev": "f82789170b8f2696e50cbc5027b74b767f5e9415",
             "summary": "NNStreamer, Stream Pipeline Paradigm for Neural Network Applications",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -968,7 +1049,7 @@
             "section": "Development",
             "srcrev": "163516897314d6e0c437a84272e348f278038be3",
             "summary": "Shell Script Automated Tester (unit testing executable files)",
-            "updated": "2023-04-23T07:04:46+0000"
+            "updated": "2023-08-09T20:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -991,7 +1072,7 @@
             "section": "console/tools",
             "srcrev": "8367664f15c3ea2ee58c67dacf9d630b49466de5",
             "summary": "Memory Efficient Serialization Library - Python3 Modules",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,9 +1093,9 @@
             "provides": "eiq-examples ",
             "pv": "git",
             "section": "base",
-            "srcrev": "798519ee033fb7a5aef989a793afe16f400d6479",
+            "srcrev": "64498fa1e75f60b45cc8e634df35093a69a89ef4",
             "summary": "The eiq examples based on Tf-lite",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1035,9 +1116,9 @@
             "provides": "ethos-u-driver-stack ",
             "pv": "22.08",
             "section": "base",
-            "srcrev": "ca1a424bcd00758e0b50043ac7f8a3ff214e9ed8",
+            "srcrev": "707bbc99b5353a7ef3d7b13ecc7f916329775db7",
             "summary": "The Linux driver stack for Arm(R) Ethos(TM)-U NPU",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,9 +1139,9 @@
             "provides": "ethos-u-firmware ",
             "pv": "22.08",
             "section": "base",
-            "srcrev": "c80a413664f650c366fc4721474a3fe1d1503eb5",
+            "srcrev": "1e423311cba6cfd19380aaff7b9d752b690e3131",
             "summary": "The firmware of Cortex(R)-M33 for Arm(R) Ethos(TM)-U NPU",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1068,7 +1149,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The vela tool is used to compile a TensorFlow Lite for Microcontrollers neural network model into an optimised version that can run on an embedded system containing an Arm Ethos-U NPU",
-            "filename": "ethos-u-vela_3.6.0.bb",
+            "filename": "ethos-u-vela_3.7.0.bb",
             "filepath": "recipes-libraries/ethos-u-vela",
             "homepage": "",
             "id": 1799874,
@@ -1079,17 +1160,17 @@
             "pn": "ethos-u-vela",
             "pr": "r0",
             "provides": "ethos-u-vela ",
-            "pv": "3.6.0",
+            "pv": "3.7.0",
             "section": "base",
-            "srcrev": "8b138a2e6880e31bd199764db9c5177c46bd5579",
+            "srcrev": "16de5a756b5177bc230cc6698016b7f6334930e8",
             "summary": "",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:48+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpuh9b52an/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpdzb74hkw/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.10.0-r0/git  ",
             "description": "TensorFlow Lite Ethos-u Delegate",
             "filename": "tensorflow-lite-ethosu-delegate_2.10.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -1106,7 +1187,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1129,7 +1210,30 @@
             "section": "base",
             "srcrev": "2efc10afd1161a025fa3848aca487fb9a665f3c0",
             "summary": "NNStreamer-Edge library",
-            "updated": "2023-05-11T02:05:03+0000"
+            "updated": "2023-08-09T20:08:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "modelrunner_2.0.0.bb",
+            "filepath": "recipes-libraries/modelrunner",
+            "homepage": "",
+            "id": 1847361,
+            "inherits": "",
+            "layerbranch": 942568,
+            "license": "",
+            "pe": "",
+            "pn": "modelrunner",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-08-08T02:08:02+0000"
         }
     ],
     "wrtemplates": []

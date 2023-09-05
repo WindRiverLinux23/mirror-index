@@ -485,70 +485,70 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "xilinx",
             "id": 942573,
             "layer": 436,
             "local_path": "",
-            "updated": "2023-07-25T04:07:07+0000",
-            "vcs_last_commit": "2023-06-24T22:06:55+0000",
-            "vcs_last_fetch": "2023-07-25T04:07:31+0000",
-            "vcs_last_rev": "9afa931fd10633d51e3d624e33224ae2f1e1eeeb",
+            "updated": "2023-09-01T16:09:35+0000",
+            "vcs_last_commit": "2023-08-27T20:08:18+0000",
+            "vcs_last_fetch": "2023-09-01T16:09:35+0000",
+            "vcs_last_rev": "540616526f7f7124bda707a58d2b4e8e8bd054a0",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 42594
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "xilinx-standalone",
             "id": 942574,
             "layer": 435,
             "local_path": "",
-            "updated": "2023-06-25T21:06:40+0000",
-            "vcs_last_commit": "2023-06-25T20:06:09+0000",
-            "vcs_last_fetch": "2023-06-25T21:06:40+0000",
-            "vcs_last_rev": "c276302e0548151f268e4df9b1eb1f6399d2e019",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-27T20:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "b6ddb10ddc6b528f04281b31dad6b1d34f5a3413",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
             "yp_compatible_version": 42594
         },
         {
-            "actual_branch": "wr-10.23-20230509",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "xilinx-tools",
             "id": 942708,
             "layer": 357,
             "local_path": "",
-            "updated": "2023-05-25T19:05:56+0000",
-            "vcs_last_commit": "2023-05-24T18:05:23+0000",
-            "vcs_last_fetch": "2023-05-25T19:05:56+0000",
-            "vcs_last_rev": "6dce0bce633c983d3572f4ae152c201b5d27e69a",
+            "updated": "2023-09-01T03:09:31+0000",
+            "vcs_last_commit": "2023-09-01T02:09:35+0000",
+            "vcs_last_fetch": "2023-09-01T03:09:31+0000",
+            "vcs_last_rev": "a52473f9b02c4db1e4a6430aceed9291d4afc28c",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
@@ -675,7 +675,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-23T08:04:31+0000"
+            "updated": "2023-08-09T21:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -698,7 +698,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-09T00:05:27+0000"
+            "updated": "2023-09-01T03:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -721,7 +721,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates download.bit using updatemem",
-            "updated": "2023-05-09T00:05:27+0000"
+            "updated": "2023-08-09T21:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -742,9 +742,9 @@
             "provides": "imgsel virtual/imgsel",
             "pv": "git+gitX",
             "section": "base",
-            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2023-05-09T00:05:27+0000"
+            "updated": "2023-09-01T03:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -767,7 +767,7 @@
             "section": "base",
             "srcrev": "d084dd895cbdc7475f65dda9c3fb5dbdf66d78b2",
             "summary": "",
-            "updated": "2023-05-09T00:05:27+0000"
+            "updated": "2023-08-29T20:08:57+0000"
         },
         {
             "bbclassextend": "",
@@ -788,9 +788,9 @@
             "provides": "imgrcry virtual/imgrcry",
             "pv": "git+gitX",
             "section": "base",
-            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2023-05-09T00:05:27+0000"
+            "updated": "2023-09-01T03:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -811,9 +811,9 @@
             "provides": "uboot-device-tree virtual/uboot-dtb",
             "pv": "xilinx-v2023.1+gitX",
             "section": "bsp",
-            "srcrev": "0bd6e466ba52c49da0dd31601233d926ccf5f9be",
+            "srcrev": "db419faa2f2ec70614f4fc0bd5b89fb8e079dc4f",
             "summary": "Xilinx BSP u-boot device trees",
-            "updated": "2023-05-09T00:05:27+0000"
+            "updated": "2023-09-01T03:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -834,9 +834,9 @@
             "provides": "fs-boot virtual/fsboot",
             "pv": "git+gitX",
             "section": "base",
-            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2023-05-09T00:05:28+0000"
+            "updated": "2023-09-01T03:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -857,9 +857,9 @@
             "provides": "openamp-fw-mat-muld ",
             "pv": "2023.1+gitX",
             "section": "base",
-            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2023-05-09T00:05:26+0000"
+            "updated": "2023-09-01T03:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -880,9 +880,9 @@
             "provides": "openamp-fw-rpc-demo ",
             "pv": "2023.1+gitX",
             "section": "base",
-            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2023-05-09T00:05:26+0000"
+            "updated": "2023-09-01T03:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -903,9 +903,9 @@
             "provides": "openamp-fw-echo-testd ",
             "pv": "2023.1+gitX",
             "section": "base",
-            "srcrev": "86f54b77641f325042a1101fead96b2714e6d3ef",
+            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2023-05-09T00:05:26+0000"
+            "updated": "2023-09-01T03:09:31+0000"
         }
     ],
     "wrtemplates": []

@@ -485,25 +485,25 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-07-27T00:07:10+0000",
+            "updated": "2023-09-05T00:09:09+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-27T15:07:37+0000",
-            "vcs_last_commit": "2023-07-27T14:07:29+0000",
-            "vcs_last_fetch": "2023-07-27T15:07:37+0000",
-            "vcs_last_rev": "a8e621a487313e372899335825f859d810bd214e",
+            "updated": "2023-08-29T20:08:50+0000",
+            "vcs_last_commit": "2023-08-29T00:08:49+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
+            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -515,40 +515,40 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-07-25T21:07:56+0000",
-            "vcs_last_commit": "2023-07-25T21:07:43+0000",
-            "vcs_last_fetch": "2023-07-25T21:07:56+0000",
-            "vcs_last_rev": "d3fb93a0c3997d9c4bb5b92f1f9e6c307b574786",
+            "updated": "2023-09-04T12:09:39+0000",
+            "vcs_last_commit": "2023-09-04T11:09:20+0000",
+            "vcs_last_fetch": "2023-09-04T12:09:39+0000",
+            "vcs_last_rev": "650365632d71c72abe8c9c95409ccb615066e330",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "xilinx",
             "id": 942573,
             "layer": 436,
             "local_path": "",
-            "updated": "2023-07-25T04:07:07+0000",
-            "vcs_last_commit": "2023-06-24T22:06:55+0000",
-            "vcs_last_fetch": "2023-07-25T04:07:31+0000",
-            "vcs_last_rev": "9afa931fd10633d51e3d624e33224ae2f1e1eeeb",
+            "updated": "2023-09-01T16:09:35+0000",
+            "vcs_last_commit": "2023-08-27T20:08:18+0000",
+            "vcs_last_fetch": "2023-09-01T16:09:35+0000",
+            "vcs_last_rev": "540616526f7f7124bda707a58d2b4e8e8bd054a0",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 42594
         },
         {
-            "actual_branch": "wr-10.23-20230509",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
             "collection": "xilinx-tools",
             "id": 942708,
             "layer": 357,
             "local_path": "",
-            "updated": "2023-05-25T19:05:56+0000",
-            "vcs_last_commit": "2023-05-24T18:05:23+0000",
-            "vcs_last_fetch": "2023-05-25T19:05:56+0000",
-            "vcs_last_rev": "6dce0bce633c983d3572f4ae152c201b5d27e69a",
+            "updated": "2023-09-01T03:09:31+0000",
+            "vcs_last_commit": "2023-09-01T02:09:35+0000",
+            "vcs_last_fetch": "2023-09-01T03:09:31+0000",
+            "vcs_last_rev": "a52473f9b02c4db1e4a6430aceed9291d4afc28c",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
@@ -560,10 +560,10 @@
             "id": 944688,
             "layer": 112,
             "local_path": "",
-            "updated": "2023-05-29T04:05:06+0000",
-            "vcs_last_commit": "2023-05-29T00:05:02+0000",
-            "vcs_last_fetch": "2023-05-29T04:05:06+0000",
-            "vcs_last_rev": "ce5a223c65b96d05c519ab53ac0eba04fb2da20a",
+            "updated": "2023-08-27T19:08:33+0000",
+            "vcs_last_commit": "2023-08-27T18:08:56+0000",
+            "vcs_last_fetch": "2023-08-27T19:08:33+0000",
+            "vcs_last_rev": "a2717186a0bdca189d80742ab894a6dd395f3163",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -695,20 +695,20 @@
     "machines": [
         {
             "description": " Xilinx Zynq-7000 SoC",
-            "id": 66060,
+            "id": 75599,
             "layerbranch": 944688,
             "name": "xilinx-zynq",
-            "updated": "2023-05-29T04:05:06+0000"
+            "updated": "2023-08-18T02:08:49+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 103675,
+            "id": 108378,
             "layerbranch": 944688,
             "name": "default",
-            "updated": "2023-05-03T19:05:44+0000"
+            "updated": "2023-08-09T21:08:09+0000"
         }
     ]
 }
