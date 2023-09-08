@@ -487,7 +487,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-09-05T00:09:09+0000",
+            "updated": "2023-09-07T00:09:10+0000",
             "updates_enabled": true
         }
     ],
@@ -530,9 +530,9 @@
             "id": 942573,
             "layer": 436,
             "local_path": "",
-            "updated": "2023-09-01T16:09:35+0000",
+            "updated": "2023-09-05T20:09:04+0000",
             "vcs_last_commit": "2023-08-27T20:08:18+0000",
-            "vcs_last_fetch": "2023-09-01T16:09:35+0000",
+            "vcs_last_fetch": "2023-09-05T20:09:04+0000",
             "vcs_last_rev": "540616526f7f7124bda707a58d2b4e8e8bd054a0",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
