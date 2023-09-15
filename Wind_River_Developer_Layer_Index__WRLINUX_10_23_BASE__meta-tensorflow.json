@@ -475,6 +475,27 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44177,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
         }
     ],
     "branches": [
@@ -487,7 +508,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-09-07T00:09:10+0000",
+            "updated": "2023-09-15T00:09:09+0000",
             "updates_enabled": true
         }
     ],
@@ -500,10 +521,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-08-29T20:08:50+0000",
-            "vcs_last_commit": "2023-08-29T00:08:49+0000",
-            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
-            "vcs_last_rev": "f0558a0c1f96dfbec0b55f2247bf001f97acebdd",
+            "updated": "2023-09-12T21:09:37+0000",
+            "vcs_last_commit": "2023-09-12T20:09:56+0000",
+            "vcs_last_fetch": "2023-09-12T21:09:37+0000",
+            "vcs_last_rev": "023e614d4172313c5fcefa8cce50d2b634bf3342",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -515,10 +536,10 @@
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-08-29T20:08:00+0000",
-            "vcs_last_commit": "2023-08-27T20:08:07+0000",
-            "vcs_last_fetch": "2023-08-29T20:08:00+0000",
-            "vcs_last_rev": "9e1469795d179b98dd44542fbe5f0739d42c2335",
+            "updated": "2023-09-12T02:09:48+0000",
+            "vcs_last_commit": "2023-09-12T01:09:49+0000",
+            "vcs_last_fetch": "2023-09-12T02:09:48+0000",
+            "vcs_last_rev": "96f58ff3cafb89c286a1c94efdbf25ee4c36eb95",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -545,10 +566,10 @@
             "id": 942651,
             "layer": 349,
             "local_path": "",
-            "updated": "2023-08-09T21:08:07+0000",
-            "vcs_last_commit": "2023-07-25T02:07:11+0000",
-            "vcs_last_fetch": "2023-08-09T21:08:07+0000",
-            "vcs_last_rev": "61c4a6b68a5ebb7df2adc729ea8d40196435e544",
+            "updated": "2023-09-13T03:09:32+0000",
+            "vcs_last_commit": "2023-09-13T01:09:41+0000",
+            "vcs_last_fetch": "2023-09-13T03:09:32+0000",
+            "vcs_last_rev": "5d7cdc35545820f22e2daeb313a0171818de7820",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44176
@@ -681,7 +702,7 @@
             "section": "base",
             "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
             "summary": "",
-            "updated": "2023-08-09T21:08:03+0000"
+            "updated": "2023-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -704,7 +725,7 @@
             "section": "base",
             "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
             "summary": "",
-            "updated": "2023-08-09T21:08:04+0000"
+            "updated": "2023-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +748,7 @@
             "section": "base",
             "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
             "summary": "",
-            "updated": "2023-08-09T21:08:04+0000"
+            "updated": "2023-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -750,7 +771,7 @@
             "section": "base",
             "srcrev": "f9336cc5114b4a9429a242deb264b707379646b7",
             "summary": "",
-            "updated": "2023-08-09T21:08:04+0000"
+            "updated": "2023-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -796,7 +817,7 @@
             "section": "base",
             "srcrev": "1bcfb76591c4ae8f520e4ec0178582de3f250f67",
             "summary": "",
-            "updated": "2023-08-09T21:08:05+0000"
+            "updated": "2023-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -980,7 +1001,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:07+0000"
+            "updated": "2023-09-13T03:09:31+0000"
         },
         {
             "bbclassextend": "",
