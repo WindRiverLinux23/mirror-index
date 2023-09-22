@@ -496,6 +496,20 @@
             "image_url": "",
             "link_url": "",
             "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44180,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
         }
     ],
     "branches": [
@@ -508,7 +522,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2023-09-15T00:09:09+0000",
+            "updated": "2023-09-22T00:09:12+0000",
             "updates_enabled": true
         }
     ],
@@ -521,10 +535,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-09-12T21:09:37+0000",
-            "vcs_last_commit": "2023-09-12T20:09:56+0000",
-            "vcs_last_fetch": "2023-09-12T21:09:37+0000",
-            "vcs_last_rev": "023e614d4172313c5fcefa8cce50d2b634bf3342",
+            "updated": "2023-09-19T00:09:39+0000",
+            "vcs_last_commit": "2023-09-18T20:09:03+0000",
+            "vcs_last_fetch": "2023-09-19T00:09:39+0000",
+            "vcs_last_rev": "94af373489d9d09750aeb615fb1e615f09d0b1b7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -536,10 +550,10 @@
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-09-12T02:09:48+0000",
-            "vcs_last_commit": "2023-09-12T01:09:49+0000",
-            "vcs_last_fetch": "2023-09-12T02:09:48+0000",
-            "vcs_last_rev": "96f58ff3cafb89c286a1c94efdbf25ee4c36eb95",
+            "updated": "2023-09-22T01:09:41+0000",
+            "vcs_last_commit": "2023-09-22T00:09:01+0000",
+            "vcs_last_fetch": "2023-09-22T01:09:41+0000",
+            "vcs_last_rev": "3281e2463ec3a8941f4d5bc5e547335d07a78475",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -566,13 +580,13 @@
             "id": 942672,
             "layer": 392,
             "local_path": "",
-            "updated": "2023-08-09T21:08:47+0000",
-            "vcs_last_commit": "2023-07-04T22:07:35+0000",
-            "vcs_last_fetch": "2023-08-09T21:08:47+0000",
-            "vcs_last_rev": "7946a7a61c3c97d46d665bb1199976b1bad4366c",
+            "updated": "2023-09-21T00:09:00+0000",
+            "vcs_last_commit": "2023-09-21T00:09:58+0000",
+            "vcs_last_fetch": "2023-09-21T00:09:00+0000",
+            "vcs_last_rev": "2531ad917b68e26a62cdaaa227bcd6f26df8795c",
             "vcs_subdir": "meta-chromium",
             "version": "1",
-            "yp_compatible_version": 44173
+            "yp_compatible_version": 44179
         }
     ],
     "layerDependencies": [
@@ -595,8 +609,8 @@
             "required": true
         },
         {
-            "dependency": 492,
-            "id": 111092,
+            "dependency": 520,
+            "id": 120286,
             "layerbranch": 942672,
             "required": false
         }
@@ -687,7 +701,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-            "filename": "gn-native_114.0.5735.198.bb",
+            "filename": "gn-native_116.0.5845.179.bb",
             "filepath": "recipes-browser/chromium",
             "homepage": "https://www.chromium.org/Home",
             "id": 1762917,
@@ -698,11 +712,11 @@
             "pn": "gn-native",
             "pr": "r0",
             "provides": "gn-native ",
-            "pv": "114.0.5735.198",
+            "pv": "116.0.5845.179",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:47+0000"
+            "updated": "2023-09-21T00:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -710,7 +724,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-            "filename": "chromium-ozone-wayland_114.0.5735.198.bb",
+            "filename": "chromium-ozone-wayland_116.0.5845.179.bb",
             "filepath": "recipes-browser/chromium",
             "homepage": "https://www.chromium.org/Home",
             "id": 1762918,
@@ -721,11 +735,11 @@
             "pn": "chromium-ozone-wayland",
             "pr": "r0",
             "provides": "chromium-ozone-wayland ",
-            "pv": "114.0.5735.198",
+            "pv": "116.0.5845.179",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:47+0000"
+            "updated": "2023-09-21T00:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -733,7 +747,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-            "filename": "chromium-x11_114.0.5735.198.bb",
+            "filename": "chromium-x11_116.0.5845.179.bb",
             "filepath": "recipes-browser/chromium",
             "homepage": "https://www.chromium.org/Home",
             "id": 1762919,
@@ -744,11 +758,11 @@
             "pn": "chromium-x11",
             "pr": "r0",
             "provides": "chromium-x11 chromium",
-            "pv": "114.0.5735.198",
+            "pv": "116.0.5845.179",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:47+0000"
+            "updated": "2023-09-21T00:09:59+0000"
         }
     ],
     "wrtemplates": []

@@ -559,31 +559,31 @@
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230618",
+            "actual_branch": "wr-10.23-20230828",
             "branch": 342,
-            "collection": "raspberrypi",
-            "id": 942571,
-            "layer": 381,
+            "collection": "meta-arm",
+            "id": 942709,
+            "layer": 474,
             "local_path": "",
-            "updated": "2023-08-09T21:08:38+0000",
-            "vcs_last_commit": "2023-06-18T08:06:59+0000",
-            "vcs_last_fetch": "2023-08-09T21:08:38+0000",
-            "vcs_last_rev": "eae62fcbf4d69e89e8aaee067f089ec82b47a989",
-            "vcs_subdir": "",
+            "updated": "2023-08-29T20:08:08+0000",
+            "vcs_last_commit": "2023-08-27T20:08:14+0000",
+            "vcs_last_fetch": "2023-08-29T20:08:08+0000",
+            "vcs_last_rev": "8f1368fd6d3475d6d53148f7b4be4c3b1e1049b5",
+            "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42597
         },
         {
             "actual_branch": "",
             "branch": 342,
-            "collection": "wr-bcm-2xxx-rpi",
-            "id": 942572,
-            "layer": 142,
+            "collection": "wr-marvell-cn9xxx",
+            "id": 950407,
+            "layer": 296,
             "local_path": "",
-            "updated": "2023-09-13T23:09:19+0000",
-            "vcs_last_commit": "2023-09-10T23:09:15+0000",
-            "vcs_last_fetch": "2023-09-13T23:09:19+0000",
-            "vcs_last_rev": "fa177ca293b7dd65130352d9763e5b0d28c6a6b7",
+            "updated": "2023-09-19T20:09:40+0000",
+            "vcs_last_commit": "2023-09-19T19:09:43+0000",
+            "vcs_last_fetch": "2023-09-19T20:09:40+0000",
+            "vcs_last_rev": "a17875da40ee618bea7c88d260af213132168e52",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -592,20 +592,20 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 110932,
-            "layerbranch": 942572,
+            "id": 115245,
+            "layerbranch": 950407,
             "required": true
         },
         {
-            "dependency": 381,
-            "id": 110933,
-            "layerbranch": 942572,
+            "dependency": 474,
+            "id": 115246,
+            "layerbranch": 950407,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 110934,
-            "layerbranch": 942572,
+            "id": 115247,
+            "layerbranch": 950407,
             "required": true
         }
     ],
@@ -649,38 +649,38 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-bcm-2xxx-rpi",
+            "collection": "wr-marvell-cn9xxx",
             "comparison": false,
-            "description": "Raspberry Pi 3 Board Support Package",
-            "id": 142,
+            "description": "This layer enables the support for the Marvell cn91xx and cn96xx SoCs.",
+            "id": 296,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "bcm-2xxx-rpi",
+            "name": "marvell-cn9xxx",
             "status": "P",
-            "summary": "bcm-2xxx-rpi",
-            "updated": "2018-05-30T22:05:21+0000",
-            "usage_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/bcm-2xxx-rpi",
-            "vcs_url": "#BASE_URL#/bcm-2xxx-rpi",
+            "summary": "The BSP for the Marvell CN91xx and CN96xx SoCs",
+            "updated": "2019-06-02T23:06:43+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/marvell-cn9xxx",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         },
         {
-            "collection": "raspberrypi",
+            "collection": "meta-arm",
             "comparison": false,
-            "description": "This is a layer used by BSP bcm-2xxx-rpi",
-            "id": 381,
+            "description": "This repository contains the Arm layers for OpenEmbedded.",
+            "id": 474,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-raspberrypi",
+            "name": "meta-arm",
             "status": "P",
-            "summary": "This is a layer used by BSP bcm-2xxx-rpi",
-            "updated": "2021-04-29T01:04:24+0000",
+            "summary": "This repository contains the Arm layers for OpenEmbedded.",
+            "updated": "2022-05-31T02:05:06+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-raspberrypi",
+            "vcs_url": "#BASE_URL#/meta-arm",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -689,21 +689,21 @@
     ],
     "machines": [
         {
-            "description": " a bcm-2xxx-rpi",
-            "id": 75485,
-            "layerbranch": 942572,
-            "name": "bcm-2xxx-rpi4",
-            "updated": "2023-08-09T21:08:03+0000"
+            "description": " Marvell CN96xx SoC",
+            "id": 75489,
+            "layerbranch": 950407,
+            "name": "marvell-cn96xx",
+            "updated": "2023-08-09T21:08:29+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 108349,
-            "layerbranch": 942572,
+            "id": 108350,
+            "layerbranch": 950407,
             "name": "default",
-            "updated": "2023-08-09T21:08:03+0000"
+            "updated": "2023-08-09T21:08:29+0000"
         }
     ]
 }
