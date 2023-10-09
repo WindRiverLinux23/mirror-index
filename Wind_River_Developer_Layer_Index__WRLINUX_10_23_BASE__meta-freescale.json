@@ -510,6 +510,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44182,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44183,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.2 4.3"
         }
     ],
     "branches": [
@@ -520,9 +534,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2023-09-22T00:09:12+0000",
+            "updated": "2023-10-09T00:10:10+0000",
             "updates_enabled": true
         }
     ],
@@ -535,10 +549,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-09-19T00:09:39+0000",
-            "vcs_last_commit": "2023-09-18T20:09:03+0000",
-            "vcs_last_fetch": "2023-09-19T00:09:39+0000",
-            "vcs_last_rev": "94af373489d9d09750aeb615fb1e615f09d0b1b7",
+            "updated": "2023-09-27T20:09:38+0000",
+            "vcs_last_commit": "2023-09-27T02:09:46+0000",
+            "vcs_last_fetch": "2023-09-27T20:09:38+0000",
+            "vcs_last_rev": "cd2b5371a4879b624d851072d4416c6023442be7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -550,10 +564,10 @@
             "id": 942705,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-08-09T21:08:46+0000",
-            "vcs_last_commit": "2023-08-07T22:08:30+0000",
-            "vcs_last_fetch": "2023-08-09T21:08:46+0000",
-            "vcs_last_rev": "c9a90fbe27ad0c8b218bbc3ec0d18fe53e9e145b",
+            "updated": "2023-09-28T01:09:50+0000",
+            "vcs_last_commit": "2023-09-28T01:09:18+0000",
+            "vcs_last_fetch": "2023-09-28T01:09:50+0000",
+            "vcs_last_rev": "5bddcf5b702ade1d4450664af82f978f6be795ac",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
@@ -1793,7 +1807,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--imx-linux-headers-path=/tmp/tmpslabhqtw/tmp-glibc/work/core2-32-oe-linux/libimxdmabuffer/1.1.2+gitX-r0/recipe-sysroot/usr/include/imx                 --libdir=/usr/lib                 --with-dma-heap-allocator=no                                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no",
+            "configopts": "--imx-linux-headers-path=/tmp/tmpb7z8ne2x/tmp-glibc/work/core2-32-oe-linux/libimxdmabuffer/1.1.2+gitX-r0/recipe-sysroot/usr/include/imx                 --libdir=/usr/lib                 --with-dma-heap-allocator=no                                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no",
             "description": "Library for allocating and managing physically contiguous memory                (\"DMA memory\" or \"DMA buffers\") on i.MX devices.",
             "filename": "libimxdmabuffer_1.1.2.bb",
             "filepath": "recipes-bsp/libimxdmabuffer",
@@ -1810,7 +1824,7 @@
             "section": "base",
             "srcrev": "5410b44fb0c5bbd9fb1f3ba0681e65068d8cde57",
             "summary": "",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2023-09-28T01:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3687,7 +3701,7 @@
             "id": 1818655,
             "inherits": "",
             "layerbranch": 942705,
-            "license": "GPL-2.0-only & BSD",
+            "license": "GPL-2.0-only & BSD-3-Clause",
             "pe": "",
             "pn": "ceetm",
             "pr": "r0",
@@ -3696,7 +3710,7 @@
             "section": "base",
             "srcrev": "6a7f2ec2091df2f4380cb8d25a36c399aed5af1b",
             "summary": "",
-            "updated": "2023-08-09T21:08:40+0000"
+            "updated": "2023-09-26T02:09:38+0000"
         },
         {
             "bbclassextend": "",

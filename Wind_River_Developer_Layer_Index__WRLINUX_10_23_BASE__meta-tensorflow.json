@@ -510,6 +510,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44182,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44183,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.2 4.3"
         }
     ],
     "branches": [
@@ -520,9 +534,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2023-09-22T00:09:12+0000",
+            "updated": "2023-10-09T00:10:10+0000",
             "updates_enabled": true
         }
     ],
@@ -535,10 +549,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-09-19T00:09:39+0000",
-            "vcs_last_commit": "2023-09-18T20:09:03+0000",
-            "vcs_last_fetch": "2023-09-19T00:09:39+0000",
-            "vcs_last_rev": "94af373489d9d09750aeb615fb1e615f09d0b1b7",
+            "updated": "2023-09-27T20:09:38+0000",
+            "vcs_last_commit": "2023-09-27T02:09:46+0000",
+            "vcs_last_fetch": "2023-09-27T20:09:38+0000",
+            "vcs_last_rev": "cd2b5371a4879b624d851072d4416c6023442be7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -580,10 +594,10 @@
             "id": 942651,
             "layer": 349,
             "local_path": "",
-            "updated": "2023-09-13T03:09:32+0000",
-            "vcs_last_commit": "2023-09-13T01:09:41+0000",
-            "vcs_last_fetch": "2023-09-13T03:09:32+0000",
-            "vcs_last_rev": "5d7cdc35545820f22e2daeb313a0171818de7820",
+            "updated": "2023-09-24T23:09:53+0000",
+            "vcs_last_commit": "2023-09-21T04:09:51+0000",
+            "vcs_last_fetch": "2023-09-24T23:09:53+0000",
+            "vcs_last_rev": "6b5f01fd6a6fb15e576a6c622acb99bb250ed3b0",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44176
@@ -701,7 +715,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow C/C++ Libraries",
-            "filename": "tensorflow-lite_2.12.0.bb",
+            "filename": "tensorflow-lite_2.14.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1762280,
@@ -712,11 +726,11 @@
             "pn": "tensorflow-lite",
             "pr": "r0",
             "provides": "tensorflow-lite ",
-            "pv": "2.12.0",
+            "pv": "2.14.0",
             "section": "base",
-            "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
+            "srcrev": "9b87467bd9aa501269bbb84f02608af35b02d8cf",
             "summary": "",
-            "updated": "2023-09-13T03:09:32+0000"
+            "updated": "2023-09-24T23:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -724,7 +738,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow C/C++ Libraries",
-            "filename": "tensorflow-native_2.12.0.bb",
+            "filename": "tensorflow-native_2.14.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1762281,
@@ -735,11 +749,11 @@
             "pn": "tensorflow-native",
             "pr": "r0",
             "provides": "tensorflow-native ",
-            "pv": "2.12.0",
+            "pv": "2.14.0",
             "section": "base",
-            "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
+            "srcrev": "9b87467bd9aa501269bbb84f02608af35b02d8cf",
             "summary": "",
-            "updated": "2023-09-13T03:09:32+0000"
+            "updated": "2023-09-24T23:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -747,7 +761,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow C/C++ Libraries",
-            "filename": "tensorflow_2.12.0.bb",
+            "filename": "tensorflow_2.14.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1762282,
@@ -758,11 +772,11 @@
             "pn": "tensorflow",
             "pr": "r0",
             "provides": "tensorflow ",
-            "pv": "2.12.0",
+            "pv": "2.14.0",
             "section": "base",
-            "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
+            "srcrev": "9b87467bd9aa501269bbb84f02608af35b02d8cf",
             "summary": "",
-            "updated": "2023-09-13T03:09:32+0000"
+            "updated": "2023-09-24T23:09:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -770,7 +784,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow Keras is an implementation of the Keras API that uses TensorFlow as a backend.",
-            "filename": "keras_2.12.0.bb",
+            "filename": "keras_2.14.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1762283,
@@ -781,11 +795,11 @@
             "pn": "keras",
             "pr": "r0",
             "provides": "keras ",
-            "pv": "2.12.0",
+            "pv": "2.14.0",
             "section": "base",
-            "srcrev": "f9336cc5114b4a9429a242deb264b707379646b7",
+            "srcrev": "68f9af408a1734704746f7e6fa9cfede0d6879d8",
             "summary": "",
-            "updated": "2023-09-13T03:09:32+0000"
+            "updated": "2023-09-24T23:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -793,7 +807,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A suite of web applications for inspecting and understanding your TensorFlow runs and graphs.",
-            "filename": "tensorboard_2.12.0.bb",
+            "filename": "tensorboard_2.14.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1762284,
@@ -804,11 +818,11 @@
             "pn": "tensorboard",
             "pr": "r0",
             "provides": "tensorboard ",
-            "pv": "2.12.0",
+            "pv": "2.14.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:04+0000"
+            "updated": "2023-09-24T23:09:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -816,7 +830,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A high-level TensorFlow API that greatly simplifies machine learning programming.",
-            "filename": "tensorflow-estimator_2.12.0.bb",
+            "filename": "tensorflow-estimator_2.14.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1762285,
@@ -827,11 +841,11 @@
             "pn": "tensorflow-estimator",
             "pr": "r0",
             "provides": "tensorflow-estimator ",
-            "pv": "2.12.0",
+            "pv": "2.14.0",
             "section": "base",
-            "srcrev": "1bcfb76591c4ae8f520e4ec0178582de3f250f67",
+            "srcrev": "4462afbe682f6bc4bf607a9f5f140dd8f521be70",
             "summary": "",
-            "updated": "2023-09-13T03:09:32+0000"
+            "updated": "2023-09-24T23:09:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1000,7 +1014,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Bazel build and test tool",
-            "filename": "bazel-native_5.3.2.bb",
+            "filename": "bazel-native_6.0.0.bb",
             "filepath": "recipes-devtools/bazel",
             "homepage": "",
             "id": 1762293,
@@ -1011,11 +1025,11 @@
             "pn": "bazel-native",
             "pr": "r0",
             "provides": "bazel-native ",
-            "pv": "5.3.2",
+            "pv": "6.0.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-09-13T03:09:31+0000"
+            "updated": "2023-09-24T23:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1039,6 +1053,29 @@
             "srcrev": "faaac68f29086127e1bec0f7d3b3796f0040d796",
             "summary": "",
             "updated": "2023-08-09T21:08:07+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "python3-mldtypes_0.2.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/jax-ml/ml_dtypes",
+            "id": 1894199,
+            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 942651,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-mldtypes",
+            "pr": "r0",
+            "provides": "python3-mldtypes ",
+            "pv": "0.2.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "The ml_dtypes is a stand-alone implementation of several NumPy dtype extensions used in machine learning libraries",
+            "updated": "2023-09-24T23:09:53+0000"
         }
     ],
     "wrtemplates": []

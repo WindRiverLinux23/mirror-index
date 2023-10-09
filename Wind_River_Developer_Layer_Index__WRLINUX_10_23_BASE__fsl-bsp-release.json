@@ -510,6 +510,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44182,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44183,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.2 4.3"
         }
     ],
     "branches": [
@@ -520,9 +534,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2023-09-22T00:09:12+0000",
+            "updated": "2023-10-09T00:10:10+0000",
             "updates_enabled": true
         }
     ],
@@ -535,10 +549,10 @@
             "id": 942566,
             "layer": 469,
             "local_path": "",
-            "updated": "2023-08-20T17:08:36+0000",
-            "vcs_last_commit": "2023-08-20T16:08:18+0000",
-            "vcs_last_fetch": "2023-08-20T17:08:36+0000",
-            "vcs_last_rev": "e23cde52a0f94f1c16fc875c61056591c4cc0de0",
+            "updated": "2023-09-29T07:09:40+0000",
+            "vcs_last_commit": "2023-09-29T06:09:27+0000",
+            "vcs_last_fetch": "2023-09-29T07:09:40+0000",
+            "vcs_last_rev": "ff6f1f00f044a9d676196f056192848bd79936ba",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42597
@@ -550,10 +564,10 @@
             "id": 942705,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-08-09T21:08:46+0000",
-            "vcs_last_commit": "2023-08-07T22:08:30+0000",
-            "vcs_last_fetch": "2023-08-09T21:08:46+0000",
-            "vcs_last_rev": "c9a90fbe27ad0c8b218bbc3ec0d18fe53e9e145b",
+            "updated": "2023-09-28T01:09:50+0000",
+            "vcs_last_commit": "2023-09-28T01:09:18+0000",
+            "vcs_last_fetch": "2023-09-28T01:09:50+0000",
+            "vcs_last_rev": "5bddcf5b702ade1d4450664af82f978f6be795ac",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
