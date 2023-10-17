@@ -564,10 +564,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-10-11T17:10:38+0000",
-            "vcs_last_commit": "2023-10-11T16:10:12+0000",
-            "vcs_last_fetch": "2023-10-11T17:10:38+0000",
-            "vcs_last_rev": "bb01530ff22b596e82fc27693d1f8b8f35a41714",
+            "updated": "2023-10-16T13:10:37+0000",
+            "vcs_last_commit": "2023-10-16T12:10:38+0000",
+            "vcs_last_fetch": "2023-10-16T13:10:37+0000",
+            "vcs_last_rev": "5782bac76f3a46f33d70bde7975ce874ba4ed3eb",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -590,14 +590,14 @@
         {
             "actual_branch": "",
             "branch": 342,
-            "collection": "wr-marvell-cn106xx",
+            "collection": "wr-marvell-cn10xxx",
             "id": 967237,
             "layer": 521,
             "local_path": "",
-            "updated": "2023-10-15T20:10:01+0000",
-            "vcs_last_commit": "2023-09-26T19:09:04+0000",
-            "vcs_last_fetch": "2023-10-15T20:10:01+0000",
-            "vcs_last_rev": "6266e714a9aabd622fab233c0dc07087340d4c2e",
+            "updated": "2023-10-16T17:10:30+0000",
+            "vcs_last_commit": "2023-10-12T23:10:52+0000",
+            "vcs_last_fetch": "2023-10-16T17:10:30+0000",
+            "vcs_last_rev": "5e48c47d27bf10512d665c7cae18bf172025d494",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -682,7 +682,7 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-marvell-cn106xx",
+            "collection": "wr-marvell-cn10xxx",
             "comparison": false,
             "description": "The BSP layer for the Marvell CN10K boards.",
             "id": 521,
@@ -703,11 +703,11 @@
     ],
     "machines": [
         {
-            "description": " Marvell CN106xx SoC",
+            "description": " Marvell CN10xxx SoC",
             "id": 79635,
             "layerbranch": 967237,
-            "name": "marvell-cn106xx",
-            "updated": "2023-10-15T20:10:01+0000"
+            "name": "marvell-cn10xxx",
+            "updated": "2023-10-16T17:10:29+0000"
         }
     ],
     "recipes": [
@@ -716,7 +716,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Marvell cn106xx cpss application",
+            "description": "Marvell cn10xxx cpss application",
             "filename": "cpss.bb",
             "filepath": "recipes-extend/cpss",
             "homepage": "",
@@ -732,7 +732,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-10-15T20:10:01+0000"
+            "updated": "2023-10-16T17:10:30+0000"
         }
     ],
     "wrtemplates": [
