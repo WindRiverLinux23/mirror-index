@@ -536,7 +536,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2023-10-16T00:10:11+0000",
+            "updated": "2023-10-25T00:10:14+0000",
             "updates_enabled": true
         }
     ],
