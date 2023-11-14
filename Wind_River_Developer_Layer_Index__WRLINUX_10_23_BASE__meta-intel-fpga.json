@@ -534,9 +534,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 9,
+            "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-06T23:11:11+0000",
+            "updated": "2023-11-13T23:11:12+0000",
             "updates_enabled": true
         }
     ],
