@@ -536,38 +536,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-13T23:11:12+0000",
+            "updated": "2023-11-19T23:11:13+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230828",
+            "actual_branch": "wr-10.23-20231114",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-08T00:11:38+0000",
-            "vcs_last_commit": "2023-11-07T00:11:19+0000",
-            "vcs_last_fetch": "2023-11-08T00:11:38+0000",
-            "vcs_last_rev": "1ecc6d2b28eda33202103cd3caa6eabbfdd99ded",
+            "updated": "2023-11-16T00:11:50+0000",
+            "vcs_last_commit": "2023-11-15T21:11:11+0000",
+            "vcs_last_fetch": "2023-11-16T00:11:50+0000",
+            "vcs_last_rev": "1507fc3e6e5ff77d9ea786885accd05142adbae8",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230828",
+            "actual_branch": "wr-10.23-20231114",
             "branch": 342,
             "collection": "intel",
             "id": 942614,
             "layer": 166,
             "local_path": "",
-            "updated": "2023-08-29T20:08:44+0000",
-            "vcs_last_commit": "2023-08-27T20:08:06+0000",
-            "vcs_last_fetch": "2023-08-29T20:08:44+0000",
-            "vcs_last_rev": "d005694187e3e37eba6598683b651abc866e7c22",
+            "updated": "2023-11-16T00:11:09+0000",
+            "vcs_last_commit": "2023-11-14T01:11:02+0000",
+            "vcs_last_fetch": "2023-11-16T00:11:09+0000",
+            "vcs_last_rev": "0d336036c46f9abde71890504529dcf2271a779a",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 42598
@@ -1052,7 +1052,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/opencl-clang/14.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
+            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpl9xl7qtm/tmp-glibc/work/core2-32-oe-linux/opencl-clang/14.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
             "description": "Common clang has OpenCL-oriented API and is capable  to compile OpenCL C kernels to SPIR-V modules.",
             "filename": "opencl-clang_14.0.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/opencl-clang",
@@ -1067,15 +1067,15 @@
             "provides": "opencl-clang ",
             "pv": "14.0.0",
             "section": "base",
-            "srcrev": "06c7c0d7f5cbd13810d79489a533fa6c5b6c7d9f",
+            "srcrev": "cf95b338d14685e4f3402ab1828bef31d48f1fd6",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2023-08-09T21:08:14+0000"
+            "updated": "2023-11-16T00:11:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpp3x4twl8/tmp-glibc/work/core2-32-oe-linux/opencl-clang/15.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
+            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpl9xl7qtm/tmp-glibc/work/core2-32-oe-linux/opencl-clang/15.0.0-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=15.%                    ",
             "description": "Common clang has OpenCL-oriented API and is capable  to compile OpenCL C kernels to SPIR-V modules.",
             "filename": "opencl-clang_15.0.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/opencl-clang",
@@ -1090,9 +1090,9 @@
             "provides": "opencl-clang ",
             "pv": "15.0.0",
             "section": "base",
-            "srcrev": "c78c1f884ffe8b40e1681a90ebde1a919c08ddb1",
+            "srcrev": "bc1d13ecc1c6f7aa5da3acf33165037d3fc5ed06",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2023-08-09T21:08:15+0000"
+            "updated": "2023-11-16T00:11:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1640,11 +1640,11 @@
             "pn": "linux-intel",
             "pr": "r0",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "6.1.38+gitX",
+            "pv": "6.1.46+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-08-29T20:08:44+0000"
+            "updated": "2023-11-16T00:11:09+0000"
         },
         {
             "bbclassextend": "",

@@ -536,38 +536,38 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-13T23:11:12+0000",
+            "updated": "2023-11-19T23:11:13+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230828",
+            "actual_branch": "wr-10.23-20231114",
             "branch": 342,
             "collection": "core",
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-08T00:11:38+0000",
-            "vcs_last_commit": "2023-11-07T00:11:19+0000",
-            "vcs_last_fetch": "2023-11-08T00:11:38+0000",
-            "vcs_last_rev": "1ecc6d2b28eda33202103cd3caa6eabbfdd99ded",
+            "updated": "2023-11-16T00:11:50+0000",
+            "vcs_last_commit": "2023-11-15T21:11:11+0000",
+            "vcs_last_fetch": "2023-11-16T00:11:50+0000",
+            "vcs_last_rev": "1507fc3e6e5ff77d9ea786885accd05142adbae8",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230828",
+            "actual_branch": "wr-10.23-20231114",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-11-08T00:11:44+0000",
-            "vcs_last_commit": "2023-11-08T00:11:40+0000",
-            "vcs_last_fetch": "2023-11-08T00:11:44+0000",
-            "vcs_last_rev": "b6faeb4589cd7a8d14e9348b9683c0aeca605954",
+            "updated": "2023-11-17T00:11:07+0000",
+            "vcs_last_commit": "2023-11-16T23:11:04+0000",
+            "vcs_last_fetch": "2023-11-17T00:11:06+0000",
+            "vcs_last_rev": "fb3404a5a1ae1468cb8829c8147094d5cdb89209",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -995,7 +995,7 @@
             "section": "base",
             "srcrev": "ba463d3c26c0ece2e797b8d6381b161633b5971a",
             "summary": "x86 (SSE) assembler supporting NASM and GAS-syntaxes",
-            "updated": "2023-08-29T20:08:58+0000"
+            "updated": "2023-11-16T00:11:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1256,7 +1256,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_18.16.1.bb",
+            "filename": "nodejs_18.17.1.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 1758780,
@@ -1267,11 +1267,11 @@
             "pn": "nodejs",
             "pr": "r0",
             "provides": "nodejs ",
-            "pv": "18.16.1",
+            "pv": "18.17.1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:58+0000"
+            "updated": "2023-11-16T00:11:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1279,7 +1279,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "OE helper for manipulating npm cache",
-            "filename": "nodejs-oe-cache-native_18.16.bb",
+            "filename": "nodejs-oe-cache-native_18.17.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "",
             "id": 1758781,
@@ -1290,11 +1290,11 @@
             "pn": "nodejs-oe-cache-native",
             "pr": "r0",
             "provides": "nodejs-oe-cache-native ",
-            "pv": "18.16",
+            "pv": "18.17",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:56+0000"
+            "updated": "2023-11-16T00:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1501,7 +1501,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T20:08:33+0000"
+            "updated": "2023-11-16T00:11:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -2088,7 +2088,7 @@
             "filepath": "recipes-devtools/nlohmann-json",
             "homepage": "https://nlohmann.github.io/json/",
             "id": 1758816,
-            "inherits": "cmake",
+            "inherits": "cmake ptest",
             "layerbranch": 942457,
             "license": "MIT",
             "pe": "",
@@ -2099,7 +2099,7 @@
             "section": "libs",
             "srcrev": "bc889afb4c5bf1c0d8ee29ef35eaaf4c8bef8a5d",
             "summary": "JSON for modern C++",
-            "updated": "2023-08-09T20:08:40+0000"
+            "updated": "2023-11-17T00:11:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6239,7 +6239,7 @@
             "section": "base",
             "srcrev": "655e2d544183d094f0e2d119c7e0c6206a0ddb3f",
             "summary": "Enable userspace control of Cypress USB-Serial bridge devices",
-            "updated": "2023-08-09T20:08:27+0000"
+            "updated": "2023-11-16T00:11:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8723,7 +8723,7 @@
             "section": "libs",
             "srcrev": "92d6a35f3d8d721cda7d6fe664b435311dd368b4",
             "summary": "Library for interfacing with IIO devices",
-            "updated": "2023-08-09T20:08:57+0000"
+            "updated": "2023-11-16T00:11:00+0000"
         },
         {
             "bbclassextend": "",
@@ -9628,7 +9628,7 @@
             "bugtracker": "",
             "configopts": " ac_cv_func_memcmp_working=yes --with-yielding-select=yes --enable-dynamic --enable-crypt  --enable-asyncmeta=mod --enable-dnssrv=mod --enable-dyngroup=no --with-tls=gnutls --enable-ipv6 --enable-ldap=mod --enable-mdb=yes --enable-meta=mod lt_cv_dlopen_self=yes --enable-modules --enable-ndb=no --enable-null=mod --enable-passwd=mod --enable-perl=no --enable-proxycache=mod --enable-relay=no --without-cyrus-sasl --enable-sock=no --enable-sql=no --enable-wt=no",
             "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.",
-            "filename": "openldap_2.5.13.bb",
+            "filename": "openldap_2.5.16.bb",
             "filepath": "recipes-support/openldap",
             "homepage": "http://www.OpenLDAP.org/license.html",
             "id": 1759144,
@@ -9639,11 +9639,11 @@
             "pn": "openldap",
             "pr": "r0",
             "provides": "openldap ",
-            "pv": "2.5.13",
+            "pv": "2.5.16",
             "section": "libs",
             "srcrev": "",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2023-08-09T20:08:10+0000"
+            "updated": "2023-11-16T00:11:00+0000"
         },
         {
             "bbclassextend": " native",
@@ -10333,7 +10333,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2023-08-09T20:08:16+0000"
+            "updated": "2023-11-16T00:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -12549,7 +12549,7 @@
             "bugtracker": "",
             "configopts": "  USE_SYSTEMD=no",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_7.0.12.bb",
+            "filename": "redis_7.0.13.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 1759271,
@@ -12560,11 +12560,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "7.0.12",
+            "pv": "7.0.13",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2023-08-29T20:08:59+0000"
+            "updated": "2023-11-16T00:11:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13812,9 +13812,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/postgresql/15.3-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmp5bmrxf_q/tmp-glibc/work/core2-32-oe-linux/postgresql/15.4-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_15.3.bb",
+            "filename": "postgresql_15.4.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 1759326,
@@ -13825,11 +13825,11 @@
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "15.3",
+            "pv": "15.4",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2023-08-09T20:08:57+0000"
+            "updated": "2023-11-17T00:11:06+0000"
         },
         {
             "bbclassextend": "",
@@ -14318,7 +14318,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "PREFIX=/usr                  DESTDIR=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/image                  MAXLINELENGTH='2097152'                  LIBPATH=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot/usr/lib                  LINKFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fmacro-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot-native= '                  CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fmacro-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden'                  TARGET_ARCH=i686                  MONGO_VERSION=4.4.19                  OBJCOPY=i686-oe-linux-objcopy                  --ssl                  --disable-warnings-as-errors                  --use-system-zlib                  --nostrip                  --endian=big                  --wiredtiger='off'                  --separate-debug                   MAXLINELENGTH=2097152",
+            "configopts": "PREFIX=/usr                  DESTDIR=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/image                  MAXLINELENGTH='2097152'                  LIBPATH=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot/usr/lib                  LINKFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fmacro-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot-native= '                  CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fmacro-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/git=/usr/src/debug/mongodb/4.4.19-r0  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.19-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden'                  TARGET_ARCH=i686                  MONGO_VERSION=4.4.19                  OBJCOPY=i686-oe-linux-objcopy                  --ssl                  --disable-warnings-as-errors                  --use-system-zlib                  --nostrip                  --endian=big                  --use-hardware-crc32=off                  --wiredtiger='off'                  --separate-debug                   MAXLINELENGTH=2097152",
             "description": "",
             "filename": "mongodb_git.bb",
             "filepath": "dynamic-layers/meta-python/recipes-dbs/mongodb",
@@ -14335,7 +14335,7 @@
             "section": "base",
             "srcrev": "9a996e0ad993148b9650dc402e6d3b1804ad3b8a",
             "summary": "mongodb",
-            "updated": "2023-08-09T20:08:03+0000"
+            "updated": "2023-11-16T00:11:58+0000"
         },
         {
             "bbclassextend": "",
@@ -14611,7 +14611,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel selftest for Linux",
-            "updated": "2023-08-09T20:08:05+0000"
+            "updated": "2023-11-16T00:11:00+0000"
         },
         {
             "bbclassextend": "",
@@ -17164,7 +17164,7 @@
             "section": "x11/utils",
             "srcrev": "87cd0530f438372dda3c70bb491a6fd19f09acc2",
             "summary": "Exports your X session or FrameBuffer(fbdev) on-the-fly via VNC",
-            "updated": "2023-08-09T20:08:35+0000"
+            "updated": "2023-11-16T00:11:00+0000"
         },
         {
             "bbclassextend": "",
@@ -19033,7 +19033,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpyzhmpeu5/tmp-glibc/work/core2-32-oe-linux/vulkan-cts/1.3.3.1-r0/qemuwrapper -DWAYLAND_SCANNER=/tmp/tmpyzhmpeu5/tmp-glibc/work/core2-32-oe-linux/vulkan-cts/1.3.3.1-r0/recipe-sysroot-native/usr/bin/wayland-scanner -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpyzhmpeu5/tmp-glibc/work/core2-32-oe-linux/vulkan-cts/1.3.3.1-r0/recipe-sysroot/usr/share/wayland-protocols ",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/vulkan-cts/1.3.3.1-r0/qemuwrapper -DWAYLAND_SCANNER=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/vulkan-cts/1.3.3.1-r0/recipe-sysroot-native/usr/bin/wayland-scanner -DWAYLAND_PROTOCOLS_DIR=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/vulkan-cts/1.3.3.1-r0/recipe-sysroot/usr/share/wayland-protocols ",
             "description": "Vulkan CTS",
             "filename": "vulkan-cts_1.3.3.1.bb",
             "filepath": "recipes-graphics/vk-gl-cts",
@@ -19050,13 +19050,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:00+0000"
+            "updated": "2023-11-16T00:11:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpyzhmpeu5/tmp-glibc/work/core2-32-oe-linux/opengl-es-cts/3.2.8.0-r0/qemuwrapper -DWAYLAND_SCANNER=/tmp/tmpyzhmpeu5/tmp-glibc/work/core2-32-oe-linux/opengl-es-cts/3.2.8.0-r0/recipe-sysroot-native/usr/bin/wayland-scanner -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpyzhmpeu5/tmp-glibc/work/core2-32-oe-linux/opengl-es-cts/3.2.8.0-r0/recipe-sysroot/usr/share/wayland-protocols ",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/opengl-es-cts/3.2.8.0-r0/qemuwrapper -DWAYLAND_SCANNER=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/opengl-es-cts/3.2.8.0-r0/recipe-sysroot-native/usr/bin/wayland-scanner -DWAYLAND_PROTOCOLS_DIR=/tmp/tmp_lzzo_pv/tmp-glibc/work/core2-32-oe-linux/opengl-es-cts/3.2.8.0-r0/recipe-sysroot/usr/share/wayland-protocols ",
             "description": "OpenGL CTS",
             "filename": "opengl-es-cts_3.2.8.0.bb",
             "filepath": "recipes-graphics/vk-gl-cts",
@@ -19073,7 +19073,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:00+0000"
+            "updated": "2023-11-16T00:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -21603,7 +21603,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A network authentication protocol",
-            "updated": "2023-08-09T21:08:20+0000"
+            "updated": "2023-11-16T00:11:58+0000"
         },
         {
             "bbclassextend": "",
