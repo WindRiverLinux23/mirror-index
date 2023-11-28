@@ -536,7 +536,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-20T23:11:15+0000",
+            "updated": "2023-11-27T23:11:12+0000",
             "updates_enabled": true
         }
     ],
@@ -549,10 +549,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-16T00:11:50+0000",
-            "vcs_last_commit": "2023-11-15T21:11:11+0000",
-            "vcs_last_fetch": "2023-11-16T00:11:50+0000",
-            "vcs_last_rev": "1507fc3e6e5ff77d9ea786885accd05142adbae8",
+            "updated": "2023-11-27T20:11:48+0000",
+            "vcs_last_commit": "2023-11-27T19:11:14+0000",
+            "vcs_last_fetch": "2023-11-27T20:11:48+0000",
+            "vcs_last_rev": "9eb8d585ab3fc63d69215a0b9eb4943c994336e6",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -588,16 +588,16 @@
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230423",
+            "actual_branch": "wr-10.23-20231123",
             "branch": 342,
             "collection": "chromium-browser-layer",
             "id": 942672,
             "layer": 392,
             "local_path": "",
-            "updated": "2023-09-21T00:09:00+0000",
-            "vcs_last_commit": "2023-09-21T00:09:58+0000",
-            "vcs_last_fetch": "2023-09-21T00:09:00+0000",
-            "vcs_last_rev": "2531ad917b68e26a62cdaaa227bcd6f26df8795c",
+            "updated": "2023-11-23T19:11:49+0000",
+            "vcs_last_commit": "2023-11-23T08:11:49+0000",
+            "vcs_last_fetch": "2023-11-23T19:11:49+0000",
+            "vcs_last_rev": "c7aa2ba25ddf759395d3b8dd10e76ac39fd728cc",
             "vcs_subdir": "meta-chromium",
             "version": "1",
             "yp_compatible_version": 44179
@@ -623,8 +623,8 @@
             "required": true
         },
         {
-            "dependency": 520,
-            "id": 120286,
+            "dependency": 525,
+            "id": 122065,
             "layerbranch": 942672,
             "required": false
         }
@@ -715,7 +715,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-            "filename": "gn-native_116.0.5845.179.bb",
+            "filename": "gn-native_119.0.6045.159.bb",
             "filepath": "recipes-browser/chromium",
             "homepage": "https://www.chromium.org/Home",
             "id": 1762917,
@@ -726,11 +726,11 @@
             "pn": "gn-native",
             "pr": "r0",
             "provides": "gn-native ",
-            "pv": "116.0.5845.179",
+            "pv": "119.0.6045.159",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-09-21T00:09:00+0000"
+            "updated": "2023-11-23T19:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -738,7 +738,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-            "filename": "chromium-ozone-wayland_116.0.5845.179.bb",
+            "filename": "chromium-ozone-wayland_119.0.6045.159.bb",
             "filepath": "recipes-browser/chromium",
             "homepage": "https://www.chromium.org/Home",
             "id": 1762918,
@@ -749,11 +749,11 @@
             "pn": "chromium-ozone-wayland",
             "pr": "r0",
             "provides": "chromium-ozone-wayland ",
-            "pv": "116.0.5845.179",
+            "pv": "119.0.6045.159",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-09-21T00:09:58+0000"
+            "updated": "2023-11-23T19:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -761,7 +761,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-            "filename": "chromium-x11_116.0.5845.179.bb",
+            "filename": "chromium-x11_119.0.6045.159.bb",
             "filepath": "recipes-browser/chromium",
             "homepage": "https://www.chromium.org/Home",
             "id": 1762919,
@@ -772,11 +772,11 @@
             "pn": "chromium-x11",
             "pr": "r0",
             "provides": "chromium-x11 chromium",
-            "pv": "116.0.5845.179",
+            "pv": "119.0.6045.159",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-09-21T00:09:59+0000"
+            "updated": "2023-11-23T19:11:48+0000"
         }
     ],
     "wrtemplates": []
