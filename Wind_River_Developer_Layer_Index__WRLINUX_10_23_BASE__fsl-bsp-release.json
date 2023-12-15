@@ -524,6 +524,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44184,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
         }
     ],
     "branches": [
@@ -536,7 +543,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-27T23:11:12+0000",
+            "updated": "2023-12-14T23:12:12+0000",
             "updates_enabled": true
         }
     ],
@@ -549,10 +556,10 @@
             "id": 942566,
             "layer": 469,
             "local_path": "",
-            "updated": "2023-11-28T00:11:37+0000",
-            "vcs_last_commit": "2023-11-27T23:11:39+0000",
-            "vcs_last_fetch": "2023-11-28T00:11:37+0000",
-            "vcs_last_rev": "d9510d20e4791c29e520a697231c8f555801dc6f",
+            "updated": "2023-12-14T23:12:37+0000",
+            "vcs_last_commit": "2023-12-14T22:12:00+0000",
+            "vcs_last_fetch": "2023-12-14T23:12:37+0000",
+            "vcs_last_rev": "3d5ec647aecb1dea03fb3733f93d78642dece932",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42597
@@ -979,7 +986,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:25+0000"
+            "updated": "2023-12-03T22:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1370,7 +1377,7 @@
             "section": "base",
             "srcrev": "af7d004eaf18437c7db76f7962652b924099405b",
             "summary": "U-Boot bootloader tools",
-            "updated": "2023-08-09T21:08:28+0000"
+            "updated": "2023-12-14T23:12:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1393,7 +1400,7 @@
             "section": "base",
             "srcrev": "af7d004eaf18437c7db76f7962652b924099405b",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-08-09T21:08:28+0000"
+            "updated": "2023-12-14T23:12:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1531,7 +1538,7 @@
             "section": "BSP",
             "srcrev": "5cfd218012e080fb907d9cc301fbb4ece9bc17a9",
             "summary": "",
-            "updated": "2023-11-28T00:11:37+0000"
+            "updated": "2023-12-03T22:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1554,7 +1561,7 @@
             "section": "BSP",
             "srcrev": "5cfd218012e080fb907d9cc301fbb4ece9bc17a9",
             "summary": "",
-            "updated": "2023-08-09T21:08:29+0000"
+            "updated": "2023-12-03T22:12:02+0000"
         },
         {
             "bbclassextend": "",

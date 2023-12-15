@@ -524,6 +524,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44184,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
         }
     ],
     "branches": [
@@ -536,7 +543,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-27T23:11:12+0000",
+            "updated": "2023-12-14T23:12:12+0000",
             "updates_enabled": true
         }
     ],
@@ -557,10 +564,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-27T20:11:48+0000",
-            "vcs_last_commit": "2023-11-27T19:11:14+0000",
-            "vcs_last_fetch": "2023-11-27T20:11:48+0000",
-            "vcs_last_rev": "9eb8d585ab3fc63d69215a0b9eb4943c994336e6",
+            "updated": "2023-12-13T20:12:48+0000",
+            "vcs_last_commit": "2023-12-13T19:12:45+0000",
+            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
+            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -809,7 +816,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-native_1.20.7.bb",
+            "filename": "go-native_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757816,
@@ -820,11 +827,11 @@
             "pn": "go-native",
             "pr": "r0",
             "provides": "go-native ",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-11-16T00:11:53+0000"
+            "updated": "2023-12-11T04:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -832,7 +839,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-crosssdk_1.20.7.bb",
+            "filename": "go-crosssdk_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757817,
@@ -843,11 +850,11 @@
             "pn": "go-crosssdk-x86_64-oesdk-linux",
             "pr": "r0",
             "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-11-16T00:11:53+0000"
+            "updated": "2023-12-11T04:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -855,7 +862,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross_1.20.7.bb",
+            "filename": "go-cross_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757818,
@@ -866,11 +873,11 @@
             "pn": "go-cross-core2-32",
             "pr": "r0",
             "provides": "go-cross-core2-32 virtual/core2-32-go",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-11-16T00:11:53+0000"
+            "updated": "2023-12-11T04:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -878,7 +885,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross-canadian_1.20.7.bb",
+            "filename": "go-cross-canadian_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757819,
@@ -889,11 +896,11 @@
             "pn": "go-cross-canadian-i686",
             "pr": "r0",
             "provides": "go-cross-canadian-i686 ",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-11-16T00:11:52+0000"
+            "updated": "2023-12-11T04:12:53+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -901,7 +908,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go_1.20.7.bb",
+            "filename": "go_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757820,
@@ -912,11 +919,11 @@
             "pn": "go",
             "pr": "r0",
             "provides": "go ",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-11-16T00:11:54+0000"
+            "updated": "2023-12-11T04:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -924,7 +931,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "go-binary-native_1.20.7.bb",
+            "filename": "go-binary-native_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757821,
@@ -935,11 +942,11 @@
             "pn": "go-binary-native",
             "pr": "r0",
             "provides": "go-binary-native go-native",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler (upstream binary for bootstrap)",
-            "updated": "2023-11-16T00:11:13+0000"
+            "updated": "2023-12-11T04:12:54+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -947,7 +954,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-runtime_1.20.7.bb",
+            "filename": "go-runtime_1.20.9.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1757822,
@@ -958,11 +965,11 @@
             "pn": "go-runtime",
             "pr": "r0",
             "provides": "go-runtime virtual/i686-oe-linux-go-runtime",
-            "pv": "1.20.7",
+            "pv": "1.20.9",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-11-16T00:11:54+0000"
+            "updated": "2023-12-11T04:12:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2894,7 +2901,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2023-08-29T20:08:21+0000"
+            "updated": "2023-12-08T00:12:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -8782,7 +8789,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:46+0000"
+            "updated": "2023-12-05T00:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8805,7 +8812,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:47+0000"
+            "updated": "2023-12-05T00:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8828,7 +8835,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:47+0000"
+            "updated": "2023-12-05T00:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -9652,11 +9659,11 @@
             "pn": "vim-tiny",
             "pr": "r0",
             "provides": "vim-tiny ",
-            "pv": "9.0.2068",
+            "pv": "9.0.2121",
             "section": "console/utils",
-            "srcrev": "9198c1f2b1ddecde22af918541e0de2a32f0f45a",
+            "srcrev": "26c11c56888d01e298cd8044caf860f3c26f57bb",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2023-11-23T19:11:49+0000"
+            "updated": "2023-12-11T04:12:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9675,11 +9682,11 @@
             "pn": "vim",
             "pr": "r0",
             "provides": "vim xxd",
-            "pv": "9.0.2068",
+            "pv": "9.0.2121",
             "section": "console/utils",
-            "srcrev": "9198c1f2b1ddecde22af918541e0de2a32f0f45a",
+            "srcrev": "26c11c56888d01e298cd8044caf860f3c26f57bb",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2023-11-23T19:11:49+0000"
+            "updated": "2023-12-11T04:12:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11450,7 +11457,7 @@
             "section": "base",
             "srcrev": "fc7c43d138185028b6ac14c83f6492fce26eca95",
             "summary": "Baremetal examples to work with the several QEMU architectures supported on OpenEmbedded",
-            "updated": "2023-08-29T20:08:56+0000"
+            "updated": "2023-12-05T00:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -12393,7 +12400,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:10+0000"
+            "updated": "2023-12-05T00:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -12416,7 +12423,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:11+0000"
+            "updated": "2023-12-05T00:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -12439,7 +12446,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-08-29T20:08:11+0000"
+            "updated": "2023-12-05T00:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12462,7 +12469,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:11+0000"
+            "updated": "2023-12-05T00:12:50+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12485,7 +12492,7 @@
             "section": "base/shell",
             "srcrev": "",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2023-08-29T20:08:11+0000"
+            "updated": "2023-12-06T01:12:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14325,7 +14332,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-08-29T20:08:20+0000"
+            "updated": "2023-12-05T00:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -14348,7 +14355,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-08-29T20:08:20+0000"
+            "updated": "2023-12-05T00:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -15728,7 +15735,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2023-08-29T20:08:25+0000"
+            "updated": "2023-12-05T00:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -15751,7 +15758,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2023-08-29T20:08:26+0000"
+            "updated": "2023-12-05T00:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -15774,7 +15781,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2023-08-29T20:08:26+0000"
+            "updated": "2023-12-05T00:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -19822,7 +19829,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:42+0000"
+            "updated": "2023-12-05T00:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -19845,7 +19852,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:43+0000"
+            "updated": "2023-12-05T00:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -19891,7 +19898,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-08-29T20:08:32+0000"
+            "updated": "2023-12-05T00:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -19914,7 +19921,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-08-29T20:08:32+0000"
+            "updated": "2023-12-05T00:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -19937,7 +19944,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2023-08-29T20:08:44+0000"
+            "updated": "2023-12-05T00:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -19960,7 +19967,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-08-29T20:08:33+0000"
+            "updated": "2023-12-05T00:12:44+0000"
         },
         {
             "bbclassextend": "mcextend:apr mcextend:bzip2 mcextend:coreutils mcextend:curl mcextend:dbus mcextend:e2fsprogs mcexte",
@@ -19983,7 +19990,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2023-11-16T00:11:11+0000"
+            "updated": "2023-12-05T00:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -20006,7 +20013,7 @@
             "section": "base",
             "srcrev": "7f366c7d843d979e7b2c33f76cc8723f281cb890",
             "summary": "An image containing the build system itself",
-            "updated": "2023-11-16T00:11:09+0000"
+            "updated": "2023-12-05T00:12:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20420,7 +20427,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:46+0000"
+            "updated": "2023-12-05T00:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -20662,7 +20669,7 @@
             "filepath": "recipes-core/libxcrypt",
             "homepage": "https://github.com/besser82/libxcrypt",
             "id": 1758679,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 942434,
             "license": "LGPL-2.1-only",
             "pe": "",
@@ -20673,7 +20680,7 @@
             "section": "libs",
             "srcrev": "d7fe1ac04c326dba7e0440868889d1dccb41a175",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2023-08-29T20:08:47+0000"
+            "updated": "2023-12-05T00:12:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20685,7 +20692,7 @@
             "filepath": "recipes-core/libxcrypt",
             "homepage": "https://github.com/besser82/libxcrypt",
             "id": 1758680,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 942434,
             "license": "LGPL-2.1-only",
             "pe": "",
@@ -20696,7 +20703,7 @@
             "section": "libs",
             "srcrev": "d7fe1ac04c326dba7e0440868889d1dccb41a175",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2023-09-11T02:09:32+0000"
+            "updated": "2023-12-05T00:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -20788,7 +20795,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2023-08-29T20:08:48+0000"
+            "updated": "2023-12-13T20:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -20995,7 +21002,7 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "Secure Socket Layer",
-            "updated": "2023-11-16T00:11:06+0000"
+            "updated": "2023-12-13T18:12:56+0000"
         },
         {
             "bbclassextend": "",

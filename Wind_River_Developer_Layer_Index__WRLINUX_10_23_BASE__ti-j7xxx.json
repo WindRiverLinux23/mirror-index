@@ -524,6 +524,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44184,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
         }
     ],
     "branches": [
@@ -536,7 +543,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-27T23:11:12+0000",
+            "updated": "2023-12-14T23:12:12+0000",
             "updates_enabled": true
         }
     ],
@@ -549,10 +556,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-27T20:11:48+0000",
-            "vcs_last_commit": "2023-11-27T19:11:14+0000",
-            "vcs_last_fetch": "2023-11-27T20:11:48+0000",
-            "vcs_last_rev": "9eb8d585ab3fc63d69215a0b9eb4943c994336e6",
+            "updated": "2023-12-13T20:12:48+0000",
+            "vcs_last_commit": "2023-12-13T19:12:45+0000",
+            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
+            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -564,28 +571,28 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-11-27T20:11:06+0000",
-            "vcs_last_commit": "2023-11-27T20:11:04+0000",
-            "vcs_last_fetch": "2023-11-27T20:11:06+0000",
-            "vcs_last_rev": "17783c9d8dc1457424ac421682b7f81759638d9a",
+            "updated": "2023-12-15T07:12:55+0000",
+            "vcs_last_commit": "2023-12-15T04:12:38+0000",
+            "vcs_last_fetch": "2023-12-15T07:12:55+0000",
+            "vcs_last_rev": "2f9155bb76f6508a495736647a2c54339c57c84c",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20231030",
+            "actual_branch": "wr-10.23-20231206",
             "branch": 342,
             "collection": "meta-ti-bsp",
             "id": 942712,
             "layer": 473,
             "local_path": "",
-            "updated": "2023-10-30T20:10:56+0000",
-            "vcs_last_commit": "2023-10-26T02:10:52+0000",
-            "vcs_last_fetch": "2023-10-30T20:10:56+0000",
-            "vcs_last_rev": "f99866e9793548cfd1ef5df86c7f1ebb2e6c3545",
+            "updated": "2023-12-13T22:12:42+0000",
+            "vcs_last_commit": "2023-12-05T19:12:34+0000",
+            "vcs_last_fetch": "2023-12-13T22:12:42+0000",
+            "vcs_last_rev": "ee4efc9af6b9bc08b27e9b875be4515e33f970f3",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
-            "yp_compatible_version": 42598
+            "yp_compatible_version": 44181
         },
         {
             "actual_branch": "",
@@ -594,13 +601,28 @@
             "id": 947722,
             "layer": 486,
             "local_path": "",
-            "updated": "2023-11-06T22:11:48+0000",
-            "vcs_last_commit": "2023-11-06T21:11:07+0000",
-            "vcs_last_fetch": "2023-11-06T22:11:48+0000",
-            "vcs_last_rev": "8f690fa0668e1939c0df5dc3bcca106cf998f911",
+            "updated": "2023-12-11T20:12:11+0000",
+            "vcs_last_commit": "2023-12-11T18:12:30+0000",
+            "vcs_last_fetch": "2023-12-11T20:12:11+0000",
+            "vcs_last_rev": "26681b3495f535d51eb1a03eb7afd2d9b5026666",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "wr-10.23-20231204",
+            "branch": 342,
+            "collection": "meta-edgeai",
+            "id": 973527,
+            "layer": 527,
+            "local_path": "",
+            "updated": "2023-12-04T23:12:07+0000",
+            "vcs_last_commit": "2023-11-27T23:11:53+0000",
+            "vcs_last_fetch": "2023-12-04T23:12:07+0000",
+            "vcs_last_rev": "0f9401869d41b68ae907a6b209fa3c414381d3cc",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44176
         }
     ],
     "layerDependencies": [
@@ -611,14 +633,20 @@
             "required": true
         },
         {
+            "dependency": 527,
+            "id": 122761,
+            "layerbranch": 947722,
+            "required": true
+        },
+        {
             "dependency": 473,
-            "id": 113720,
+            "id": 122762,
             "layerbranch": 947722,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 113721,
+            "id": 122763,
             "layerbranch": 947722,
             "required": true
         }
@@ -699,22 +727,41 @@
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-edgeai",
+            "comparison": false,
+            "description": "The OpenEmbedded/Yocto Project layer for TI EdgeAI SDK",
+            "id": 527,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-edgeai",
+            "status": "P",
+            "summary": "The OpenEmbedded/Yocto Project layer for TI EdgeAI SDK",
+            "updated": "2023-12-04T22:12:10+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-edgeai",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-edgeai.git/commit/?id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
         }
     ],
     "machines": [
         {
             "description": " TI J721E SoC",
-            "id": 75589,
+            "id": 80997,
             "layerbranch": 947722,
             "name": "ti-j72xx",
-            "updated": "2023-08-09T21:08:02+0000"
+            "updated": "2023-12-05T23:12:41+0000"
         },
         {
             "description": " TI J784S4 SoC",
-            "id": 79964,
+            "id": 80998,
             "layerbranch": 947722,
             "name": "ti-j78xx",
-            "updated": "2023-10-30T20:10:34+0000"
+            "updated": "2023-12-05T23:12:41+0000"
         }
     ],
     "recipes": [
@@ -739,7 +786,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:01+0000"
+            "updated": "2023-12-05T23:12:40+0000"
         },
         {
             "bbclassextend": "",
@@ -762,7 +809,7 @@
             "section": "base",
             "srcrev": "e52592c843ad16be31db411b85c4059d82c4a6b9",
             "summary": "",
-            "updated": "2023-08-09T21:08:02+0000"
+            "updated": "2023-12-05T23:12:40+0000"
         },
         {
             "bbclassextend": "",
@@ -785,16 +832,16 @@
             "section": "base",
             "srcrev": "e34284a7e07763769f671a74b4fec718174ad862",
             "summary": "DevIL cross platform image utility library",
-            "updated": "2023-08-09T21:08:02+0000"
+            "updated": "2023-12-05T23:12:41+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 108358,
+            "id": 112499,
             "layerbranch": 947722,
             "name": "default",
-            "updated": "2023-10-30T20:10:34+0000"
+            "updated": "2023-12-05T23:12:41+0000"
         }
     ]
 }

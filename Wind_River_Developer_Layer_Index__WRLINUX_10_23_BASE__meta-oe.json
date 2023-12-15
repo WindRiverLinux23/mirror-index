@@ -524,6 +524,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44184,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
         }
     ],
     "branches": [
@@ -536,7 +543,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-27T23:11:12+0000",
+            "updated": "2023-12-14T23:12:12+0000",
             "updates_enabled": true
         }
     ],
@@ -549,10 +556,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-27T20:11:48+0000",
-            "vcs_last_commit": "2023-11-27T19:11:14+0000",
-            "vcs_last_fetch": "2023-11-27T20:11:48+0000",
-            "vcs_last_rev": "9eb8d585ab3fc63d69215a0b9eb4943c994336e6",
+            "updated": "2023-12-13T20:12:48+0000",
+            "vcs_last_commit": "2023-12-13T19:12:45+0000",
+            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
+            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -564,10 +571,10 @@
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-11-17T00:11:07+0000",
-            "vcs_last_commit": "2023-11-16T23:11:04+0000",
-            "vcs_last_fetch": "2023-11-17T00:11:06+0000",
-            "vcs_last_rev": "fb3404a5a1ae1468cb8829c8147094d5cdb89209",
+            "updated": "2023-12-12T00:12:40+0000",
+            "vcs_last_commit": "2023-12-12T00:12:05+0000",
+            "vcs_last_fetch": "2023-12-12T00:12:40+0000",
+            "vcs_last_rev": "b7572e6fc933b153a6b3b3ce27073a6816a4a3db",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -5074,7 +5081,7 @@
             "bugtracker": "",
             "configopts": "     -DWITH_PCAP=1     -DWITH_SFTP=1     -DWITH_ZLIB=1     -DWITH_EXAMPLES=0       -DWITH_GCRYPT=1  -DWITH_GSSAPI=0  -DUNIT_TESTING=0",
             "description": "",
-            "filename": "libssh_0.10.4.bb",
+            "filename": "libssh_0.10.5.bb",
             "filepath": "recipes-support/libssh",
             "homepage": "http://www.libssh.org",
             "id": 1758946,
@@ -5085,11 +5092,11 @@
             "pn": "libssh",
             "pr": "r0",
             "provides": "libssh ",
-            "pv": "0.10.4",
+            "pv": "0.10.5",
             "section": "libs",
-            "srcrev": "e8322817a9e5aaef0698d779ddd467a209a85d85",
+            "srcrev": "479eca13aaaa46b43e68c52186e3783f06ae6f34",
             "summary": "Multiplatform C library implementing the SSHv2 and SSHv1 protocol",
-            "updated": "2023-08-09T20:08:16+0000"
+            "updated": "2023-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7274,7 +7281,7 @@
             "section": "System Environment/Libraries",
             "srcrev": "5497519ea6b4af596628f8f8f2f904bacaa3148f",
             "summary": "Smart card library and applications",
-            "updated": "2023-08-09T20:08:38+0000"
+            "updated": "2023-12-07T07:12:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12961,7 +12968,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DHOST_SYS=i686-oe-linux -DBUILD_SYS=x86_64-linux     -DSKIP_TESTS=ON     -DGCC_AR=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar     -DGCC_RANLIB=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib     -DDISABLE_PYTHON_SCRIPTING=ON     -DFLEX_TARGET_ARG_COMPILE_FLAGS='--noline'     -DBISON_TARGET_ARG_COMPILE_FLAGS='--no-lines --file-prefix-map=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/git=/usr/src/debug/minifi-cpp/0.7.0-r0'      ",
+            "configopts": "      -DHOST_SYS=i686-oe-linux -DBUILD_SYS=x86_64-linux     -DSKIP_TESTS=ON     -DGCC_AR=/tmp/tmp6wmg9hg6/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar     -DGCC_RANLIB=/tmp/tmp6wmg9hg6/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib     -DDISABLE_PYTHON_SCRIPTING=ON     -DFLEX_TARGET_ARG_COMPILE_FLAGS='--noline'     -DBISON_TARGET_ARG_COMPILE_FLAGS='--no-lines --file-prefix-map=/tmp/tmp6wmg9hg6/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/git=/usr/src/debug/minifi-cpp/0.7.0-r0'      ",
             "description": "MiNiFi--a subproject of Apache NiFi--is a complementary data collection approach that supplements the core tenets of NiFi in dataflow management, focusing on the collection of data at the source of its creation.",
             "filename": "minifi-cpp_0.7.0.bb",
             "filepath": "recipes-extended/minifi-cpp",
@@ -12978,7 +12985,7 @@
             "section": "console/network",
             "srcrev": "aa42957a2e227df41510047cece3cd606dc1cb6a",
             "summary": "A subproject of Apache NiFi to collect data where it originates.",
-            "updated": "2023-08-09T20:08:48+0000"
+            "updated": "2023-12-12T00:12:40+0000"
         },
         {
             "bbclassextend": "",

@@ -524,6 +524,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44184,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
         }
     ],
     "branches": [
@@ -536,7 +543,7 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2023-11-27T23:11:12+0000",
+            "updated": "2023-12-14T23:12:12+0000",
             "updates_enabled": true
         }
     ],
@@ -549,10 +556,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-11-27T20:11:48+0000",
-            "vcs_last_commit": "2023-11-27T19:11:14+0000",
-            "vcs_last_fetch": "2023-11-27T20:11:48+0000",
-            "vcs_last_rev": "9eb8d585ab3fc63d69215a0b9eb4943c994336e6",
+            "updated": "2023-12-13T20:12:48+0000",
+            "vcs_last_commit": "2023-12-13T19:12:45+0000",
+            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
+            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -564,10 +571,10 @@
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-11-17T00:11:07+0000",
-            "vcs_last_commit": "2023-11-16T23:11:04+0000",
-            "vcs_last_fetch": "2023-11-17T00:11:06+0000",
-            "vcs_last_rev": "fb3404a5a1ae1468cb8829c8147094d5cdb89209",
+            "updated": "2023-12-12T00:12:40+0000",
+            "vcs_last_commit": "2023-12-12T00:12:05+0000",
+            "vcs_last_fetch": "2023-12-12T00:12:40+0000",
+            "vcs_last_rev": "b7572e6fc933b153a6b3b3ce27073a6816a4a3db",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -579,10 +586,10 @@
             "id": 942645,
             "layer": 10,
             "local_path": "",
-            "updated": "2023-11-16T00:11:09+0000",
-            "vcs_last_commit": "2023-10-15T16:10:42+0000",
-            "vcs_last_fetch": "2023-11-16T00:11:09+0000",
-            "vcs_last_rev": "39968837196cb48209b71e8852dd04a2f8ccdca8",
+            "updated": "2023-12-06T23:12:04+0000",
+            "vcs_last_commit": "2023-12-06T23:12:03+0000",
+            "vcs_last_fetch": "2023-12-06T23:12:04+0000",
+            "vcs_last_rev": "8212e34e412e0b7af6155dfc26d3308a1edc681c",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 42597
@@ -853,7 +860,7 @@
             "bugtracker": "",
             "configopts": "    --enable-layout=Debian     --prefix=     --exec_prefix=/usr     --includedir=/usr/include/apache2     --sysconfdir=/etc/apache2     --datadir=/usr/share/apache2     --libdir=/usr/lib     --libexecdir=/usr/libexec/apache2/modules     --localstatedir=/var     --enable-ssl     --with-dbm=sdbm     --with-gdbm=no     --with-ndbm=no     --with-berkeley-db=no     --enable-info     --enable-rewrite     --enable-mpms-shared     ap_cv_void_ptr_lt_long=no     ac_cv_have_threadsafe_pollset=no       --disable-ldap --disable-authnz-ldap --disable-selinux",
             "description": "The Apache HTTP Server is a powerful, efficient, and extensible web server.",
-            "filename": "apache2_2.4.57.bb",
+            "filename": "apache2_2.4.58.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
             "id": 1761759,
@@ -864,11 +871,11 @@
             "pn": "apache2",
             "pr": "r0",
             "provides": "apache2 ",
-            "pv": "2.4.57",
+            "pv": "2.4.58",
             "section": "net",
             "srcrev": "",
             "summary": "Apache HTTP Server",
-            "updated": "2023-08-09T21:08:51+0000"
+            "updated": "2023-12-06T23:12:04+0000"
         },
         {
             "bbclassextend": "",
