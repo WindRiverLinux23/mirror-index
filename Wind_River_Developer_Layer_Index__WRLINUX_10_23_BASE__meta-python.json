@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 10,
+            "sort_priority": 11,
             "update_environment": null,
-            "updated": "2023-12-14T23:12:12+0000",
+            "updated": "2023-12-21T23:12:14+0000",
             "updates_enabled": true
         }
     ],
@@ -556,40 +556,40 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-12-13T20:12:48+0000",
-            "vcs_last_commit": "2023-12-13T19:12:45+0000",
-            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
-            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
+            "updated": "2023-12-21T22:12:50+0000",
+            "vcs_last_commit": "2023-12-21T22:12:06+0000",
+            "vcs_last_fetch": "2023-12-21T22:12:50+0000",
+            "vcs_last_rev": "5fabaecea54907564d0b464b1322f399a959217d",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20231114",
+            "actual_branch": "wr-10.23-20231214",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-12-12T00:12:40+0000",
-            "vcs_last_commit": "2023-12-12T00:12:05+0000",
-            "vcs_last_fetch": "2023-12-12T00:12:40+0000",
-            "vcs_last_rev": "b7572e6fc933b153a6b3b3ce27073a6816a4a3db",
+            "updated": "2023-12-21T22:12:03+0000",
+            "vcs_last_commit": "2023-12-20T20:12:14+0000",
+            "vcs_last_fetch": "2023-12-21T22:12:03+0000",
+            "vcs_last_rev": "ae627d58fedfd1d5337a66a50171ba235d0128b3",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20231114",
+            "actual_branch": "wr-10.23-20231214",
             "branch": 342,
             "collection": "meta-python",
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-11-16T00:11:24+0000",
-            "vcs_last_commit": "2023-11-14T00:11:29+0000",
-            "vcs_last_fetch": "2023-11-16T00:11:24+0000",
-            "vcs_last_rev": "fa7f3502adc9da4099d055ef74e2c2a29ba81080",
+            "updated": "2023-12-17T22:12:58+0000",
+            "vcs_last_commit": "2023-12-13T18:12:29+0000",
+            "vcs_last_fetch": "2023-12-17T22:12:58+0000",
+            "vcs_last_rev": "c570017e51896d455f5c54f5893dffd555ddc7be",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
@@ -2462,7 +2462,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python binding to the Networking and Cryptography (NaCl) library",
-            "updated": "2023-08-09T21:08:24+0000"
+            "updated": "2023-12-17T22:12:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8465,7 +8465,7 @@
             "section": "devel/python",
             "srcrev": "1221ef62ff0de15bbeaf79e68e08a65d62c73ff4",
             "summary": "",
-            "updated": "2023-08-09T21:08:28+0000"
+            "updated": "2023-12-17T22:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8588,7 +8588,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-django_4.2.1.bb",
+            "filename": "python3-django_4.2.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.djangoproject.com/",
             "id": 1761537,
@@ -8599,11 +8599,11 @@
             "pn": "python3-django",
             "pr": "r0",
             "provides": "python3-django ",
-            "pv": "4.2.1",
+            "pv": "4.2.7",
             "section": "devel/python",
             "srcrev": "",
             "summary": "A high-level Python Web framework",
-            "updated": "2023-08-09T21:08:30+0000"
+            "updated": "2023-12-17T22:12:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",

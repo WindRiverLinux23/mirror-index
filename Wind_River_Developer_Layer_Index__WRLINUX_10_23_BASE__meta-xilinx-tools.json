@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 10,
+            "sort_priority": 11,
             "update_environment": null,
-            "updated": "2023-12-14T23:12:12+0000",
+            "updated": "2023-12-21T23:12:14+0000",
             "updates_enabled": true
         }
     ],
@@ -556,58 +556,58 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-12-13T20:12:48+0000",
-            "vcs_last_commit": "2023-12-13T19:12:45+0000",
-            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
-            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
+            "updated": "2023-12-21T22:12:50+0000",
+            "vcs_last_commit": "2023-12-21T22:12:06+0000",
+            "vcs_last_fetch": "2023-12-21T22:12:50+0000",
+            "vcs_last_rev": "5fabaecea54907564d0b464b1322f399a959217d",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20230828",
+            "actual_branch": "wr-10.23-20231214",
             "branch": 342,
             "collection": "xilinx",
             "id": 942573,
             "layer": 436,
             "local_path": "",
-            "updated": "2023-09-26T00:09:43+0000",
-            "vcs_last_commit": "2023-09-25T23:09:12+0000",
-            "vcs_last_fetch": "2023-09-26T00:09:43+0000",
-            "vcs_last_rev": "32e0481eb28afc9444003a31f7bbca5a4c4b891f",
+            "updated": "2023-12-17T22:12:25+0000",
+            "vcs_last_commit": "2023-12-13T18:12:39+0000",
+            "vcs_last_fetch": "2023-12-17T22:12:25+0000",
+            "vcs_last_rev": "a7349c0920928fc256b2e6f3ebb50cce6691cca0",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 42594
         },
         {
-            "actual_branch": "wr-10.23-20230828",
-            "branch": 342,
-            "collection": "xilinx-standalone",
-            "id": 942574,
-            "layer": 435,
-            "local_path": "",
-            "updated": "2023-08-29T20:08:50+0000",
-            "vcs_last_commit": "2023-08-27T20:08:49+0000",
-            "vcs_last_fetch": "2023-08-29T20:08:50+0000",
-            "vcs_last_rev": "b6ddb10ddc6b528f04281b31dad6b1d34f5a3413",
-            "vcs_subdir": "meta-xilinx-standalone",
-            "version": null,
-            "yp_compatible_version": 42594
-        },
-        {
-            "actual_branch": "wr-10.23-20230828",
+            "actual_branch": "wr-10.23-20231214",
             "branch": 342,
             "collection": "xilinx-tools",
             "id": 942708,
             "layer": 357,
             "local_path": "",
-            "updated": "2023-09-01T03:09:31+0000",
-            "vcs_last_commit": "2023-09-01T02:09:35+0000",
-            "vcs_last_fetch": "2023-09-01T03:09:31+0000",
-            "vcs_last_rev": "a52473f9b02c4db1e4a6430aceed9291d4afc28c",
+            "updated": "2023-12-17T22:12:41+0000",
+            "vcs_last_commit": "2023-12-13T18:12:07+0000",
+            "vcs_last_fetch": "2023-12-17T22:12:41+0000",
+            "vcs_last_rev": "60130494268955fee3c80a02ffa9dea387783385",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
+        },
+        {
+            "actual_branch": "wr-10.23-20231214",
+            "branch": 342,
+            "collection": "xilinx-standalone",
+            "id": 976623,
+            "layer": 435,
+            "local_path": "",
+            "updated": "2023-12-22T07:12:33+0000",
+            "vcs_last_commit": "2023-12-19T03:12:05+0000",
+            "vcs_last_fetch": "2023-12-22T07:12:33+0000",
+            "vcs_last_rev": "6da0fe77bc53e1f16955b00b38a457894ecdf023",
+            "vcs_subdir": "meta-xilinx-standalone",
+            "version": null,
+            "yp_compatible_version": 42594
         }
     ],
     "layerDependencies": [
@@ -754,7 +754,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-09-01T03:09:30+0000"
+            "updated": "2023-12-17T22:12:40+0000"
         },
         {
             "bbclassextend": "",
@@ -798,9 +798,9 @@
             "provides": "imgsel virtual/imgsel",
             "pv": "git+gitX",
             "section": "base",
-            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
+            "srcrev": "c9a0ee31b2a14cbcfcb56ca369037319b4ad4847",
             "summary": "",
-            "updated": "2023-09-01T03:09:30+0000"
+            "updated": "2023-12-17T22:12:41+0000"
         },
         {
             "bbclassextend": "",
@@ -821,9 +821,9 @@
             "provides": "external-hdf virtual/hdf",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "d084dd895cbdc7475f65dda9c3fb5dbdf66d78b2",
+            "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:57+0000"
+            "updated": "2023-12-17T22:12:40+0000"
         },
         {
             "bbclassextend": "",
@@ -844,9 +844,9 @@
             "provides": "imgrcry virtual/imgrcry",
             "pv": "git+gitX",
             "section": "base",
-            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
+            "srcrev": "c9a0ee31b2a14cbcfcb56ca369037319b4ad4847",
             "summary": "",
-            "updated": "2023-09-01T03:09:30+0000"
+            "updated": "2023-12-17T22:12:41+0000"
         },
         {
             "bbclassextend": "",
@@ -865,11 +865,11 @@
             "pn": "uboot-device-tree",
             "pr": "r0",
             "provides": "uboot-device-tree virtual/uboot-dtb",
-            "pv": "xilinx-v2023.1+gitX",
+            "pv": "xilinx-v2023.2+gitX",
             "section": "bsp",
-            "srcrev": "db419faa2f2ec70614f4fc0bd5b89fb8e079dc4f",
+            "srcrev": "1a5881d00406fa4f68eee63064799b8e5b28a41a",
             "summary": "Xilinx BSP u-boot device trees",
-            "updated": "2023-09-01T03:09:30+0000"
+            "updated": "2023-12-17T22:12:40+0000"
         },
         {
             "bbclassextend": "",
@@ -890,9 +890,9 @@
             "provides": "fs-boot virtual/fsboot",
             "pv": "git+gitX",
             "section": "base",
-            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
+            "srcrev": "c9a0ee31b2a14cbcfcb56ca369037319b4ad4847",
             "summary": "",
-            "updated": "2023-09-01T03:09:31+0000"
+            "updated": "2023-12-17T22:12:41+0000"
         },
         {
             "bbclassextend": "",
@@ -913,9 +913,9 @@
             "provides": "openamp-fw-mat-muld ",
             "pv": "2023.1+gitX",
             "section": "base",
-            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
+            "srcrev": "e24fe92b5517ee447e560790e798cad792f53bab",
             "summary": "",
-            "updated": "2023-09-01T03:09:31+0000"
+            "updated": "2023-12-17T22:12:41+0000"
         },
         {
             "bbclassextend": "",
@@ -936,9 +936,9 @@
             "provides": "openamp-fw-rpc-demo ",
             "pv": "2023.1+gitX",
             "section": "base",
-            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
+            "srcrev": "e24fe92b5517ee447e560790e798cad792f53bab",
             "summary": "",
-            "updated": "2023-09-01T03:09:31+0000"
+            "updated": "2023-12-17T22:12:41+0000"
         },
         {
             "bbclassextend": "",
@@ -959,9 +959,78 @@
             "provides": "openamp-fw-echo-testd ",
             "pv": "2023.1+gitX",
             "section": "base",
-            "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
+            "srcrev": "e24fe92b5517ee447e560790e798cad792f53bab",
             "summary": "",
-            "updated": "2023-09-01T03:09:31+0000"
+            "updated": "2023-12-17T22:12:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-echo-testd_2023.2.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 1945684,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 942708,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-echo-testd",
+            "pr": "r0",
+            "provides": "openamp-fw-echo-testd ",
+            "pv": "2023.2+gitX",
+            "section": "base",
+            "srcrev": "c9a0ee31b2a14cbcfcb56ca369037319b4ad4847",
+            "summary": "",
+            "updated": "2023-12-17T22:12:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-mat-muld_2023.2.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 1945685,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 942708,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-mat-muld",
+            "pr": "r0",
+            "provides": "openamp-fw-mat-muld ",
+            "pv": "2023.2+gitX",
+            "section": "base",
+            "srcrev": "c9a0ee31b2a14cbcfcb56ca369037319b4ad4847",
+            "summary": "",
+            "updated": "2023-12-17T22:12:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-rpc-demo_2023.2.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 1945686,
+            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 942708,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-rpc-demo",
+            "pr": "r0",
+            "provides": "openamp-fw-rpc-demo ",
+            "pv": "2023.2+gitX",
+            "section": "base",
+            "srcrev": "c9a0ee31b2a14cbcfcb56ca369037319b4ad4847",
+            "summary": "",
+            "updated": "2023-12-17T22:12:41+0000"
         }
     ],
     "wrtemplates": []

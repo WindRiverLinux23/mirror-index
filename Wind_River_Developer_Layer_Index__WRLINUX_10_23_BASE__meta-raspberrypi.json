@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 10,
+            "sort_priority": 11,
             "update_environment": null,
-            "updated": "2023-12-14T23:12:12+0000",
+            "updated": "2023-12-21T23:12:14+0000",
             "updates_enabled": true
         }
     ],
@@ -556,25 +556,25 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-12-13T20:12:48+0000",
-            "vcs_last_commit": "2023-12-13T19:12:45+0000",
-            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
-            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
+            "updated": "2023-12-21T22:12:50+0000",
+            "vcs_last_commit": "2023-12-21T22:12:06+0000",
+            "vcs_last_fetch": "2023-12-21T22:12:50+0000",
+            "vcs_last_rev": "5fabaecea54907564d0b464b1322f399a959217d",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20231114",
+            "actual_branch": "wr-10.23-20231214",
             "branch": 342,
             "collection": "raspberrypi",
             "id": 942571,
             "layer": 381,
             "local_path": "",
-            "updated": "2023-11-16T00:11:27+0000",
-            "vcs_last_commit": "2023-11-14T00:11:28+0000",
-            "vcs_last_fetch": "2023-11-16T00:11:27+0000",
-            "vcs_last_rev": "dcd647229606c964d17831bd3138497790354ec7",
+            "updated": "2023-12-17T22:12:12+0000",
+            "vcs_last_commit": "2023-12-13T18:12:28+0000",
+            "vcs_last_fetch": "2023-12-17T22:12:12+0000",
+            "vcs_last_rev": "34608a20677d16286caec7e2450aa7562a6a63c8",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
@@ -640,14 +640,14 @@
             "id": 75428,
             "layerbranch": 942571,
             "name": "raspberrypi0",
-            "updated": "2023-08-09T21:08:38+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "description": " RaspberryPi 4 in 64 bits mode",
             "id": 75429,
             "layerbranch": 942571,
             "name": "raspberrypi4-64",
-            "updated": "2023-08-09T21:08:38+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "description": " RaspberryPi http://www.raspberrypi.org/ Board",
@@ -675,7 +675,7 @@
             "id": 75433,
             "layerbranch": 942571,
             "name": "raspberrypi3-64",
-            "updated": "2023-08-09T21:08:38+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "description": " RaspberryPi Compute Module 3 (CM3)",
@@ -703,7 +703,7 @@
             "id": 75437,
             "layerbranch": 942571,
             "name": "raspberrypi0-2w-64",
-            "updated": "2023-08-09T21:08:38+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "description": " RaspberryPi Zero  WiFi board (https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)",
@@ -724,14 +724,14 @@
             "id": 75440,
             "layerbranch": 942571,
             "name": "raspberrypi-cm",
-            "updated": "2023-08-09T21:08:38+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 32 bits mode",
             "id": 75441,
             "layerbranch": 942571,
             "name": "raspberrypi0-2w",
-            "updated": "2023-08-09T21:08:38+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         }
     ],
     "recipes": [
@@ -959,11 +959,11 @@
             "pn": "rpi-eeprom",
             "pr": "r0",
             "provides": "rpi-eeprom ",
-            "pv": "v2022.12.07-138a1",
+            "pv": "v2023.10.18-2712",
             "section": "base",
-            "srcrev": "6e79e995bbc75c5fdd5305bd7fe029758cfade2f",
+            "srcrev": "f13b5789f56f65112e2b8aa58be43ebfcbedfe1d",
             "summary": "Installation scripts and binaries for the Raspberry Pi 4 EEPROM",
-            "updated": "2023-08-09T21:08:31+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1446,7 +1446,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1469,7 +1469,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1492,7 +1492,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2023-12-17T22:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1515,7 +1515,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-11-16T00:11:26+0000"
+            "updated": "2023-12-17T22:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1538,7 +1538,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2023-12-17T22:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1561,7 +1561,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-11-16T00:11:26+0000"
+            "updated": "2023-12-17T22:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1584,7 +1584,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2023-08-09T21:08:36+0000"
+            "updated": "2023-12-17T22:12:12+0000"
         },
         {
             "bbclassextend": "",

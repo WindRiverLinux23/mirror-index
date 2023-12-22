@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 10,
+            "sort_priority": 11,
             "update_environment": null,
-            "updated": "2023-12-14T23:12:12+0000",
+            "updated": "2023-12-21T23:12:14+0000",
             "updates_enabled": true
         }
     ],
@@ -556,10 +556,10 @@
             "id": 942566,
             "layer": 469,
             "local_path": "",
-            "updated": "2023-12-14T23:12:37+0000",
-            "vcs_last_commit": "2023-12-14T22:12:00+0000",
-            "vcs_last_fetch": "2023-12-14T23:12:37+0000",
-            "vcs_last_rev": "3d5ec647aecb1dea03fb3733f93d78642dece932",
+            "updated": "2023-12-22T01:12:37+0000",
+            "vcs_last_commit": "2023-12-22T00:12:38+0000",
+            "vcs_last_fetch": "2023-12-22T01:12:37+0000",
+            "vcs_last_rev": "208906e3c04f2222d0be62468f69fd69f8f75e99",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42597
@@ -571,10 +571,10 @@
             "id": 942705,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-11-19T07:11:39+0000",
-            "vcs_last_commit": "2023-11-19T06:11:43+0000",
-            "vcs_last_fetch": "2023-11-19T07:11:39+0000",
-            "vcs_last_rev": "8d9681b9f94a1b78888a4a9a69cc2e5d08a27656",
+            "updated": "2023-12-18T01:12:49+0000",
+            "vcs_last_commit": "2023-12-18T01:12:46+0000",
+            "vcs_last_fetch": "2023-12-18T01:12:49+0000",
+            "vcs_last_rev": "763df8c908285f3687b8bba19c0070743cda7ecb",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42594
@@ -1032,7 +1032,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-08-09T21:08:26+0000"
+            "updated": "2023-12-21T22:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1055,7 +1055,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-08-09T21:08:26+0000"
+            "updated": "2023-12-21T22:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1078,7 +1078,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-08-09T21:08:26+0000"
+            "updated": "2023-12-21T22:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1101,7 +1101,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-08-09T21:08:26+0000"
+            "updated": "2023-12-21T22:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2182,7 +2182,7 @@
             "section": "base",
             "srcrev": "f1382ccbd34fc22daf504e798745f6cddb702b82",
             "summary": "Kernel loadable module for NXP Wi-Fi module 88w8801/8987/8997/9098 IW416/612",
-            "updated": "2023-08-09T21:08:33+0000"
+            "updated": "2023-12-21T22:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2780,7 +2780,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2023-12-21T22:12:09+0000"
         },
         {
             "bbclassextend": "",

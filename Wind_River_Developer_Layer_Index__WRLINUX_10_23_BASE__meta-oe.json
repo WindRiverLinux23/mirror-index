@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 10,
+            "sort_priority": 11,
             "update_environment": null,
-            "updated": "2023-12-14T23:12:12+0000",
+            "updated": "2023-12-21T23:12:14+0000",
             "updates_enabled": true
         }
     ],
@@ -556,25 +556,25 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-12-13T20:12:48+0000",
-            "vcs_last_commit": "2023-12-13T19:12:45+0000",
-            "vcs_last_fetch": "2023-12-13T20:12:48+0000",
-            "vcs_last_rev": "9b985c5608037762b564455634f94803ddbad6e5",
+            "updated": "2023-12-21T22:12:50+0000",
+            "vcs_last_commit": "2023-12-21T22:12:06+0000",
+            "vcs_last_fetch": "2023-12-21T22:12:50+0000",
+            "vcs_last_rev": "5fabaecea54907564d0b464b1322f399a959217d",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20231114",
+            "actual_branch": "wr-10.23-20231214",
             "branch": 342,
             "collection": "openembedded-layer",
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-12-12T00:12:40+0000",
-            "vcs_last_commit": "2023-12-12T00:12:05+0000",
-            "vcs_last_fetch": "2023-12-12T00:12:40+0000",
-            "vcs_last_rev": "b7572e6fc933b153a6b3b3ce27073a6816a4a3db",
+            "updated": "2023-12-21T22:12:03+0000",
+            "vcs_last_commit": "2023-12-20T20:12:14+0000",
+            "vcs_last_fetch": "2023-12-21T22:12:03+0000",
+            "vcs_last_rev": "ae627d58fedfd1d5337a66a50171ba235d0128b3",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -1263,7 +1263,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_18.17.1.bb",
+            "filename": "nodejs_18.18.2.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 1758780,
@@ -1274,11 +1274,11 @@
             "pn": "nodejs",
             "pr": "r0",
             "provides": "nodejs ",
-            "pv": "18.17.1",
+            "pv": "18.18.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-11-16T00:11:59+0000"
+            "updated": "2023-12-17T22:12:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1286,7 +1286,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "OE helper for manipulating npm cache",
-            "filename": "nodejs-oe-cache-native_18.17.bb",
+            "filename": "nodejs-oe-cache-native_18.18.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "",
             "id": 1758781,
@@ -1297,11 +1297,11 @@
             "pn": "nodejs-oe-cache-native",
             "pr": "r0",
             "provides": "nodejs-oe-cache-native ",
-            "pv": "18.17",
+            "pv": "18.18",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-11-16T00:11:57+0000"
+            "updated": "2023-12-17T22:12:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3049,7 +3049,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux tool to dump x86 CPUID information about the CPU(s)",
-            "updated": "2023-11-08T00:11:44+0000"
+            "updated": "2023-12-17T22:12:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3862,7 +3862,7 @@
             "bugtracker": "http://code.google.com/p/webm/issues/list",
             "configopts": "",
             "description": "The BSD-licensed libvpx reference implementation provides en- and decoders for VP8 and VP9 bitstreams.",
-            "filename": "libvpx_1.13.0.bb",
+            "filename": "libvpx_1.13.1.bb",
             "filepath": "recipes-multimedia/webm",
             "homepage": "http://www.webmproject.org/code/",
             "id": 1758893,
@@ -3873,11 +3873,11 @@
             "pn": "libvpx",
             "pr": "r0",
             "provides": "libvpx ",
-            "pv": "1.13.0",
+            "pv": "1.13.1",
             "section": "libs/multimedia",
-            "srcrev": "d6eb9696aa72473c1a11d34d928d35a3acc0c9a9",
+            "srcrev": "10b9492dcf05b652e2e4b370e205bd605d421972",
             "summary": "VPX multi-format codec",
-            "updated": "2023-08-09T20:08:02+0000"
+            "updated": "2023-12-17T22:12:33+0000"
         },
         {
             "bbclassextend": "",
@@ -20964,9 +20964,9 @@
             "provides": "gattlib ",
             "pv": "0.2+gitX",
             "section": "libs/network",
-            "srcrev": "fa54ae42ccb3d8f911e00b02ed1e581537e47f79",
+            "srcrev": "33a8a275928b186381bb0aea0f9778e330e57ec3",
             "summary": "",
-            "updated": "2023-08-09T21:08:14+0000"
+            "updated": "2023-12-17T22:12:32+0000"
         },
         {
             "bbclassextend": "",
