@@ -582,14 +582,29 @@
         {
             "actual_branch": "wr-10.23-20231214",
             "branch": 342,
-            "collection": "raspberrypi",
-            "id": 942571,
-            "layer": 381,
+            "collection": "xilinx",
+            "id": 942573,
+            "layer": 436,
             "local_path": "",
-            "updated": "2023-12-17T22:12:12+0000",
-            "vcs_last_commit": "2023-12-13T18:12:28+0000",
-            "vcs_last_fetch": "2023-12-17T22:12:12+0000",
-            "vcs_last_rev": "34608a20677d16286caec7e2450aa7562a6a63c8",
+            "updated": "2023-12-17T22:12:25+0000",
+            "vcs_last_commit": "2023-12-13T18:12:39+0000",
+            "vcs_last_fetch": "2023-12-17T22:12:25+0000",
+            "vcs_last_rev": "a7349c0920928fc256b2e6f3ebb50cce6691cca0",
+            "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 42594
+        },
+        {
+            "actual_branch": "wr-10.23-20231214",
+            "branch": 342,
+            "collection": "xilinx-tools",
+            "id": 942708,
+            "layer": 357,
+            "local_path": "",
+            "updated": "2023-12-17T22:12:41+0000",
+            "vcs_last_commit": "2023-12-13T18:12:07+0000",
+            "vcs_last_fetch": "2023-12-17T22:12:41+0000",
+            "vcs_last_rev": "60130494268955fee3c80a02ffa9dea387783385",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42597
@@ -597,14 +612,14 @@
         {
             "actual_branch": "",
             "branch": 342,
-            "collection": "wr-bcm-2xxx-rpi",
-            "id": 942572,
-            "layer": 142,
+            "collection": "wr-xilinx-versal",
+            "id": 957769,
+            "layer": 419,
             "local_path": "",
-            "updated": "2024-01-05T02:01:51+0000",
-            "vcs_last_commit": "2024-01-04T23:01:54+0000",
-            "vcs_last_fetch": "2024-01-05T02:01:51+0000",
-            "vcs_last_rev": "94ee160546adc973aea5ec9f41262d74d7f9e165",
+            "updated": "2024-01-17T20:01:47+0000",
+            "vcs_last_commit": "2024-01-17T18:01:15+0000",
+            "vcs_last_fetch": "2024-01-17T20:01:47+0000",
+            "vcs_last_rev": "ac638647a7eb173c3250c674392db9e933f8afb3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -613,20 +628,26 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 110932,
-            "layerbranch": 942572,
-            "required": true
-        },
-        {
-            "dependency": 381,
-            "id": 110933,
-            "layerbranch": 942572,
+            "id": 117081,
+            "layerbranch": 957769,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 110934,
-            "layerbranch": 942572,
+            "id": 117082,
+            "layerbranch": 957769,
+            "required": true
+        },
+        {
+            "dependency": 436,
+            "id": 117083,
+            "layerbranch": 957769,
+            "required": true
+        },
+        {
+            "dependency": 357,
+            "id": 117084,
+            "layerbranch": 957769,
             "required": true
         }
     ],
@@ -670,38 +691,57 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-bcm-2xxx-rpi",
+            "collection": "xilinx-tools",
             "comparison": false,
-            "description": "Raspberry Pi 3 Board Support Package",
-            "id": 142,
+            "description": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
+            "id": 357,
             "index_preference": 0,
-            "layer_type": "B",
+            "layer_type": "S",
             "mailing_list_url": "",
-            "name": "bcm-2xxx-rpi",
+            "name": "meta-xilinx-tools",
             "status": "P",
-            "summary": "bcm-2xxx-rpi",
-            "updated": "2018-05-30T22:05:21+0000",
-            "usage_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/bcm-2xxx-rpi",
-            "vcs_url": "#BASE_URL#/bcm-2xxx-rpi",
+            "summary": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2020-07-06T01:07:38+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx-tools",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         },
         {
-            "collection": "raspberrypi",
+            "collection": "wr-xilinx-versal",
             "comparison": false,
-            "description": "This is a layer used by BSP bcm-2xxx-rpi",
-            "id": 381,
+            "description": "VCK190 of Xilinx Versal AI Core Series",
+            "id": 419,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-raspberrypi",
+            "name": "xilinx-versal",
             "status": "P",
-            "summary": "This is a layer used by BSP bcm-2xxx-rpi",
-            "updated": "2021-04-29T01:04:24+0000",
+            "summary": "VCK190 of Xilinx Versal AI Core Series",
+            "updated": "2021-10-19T02:10:25+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-raspberrypi",
+            "vcs_url": "#BASE_URL#/xilinx-versal",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx",
+            "comparison": false,
+            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "id": 436,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-core",
+            "status": "P",
+            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -710,21 +750,21 @@
     ],
     "machines": [
         {
-            "description": " a bcm-2xxx-rpi",
-            "id": 75485,
-            "layerbranch": 942572,
-            "name": "bcm-2xxx-rpi4",
-            "updated": "2023-08-09T21:08:03+0000"
+            "description": " Xilinx Versal",
+            "id": 75597,
+            "layerbranch": 957769,
+            "name": "xilinx-versal",
+            "updated": "2023-08-09T21:08:51+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 108349,
-            "layerbranch": 942572,
+            "id": 108376,
+            "layerbranch": 957769,
             "name": "default",
-            "updated": "2023-08-09T21:08:03+0000"
+            "updated": "2023-08-09T21:08:51+0000"
         }
     ]
 }

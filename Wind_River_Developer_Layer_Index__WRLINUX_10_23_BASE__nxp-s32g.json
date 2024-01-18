@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 11,
+            "sort_priority": 12,
             "update_environment": null,
-            "updated": "2023-12-27T23:12:13+0000",
+            "updated": "2024-01-17T23:01:14+0000",
             "updates_enabled": true
         }
     ],
@@ -556,10 +556,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-12-27T23:12:19+0000",
-            "vcs_last_commit": "2023-12-27T22:12:23+0000",
-            "vcs_last_fetch": "2023-12-27T23:12:19+0000",
-            "vcs_last_rev": "66a538f9a07c519e285f53f78b8c885b6b65787e",
+            "updated": "2024-01-09T13:01:37+0000",
+            "vcs_last_commit": "2024-01-09T07:01:18+0000",
+            "vcs_last_fetch": "2024-01-09T13:01:37+0000",
+            "vcs_last_rev": "a768a355740602e84bfc0a406cb77dd01e204dfa",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -571,13 +571,28 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-12-28T01:12:57+0000",
-            "vcs_last_commit": "2023-12-28T00:12:31+0000",
-            "vcs_last_fetch": "2023-12-28T01:12:57+0000",
-            "vcs_last_rev": "fcd88bb890280eaf1f61eb7607acd765efc7284f",
+            "updated": "2024-01-17T13:01:50+0000",
+            "vcs_last_commit": "2024-01-17T13:01:18+0000",
+            "vcs_last_fetch": "2024-01-17T13:01:50+0000",
+            "vcs_last_rev": "ef51c1887fac3eea9e31582e6c6340da046c6bb0",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "wr-10.23-20231114",
+            "branch": 342,
+            "collection": "meta-arm",
+            "id": 942709,
+            "layer": 474,
+            "local_path": "",
+            "updated": "2023-11-16T00:11:35+0000",
+            "vcs_last_commit": "2023-11-14T01:11:32+0000",
+            "vcs_last_fetch": "2023-11-16T00:11:35+0000",
+            "vcs_last_rev": "7cb90d698781545033dac17a32fa8a4ae5dcec22",
+            "vcs_subdir": "meta-arm",
+            "version": null,
+            "yp_compatible_version": 42597
         },
         {
             "actual_branch": "",
@@ -586,10 +601,10 @@
             "id": 946272,
             "layer": 439,
             "local_path": "",
-            "updated": "2023-12-20T17:12:53+0000",
-            "vcs_last_commit": "2023-12-20T16:12:31+0000",
-            "vcs_last_fetch": "2023-12-20T17:12:53+0000",
-            "vcs_last_rev": "dd85b77c859b4584c7bdd0607f8d4865e3416963",
+            "updated": "2024-01-12T16:01:35+0000",
+            "vcs_last_commit": "2024-01-12T15:01:57+0000",
+            "vcs_last_fetch": "2024-01-12T16:01:35+0000",
+            "vcs_last_rev": "34380380e69c43076553ec46d79f0c150caf1760",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -603,16 +618,22 @@
             "required": true
         },
         {
-            "dependency": 49,
-            "id": 113662,
-            "layerbranch": 946272,
-            "required": true
-        },
-        {
             "dependency": 440,
             "id": 113663,
             "layerbranch": 946272,
             "required": false
+        },
+        {
+            "dependency": 474,
+            "id": 124646,
+            "layerbranch": 946272,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 124647,
+            "layerbranch": 946272,
+            "required": true
         }
     ],
     "layerItems": [
@@ -672,6 +693,25 @@
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-arm",
+            "comparison": false,
+            "description": "This repository contains the Arm layers for OpenEmbedded.",
+            "id": 474,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-arm",
+            "status": "P",
+            "summary": "This repository contains the Arm layers for OpenEmbedded.",
+            "updated": "2022-05-31T02:05:06+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-arm",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
         }
     ],
     "machines": [
@@ -680,7 +720,7 @@
             "id": 75490,
             "layerbranch": 946272,
             "name": "nxp-s32g",
-            "updated": "2023-08-09T21:08:09+0000"
+            "updated": "2024-01-12T16:01:35+0000"
         }
     ],
     "recipes": [
@@ -751,7 +791,7 @@
             "section": "base",
             "srcrev": "39104f1b57cc40cb1e21042cfab01d25fde638ee",
             "summary": "Sample M7 Bootloader",
-            "updated": "2023-08-09T21:08:07+0000"
+            "updated": "2024-01-12T16:01:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -774,7 +814,7 @@
             "section": "bootloaders",
             "srcrev": "57741dd80eb814cfdf1e16b33773dac6507b2a51",
             "summary": "U-Boot bootloader tools",
-            "updated": "2023-12-20T17:12:53+0000"
+            "updated": "2024-01-05T04:01:42+0000"
         },
         {
             "bbclassextend": "",
@@ -797,7 +837,7 @@
             "section": "bootloaders",
             "srcrev": "57741dd80eb814cfdf1e16b33773dac6507b2a51",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-12-20T17:12:53+0000"
+            "updated": "2024-01-05T04:01:41+0000"
         },
         {
             "bbclassextend": "",
@@ -820,7 +860,7 @@
             "section": "base",
             "srcrev": "085be2b21edf47f75e813a5e8c22bd728a54ce4a",
             "summary": "",
-            "updated": "2023-11-07T18:11:37+0000"
+            "updated": "2024-01-03T05:01:41+0000"
         },
         {
             "bbclassextend": "",
@@ -935,7 +975,7 @@
             "section": "base",
             "srcrev": "078ca56adb708e71f855290a29208d9d7b87e66c",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-11-07T18:11:37+0000"
+            "updated": "2024-01-08T16:01:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,6 +1052,13 @@
             "layerbranch": 946272,
             "name": "default",
             "updated": "2023-08-09T21:08:09+0000"
+        },
+        {
+            "description": "",
+            "id": 113499,
+            "layerbranch": 946272,
+            "name": "feature/s32g-optee",
+            "updated": "2024-01-05T04:01:41+0000"
         }
     ]
 }

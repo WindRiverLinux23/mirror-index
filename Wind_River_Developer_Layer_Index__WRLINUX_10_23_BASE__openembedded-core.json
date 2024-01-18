@@ -541,9 +541,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 11,
+            "sort_priority": 12,
             "update_environment": null,
-            "updated": "2023-12-27T23:12:13+0000",
+            "updated": "2024-01-17T23:01:14+0000",
             "updates_enabled": true
         }
     ],
@@ -564,10 +564,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-12-27T23:12:19+0000",
-            "vcs_last_commit": "2023-12-27T22:12:23+0000",
-            "vcs_last_fetch": "2023-12-27T23:12:19+0000",
-            "vcs_last_rev": "66a538f9a07c519e285f53f78b8c885b6b65787e",
+            "updated": "2024-01-09T13:01:37+0000",
+            "vcs_last_commit": "2024-01-09T07:01:18+0000",
+            "vcs_last_fetch": "2024-01-09T13:01:37+0000",
+            "vcs_last_rev": "a768a355740602e84bfc0a406cb77dd01e204dfa",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -6121,7 +6121,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Rust standard libaries",
-            "updated": "2023-08-29T20:08:36+0000"
+            "updated": "2024-01-09T13:01:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6144,7 +6144,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-29T20:08:36+0000"
+            "updated": "2024-01-09T13:01:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6167,7 +6167,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Rust compiler and runtime libaries",
-            "updated": "2023-08-29T20:08:37+0000"
+            "updated": "2024-01-09T13:01:36+0000"
         },
         {
             "bbclassextend": "",
@@ -6196,7 +6196,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;RISCV;X86'     -DLLVM_BUILD_DOCS=OFF     -DLLVM_ENABLE_TERMINFO=OFF     -DLLVM_ENABLE_ZLIB=OFF     -DLLVM_ENABLE_ZSTD=OFF     -DLLVM_ENABLE_LIBXML2=OFF     -DLLVM_ENABLE_FFI=OFF     -DLLVM_INSTALL_UTILS=ON     -DLLVM_BUILD_EXAMPLES=OFF     -DLLVM_INCLUDE_EXAMPLES=OFF     -DLLVM_BUILD_TESTS=OFF     -DLLVM_INCLUDE_TESTS=OFF     -DLLVM_TARGET_ARCH=i686     -DCMAKE_INSTALL_PREFIX:PATH=/usr/lib/llvm-rust      -DLLVM_BUILD_TOOLS=OFF     -DLLVM_TABLEGEN=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.68.2-r0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-tblgen     -DLLVM_CONFIG_PATH=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.68.2-r0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-config ",
+            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;RISCV;X86'     -DLLVM_BUILD_DOCS=OFF     -DLLVM_ENABLE_TERMINFO=OFF     -DLLVM_ENABLE_ZLIB=OFF     -DLLVM_ENABLE_ZSTD=OFF     -DLLVM_ENABLE_LIBXML2=OFF     -DLLVM_ENABLE_FFI=OFF     -DLLVM_INSTALL_UTILS=ON     -DLLVM_BUILD_EXAMPLES=OFF     -DLLVM_INCLUDE_EXAMPLES=OFF     -DLLVM_BUILD_TESTS=OFF     -DLLVM_INCLUDE_TESTS=OFF     -DLLVM_TARGET_ARCH=i686     -DCMAKE_INSTALL_PREFIX:PATH=/usr/lib/llvm-rust      -DLLVM_BUILD_TOOLS=OFF     -DLLVM_TABLEGEN=/tmp/tmpb3fypb84/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.68.2-r0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-tblgen     -DLLVM_CONFIG_PATH=/tmp/tmpb3fypb84/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.68.2-r0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-config ",
             "description": "",
             "filename": "rust-llvm_1.68.2.bb",
             "filepath": "recipes-devtools/rust",
@@ -6213,7 +6213,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "LLVM compiler framework (packaged with rust)",
-            "updated": "2023-11-16T00:11:44+0000"
+            "updated": "2024-01-09T13:01:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9715,7 +9715,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/curl/curl/issues",
-            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --enable-crypto-auth     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --without-brotli --disable-manual --disable-debug --disable-dict --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --without-nghttp2 --without-nss --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/curl/8.0.1-r0/recipe-sysroot/usr/lib/../ --without-zstd",
+            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --enable-crypto-auth     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --without-brotli --disable-manual --disable-debug --disable-dict --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --without-nghttp2 --without-nss --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpudqb6htu/tmp-glibc/work/core2-32-oe-linux/curl/8.0.1-r0/recipe-sysroot/usr/lib/../ --without-zstd",
             "description": "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
             "filename": "curl_8.0.1.bb",
             "filepath": "recipes-support/curl",
@@ -9732,7 +9732,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2023-11-16T00:11:27+0000"
+            "updated": "2024-01-05T00:01:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14217,7 +14217,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2023-11-16T00:11:22+0000"
+            "updated": "2024-01-05T00:01:39+0000"
         },
         {
             "bbclassextend": "",
@@ -18656,7 +18656,7 @@
             "section": "libs",
             "srcrev": "79b9071f2be20a24c7be031655a5638f6032f29f",
             "summary": "The New Curses library",
-            "updated": "2023-08-29T20:08:53+0000"
+            "updated": "2024-01-05T01:01:40+0000"
         },
         {
             "bbclassextend": "",

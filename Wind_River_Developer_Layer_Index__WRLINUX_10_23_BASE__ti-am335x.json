@@ -580,31 +580,46 @@
             "yp_compatible_version": 42596
         },
         {
-            "actual_branch": "wr-10.23-20231214",
+            "actual_branch": "wr-10.23-20231206",
             "branch": 342,
-            "collection": "raspberrypi",
-            "id": 942571,
-            "layer": 381,
+            "collection": "meta-ti-bsp",
+            "id": 942712,
+            "layer": 473,
             "local_path": "",
-            "updated": "2023-12-17T22:12:12+0000",
-            "vcs_last_commit": "2023-12-13T18:12:28+0000",
-            "vcs_last_fetch": "2023-12-17T22:12:12+0000",
-            "vcs_last_rev": "34608a20677d16286caec7e2450aa7562a6a63c8",
-            "vcs_subdir": "",
+            "updated": "2023-12-13T22:12:42+0000",
+            "vcs_last_commit": "2023-12-05T19:12:34+0000",
+            "vcs_last_fetch": "2023-12-13T22:12:42+0000",
+            "vcs_last_rev": "ee4efc9af6b9bc08b27e9b875be4515e33f970f3",
+            "vcs_subdir": "meta-ti-bsp",
             "version": null,
-            "yp_compatible_version": 42597
+            "yp_compatible_version": 44181
+        },
+        {
+            "actual_branch": "wr-10.23-20231206",
+            "branch": 342,
+            "collection": "meta-ti-extras",
+            "id": 974460,
+            "layer": 529,
+            "local_path": "",
+            "updated": "2024-01-18T01:01:08+0000",
+            "vcs_last_commit": "2023-12-25T17:12:44+0000",
+            "vcs_last_fetch": "2024-01-18T01:01:08+0000",
+            "vcs_last_rev": "ea29c0fd195c93ab74de4810159a9c4e8a1d05f8",
+            "vcs_subdir": "meta-ti-extras",
+            "version": null,
+            "yp_compatible_version": 44181
         },
         {
             "actual_branch": "",
             "branch": 342,
-            "collection": "wr-bcm-2xxx-rpi",
-            "id": 942572,
-            "layer": 142,
+            "collection": "wr-ti-am335x",
+            "id": 974465,
+            "layer": 212,
             "local_path": "",
-            "updated": "2024-01-05T02:01:51+0000",
-            "vcs_last_commit": "2024-01-04T23:01:54+0000",
-            "vcs_last_fetch": "2024-01-05T02:01:51+0000",
-            "vcs_last_rev": "94ee160546adc973aea5ec9f41262d74d7f9e165",
+            "updated": "2024-01-01T17:01:07+0000",
+            "vcs_last_commit": "2023-12-28T04:12:19+0000",
+            "vcs_last_fetch": "2024-01-01T17:01:07+0000",
+            "vcs_last_rev": "6c2d48391743ed637f6d051a7334480b0f5332c1",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -613,20 +628,26 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 110932,
-            "layerbranch": 942572,
+            "id": 122783,
+            "layerbranch": 974465,
             "required": true
         },
         {
-            "dependency": 381,
-            "id": 110933,
-            "layerbranch": 942572,
+            "dependency": 473,
+            "id": 122784,
+            "layerbranch": 974465,
+            "required": true
+        },
+        {
+            "dependency": 529,
+            "id": 122785,
+            "layerbranch": 974465,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 110934,
-            "layerbranch": 942572,
+            "id": 122786,
+            "layerbranch": 974465,
             "required": true
         }
     ],
@@ -670,39 +691,58 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-bcm-2xxx-rpi",
+            "collection": "wr-ti-am335x",
             "comparison": false,
-            "description": "Raspberry Pi 3 Board Support Package",
-            "id": 142,
+            "description": "TI am335x EVMSK",
+            "id": 212,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "bcm-2xxx-rpi",
+            "name": "ti-am335x",
             "status": "P",
-            "summary": "bcm-2xxx-rpi",
-            "updated": "2018-05-30T22:05:21+0000",
-            "usage_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/bcm-2xxx-rpi",
-            "vcs_url": "#BASE_URL#/bcm-2xxx-rpi",
+            "summary": "TI am335x-based boards",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/ti-am335x",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         },
         {
-            "collection": "raspberrypi",
+            "collection": "meta-ti-bsp",
             "comparison": false,
-            "description": "This is a layer used by BSP bcm-2xxx-rpi",
-            "id": 381,
+            "description": "The official OpenEmbedded/Yocto BSP layer for Texas Instruments platforms.",
+            "id": 473,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-raspberrypi",
+            "name": "meta-ti-bsp",
             "status": "P",
-            "summary": "This is a layer used by BSP bcm-2xxx-rpi",
-            "updated": "2021-04-29T01:04:24+0000",
+            "summary": "The official OpenEmbedded/Yocto BSP layer for Texas Instruments platforms.",
+            "updated": "2022-05-31T02:05:52+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-raspberrypi",
+            "vcs_url": "#BASE_URL#/meta-ti",
             "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-ti-extras",
+            "comparison": false,
+            "description": "The official OpenEmbedded/Yocto sub-layer with extra components that don't belong to BSP for Texas Instruments platforms.",
+            "id": 529,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-ti-extras",
+            "status": "P",
+            "summary": "The official OpenEmbedded/Yocto sub-layer with extra components that don't belong to BSP for Texas Instruments platforms.",
+            "updated": "2023-12-13T22:12:00+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-ti",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-ti.git/commit/?id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -710,21 +750,21 @@
     ],
     "machines": [
         {
-            "description": " a bcm-2xxx-rpi",
-            "id": 75485,
-            "layerbranch": 942572,
-            "name": "bcm-2xxx-rpi4",
-            "updated": "2023-08-09T21:08:03+0000"
+            "description": " TI AM335x SoC",
+            "id": 81793,
+            "layerbranch": 974465,
+            "name": "ti-am335x",
+            "updated": "2023-12-15T08:12:34+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 108349,
-            "layerbranch": 942572,
+            "id": 113183,
+            "layerbranch": 974465,
             "name": "default",
-            "updated": "2023-08-09T21:08:03+0000"
+            "updated": "2023-12-15T08:12:34+0000"
         }
     ]
 }
