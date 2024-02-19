@@ -1,0 +1,1888 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_23_BASE_UPDATE0007",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44177,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44180,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44182,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44183,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44184,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_23_BASE_UPDATE0007",
+            "comparison": false,
+            "hidden": false,
+            "id": 390,
+            "name": "WRLINUX_10_23_BASE_UPDATE0007",
+            "short_description": "WRLinux 10_23 Base Update 0007",
+            "sort_priority": 14,
+            "update_environment": null,
+            "updated": "2024-02-18T23:02:20+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 390,
+            "collection": "core",
+            "id": 983395,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2024-02-19T06:02:30+0000",
+            "vcs_last_commit": "2024-02-18T23:02:09+0000",
+            "vcs_last_fetch": "2024-02-19T06:02:30+0000",
+            "vcs_last_rev": "82792b0d2385b8cad59d152abfb10373e301bba6",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "",
+            "branch": 390,
+            "collection": "wr-template",
+            "id": 983409,
+            "layer": 55,
+            "local_path": "",
+            "updated": "2024-02-18T00:02:29+0000",
+            "vcs_last_commit": "2023-04-23T00:04:28+0000",
+            "vcs_last_fetch": "2024-02-18T00:02:29+0000",
+            "vcs_last_rev": "607d441de15d3e52f09477446f863a6acfc64136",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42596
+        },
+        {
+            "actual_branch": "",
+            "branch": 390,
+            "collection": "wrlinux",
+            "id": 983434,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2024-02-18T00:02:15+0000",
+            "vcs_last_commit": "2024-02-18T00:02:28+0000",
+            "vcs_last_fetch": "2024-02-18T00:02:15+0000",
+            "vcs_last_rev": "6689b23e9ef19257e8e33c726c11fbe308920109",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 42596
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 126062,
+            "layerbranch": 983434,
+            "required": true
+        },
+        {
+            "dependency": 55,
+            "id": 126063,
+            "layerbranch": 983434,
+            "required": true
+        },
+        {
+            "dependency": 353,
+            "id": 126064,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 192,
+            "id": 126065,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 8,
+            "id": 126066,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 15,
+            "id": 126067,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 235,
+            "id": 126068,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 11,
+            "id": 126069,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 7,
+            "id": 126070,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 45,
+            "id": 126071,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 10,
+            "id": 126072,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 165,
+            "id": 126073,
+            "layerbranch": 983434,
+            "required": false
+        },
+        {
+            "dependency": 5,
+            "id": 126074,
+            "layerbranch": 983434,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-template",
+            "comparison": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/gcc-8-sanitizers/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "description": "",
+            "filename": "gcc-8-sanitizers_8.3.bb",
+            "filepath": "recipes-devtools/gcc8",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975919,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "NCSA | MIT",
+            "pe": "",
+            "pn": "gcc-8-sanitizers",
+            "pr": "r0",
+            "provides": "gcc-8-sanitizers ",
+            "pv": "8.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/x86_64-linux/gcc-8-cross-i686/8.3.0-r0/recipe-sysroot                  --enable-poison-system-directories     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "description": "",
+            "filename": "gcc-8-cross_8.3.bb",
+            "filepath": "recipes-devtools/gcc8",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975920,
+            "inherits": "autotools cross gettext nopackages relocatable siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "gcc-8-cross-i686",
+            "pr": "r0",
+            "provides": "gcc-8-cross-i686 ",
+            "pv": "8.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "  --disable-nls",
+            "description": "",
+            "filename": "gcc-source_8.3.bb",
+            "filepath": "recipes-devtools/gcc8",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975921,
+            "inherits": "autotools gettext nopackages siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "gcc-source-8.3.0",
+            "pr": "r0",
+            "provides": "gcc-source-8.3.0 ",
+            "pv": "8.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/gcc-8-runtime/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --cache-file=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/gcc-8-runtime/8.3.0-r0/gcc-8.3.0/build.i686-oe-linux.i686-oe-linux/config.cache",
+            "description": "",
+            "filename": "gcc-8-runtime_8.3.bb",
+            "filepath": "recipes-devtools/gcc8",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975922,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception",
+            "pe": "",
+            "pn": "gcc-8-runtime",
+            "pr": "r0",
+            "provides": "gcc-8-runtime ",
+            "pv": "8.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "Runtime libraries from GCC",
+            "updated": "2024-02-18T00:02:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/8.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/libgcc-8/8.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "description": "",
+            "filename": "libgcc-8_8.3.bb",
+            "filepath": "recipes-devtools/gcc8",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975923,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "libgcc-8",
+            "pr": "r0",
+            "provides": "libgcc-8 ",
+            "pv": "8.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0     --with-build-time-tools=/tmp/tmpx3nkhmcb/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/8.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/8.3.0-r0/recipe-sysroot                  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array",
+            "description": "",
+            "filename": "gcc-cross-canadian_8.3.bb",
+            "filepath": "recipes-devtools/gcc8",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975924,
+            "inherits": "autotools cross-canadian gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "gcc-cross-canadian-i686",
+            "pr": "r0",
+            "provides": "gcc-cross-canadian-i686 ",
+            "pv": "8.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
+            "updated": "2024-02-18T00:02:10+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "This package contains scripts to find out if the build resultdiffers to a former build.",
+            "filename": "build-compare_git.bb",
+            "filepath": "recipes-devtools/build-compare",
+            "homepage": "https://github.com/openSUSE/build-compare",
+            "id": 1975925,
+            "inherits": "",
+            "layerbranch": 983434,
+            "license": "GPL-2.0-only",
+            "pe": "1",
+            "pn": "build-compare",
+            "pr": "r0",
+            "provides": "build-compare ",
+            "pv": "2020.05.29+gitX",
+            "section": "base",
+            "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
+            "summary": "Build Result Compare Script",
+            "updated": "2024-02-18T00:02:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Convert svg file to tracing file (json), or merge multiple json files into one.                The svg file is from systemd-bootchart or 'systemd-analyze plot'",
+            "filename": "boot-tf_1.0.bb",
+            "filepath": "recipes-devtools/boot-tf",
+            "homepage": "",
+            "id": 1975926,
+            "inherits": "allarch features_check python3-dir systemd",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "boot-tf",
+            "pr": "r0",
+            "provides": "boot-tf ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Boot svg files to tracing format",
+            "updated": "2024-02-18T00:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/gcc-9-sanitizers/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "description": "",
+            "filename": "gcc-9-sanitizers_9.3.bb",
+            "filepath": "recipes-devtools/gcc9",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975927,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "NCSA | MIT",
+            "pe": "",
+            "pn": "gcc-9-sanitizers",
+            "pr": "r0",
+            "provides": "gcc-9-sanitizers ",
+            "pv": "9.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "  --disable-nls",
+            "description": "",
+            "filename": "gcc-source_9.3.bb",
+            "filepath": "recipes-devtools/gcc9",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975928,
+            "inherits": "autotools gettext nopackages siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "gcc-source-9.3.0",
+            "pr": "r0",
+            "provides": "gcc-source-9.3.0 ",
+            "pv": "9.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/libgcc-9/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "description": "",
+            "filename": "libgcc-9_9.3.bb",
+            "filepath": "recipes-devtools/gcc9",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975929,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "libgcc-9",
+            "pr": "r0",
+            "provides": "libgcc-9 ",
+            "pv": "9.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/x86_64-linux/gcc-9-cross-i686/9.3.0-r0/recipe-sysroot                  --enable-poison-system-directories     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "description": "",
+            "filename": "gcc-9-cross_9.3.bb",
+            "filepath": "recipes-devtools/gcc9",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975930,
+            "inherits": "autotools cross gettext nopackages relocatable siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "gcc-9-cross-i686",
+            "pr": "r0",
+            "provides": "gcc-9-cross-i686 ",
+            "pv": "9.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers",
+            "updated": "2024-02-18T00:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/9.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/gcc-9-runtime/9.3.0-r0/recipe-sysroot                   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpx3nkhmcb/tmp-glibc/work/core2-32-oe-linux/gcc-9-runtime/9.3.0-r0/gcc-9.3.0/build.i686-oe-linux.i686-oe-linux/config.cache",
+            "description": "",
+            "filename": "gcc-9-runtime_9.3.bb",
+            "filepath": "recipes-devtools/gcc9",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975931,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception",
+            "pe": "",
+            "pn": "gcc-9-runtime",
+            "pr": "r0",
+            "provides": "gcc-9-runtime ",
+            "pv": "9.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "Runtime libraries from GCC",
+            "updated": "2024-02-18T00:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix         --enable-lto     --disable-libssp     --enable-libitm     --disable-bootstrap     --disable-libmudflap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0     --with-build-time-tools=/tmp/tmpx3nkhmcb/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/9.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx3nkhmcb/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/9.3.0-r0/recipe-sysroot                  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "description": "",
+            "filename": "gcc-cross-canadian_9.3.bb",
+            "filepath": "recipes-devtools/gcc9",
+            "homepage": "http://www.gnu.org/software/gcc/",
+            "id": 1975932,
+            "inherits": "autotools cross-canadian gettext siteconfig siteinfo texinfo",
+            "layerbranch": 983434,
+            "license": "GPL-3.0-with-GCC-exception & GPL-3.0-only",
+            "pe": "",
+            "pn": "gcc-cross-canadian-i686",
+            "pr": "r0",
+            "provides": "gcc-cross-canadian-i686 ",
+            "pv": "9.3.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
+            "updated": "2024-02-18T00:02:12+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "anspass is a daemon/client utility to save and retrieve     credentials by other utilities that implement the askpass interface.",
+            "filename": "anspass_git.bb",
+            "filepath": "recipes-support/anspass",
+            "homepage": "",
+            "id": 1975933,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 983434,
+            "license": "LGPL-2.0-only",
+            "pe": "",
+            "pn": "anspass",
+            "pr": "r0",
+            "provides": "anspass ",
+            "pv": "1.0+gitX",
+            "section": "base",
+            "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
+            "summary": "Credential storage for utilities that implement the askpass interface",
+            "updated": "2024-02-18T00:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "An image with Anaconda to do installation.",
+            "filename": "wrlinux-image-installer.bb",
+            "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
+            "homepage": "",
+            "id": 1975934,
+            "inherits": "anaconda_image core-image fs-uuid image image-artifact-names image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-installer",
+            "pr": "r0",
+            "provides": "wrlinux-image-installer ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "The initramfs contains anaconda installer, which supports PXE install (net boot installation)",
+            "filename": "wrlinux-image-installer-initramfs.bb",
+            "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
+            "homepage": "",
+            "id": 1975935,
+            "inherits": "anaconda_image core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-installer-initramfs",
+            "pr": "r0",
+            "provides": "wrlinux-image-installer-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Wind River logos for branding",
+            "filename": "windriver-logos.bb",
+            "filepath": "dynamic-layers/meta-anaconda/recipes-installer/logos",
+            "homepage": "",
+            "id": 1975936,
+            "inherits": "allarch",
+            "layerbranch": 983434,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "windriver-logos",
+            "pr": "r0",
+            "provides": "windriver-logos ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "This not a full theme for desktop environment, only includes                windriver branded desktop wallpapers and lxdm login theme. ",
+            "filename": "wr-themes_1.0.bb",
+            "filepath": "recipes-graphics/wr-themes",
+            "homepage": "http://www.windriver.com",
+            "id": 1975937,
+            "inherits": "features_check",
+            "layerbranch": 983434,
+            "license": "MIT & CC-BY-ND-3.0",
+            "pe": "",
+            "pn": "wr-themes",
+            "pr": "r0",
+            "provides": "wr-themes ",
+            "pv": "1.0",
+            "section": "x11",
+            "srcrev": "",
+            "summary": "Wind River Linux Desktop Themes",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Virtual Keyboard Extension for Chromium",
+            "filename": "chrome-virtual-keyboard_git.bb",
+            "filepath": "recipes-graphics/wr-kiosk",
+            "homepage": "https://apps.xontab.com/VirtualKeyboard",
+            "id": 1975938,
+            "inherits": "",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "chrome-virtual-keyboard",
+            "pr": "r0",
+            "provides": "chrome-virtual-keyboard ",
+            "pv": "1.11.3+gitX",
+            "section": "x11",
+            "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
+            "summary": "Chromium Virtual Keyboard",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Enable kiosk mode for Chromium",
+            "filename": "wr-kiosk_1.0.bb",
+            "filepath": "recipes-graphics/wr-kiosk",
+            "homepage": "http://www.windriver.com",
+            "id": 1975939,
+            "inherits": "features_check systemd useradd useradd_base",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wr-kiosk",
+            "pr": "r0",
+            "provides": "wr-kiosk ",
+            "pv": "1.0",
+            "section": "x11",
+            "srcrev": "",
+            "summary": "Wind River Linux Kiosk",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "initramfs-iscsi-boot_1.0.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 1975940,
+            "inherits": "features_check systemd",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-iscsi-boot",
+            "pr": "r0",
+            "provides": "initramfs-iscsi-boot ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "initramfs for iSCSI boot",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "initramfs-nfs-boot_1.0.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 1975941,
+            "inherits": "systemd",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-nfs-boot",
+            "pr": "r0",
+            "provides": "initramfs-nfs-boot ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "initramfs for NFS boot",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "initramfs-module-resizefs_1.0.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 1975942,
+            "inherits": "",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-module-resizefs",
+            "pr": "r0",
+            "provides": "initramfs-module-resizefs ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "initramfs-framework module for resize rootfs on wic image",
+            "updated": "2024-02-18T00:02:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "A full functional image that boots to a console.",
+            "filename": "wrlinux-image-full.bb",
+            "filepath": "recipes-base/images",
+            "homepage": "",
+            "id": 1975943,
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-full",
+            "pr": "r0",
+            "provides": "wrlinux-image-full ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-02-18T00:02:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "A busybox based minimal image that boots to a console.",
+            "filename": "wrlinux-image-minimal.bb",
+            "filepath": "recipes-base/images",
+            "homepage": "",
+            "id": 1975944,
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-minimal",
+            "pr": "r0",
+            "provides": "wrlinux-image-minimal ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-02-18T00:02:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "A list of commonly used native packages.",
+            "filename": "wr-common-packages-native.bb",
+            "filepath": "recipes-base/wr-common-packages-native",
+            "homepage": "",
+            "id": 1975945,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 983434,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wr-common-packages-native",
+            "pr": "r2",
+            "provides": "wr-common-packages-native ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-02-18T00:02:15+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Add azure to the filesystem",
+            "id": 114282,
+            "layerbranch": 983434,
+            "name": "feature/azure",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Tune kernel options for reducing lantency for real-time kernel of host system",
+            "id": 114283,
+            "layerbranch": 983434,
+            "name": "feature/rt-latency-host",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable archiver class and original src mode",
+            "id": 114284,
+            "layerbranch": 983434,
+            "name": "feature/archiver",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add kiosk mode to chromium",
+            "id": 114285,
+            "layerbranch": 983434,
+            "name": "feature/chromium-web-kiosk",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add aws to the filesystem",
+            "id": 114286,
+            "layerbranch": 983434,
+            "name": "feature/aws",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add chromium to the image",
+            "id": 114287,
+            "layerbranch": 983434,
+            "name": "feature/chromium",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Tune kernel options for real-time kernel for host system",
+            "id": 114288,
+            "layerbranch": 983434,
+            "name": "feature/rt-tune-host",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add netplan to the image",
+            "id": 114289,
+            "layerbranch": 983434,
+            "name": "feature/netplan",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add dev packages to image",
+            "id": 114290,
+            "layerbranch": 983434,
+            "name": "feature/dev-pkgs",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Adds unit testing frameworks",
+            "id": 114291,
+            "layerbranch": 983434,
+            "name": "feature/unit-test",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "install podman into image",
+            "id": 114292,
+            "layerbranch": 983434,
+            "name": "feature/podman",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Adds qt6 to the image",
+            "id": 114293,
+            "layerbranch": 983434,
+            "name": "feature/qt-essentials",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add LAPACK and LAPACKE to the image",
+            "id": 114294,
+            "layerbranch": 983434,
+            "name": "feature/lapack",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add kubernetes to the image",
+            "id": 114295,
+            "layerbranch": 983434,
+            "name": "feature/kubernetes",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
+            "id": 114296,
+            "layerbranch": 983434,
+            "name": "feature/empty-kernel",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add valgrind to the image",
+            "id": 114297,
+            "layerbranch": 983434,
+            "name": "feature/valgrind",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "",
+            "id": 114298,
+            "layerbranch": 983434,
+            "name": "feature/rpm-required-sig",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "install buildah into image",
+            "id": 114299,
+            "layerbranch": 983434,
+            "name": "feature/buildah",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add docker-registry to the image",
+            "id": 114300,
+            "layerbranch": 983434,
+            "name": "feature/container-registry",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Force users to update passwords when next time serial or graphical login",
+            "id": 114301,
+            "layerbranch": 983434,
+            "name": "feature/passwd-expire",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add vsomeip to the image",
+            "id": 114302,
+            "layerbranch": 983434,
+            "name": "feature/vsomeip",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Adds grpc to the image",
+            "id": 114303,
+            "layerbranch": 983434,
+            "name": "feature/grpc",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Tune kernel options for real-time kernel for guest system",
+            "id": 114304,
+            "layerbranch": 983434,
+            "name": "feature/rt-tune-guest",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable f2fs kernel options and user-space utility",
+            "id": 114305,
+            "layerbranch": 983434,
+            "name": "feature/f2fstools",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable Xwayland image",
+            "id": 114306,
+            "layerbranch": 983434,
+            "name": "feature/weston-demo",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable on-target software development",
+            "id": 114307,
+            "layerbranch": 983434,
+            "name": "feature/target-toolchain",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "",
+            "id": 114308,
+            "layerbranch": 983434,
+            "name": "feature/tcpslice",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable DISABLE_STATIC option via no-static-libs.inc",
+            "id": 114309,
+            "layerbranch": 983434,
+            "name": "feature/no-static-libs",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Preserve buildtime of packages.",
+            "id": 114310,
+            "layerbranch": 983434,
+            "name": "feature/preserve-buildtime",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable dm-verity support",
+            "id": 114311,
+            "layerbranch": 983434,
+            "name": "feature/dm-verity",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add tensorflow to the image",
+            "id": 114312,
+            "layerbranch": 983434,
+            "name": "feature/tensorflow",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add gdbserver to image",
+            "id": 114313,
+            "layerbranch": 983434,
+            "name": "feature/gdbserver",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable Data Plane Development Kit (DPDK)",
+            "id": 114314,
+            "layerbranch": 983434,
+            "name": "feature/dpdk",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add on-target package management to image",
+            "id": 114315,
+            "layerbranch": 983434,
+            "name": "feature/package-management",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable ipmi",
+            "id": 114316,
+            "layerbranch": 983434,
+            "name": "feature/ipmi",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Enable common Managed Build Project (mbp) settings",
+            "id": 114317,
+            "layerbranch": 983434,
+            "name": "feature/mbp-project",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add gdb and gdbserver to image",
+            "id": 114318,
+            "layerbranch": 983434,
+            "name": "feature/gdb",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add opencv to the image",
+            "id": 114319,
+            "layerbranch": 983434,
+            "name": "feature/opencv",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Tune kernel options for reducing lantency for real-time kernel of guest system",
+            "id": 114320,
+            "layerbranch": 983434,
+            "name": "feature/rt-latency-guest",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add system and process monitoring utilities to the image",
+            "id": 114321,
+            "layerbranch": 983434,
+            "name": "feature/system-stats",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add nftables to the image",
+            "id": 114322,
+            "layerbranch": 983434,
+            "name": "feature/nftables",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "",
+            "id": 114323,
+            "layerbranch": 983434,
+            "name": "feature/ntp",
+            "updated": "2024-02-18T00:02:07+0000"
+        },
+        {
+            "description": "Add libmbim to the image",
+            "id": 114324,
+            "layerbranch": 983434,
+            "name": "feature/mbim",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114325,
+            "layerbranch": 983434,
+            "name": "feature/posix_26",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Enable package-test functionality",
+            "id": 114326,
+            "layerbranch": 983434,
+            "name": "feature/ptest",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114327,
+            "layerbranch": 983434,
+            "name": "feature/ecryptfs",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "enable Distro Feature usrmerge",
+            "id": 114328,
+            "layerbranch": 983434,
+            "name": "feature/usrmerge",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114329,
+            "layerbranch": 983434,
+            "name": "feature/wr-profiling-kernel-overrides",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114330,
+            "layerbranch": 983434,
+            "name": "feature/lat-fitimage",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Add gcc-sanitizers to image",
+            "id": 114331,
+            "layerbranch": 983434,
+            "name": "feature/gcc-sanitizers",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Enable systemd-bootchart and generate bootchart-*.svg and",
+            "id": 114332,
+            "layerbranch": 983434,
+            "name": "feature/systemd-bootchart",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Add docker-moby to the image",
+            "id": 114333,
+            "layerbranch": 983434,
+            "name": "feature/docker-moby",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Adds gcc 9 support in SDK",
+            "id": 114334,
+            "layerbranch": 983434,
+            "name": "feature/gcc-9-sdk",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Adds gcc 8 support in SDK",
+            "id": 114335,
+            "layerbranch": 983434,
+            "name": "feature/gcc-8-sdk",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Enable net-snmp-support",
+            "id": 114336,
+            "layerbranch": 983434,
+            "name": "feature/snmp",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114337,
+            "layerbranch": 983434,
+            "name": "feature/gperftools",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Adds qt6 examples to the image",
+            "id": 114338,
+            "layerbranch": 983434,
+            "name": "feature/qt-examples",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Kernel Hardening Features",
+            "id": 114339,
+            "layerbranch": 983434,
+            "name": "feature/kernel-hardening",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Make all QA issues be errors",
+            "id": 114340,
+            "layerbranch": 983434,
+            "name": "feature/strict-qa",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Enable readonly-root filesystem",
+            "id": 114341,
+            "layerbranch": 983434,
+            "name": "feature/readonly-root",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114342,
+            "layerbranch": 983434,
+            "name": "feature/lat",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Install busybox to rootfs",
+            "id": 114343,
+            "layerbranch": 983434,
+            "name": "feature/busybox",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Add sftp-server and the OpenSSH SSH server to the image",
+            "id": 114344,
+            "layerbranch": 983434,
+            "name": "feature/sftp-server",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114345,
+            "layerbranch": 983434,
+            "name": "feature/chrony",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114346,
+            "layerbranch": 983434,
+            "name": "feature/rpm-local-keys",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Adds clang support in SDK",
+            "id": 114347,
+            "layerbranch": 983434,
+            "name": "feature/clang-sdk",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Set the default syslog to sysklogd",
+            "id": 114348,
+            "layerbranch": 983434,
+            "name": "feature/sysklogd",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 114349,
+            "layerbranch": 983434,
+            "name": "feature/installer-support",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Enable FORTRAN support from gcc",
+            "id": 114350,
+            "layerbranch": 983434,
+            "name": "feature/fortran",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "use podman and skopeo to support cosign based signed container",
+            "id": 114351,
+            "layerbranch": 983434,
+            "name": "feature/signed-container",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Adds additional qt6 modules to the image",
+            "id": 114352,
+            "layerbranch": 983434,
+            "name": "feature/qt-addons",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Add packagegroup-self-hosted to the image",
+            "id": 114353,
+            "layerbranch": 983434,
+            "name": "feature/self-hosted",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Add nerdctl to the image",
+            "id": 114354,
+            "layerbranch": 983434,
+            "name": "feature/nerdctl",
+            "updated": "2024-02-18T00:02:08+0000"
+        },
+        {
+            "description": "Add wireguard to the image",
+            "id": 114355,
+            "layerbranch": 983434,
+            "name": "feature/wireguard",
+            "updated": "2024-02-18T00:02:08+0000"
+        }
+    ]
+}
