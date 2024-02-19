@@ -531,6 +531,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
         }
     ],
     "branches": [
@@ -541,9 +548,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 12,
+            "sort_priority": 13,
             "update_environment": null,
-            "updated": "2024-01-25T23:01:14+0000",
+            "updated": "2024-02-18T23:02:18+0000",
             "updates_enabled": true
         }
     ],
@@ -556,10 +563,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-01-23T02:01:54+0000",
-            "vcs_last_commit": "2024-01-23T01:01:17+0000",
-            "vcs_last_fetch": "2024-01-23T02:01:54+0000",
-            "vcs_last_rev": "245ad1183ccd7a9f5f1e3bbed8c4dbf5d2aec450",
+            "updated": "2024-02-19T00:02:42+0000",
+            "vcs_last_commit": "2024-02-18T23:02:09+0000",
+            "vcs_last_fetch": "2024-02-19T00:02:42+0000",
+            "vcs_last_rev": "82792b0d2385b8cad59d152abfb10373e301bba6",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -571,10 +578,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2024-01-24T20:01:46+0000",
-            "vcs_last_commit": "2024-01-24T19:01:21+0000",
-            "vcs_last_fetch": "2024-01-24T20:01:46+0000",
-            "vcs_last_rev": "37acc00e1c2743c598b11fccc9160a45d265215c",
+            "updated": "2024-02-18T00:02:56+0000",
+            "vcs_last_commit": "2024-02-18T00:02:28+0000",
+            "vcs_last_fetch": "2024-02-18T00:02:56+0000",
+            "vcs_last_rev": "6689b23e9ef19257e8e33c726c11fbe308920109",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -586,10 +593,10 @@
             "id": 971920,
             "layer": 524,
             "local_path": "",
-            "updated": "2024-01-05T02:01:31+0000",
-            "vcs_last_commit": "2024-01-04T23:01:54+0000",
-            "vcs_last_fetch": "2024-01-05T02:01:31+0000",
-            "vcs_last_rev": "e17954711600e84edd880bdbd126084eaf19bf32",
+            "updated": "2024-02-19T00:02:49+0000",
+            "vcs_last_commit": "2024-02-18T23:02:47+0000",
+            "vcs_last_fetch": "2024-02-19T00:02:49+0000",
+            "vcs_last_rev": "d452c5a6d2e237e50e167d72f8d6eac9cbd5255f",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -746,6 +753,29 @@
             "srcrev": "8d9c56fb68c07a763942a919d07ff5577a2d6613",
             "summary": "Microchip Polarfire SoC Hart Software Services (HSS) Payload Generator",
             "updated": "2023-11-23T20:11:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Driver module providing user space DMA access",
+            "filename": "mpfsoc-udma.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 1980883,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 971920,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "mpfsoc-udma",
+            "pr": "r0",
+            "provides": "mpfsoc-udma ",
+            "pv": "1.0",
+            "section": "kernel",
+            "srcrev": "d45c465c270e276ad30284f8b34fa377b1deccb3",
+            "summary": "Driver module providing user space DMA access",
+            "updated": "2024-02-19T00:02:49+0000"
         }
     ],
     "wrtemplates": [
