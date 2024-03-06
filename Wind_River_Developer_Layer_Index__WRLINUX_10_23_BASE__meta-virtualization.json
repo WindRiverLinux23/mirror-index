@@ -478,13 +478,6 @@
         },
         {
             "description": "",
-            "id": 44177,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.3 wrl"
-        },
-        {
-            "description": "",
             "id": 44178,
             "image_url": "",
             "link_url": "",
@@ -538,6 +531,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
         }
     ],
     "branches": [
@@ -548,9 +569,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 13,
+            "sort_priority": 14,
             "update_environment": null,
-            "updated": "2024-02-18T23:02:18+0000",
+            "updated": "2024-03-05T23:03:17+0000",
             "updates_enabled": true
         }
     ],
@@ -563,10 +584,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-02-19T00:02:42+0000",
-            "vcs_last_commit": "2024-02-18T23:02:09+0000",
-            "vcs_last_fetch": "2024-02-19T00:02:42+0000",
-            "vcs_last_rev": "82792b0d2385b8cad59d152abfb10373e301bba6",
+            "updated": "2024-02-29T01:02:44+0000",
+            "vcs_last_commit": "2024-02-29T00:02:54+0000",
+            "vcs_last_fetch": "2024-02-29T01:02:44+0000",
+            "vcs_last_rev": "58fa11e7b7261327f9ba0815fceaf92267fa6300",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -578,10 +599,10 @@
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-02-06T00:02:01+0000",
-            "vcs_last_commit": "2024-02-05T23:02:17+0000",
-            "vcs_last_fetch": "2024-02-06T00:02:01+0000",
-            "vcs_last_rev": "17edba0bf4be9b2183e31cccc2785701807dd606",
+            "updated": "2024-02-22T19:02:43+0000",
+            "vcs_last_commit": "2024-02-22T18:02:41+0000",
+            "vcs_last_fetch": "2024-02-22T19:02:43+0000",
+            "vcs_last_rev": "f8772dfb687f9424efb86cefb26d098343bed408",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -593,10 +614,10 @@
             "id": 942618,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-02-14T11:02:00+0000",
-            "vcs_last_commit": "2024-02-14T10:02:31+0000",
-            "vcs_last_fetch": "2024-02-14T11:02:00+0000",
-            "vcs_last_rev": "af8a16392d4b87b57f2af4caf509ff9a1cd00a18",
+            "updated": "2024-03-05T21:03:48+0000",
+            "vcs_last_commit": "2024-03-05T19:03:20+0000",
+            "vcs_last_fetch": "2024-03-05T21:03:48+0000",
+            "vcs_last_rev": "ebc019e53a256a10d81a32ef6a4e7bfcd2421cc3",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42597
@@ -623,10 +644,10 @@
             "id": 942646,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-12-25T01:12:01+0000",
-            "vcs_last_commit": "2023-12-25T00:12:04+0000",
-            "vcs_last_fetch": "2023-12-25T01:12:01+0000",
-            "vcs_last_rev": "eb27fcbdd2ffbc23cfb7d104fe291a5ca541f3e6",
+            "updated": "2024-02-27T21:02:09+0000",
+            "vcs_last_commit": "2024-02-27T20:02:00+0000",
+            "vcs_last_fetch": "2024-02-27T21:02:09+0000",
+            "vcs_last_rev": "4a82a852288232dacde387e28ff20beb954c3ef7",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42597
@@ -638,10 +659,10 @@
             "id": 942653,
             "layer": 45,
             "local_path": "",
-            "updated": "2024-01-12T03:01:42+0000",
-            "vcs_last_commit": "2024-01-12T01:01:57+0000",
-            "vcs_last_fetch": "2024-01-12T03:01:42+0000",
-            "vcs_last_rev": "d9d56145431c225886fca9e32d5e1eb5c0742128",
+            "updated": "2024-02-29T01:02:56+0000",
+            "vcs_last_commit": "2024-02-29T00:02:29+0000",
+            "vcs_last_fetch": "2024-02-29T01:02:56+0000",
+            "vcs_last_rev": "de694cfce0406abb75195cd6e94427e114047aaa",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42597
@@ -882,7 +903,7 @@
             "section": "networking",
             "srcrev": "771c989a9a957b2e487c9312eaee3bfb87638be5",
             "summary": "OpenvSwitch",
-            "updated": "2023-08-09T21:08:54+0000"
+            "updated": "2024-02-29T01:02:56+0000"
         },
         {
             "bbclassextend": "",
