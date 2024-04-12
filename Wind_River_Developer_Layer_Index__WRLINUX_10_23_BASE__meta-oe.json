@@ -492,31 +492,10 @@
         },
         {
             "description": "",
-            "id": 44180,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.3"
-        },
-        {
-            "description": "",
             "id": 44181,
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44182,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44183,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 4.0 4.2 4.3"
         },
         {
             "description": "",
@@ -559,6 +538,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
         }
     ],
     "branches": [
@@ -569,9 +562,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 14,
+            "sort_priority": 15,
             "update_environment": null,
-            "updated": "2024-03-17T00:03:20+0000",
+            "updated": "2024-04-12T00:04:18+0000",
             "updates_enabled": true
         }
     ],
@@ -584,10 +577,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-03-12T20:03:54+0000",
-            "vcs_last_commit": "2024-03-12T19:03:46+0000",
-            "vcs_last_fetch": "2024-03-12T20:03:54+0000",
-            "vcs_last_rev": "2569aea7b86a59607ca7c5709bf646ad7cd7d698",
+            "updated": "2024-04-07T21:04:05+0000",
+            "vcs_last_commit": "2024-04-07T20:04:17+0000",
+            "vcs_last_fetch": "2024-04-07T21:04:05+0000",
+            "vcs_last_rev": "01e7ea058a24006b8260b5e264adf876c63a6db8",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -599,10 +592,10 @@
             "id": 942457,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-03-12T20:03:01+0000",
-            "vcs_last_commit": "2024-03-12T19:03:48+0000",
-            "vcs_last_fetch": "2024-03-12T20:03:01+0000",
-            "vcs_last_rev": "a2028118e3fe8c47fcd194d260f5369ca28b2ca8",
+            "updated": "2024-03-28T04:03:52+0000",
+            "vcs_last_commit": "2024-03-28T03:03:58+0000",
+            "vcs_last_fetch": "2024-03-28T04:03:52+0000",
+            "vcs_last_rev": "c5ce8f33a63f78bcdf22de17e74165bec6cf5ab8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42597
@@ -5109,7 +5102,7 @@
             "bugtracker": "",
             "configopts": "     -DWITH_PCAP=1     -DWITH_SFTP=1     -DWITH_ZLIB=1     -DWITH_EXAMPLES=0       -DWITH_GCRYPT=1  -DWITH_GSSAPI=0  -DUNIT_TESTING=0",
             "description": "",
-            "filename": "libssh_0.10.5.bb",
+            "filename": "libssh_0.10.6.bb",
             "filepath": "recipes-support/libssh",
             "homepage": "http://www.libssh.org",
             "id": 1758946,
@@ -5120,11 +5113,11 @@
             "pn": "libssh",
             "pr": "r0",
             "provides": "libssh ",
-            "pv": "0.10.5",
+            "pv": "0.10.6",
             "section": "libs",
-            "srcrev": "479eca13aaaa46b43e68c52186e3783f06ae6f34",
+            "srcrev": "10e09e273f69e149389b3e0e5d44b8c221c2e7f6",
             "summary": "Multiplatform C library implementing the SSHv2 and SSHv1 protocol",
-            "updated": "2023-12-07T17:12:44+0000"
+            "updated": "2024-03-24T23:03:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5366,7 +5359,7 @@
             "filepath": "recipes-support/unixodbc",
             "homepage": "http://www.unixodbc.org/",
             "id": 1758957,
-            "inherits": "autotools autotools-brokensep multilib_header siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep multilib_header qemu siteconfig siteinfo",
             "layerbranch": 942457,
             "license": "GPL-2.0-only",
             "pe": "",
@@ -5377,7 +5370,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "An Open Source ODBC sub-system",
-            "updated": "2023-08-09T20:08:19+0000"
+            "updated": "2024-03-21T02:03:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7591,7 +7584,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --with-nss=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/xmlsec1/1.2.37-r0/recipe-sysroot --with-nspr=/tmp/tmpte087q6o/tmp-glibc/work/core2-32-oe-linux/xmlsec1/1.2.37-r0/recipe-sysroot",
+            "configopts": "  --with-nss=/tmp/tmpud_903xv/tmp-glibc/work/core2-32-oe-linux/xmlsec1/1.2.37-r0/recipe-sysroot --with-nspr=/tmp/tmpud_903xv/tmp-glibc/work/core2-32-oe-linux/xmlsec1/1.2.37-r0/recipe-sysroot",
             "description": "    XML Security Library is a C library based on     LibXML2 and OpenSSL. The library was created with a goal to support major     XML security standards \"XML Digital Signature\" and \"XML Encryption\".     ",
             "filename": "xmlsec1_1.2.37.bb",
             "filepath": "recipes-support/xmlsec1",
@@ -7608,7 +7601,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "XML Security Library is a C library based on LibXML2",
-            "updated": "2023-08-09T20:08:42+0000"
+            "updated": "2024-03-28T04:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -8022,7 +8015,7 @@
             "section": "devel/lib",
             "srcrev": "12b8e6bff611eecb0343ee8a765151e7d9d3547b",
             "summary": "",
-            "updated": "2023-08-09T20:08:48+0000"
+            "updated": "2024-03-28T04:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -21615,7 +21608,7 @@
             "section": "libs",
             "srcrev": "deeeeaeb84f8bc5d2299913d4ccf53d0d4c26966",
             "summary": "A packet dissection and creation library",
-            "updated": "2023-08-09T21:08:20+0000"
+            "updated": "2024-03-17T23:03:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -22006,7 +21999,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Apache Thrift",
-            "updated": "2023-08-09T21:08:24+0000"
+            "updated": "2024-03-28T04:03:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",

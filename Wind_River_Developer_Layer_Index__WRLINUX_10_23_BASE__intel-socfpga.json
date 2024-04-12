@@ -492,31 +492,10 @@
         },
         {
             "description": "",
-            "id": 44180,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.3"
-        },
-        {
-            "description": "",
             "id": 44181,
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44182,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44183,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 4.0 4.2 4.3"
         },
         {
             "description": "",
@@ -559,6 +538,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
         }
     ],
     "branches": [
@@ -569,9 +562,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 14,
+            "sort_priority": 15,
             "update_environment": null,
-            "updated": "2024-03-17T00:03:20+0000",
+            "updated": "2024-04-12T00:04:18+0000",
             "updates_enabled": true
         }
     ],
@@ -584,10 +577,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-03-12T20:03:54+0000",
-            "vcs_last_commit": "2024-03-12T19:03:46+0000",
-            "vcs_last_fetch": "2024-03-12T20:03:54+0000",
-            "vcs_last_rev": "2569aea7b86a59607ca7c5709bf646ad7cd7d698",
+            "updated": "2024-04-07T21:04:05+0000",
+            "vcs_last_commit": "2024-04-07T20:04:17+0000",
+            "vcs_last_fetch": "2024-04-07T21:04:05+0000",
+            "vcs_last_rev": "01e7ea058a24006b8260b5e264adf876c63a6db8",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -599,10 +592,10 @@
             "id": 942441,
             "layer": 49,
             "local_path": "",
-            "updated": "2024-03-11T09:03:59+0000",
-            "vcs_last_commit": "2024-03-11T08:03:19+0000",
-            "vcs_last_fetch": "2024-03-11T09:03:59+0000",
-            "vcs_last_rev": "dec64b3e0975f002b9591101f5a659c258a3fb5f",
+            "updated": "2024-04-10T11:04:57+0000",
+            "vcs_last_commit": "2024-04-10T10:04:30+0000",
+            "vcs_last_fetch": "2024-04-10T11:04:57+0000",
+            "vcs_last_rev": "449f1105c8144cf888534d03226c8450b037fb31",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -629,10 +622,10 @@
             "id": 948796,
             "layer": 118,
             "local_path": "",
-            "updated": "2024-01-05T02:01:37+0000",
-            "vcs_last_commit": "2024-01-04T23:01:54+0000",
-            "vcs_last_fetch": "2024-01-05T02:01:37+0000",
-            "vcs_last_rev": "c56182bb420c932a8a25c6933259a24e70613265",
+            "updated": "2024-04-09T01:04:44+0000",
+            "vcs_last_commit": "2024-04-08T23:04:56+0000",
+            "vcs_last_fetch": "2024-04-09T01:04:44+0000",
+            "vcs_last_rev": "4f3ed382538a88d5df6c84f05a006b396e1a11bd",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -742,7 +735,7 @@
             "id": 75484,
             "layerbranch": 948796,
             "name": "intel-socfpga-64",
-            "updated": "2023-08-09T21:08:33+0000"
+            "updated": "2024-03-21T21:03:11+0000"
         }
     ],
     "recipes": [
@@ -791,6 +784,75 @@
             "srcrev": "4018a2487db84ae91f72d5eafcd10c279e7bd72a",
             "summary": "Intel Remote System Update Tool",
             "updated": "2023-08-09T21:08:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "GHRD(Golden Hardware Reference Design) is a reference design for Intel System On Chip (SoC) FPGA.",
+            "filename": "ghrd-socfpga_git.bb",
+            "filepath": "recipes-bsp/ghrd-socfpga",
+            "homepage": "https://github.com/altera-opensource/ghrd-socfpga",
+            "id": 2007041,
+            "inherits": "deploy",
+            "layerbranch": 948796,
+            "license": "MIT & BSD-2-Clause & Proprietary",
+            "pe": "",
+            "pn": "ghrd-socfpga",
+            "pr": "r0",
+            "provides": "ghrd-socfpga ",
+            "pv": "QPDS23.2+gitX",
+            "section": "base",
+            "srcrev": "0544b4c3e85ea3423780cf715edcac48d5b61f9c",
+            "summary": "",
+            "updated": "2024-03-21T21:03:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "FCS certificate client is a userspace application for interacting                with the SDM VAB and SDOS functionality",
+            "filename": "fcs-client_git.bb",
+            "filepath": "recipes-bsp/intel-fcs",
+            "homepage": "https://github.com/altera-opensource/fcs_apps.git",
+            "id": 2007042,
+            "inherits": "",
+            "layerbranch": 948796,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "fcs-client",
+            "pr": "r0",
+            "provides": "fcs-client ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "srcrev": "3aaadb298ad32bb60603c13bec53b005aae1311b",
+            "summary": "",
+            "updated": "2024-03-21T21:03:11+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "FCS certificate generator is a userspace application for creating the                unsigned certificates for VAB image validation, VAB Counter Set, and VAB Key Cancellation.",
+            "filename": "fcs-prepare_git.bb",
+            "filepath": "recipes-bsp/intel-fcs",
+            "homepage": "https://github.com/altera-opensource/fcs_apps.git",
+            "id": 2007043,
+            "inherits": "",
+            "layerbranch": 948796,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "fcs-prepare",
+            "pr": "r0",
+            "provides": "fcs-prepare ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "srcrev": "d88b31c679750800cb39910a24cbbdc32d003b4e",
+            "summary": "",
+            "updated": "2024-03-21T21:03:12+0000"
         }
     ],
     "wrtemplates": [
@@ -799,7 +861,14 @@
             "id": 108348,
             "layerbranch": 948796,
             "name": "default",
-            "updated": "2023-08-09T21:08:33+0000"
+            "updated": "2024-03-21T21:03:11+0000"
+        },
+        {
+            "description": "Intel FPGA Crypto Service support",
+            "id": 116350,
+            "layerbranch": 948796,
+            "name": "feature/intel-fcs",
+            "updated": "2024-03-28T00:03:41+0000"
         }
     ]
 }

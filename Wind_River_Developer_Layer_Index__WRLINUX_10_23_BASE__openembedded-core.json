@@ -492,31 +492,10 @@
         },
         {
             "description": "",
-            "id": 44180,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.3"
-        },
-        {
-            "description": "",
             "id": 44181,
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44182,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44183,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 4.0 4.2 4.3"
         },
         {
             "description": "",
@@ -559,6 +538,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
         }
     ],
     "branches": [
@@ -569,9 +562,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 14,
+            "sort_priority": 15,
             "update_environment": null,
-            "updated": "2024-03-17T00:03:20+0000",
+            "updated": "2024-04-12T00:04:18+0000",
             "updates_enabled": true
         }
     ],
@@ -592,10 +585,10 @@
             "id": 942434,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-03-12T20:03:54+0000",
-            "vcs_last_commit": "2024-03-12T19:03:46+0000",
-            "vcs_last_fetch": "2024-03-12T20:03:54+0000",
-            "vcs_last_rev": "2569aea7b86a59607ca7c5709bf646ad7cd7d698",
+            "updated": "2024-04-07T21:04:05+0000",
+            "vcs_last_commit": "2024-04-07T20:04:17+0000",
+            "vcs_last_fetch": "2024-04-07T21:04:05+0000",
+            "vcs_last_rev": "01e7ea058a24006b8260b5e264adf876c63a6db8",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 42596
@@ -859,7 +852,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-12-27T23:12:18+0000"
+            "updated": "2024-03-21T02:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -882,7 +875,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-12-27T23:12:18+0000"
+            "updated": "2024-03-21T02:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -905,7 +898,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-12-27T23:12:18+0000"
+            "updated": "2024-03-21T02:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -928,7 +921,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-12-27T23:12:18+0000"
+            "updated": "2024-03-21T02:03:11+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -951,7 +944,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-12-27T23:12:19+0000"
+            "updated": "2024-03-21T02:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -997,7 +990,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2023-12-27T23:12:19+0000"
+            "updated": "2024-03-21T02:03:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1716,7 +1709,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --disable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,loongarch64-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --disable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,loongarch64-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-native_7.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1733,13 +1726,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2023-11-16T00:11:32+0000"
+            "updated": "2024-03-28T20:03:24+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fmacro-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot-native=  '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fmacro-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot-native= '     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fmacro-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot-native=  '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/qemu-7.2.0=/usr/src/debug/qemu/7.2.0-r0  -fmacro-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/build=/usr/src/debug/qemu/7.2.0-r0  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp0zzm0e4q/tmp-glibc/work/core2-32-oe-linux/qemu/7.2.0-r0/recipe-sysroot-native= '     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu_7.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1756,13 +1749,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2023-11-16T00:11:33+0000"
+            "updated": "2024-03-28T20:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpx9z9sqeo/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,loongarch64-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp0zzm0e4q/tmp-glibc/work/x86_64-linux/qemu-system-native/7.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,loongarch64-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-system-native_7.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1779,7 +1772,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2023-11-16T00:11:33+0000"
+            "updated": "2024-03-28T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -5436,7 +5429,7 @@
             "section": "base",
             "srcrev": "8183cfd9dad8beca5434d625cf6b2df87775e956",
             "summary": "Boot performance graphing tool",
-            "updated": "2023-08-09T20:08:12+0000"
+            "updated": "2024-03-28T04:03:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -7851,7 +7844,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "ATSC A/52 surround sound stream decoder",
-            "updated": "2023-08-09T20:08:47+0000"
+            "updated": "2024-03-28T04:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -9377,7 +9370,7 @@
             "bugtracker": "",
             "configopts": "    -DBUILD_TESTS=OFF     -DCMAKE_BUILD_TYPE=RelWithDebInfo     -DREGEX_BACKEND='pcre2'  ",
             "description": "",
-            "filename": "libgit2_1.6.3.bb",
+            "filename": "libgit2_1.6.5.bb",
             "filepath": "recipes-support/libgit2",
             "homepage": "http://libgit2.github.com/",
             "id": 1758187,
@@ -9388,11 +9381,11 @@
             "pn": "libgit2",
             "pr": "r0",
             "provides": "libgit2 ",
-            "pv": "1.6.3",
+            "pv": "1.6.5",
             "section": "base",
-            "srcrev": "c058aa87dce4c67a3b86b3349beebd64b7bedcd3",
+            "srcrev": "155578578b78efc6bae7383a708d470eb206e36a",
             "summary": "the Git linkable library",
-            "updated": "2023-11-16T00:11:49+0000"
+            "updated": "2024-03-21T02:03:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10042,7 +10035,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.3-r0/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.3-r0/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.3-r0/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--enable-gpg-is-gpg2                  --enable-gnutls  --disable-sqlite --enable-nls",
+            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmp3xlzdlju/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.3-r0/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmp3xlzdlju/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.3-r0/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmp3xlzdlju/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.3-r0/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--enable-gpg-is-gpg2 \t\t--disable-tests                  --enable-gnutls  --disable-sqlite --enable-nls",
             "description": "A complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.",
             "filename": "gnupg_2.4.3.bb",
             "filepath": "recipes-support/gnupg",
@@ -10059,7 +10052,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2023-11-16T00:11:28+0000"
+            "updated": "2024-03-17T23:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -13854,7 +13847,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2024-03-11T01:03:35+0000"
+            "updated": "2024-04-07T21:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -20225,7 +20218,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2023-11-16T00:11:48+0000"
+            "updated": "2024-03-21T02:03:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20961,15 +20954,15 @@
             "section": "base",
             "srcrev": "0c1fa696aa502eb749c2c4735005f41ba00a27b8",
             "summary": "A multi-platform support library with a focus on asynchronous I/O",
-            "updated": "2023-08-09T20:08:55+0000"
+            "updated": "2024-04-07T20:04:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-auto-validation                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmpx9z9sqeo/tmp-glibc/work/core2-32-oe-linux/bind/9.18.19-r0/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
+            "configopts": " --disable-auto-validation                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmp3xlzdlju/tmp-glibc/work/core2-32-oe-linux/bind/9.18.24-r0/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
             "description": "BIND 9 provides a full-featured Domain Name Server system",
-            "filename": "bind_9.18.19.bb",
+            "filename": "bind_9.18.24.bb",
             "filepath": "recipes-connectivity/bind",
             "homepage": "https://www.isc.org/bind/",
             "id": 1758691,
@@ -20980,11 +20973,11 @@
             "pn": "bind",
             "pr": "r0",
             "provides": "bind ",
-            "pv": "9.18.19",
+            "pv": "9.18.24",
             "section": "console/network",
             "srcrev": "",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2023-11-16T00:11:05+0000"
+            "updated": "2024-03-17T23:03:53+0000"
         },
         {
             "bbclassextend": "",

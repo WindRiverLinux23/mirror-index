@@ -492,31 +492,10 @@
         },
         {
             "description": "",
-            "id": 44180,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.3"
-        },
-        {
-            "description": "",
             "id": 44181,
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44182,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.2 4.3"
-        },
-        {
-            "description": "",
-            "id": 44183,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 4.0 4.2 4.3"
         },
         {
             "description": "",
@@ -559,6 +538,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
         }
     ],
     "branches": [
@@ -569,9 +562,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 14,
+            "sort_priority": 15,
             "update_environment": null,
-            "updated": "2024-03-17T00:03:20+0000",
+            "updated": "2024-04-12T00:04:18+0000",
             "updates_enabled": true
         }
     ],
