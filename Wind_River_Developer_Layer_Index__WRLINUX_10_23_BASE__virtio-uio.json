@@ -562,9 +562,9 @@
             "id": 342,
             "name": "WRLINUX_10_23_BASE",
             "short_description": "Wind River Linux 10_23 Baseline",
-            "sort_priority": 15,
+            "sort_priority": 16,
             "update_environment": null,
-            "updated": "2024-04-12T00:04:18+0000",
+            "updated": "2024-04-22T00:04:18+0000",
             "updates_enabled": true
         }
     ],
@@ -577,10 +577,10 @@
             "id": 983777,
             "layer": 536,
             "local_path": "",
-            "updated": "2024-04-09T21:04:38+0000",
-            "vcs_last_commit": "2024-04-09T20:04:14+0000",
-            "vcs_last_fetch": "2024-04-09T21:04:38+0000",
-            "vcs_last_rev": "c4e2da3225449dd8618cdf9bf6455041200ea91d",
+            "updated": "2024-04-16T06:04:33+0000",
+            "vcs_last_commit": "2024-04-16T05:04:18+0000",
+            "vcs_last_fetch": "2024-04-16T06:04:33+0000",
+            "vcs_last_rev": "db7d770c8fded83b79cd65ca2635d808a05db152",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44186
