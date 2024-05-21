@@ -499,13 +499,6 @@
         },
         {
             "description": "",
-            "id": 44184,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3"
-        },
-        {
-            "description": "",
             "id": 44186,
             "image_url": "",
             "link_url": "",
@@ -552,6 +545,41 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44194,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44196,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44197,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1"
         }
     ],
     "branches": [
@@ -564,41 +592,41 @@
             "short_description": "Wind River Linux 10_23 Baseline",
             "sort_priority": 17,
             "update_environment": null,
-            "updated": "2024-04-23T00:04:18+0000",
+            "updated": "2024-05-21T00:05:19+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.23-20230808",
+            "actual_branch": "wr-10.23-20240426",
             "branch": 342,
             "collection": "fsl-bsp-release",
             "id": 942566,
             "layer": 469,
             "local_path": "",
-            "updated": "2024-03-28T20:03:34+0000",
-            "vcs_last_commit": "2024-03-28T19:03:10+0000",
-            "vcs_last_fetch": "2024-03-28T20:03:34+0000",
-            "vcs_last_rev": "dc4a2b5eaa3728a489b64285694765498ae2a819",
+            "updated": "2024-05-14T02:05:40+0000",
+            "vcs_last_commit": "2024-05-14T01:05:40+0000",
+            "vcs_last_fetch": "2024-05-14T02:05:40+0000",
+            "vcs_last_rev": "b33de8fe135b2b318f5805f362d2734b7ab51455",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42597
         },
         {
-            "actual_branch": "wr-10.23-20230711",
+            "actual_branch": "wr-10.23-20240426",
             "branch": 342,
             "collection": "freescale-layer",
             "id": 942705,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-12-18T01:12:49+0000",
-            "vcs_last_commit": "2023-12-18T01:12:46+0000",
-            "vcs_last_fetch": "2023-12-18T01:12:49+0000",
-            "vcs_last_rev": "763df8c908285f3687b8bba19c0070743cda7ecb",
+            "updated": "2024-05-13T20:05:06+0000",
+            "vcs_last_commit": "2024-05-13T19:05:22+0000",
+            "vcs_last_fetch": "2024-05-13T20:05:06+0000",
+            "vcs_last_rev": "6a7f2d750dae62e419c207342846920e8eab876c",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 42594
+            "yp_compatible_version": 44181
         },
         {
             "actual_branch": "wr-10.23-20231114",
@@ -607,10 +635,10 @@
             "id": 942709,
             "layer": 474,
             "local_path": "",
-            "updated": "2024-03-03T22:03:36+0000",
-            "vcs_last_commit": "2024-03-03T21:03:42+0000",
-            "vcs_last_fetch": "2024-03-03T22:03:36+0000",
-            "vcs_last_rev": "4e1bc89f602347a7ac82cd1355680ba0b4e2c6cf",
+            "updated": "2024-05-09T21:05:49+0000",
+            "vcs_last_commit": "2024-05-09T20:05:27+0000",
+            "vcs_last_fetch": "2024-05-09T21:05:49+0000",
+            "vcs_last_rev": "d79c7ec6e1e44c8f940fd8a4fd0918e5cbdef0cf",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42597
@@ -691,11 +719,11 @@
     ],
     "machines": [
         {
-            "description": "A consolidated machine for i.MX 8MM LPDDR4 and DDR4 EVK",
+            "description": "A consolidated machine for using i.MX 8MM EVK both LPDDR4 and DDR4, see Important Note below",
             "id": 75492,
             "layerbranch": 942566,
             "name": "imx8mmevk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "",
@@ -709,14 +737,14 @@
             "id": 75494,
             "layerbranch": 942566,
             "name": "imx8dxla1-lpddr4-evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "",
             "id": 75495,
             "layerbranch": 942566,
             "name": "imx8qmmek",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 8ULP 9x9 Evaluation Kit with LPDDR4",
@@ -730,28 +758,28 @@
             "id": 75497,
             "layerbranch": 942566,
             "name": "imx6dlsabresd",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite B0 Evaluation Kit with DDR3L",
             "id": 75498,
             "layerbranch": 942566,
             "name": "imx8dxlb0-ddr3l-evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
-            "description": "A Consolidated machine configuration for NXP i.MX 93 LPDDR4x and LPDDR4 EVK",
+            "description": "A Consolidated machine configuration for i.MX 93 LPDDR4x and LPDDR4 EVK/QSB, see Important Note below",
             "id": 75499,
             "layerbranch": 942566,
             "name": "imx93evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 6 and 7  boards without a gpu",
             "id": 75500,
             "layerbranch": 942566,
             "name": "imx6ul7d",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "",
@@ -765,14 +793,14 @@
             "id": 75502,
             "layerbranch": 942566,
             "name": "imx6ul9x9evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX6ULL 14x14 EVK",
             "id": 75503,
             "layerbranch": 942566,
             "name": "imx6ull14x14evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "i.MX 8QuadXPlus B0 Multisensory Enablement Kit board",
@@ -786,28 +814,28 @@
             "id": 75505,
             "layerbranch": 942566,
             "name": "imx6solosabresd",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " i.MX 8QM and 8QXP boards",
             "id": 75506,
             "layerbranch": 942566,
             "name": "imx8_all",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX8MPlus LPDDR4 EVK in NDM",
             "id": 75507,
             "layerbranch": 942566,
             "name": "imx8mp-lpddr4-ndm",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "A combined machine for i.MX 6 and 7 testing and mfg tools, see comment below",
             "id": 75508,
             "layerbranch": 942566,
             "name": "imx6qpdlsolox",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "",
@@ -817,18 +845,18 @@
             "updated": "2023-08-09T21:08:37+0000"
         },
         {
-            "description": "A consolidated machine for i.MX 8MP LPDDR4 and DDR4 EVK",
+            "description": "A consolidated machine for using i.MX 8MP EVK both LPDDR4 and DDR4, see Important Note below",
             "id": 75510,
             "layerbranch": 942566,
             "name": "imx8mpevk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
-            "description": "A consolidated machine configuration for NXP i.MX 8ULP LPDDR4 Evaluation Kit",
+            "description": "A consolidated machine configuration for NXP i.MX 8ULP LPDDR4 Evaluation Kits, see Important Note below",
             "id": 75511,
             "layerbranch": 942566,
             "name": "imx8ulpevk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "",
@@ -845,11 +873,11 @@
             "updated": "2023-08-09T21:08:37+0000"
         },
         {
-            "description": "",
+            "description": "A consolidated machine for using i.MX 8MQ LPDDR4 EVK and WEVK, see Important Note below",
             "id": 75514,
             "layerbranch": 942566,
             "name": "imx8mqevk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "i.MX 8QuadMax DDR4 ARM2 Development board",
@@ -870,21 +898,21 @@
             "id": 75517,
             "layerbranch": 942566,
             "name": "imx8dxlb0-lpddr4-evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 8M Mini AB2 with DDR4",
             "id": 75518,
             "layerbranch": 942566,
             "name": "imx8mm-ddr4-ab2",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX6QP SABRE Smart Device",
             "id": 75519,
             "layerbranch": 942566,
             "name": "imx6qpsabresd",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 8M Nano AB2 with DDR4",
@@ -912,35 +940,28 @@
             "id": 75523,
             "layerbranch": 942566,
             "name": "imx6ull9x9evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
-            "description": "A consolidated machine for i.MX 8MN LPDDR4 and DDR4 EVK",
+            "description": "A consolidated machine for using i.MX 8MN EVK both LPDDR4 and DDR4, see Important Note below",
             "id": 75524,
             "layerbranch": 942566,
             "name": "imx8mnevk",
-            "updated": "2023-08-09T21:08:37+0000"
-        },
-        {
-            "description": " NXP i.MX 93 14x14 EVK with LPDDR4X",
-            "id": 75525,
-            "layerbranch": 942566,
-            "name": "imx93-14x14-lpddr4x-evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 8M Plus UltraLite Evaluation Kit with LPDDR4",
             "id": 75526,
             "layerbranch": 942566,
             "name": "imx8mpul-lpddr4-evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX7D 12x12 LPDDR3 ARM2 Evaluation Kit",
             "id": 75527,
             "layerbranch": 942566,
             "name": "imx7d12x12lpddr3arm2",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": "i.MX 8QuadMax LPDDR4 ARM2 Development board",
@@ -975,14 +996,49 @@
             "id": 75532,
             "layerbranch": 942566,
             "name": "imx6qsabresd",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite A1 Evaluation Kit with DDR3L",
             "id": 75533,
             "layerbranch": 942566,
             "name": "imx8dxla1-ddr3l-evk",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
+        },
+        {
+            "description": " NXP i.MX 8DualXLite B0 with FIPS Evaluation Kit with LPDDR4",
+            "id": 85999,
+            "layerbranch": 942566,
+            "name": "imx8dxlb0-fips-lpddr4-evk",
+            "updated": "2024-04-26T00:04:33+0000"
+        },
+        {
+            "description": " NXP i.MX 8M Quad LPDDR4 EVK with NXP Wi-Fi",
+            "id": 86000,
+            "layerbranch": 942566,
+            "name": "imx8mq-lpddr4-wevk",
+            "updated": "2024-04-26T00:04:33+0000"
+        },
+        {
+            "description": " NXP i.MX 91 Phantom 11x11 EVK with LPDDR4",
+            "id": 86001,
+            "layerbranch": 942566,
+            "name": "imx91p-11x11-lpddr4-evk",
+            "updated": "2024-04-26T00:04:33+0000"
+        },
+        {
+            "description": " NXP i.MX91Phantom 9x9 QSB with LPDDR4",
+            "id": 86002,
+            "layerbranch": 942566,
+            "name": "imx91p-9x9-lpddr4-qsb",
+            "updated": "2024-04-26T00:04:33+0000"
+        },
+        {
+            "description": "A Consolidated machine configuration for i.MX 91 Phantom LPDDR4 EVK/QSB, see Important Note below",
+            "id": 86003,
+            "layerbranch": 942566,
+            "name": "imx91pevk",
+            "updated": "2024-04-26T00:04:33+0000"
         }
     ],
     "recipes": [
@@ -1015,22 +1071,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-m4-demos_1.0.1.bb",
+            "filename": "imx-m4-demos_2.14.0.bb",
             "filepath": "recipes-fsl/mcore-demos",
             "homepage": "",
             "id": 1818692,
-            "inherits": "deploy fsl-eula-unpack",
+            "inherits": "deploy fsl-eula-unpack fsl-eula2 fsl-eula2-unpack2",
             "layerbranch": 942566,
             "license": "Proprietary",
             "pe": "",
             "pn": "imx-m4-demos",
             "pr": "r0",
             "provides": "imx-m4-demos ",
-            "pv": "1.0.1",
+            "pv": "2.14.0",
             "section": "app",
             "srcrev": "",
-            "summary": "i.MX M4 core Demo images",
-            "updated": "2023-08-09T21:08:25+0000"
+            "summary": "i.MX M4/M7/M33 core Demo images",
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1038,7 +1094,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-m33-demos_2.14.0.bb",
+            "filename": "imx-m33-demos_2.14.1.bb",
             "filepath": "recipes-fsl/mcore-demos",
             "homepage": "",
             "id": 1818693,
@@ -1049,11 +1105,11 @@
             "pn": "imx-m33-demos",
             "pr": "r0",
             "provides": "imx-m33-demos ",
-            "pv": "2.14.0",
+            "pv": "2.14.1",
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-12-21T22:12:09+0000"
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1061,30 +1117,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-m4-demos_2.9.0.bb",
-            "filepath": "recipes-fsl/mcore-demos",
-            "homepage": "",
-            "id": 1818694,
-            "inherits": "deploy fsl-eula-unpack fsl-eula2 fsl-eula2-unpack2",
-            "layerbranch": 942566,
-            "license": "Proprietary",
-            "pe": "",
-            "pn": "imx-m4-demos",
-            "pr": "r0",
-            "provides": "imx-m4-demos ",
-            "pv": "2.9.0",
-            "section": "app",
-            "srcrev": "",
-            "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-12-21T22:12:09+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "imx-m4-demos_2.13.0.bb",
+            "filename": "imx-m4-demos_2.14.1.bb",
             "filepath": "recipes-fsl/mcore-demos",
             "homepage": "",
             "id": 1818695,
@@ -1095,11 +1128,11 @@
             "pn": "imx-m4-demos",
             "pr": "r0",
             "provides": "imx-m4-demos ",
-            "pv": "2.13.0",
+            "pv": "2.14.1",
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-12-21T22:12:09+0000"
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1107,7 +1140,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-m7-demos_2.13.0.bb",
+            "filename": "imx-m7-demos_2.14.0.bb",
             "filepath": "recipes-fsl/mcore-demos",
             "homepage": "",
             "id": 1818696,
@@ -1118,11 +1151,11 @@
             "pn": "imx-m7-demos",
             "pr": "r0",
             "provides": "imx-m7-demos ",
-            "pv": "2.13.0",
+            "pv": "2.14.0",
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-12-21T22:12:09+0000"
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1176,7 +1209,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Basler camera binary drivers",
-            "filename": "basler-camera_4.2.2.22.0.bb",
+            "filename": "basler-camera_4.2.2.24.0.bb",
             "filepath": "recipes-bsp/isp-imx",
             "homepage": "",
             "id": 1818699,
@@ -1187,19 +1220,19 @@
             "pn": "basler-camera",
             "pr": "r0",
             "provides": "basler-camera ",
-            "pv": "4.2.2.22.0",
+            "pv": "4.2.2.24.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:26+0000"
+            "updated": "2024-04-26T00:04:41+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.22.0-r0/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DAPPMODE=V4L2     -DTUNINGEXT=1     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSERVER_LESS=1     -DSUBDEV_V4L2=1     -DENABLE_IRQ=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev  ",
+            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.24.0-r0/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DAPPMODE=V4L2     -DTUNINGEXT=1     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSERVER_LESS=1     -DSUBDEV_V4L2=1     -DENABLE_IRQ=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -DCMAKE_INSTALL_LIBDIR=/usr/lib     -Wno-dev  ",
             "description": "i.MX Verisilicon Software ISP",
-            "filename": "isp-imx_4.2.2.22.0.bb",
+            "filename": "isp-imx_4.2.2.24.0.bb",
             "filepath": "recipes-bsp/isp-imx",
             "homepage": "",
             "id": 1818700,
@@ -1210,11 +1243,11 @@
             "pn": "isp-imx",
             "pr": "r0",
             "provides": "isp-imx ",
-            "pv": "4.2.2.22.0",
+            "pv": "4.2.2.24.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1222,7 +1255,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NXP i.MX uPower firmware",
-            "filename": "firmware-upower_1.3.0.bb",
+            "filename": "firmware-upower_1.3.1.bb",
             "filepath": "recipes-bsp/firmware-upower",
             "homepage": "",
             "id": 1818701,
@@ -1233,11 +1266,11 @@
             "pn": "firmware-upower",
             "pr": "r0",
             "provides": "firmware-upower ",
-            "pv": "1.3.0",
+            "pv": "1.3.1",
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1245,7 +1278,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Freescale i.MX firmware such as for the VPU",
-            "filename": "firmware-imx_8.20.bb",
+            "filename": "firmware-imx_8.22.bb",
             "filepath": "recipes-bsp/firmware-imx",
             "homepage": "",
             "id": 1818705,
@@ -1256,11 +1289,11 @@
             "pn": "firmware-imx",
             "pr": "r0",
             "provides": "firmware-imx ",
-            "pv": "8.20",
+            "pv": "8.22",
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX firmware",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2024-04-26T00:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1291,7 +1324,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "i.MX Hantro VPU library",
-            "filename": "imx-vpu-hantro_1.29.0.bb",
+            "filename": "imx-vpu-hantro_1.31.0.bb",
             "filepath": "recipes-bsp/imx-vpu-hantro",
             "homepage": "",
             "id": 1818707,
@@ -1302,11 +1335,11 @@
             "pn": "imx-vpu-hantro",
             "pr": "r0",
             "provides": "imx-vpu-hantro virtual/imxvpu",
-            "pv": "1.29.0",
+            "pv": "1.31.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1314,7 +1347,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "i.MX Hantro V4L2 Daemon",
-            "filename": "imx-vpu-hantro-daemon_1.1.7.bb",
+            "filename": "imx-vpu-hantro-daemon_1.1.9.bb",
             "filepath": "recipes-bsp/imx-vpu-hantro",
             "homepage": "",
             "id": 1818708,
@@ -1325,34 +1358,34 @@
             "pn": "imx-vpu-hantro-daemon",
             "pr": "r0",
             "provides": "imx-vpu-hantro-daemon ",
-            "pv": "1.1.7",
+            "pv": "1.1.9",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Firmware for i.MX Sentinel Security Controller",
-            "filename": "firmware-sentinel_0.10.bb",
-            "filepath": "recipes-bsp/firmware-sentinel",
+            "description": "EdgeLock Enclave firmware for i.MX series SoCs",
+            "filename": "firmware-ele-imx_0.1.0.bb",
+            "filepath": "recipes-bsp/firmware-imx",
             "homepage": "",
             "id": 1818709,
             "inherits": "deploy fsl-eula-unpack use-imx-security-controller-firmware",
             "layerbranch": 942566,
             "license": "Proprietary",
             "pe": "",
-            "pn": "firmware-sentinel",
+            "pn": "firmware-ele-imx",
             "pr": "r0",
-            "provides": "firmware-sentinel ",
-            "pv": "0.10",
+            "provides": "firmware-ele-imx ",
+            "pv": "0.1.0",
             "section": "base",
             "srcrev": "",
-            "summary": "NXP i.MX Sentinel firmware",
-            "updated": "2023-08-09T21:08:27+0000"
+            "summary": "NXP i.MX ELE firmware",
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1373,9 +1406,9 @@
             "provides": "imx-secure-enclave ",
             "pv": "git",
             "section": "base",
-            "srcrev": "cb9aa4c745c373cfb45d6afa01cb59e99f885397",
+            "srcrev": "b71f99ea50c96876b70164a6b828c40f909ee99f",
             "summary": "NXP i.MX SECURE ENCLAVE library",
-            "updated": "2023-08-09T21:08:27+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1396,9 +1429,9 @@
             "provides": "u-boot-imx-tools u-boot-mkimage u-boot-mkenvimage u-boot-tools",
             "pv": "2023.04",
             "section": "base",
-            "srcrev": "af7d004eaf18437c7db76f7962652b924099405b",
+            "srcrev": "49b102d98881fc28af6e0a8af5ea2186c1d90a5f",
             "summary": "U-Boot bootloader tools",
-            "updated": "2023-12-14T23:12:36+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1419,9 +1452,9 @@
             "provides": "u-boot-imx virtual/bootloader u-boot",
             "pv": "2023.04",
             "section": "base",
-            "srcrev": "af7d004eaf18437c7db76f7962652b924099405b",
+            "srcrev": "49b102d98881fc28af6e0a8af5ea2186c1d90a5f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2023-12-14T23:12:37+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1442,9 +1475,9 @@
             "provides": "imx-atf ",
             "pv": "2.8+gitX",
             "section": "BSP",
-            "srcrev": "99195a23d3aef485fb8f10939583b1bdef18881c",
+            "srcrev": "08e9d4eef2262c0dd072b4325e8919e06d349e02",
             "summary": "",
-            "updated": "2023-08-09T21:08:28+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1452,7 +1485,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "i.MX VC8000E encoder library",
-            "filename": "imx-vpu-hantro-vc_1.9.0.bb",
+            "filename": "imx-vpu-hantro-vc_1.9.1.bb",
             "filepath": "recipes-bsp/imx-vpu-hantro-vc",
             "homepage": "",
             "id": 1818715,
@@ -1463,11 +1496,11 @@
             "pn": "imx-vpu-hantro-vc",
             "pr": "r0",
             "provides": "imx-vpu-hantro-vc ",
-            "pv": "1.9.0",
+            "pv": "1.9.1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:28+0000"
+            "updated": "2024-04-26T00:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1521,7 +1554,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Firmware for i.MX Security Controller Subsystem",
-            "filename": "imx-seco_5.9.0.bb",
+            "filename": "imx-seco_5.9.2.bb",
             "filepath": "recipes-bsp/imx-seco",
             "homepage": "",
             "id": 1818718,
@@ -1532,11 +1565,11 @@
             "pn": "imx-seco",
             "pr": "r0",
             "provides": "imx-seco ",
-            "pv": "5.9.0",
+            "pv": "5.9.2",
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX SECO firmware",
-            "updated": "2023-08-09T21:08:29+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1557,9 +1590,9 @@
             "provides": "imx-boot imx-boot",
             "pv": "1.0",
             "section": "BSP",
-            "srcrev": "5cfd218012e080fb907d9cc301fbb4ece9bc17a9",
+            "srcrev": "c4365450fb115d87f245df2864fee1604d97c06a",
             "summary": "",
-            "updated": "2023-12-03T22:12:03+0000"
+            "updated": "2024-05-14T02:05:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1580,9 +1613,9 @@
             "provides": "imx-mkimage ",
             "pv": "git",
             "section": "BSP",
-            "srcrev": "5cfd218012e080fb907d9cc301fbb4ece9bc17a9",
+            "srcrev": "c4365450fb115d87f245df2864fee1604d97c06a",
             "summary": "",
-            "updated": "2023-12-03T22:12:02+0000"
+            "updated": "2024-05-14T02:05:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1590,7 +1623,7 @@
             "bugtracker": "",
             "configopts": "  --disable-vpu",
             "description": "Freescale Multimedia codec libs",
-            "filename": "imx-codec_4.8.0.bb",
+            "filename": "imx-codec_4.8.2.bb",
             "filepath": "recipes-multimedia/imx-codec",
             "homepage": "",
             "id": 1818721,
@@ -1601,11 +1634,11 @@
             "pn": "imx-codec",
             "pr": "r0",
             "provides": "imx-codec  libfslcodec",
-            "pv": "4.8.0",
+            "pv": "4.8.2",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:29+0000"
+            "updated": "2024-04-26T00:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1626,9 +1659,9 @@
             "provides": "nxp-afe ",
             "pv": "1.0+gitX",
             "section": "base",
-            "srcrev": "ecbc91675c15a92a1d1024f4540010a5274db19e",
+            "srcrev": "77343e302fb079e3d50f6c6d0eef565c09256e56",
             "summary": "",
-            "updated": "2023-08-09T21:08:29+0000"
+            "updated": "2024-04-26T00:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1649,38 +1682,15 @@
             "provides": "nxp-afe-voiceseeker ",
             "pv": "2.0+X",
             "section": "multimedia",
-            "srcrev": "abfafd8957c9779c5f796e194fbd87c0c24d7767",
+            "srcrev": "5eac64dc0f93c755941770c46d5e315aec523b3d",
             "summary": "",
-            "updated": "2023-08-09T21:08:29+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "http://alsa-project.org/main/index.php/Bug_Tracking",
-            "configopts": "--disable-rst2man  --disable-bat  --disable-xmlto --with-udev-rules-dir=`pkg-config --variable=udevdir udev`/rules.d --enable-nls",
-            "description": "collection of small and often extremely powerful applications designed to allow users to control the various parts of the ALSA system.",
-            "filename": "alsa-utils_1.2.8.bb",
-            "filepath": "recipes-multimedia/alsa",
-            "homepage": "http://www.alsa-project.org",
-            "id": 1818724,
-            "inherits": "autotools gettext manpages pkgconfig qemu siteconfig siteinfo",
-            "layerbranch": 942566,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "alsa-utils",
-            "pr": "r0",
-            "provides": "alsa-utils alsa-utils-alsaconf alsa-utils-scripts",
-            "pv": "1.2.8",
-            "section": "console/utils",
-            "srcrev": "",
-            "summary": "ALSA sound utilities",
-            "updated": "2023-08-09T21:08:29+0000"
+            "updated": "2024-04-26T00:04:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "CFLAGS=\"-I/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-alsa-plugins/1.0.26+X-r0/recipe-sysroot/usr/include/imx\"  --disable-swpdm",
+            "configopts": "CFLAGS=\"-I/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-alsa-plugins/1.0.26+X-r0/recipe-sysroot/usr/include/imx\"  --disable-swpdm",
             "description": "Freescale alsa-lib plugins",
             "filename": "imx-alsa-plugins_git.bb",
             "filepath": "recipes-multimedia/alsa",
@@ -1697,13 +1707,13 @@
             "section": "multimedia",
             "srcrev": "b2ba082e70333f187972ee4e85f63f9d2f608331",
             "summary": "",
-            "updated": "2023-08-09T21:08:30+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/git=/usr/src/debug/imx-gst1.0-plugin/4.8.0+gitX-r0  -fdebug-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/git=/usr/src/debug/imx-gst1.0-plugin/4.8.0+gitX-r0  -fmacro-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/build=/usr/src/debug/imx-gst1.0-plugin/4.8.0+gitX-r0  -fdebug-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/build=/usr/src/debug/imx-gst1.0-plugin/4.8.0+gitX-r0  -fdebug-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/recipe-sysroot-native=  -I/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.0+gitX-r0/recipe-sysroot/usr/include/imx\"  ",
+            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/git=/usr/src/debug/imx-gst1.0-plugin/4.8.2+gitX-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/git=/usr/src/debug/imx-gst1.0-plugin/4.8.2+gitX-r0  -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/build=/usr/src/debug/imx-gst1.0-plugin/4.8.2+gitX-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/build=/usr/src/debug/imx-gst1.0-plugin/4.8.2+gitX-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/recipe-sysroot-native=  -I/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.8.2+gitX-r0/recipe-sysroot/usr/include/imx\"  ",
             "description": "Gstreamer freescale plugins",
             "filename": "imx-gst1.0-plugin_git.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -1716,11 +1726,11 @@
             "pn": "imx-gst1.0-plugin",
             "pr": "r0",
             "provides": "imx-gst1.0-plugin ",
-            "pv": "4.8.0+gitX",
+            "pv": "4.8.2+gitX",
             "section": "multimedia",
-            "srcrev": "2df72651dcc0ecff9db7c0a96d59c5ca2b9be9d4",
+            "srcrev": "a72df52acfec5f849ec93906e33cb50da01b0b2e",
             "summary": "",
-            "updated": "2023-08-09T21:08:30+0000"
+            "updated": "2024-04-26T00:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1728,7 +1738,7 @@
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
             "configopts": "-Dintrospection=enabled       -Ddoc=disabled     -Dexamples=disabled     -Ddbghelp=disabled     -Dnls=enabled   -Dbash-completion=disabled -Dcheck=enabled -Dcoretracers=disabled -Dgst_debug=true -Dlibdw=disabled -Dtests=disabled -Dtools=enabled -Dtracer_hooks=false -Dlibunwind=disabled",
             "description": "GStreamer is a multimedia framework for encoding and decoding video and sound. It supports a wide range of formats including mp3, ogg, avi, mpeg and quicktime.",
-            "filename": "gstreamer1.0_1.22.0.imx.bb",
+            "filename": "gstreamer1.0_1.22.5.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 1818727,
@@ -1739,19 +1749,19 @@
             "pn": "gstreamer1.0",
             "pr": "r0",
             "provides": "gstreamer1.0 ",
-            "pv": "1.22.0.imx",
+            "pv": "1.22.5.imx",
             "section": "multimedia",
-            "srcrev": "e39d4ce54e78cb090cf4e5cd56f431c365c5b0f4",
+            "srcrev": "e51e577a730191911b7050216814bede1b9545ae",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2023-08-20T17:08:36+0000"
+            "updated": "2024-04-26T00:04:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-good/-/issues",
             "configopts": "      -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled     -Daalib=disabled     -Ddirectsound=disabled     -Ddv=disabled     -Dlibcaca=disabled     -Doss=enabled     -Doss4=disabled     -Dosxaudio=disabled     -Dosxvideo=disabled     -Dshout2=disabled     -Dtwolame=disabled     -Dwaveform=disabled   -Dasm=disabled -Dbz2=enabled -Dcairo=enabled -Ddv1394=disabled -Dflac=enabled -Dgdk-pixbuf=enabled -Dgtk3=disabled -Dv4l2-gudev=enabled -Djack=disabled -Djpeg=enabled -Dlame=enabled -Dpng=enabled -Dv4l2-libv4l2=disabled -Dmpg123=enabled -Dorc=enabled -Dpulse=enabled -Dqt5=disabled -Drpicamsrc=disabled -Dsoup=enabled -Dspeex=enabled -Dtaglib=enabled -Dv4l2=enabled -Dv4l2-probe=true -Dvpx=disabled -Dwavpack=disabled -Dximagesrc=enabled -Dximagesrc-xshm=enabled -Dximagesrc-xfixes=enabled -Dximagesrc-xdamage=enabled",
-            "description": "'Good' GStreamer plugins",
-            "filename": "gstreamer1.0-plugins-good_1.22.0.imx.bb",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-good_1.22.5.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://gstreamer.freedesktop.org/",
             "id": 1818728,
@@ -1762,19 +1772,19 @@
             "pn": "gstreamer1.0-plugins-good",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-good ",
-            "pv": "1.22.0.imx",
+            "pv": "1.22.5.imx",
             "section": "multimedia",
-            "srcrev": "84704602fe5d6d5012085e63fa8a7232af13c9b7",
-            "summary": "",
-            "updated": "2023-08-20T17:08:36+0000"
+            "srcrev": "a4631334ad32abc513bde8f73491ef345f865a48",
+            "summary": "'Good' GStreamer plugins",
+            "updated": "2024-04-26T00:04:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-base/-/issues",
-            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled                 -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-base/1.22.0.imx-r0  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-base/1.22.0.imx-r0  -fmacro-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-base/1.22.0.imx-r0  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-base/1.22.0.imx-r0  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/recipe-sysroot-native=  -I/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.0.imx-r0/recipe-sysroot/usr/include/imx\"  -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=disabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
-            "description": "'Base' GStreamer plugins and helper libraries",
-            "filename": "gstreamer1.0-plugins-base_1.22.0.imx.bb",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled                 -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-base/1.22.5.imx-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-base/1.22.5.imx-r0  -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-base/1.22.5.imx-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-base/1.22.5.imx-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/recipe-sysroot-native=  -I/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.22.5.imx-r0/recipe-sysroot/usr/include/imx\"  -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=disabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-base_1.22.5.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://gstreamer.freedesktop.org/",
             "id": 1818729,
@@ -1785,19 +1795,19 @@
             "pn": "gstreamer1.0-plugins-base",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-base ",
-            "pv": "1.22.0.imx",
+            "pv": "1.22.5.imx",
             "section": "multimedia",
-            "srcrev": "aaaf7df211523b1835659ae85c510e5615d451d7",
-            "summary": "",
-            "updated": "2023-08-20T17:08:36+0000"
+            "srcrev": "53a12f4e39773ca5b052eccbf0476d4ebd3ac08e",
+            "summary": "'Base' GStreamer plugins and helper libraries",
+            "updated": "2024-04-26T00:04:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-bad/-/issues",
-            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled     -Dkate=disabled     -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled       -Donnx=disabled     -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.0.imx-r0  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.0.imx-r0  -fmacro-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.0.imx-r0  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.0.imx-r0  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/recipe-sysroot-native=  -I/tmp/tmpi441c_9t/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.0.imx-r0/recipe-sysroot/usr/include/imx\"   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=disabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=disabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dtinycompress=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=disabled -Dwayland=disabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
-            "description": "'Bad' GStreamer plugins and helper libraries ",
-            "filename": "gstreamer1.0-plugins-bad_1.22.0.imx.bb",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled     -Dkate=disabled     -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled       -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.5.imx-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.5.imx-r0  -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.5.imx-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.22.5.imx-r0  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/recipe-sysroot-native=  -I/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.22.5.imx-r0/recipe-sysroot/usr/include/imx\"   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=disabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=disabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dtinycompress=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=disabled -Dwayland=disabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-bad_1.22.5.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://gstreamer.freedesktop.org/",
             "id": 1818730,
@@ -1808,11 +1818,11 @@
             "pn": "gstreamer1.0-plugins-bad",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-bad ",
-            "pv": "1.22.0.imx",
+            "pv": "1.22.5.imx",
             "section": "multimedia",
-            "srcrev": "3c2f0b5794e699437964f2c337463f57b1e17f51",
-            "summary": "",
-            "updated": "2023-08-20T17:08:35+0000"
+            "srcrev": "e4edcda6b110f42eca1f2cc20bc935edf7e66d6d",
+            "summary": "'Bad' GStreamer plugins and helper libraries ",
+            "updated": "2024-04-26T00:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1843,7 +1853,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "i.MX DSP Codec Wrapper and Lib owned by NXP",
-            "filename": "imx-dsp-codec-ext_2.0.5.bb",
+            "filename": "imx-dsp-codec-ext_2.1.6.bb",
             "filepath": "recipes-multimedia/imx-dsp",
             "homepage": "",
             "id": 1818732,
@@ -1854,11 +1864,11 @@
             "pn": "imx-dsp-codec-ext",
             "pr": "r0",
             "provides": "imx-dsp-codec-ext ",
-            "pv": "2.0.5",
+            "pv": "2.1.6",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:31+0000"
+            "updated": "2024-04-26T00:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1866,7 +1876,7 @@
             "bugtracker": "",
             "configopts": "     -datadir=/lib/firmware     --bindir=/unit_tests       ",
             "description": "i.MX DSP Wrapper, Firmware Binary, Codec Libraries",
-            "filename": "imx-dsp_2.0.5.bb",
+            "filename": "imx-dsp_2.1.6.bb",
             "filepath": "recipes-multimedia/imx-dsp",
             "homepage": "",
             "id": 1818733,
@@ -1877,11 +1887,11 @@
             "pn": "imx-dsp",
             "pr": "r0",
             "provides": "imx-dsp ",
-            "pv": "2.0.5",
+            "pv": "2.1.6",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:32+0000"
+            "updated": "2024-04-26T00:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1925,9 +1935,9 @@
             "provides": "imx-vpuwrap ",
             "pv": "git",
             "section": "multimedia",
-            "srcrev": "a9cd0835da0ecce55d94510d028371b473090fcc",
+            "srcrev": "6f9b4c82e37688f50d756529d90b48c3cc80f2f6",
             "summary": "",
-            "updated": "2023-08-09T21:08:32+0000"
+            "updated": "2024-04-26T00:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1935,7 +1945,7 @@
             "bugtracker": "",
             "configopts": "--enable-fsw ",
             "description": "Freescale Multimedia parser libs",
-            "filename": "imx-parser_4.8.0.bb",
+            "filename": "imx-parser_4.8.2.bb",
             "filepath": "recipes-multimedia/imx-parser",
             "homepage": "",
             "id": 1818736,
@@ -1946,11 +1956,11 @@
             "pn": "imx-parser",
             "pr": "r0",
             "provides": "imx-parser  libfslparser",
-            "pv": "4.8.0",
+            "pv": "4.8.2",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:32+0000"
+            "updated": "2024-04-26T00:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2040,15 +2050,15 @@
             "provides": "crypto-af-alg ",
             "pv": "git",
             "section": "base",
-            "srcrev": "cf7ba1039d4c6e221dbc21855740495e11ff49fd",
+            "srcrev": "0be7a9fe7f0e8333f5469b19da94c2fca2998ffc",
             "summary": "NXP i.MX CRYPTO AF_ALG",
-            "updated": "2023-08-09T21:08:32+0000"
+            "updated": "2024-04-26T00:04:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DTA_DEV_KIT_ROOT=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/smw/git-r0/recipe-sysroot/usr/include/optee/export-user_ta     -DTEEC_ROOT=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/smw/git-r0/recipe-sysroot     -DJSONC_ROOT=\"/tmp/tmp4z347rjv/tmp-glibc/sysroots-components/i686/json-c/usr\"     -DPSA_ARCH_TESTS_SRC_PATH=../psa-arch-tests     ${EXTRA_OECMAKE_IMX} ",
+            "configopts": "     -DTA_DEV_KIT_ROOT=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/smw/git-r0/recipe-sysroot/usr/include/optee/export-user_ta     -DTEEC_ROOT=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/smw/git-r0/recipe-sysroot     -DJSONC_ROOT=\"/tmp/tmppgtp4buf/tmp-glibc/sysroots-components/i686/json-c/usr\"     -DPSA_ARCH_TESTS_SRC_PATH=../psa-arch-tests     -DTEE_TA_DESTDIR=/lib     ${EXTRA_OECMAKE_IMX} ",
             "description": "NXP i.MX Security Middleware Library",
             "filename": "smw_git.bb",
             "filepath": "recipes-security/smw",
@@ -2065,36 +2075,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX Security Middleware Library",
-            "updated": "2023-08-09T21:08:32+0000"
+            "updated": "2024-04-26T00:04:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
-            "description": "NXP i.MX keyctl tool to manage CAAM Keys",
-            "filename": "keyctl-caam_git.bb",
-            "filepath": "recipes-security/smw",
-            "homepage": "",
-            "id": 1818742,
-            "inherits": "",
-            "layerbranch": 942566,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "keyctl-caam",
-            "pr": "r0",
-            "provides": "keyctl-caam ",
-            "pv": "git",
-            "section": "base",
-            "srcrev": "7f25ab3ec5694355ca4e69cdb8bc2f4954fa8b91",
-            "summary": "NXP i.MX CAAM Keyctl",
-            "updated": "2023-08-09T21:08:32+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_TEE_FS_PARENT_PATH='/var/lib/tee'  ",
+            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_TEE_FS_PARENT_PATH='/var/lib/tee'     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'  -DCFG_TEE_CLIENT_LOAD_PATH=/lib ",
             "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
             "filename": "optee-client_3.21.0.imx.bb",
             "filepath": "recipes-security/optee",
@@ -2111,7 +2098,7 @@
             "section": "base",
             "srcrev": "8533e0e6329840ee96cf81b6453f257204227e6c",
             "summary": "OP-TEE Client API",
-            "updated": "2023-08-09T21:08:32+0000"
+            "updated": "2024-04-26T00:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2132,9 +2119,9 @@
             "provides": "optee-os-tadevkit ",
             "pv": "3.21.0.imx",
             "section": "base",
-            "srcrev": "1962aec9581760803b1485d455cd62cb11c14870",
+            "srcrev": "30e5ae65c9342ffc7c0d50482f6b211c0e348b02",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2024-03-28T20:03:34+0000"
+            "updated": "2024-04-26T00:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2155,9 +2142,9 @@
             "provides": "optee-test ",
             "pv": "3.21.0.imx",
             "section": "base",
-            "srcrev": "c2c9f922044d2c8a7ab384812bb124c6da2b7888",
+            "srcrev": "8caa35bb7b93b9a9607413bd51e39e73f3b980b0",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2024-03-28T20:03:34+0000"
+            "updated": "2024-04-26T00:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2178,9 +2165,9 @@
             "provides": "optee-os ",
             "pv": "3.21.0.imx",
             "section": "base",
-            "srcrev": "1962aec9581760803b1485d455cd62cb11c14870",
+            "srcrev": "30e5ae65c9342ffc7c0d50482f6b211c0e348b02",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2024-03-28T20:03:34+0000"
+            "updated": "2024-04-26T00:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2188,7 +2175,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "kernel-module-nxp-wlan.bb",
+            "filename": "kernel-module-nxp-wlan_git.bb",
             "filepath": "recipes-kernel/kernel-modules",
             "homepage": "",
             "id": 1818747,
@@ -2199,11 +2186,11 @@
             "pn": "kernel-module-nxp-wlan",
             "pr": "r0",
             "provides": "kernel-module-nxp-wlan ",
-            "pv": "1.0",
+            "pv": "git",
             "section": "base",
-            "srcrev": "f1382ccbd34fc22daf504e798745f6cddb702b82",
+            "srcrev": "952d10f3349426f917636a4560974117eb6eef5b",
             "summary": "Kernel loadable module for NXP Wi-Fi module 88w8801/8987/8997/9098 IW416/612",
-            "updated": "2023-12-21T22:12:09+0000"
+            "updated": "2024-05-13T19:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2211,7 +2198,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Builds the Vivante GPU kernel driver as a loadable kernel module, allowing flexibility to use a newer graphics release with an older kernel.",
-            "filename": "kernel-module-imx-gpu-viv_6.4.11.p1.2.bb",
+            "filename": "kernel-module-imx-gpu-viv_6.4.11.p2.2.bb",
             "filepath": "recipes-kernel/kernel-modules",
             "homepage": "",
             "id": 1818748,
@@ -2222,11 +2209,11 @@
             "pn": "kernel-module-imx-gpu-viv",
             "pr": "r0",
             "provides": "kernel-module-imx-gpu-viv ",
-            "pv": "6.4.11.p1.2",
+            "pv": "6.4.11.p2.2",
             "section": "base",
-            "srcrev": "58ec71faafc543f6e10b8c5c806af2500e08c8e6",
+            "srcrev": "867b5c9b17c11911281ab68db3d91cc141f5fa20",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2023-08-09T21:08:33+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2234,7 +2221,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Kernel loadable module for ISP",
-            "filename": "kernel-module-isp-vvcam_4.2.2.22.0.bb",
+            "filename": "kernel-module-isp-vvcam_4.2.2.24.0.bb",
             "filepath": "recipes-kernel/kernel-modules",
             "homepage": "",
             "id": 1818749,
@@ -2245,11 +2232,11 @@
             "pn": "kernel-module-isp-vvcam",
             "pr": "r0",
             "provides": "kernel-module-isp-vvcam ",
-            "pv": "4.2.2.22.0",
+            "pv": "4.2.2.24.0",
             "section": "base",
-            "srcrev": "dad0b927a26100ebcfbcb6ad09d64ecde767af7f",
+            "srcrev": "2c762259b979d7ec5a2e17df6ad823de49d43a28",
             "summary": "",
-            "updated": "2023-12-25T02:12:44+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2270,9 +2257,9 @@
             "provides": "linux-imx-headers ",
             "pv": "6.1",
             "section": "base",
-            "srcrev": "66e442bc7fdcc935e6faa94c743f653263d4ed67",
+            "srcrev": "770c5fe2c1d1529fae21b7043911cd50c6cf087e",
             "summary": "Installs i.MX-specific kernel headers",
-            "updated": "2023-08-09T21:08:33+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2291,11 +2278,11 @@
             "pn": "linux-imx",
             "pr": "r0",
             "provides": "linux-imx  virtual/kernel linux-mfgtool",
-            "pv": "6.1.22+gitX",
+            "pv": "6.1.y+gitX",
             "section": "base",
-            "srcrev": "66e442bc7fdcc935e6faa94c743f653263d4ed67",
+            "srcrev": "770c5fe2c1d1529fae21b7043911cd50c6cf087e",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2023-08-09T21:08:33+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2326,7 +2313,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Sound Open Firmware with Zephyr",
-            "filename": "sof-zephyr_2.5.0.bb",
+            "filename": "sof-zephyr_2.7.0.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "https://www.sofproject.org",
             "id": 1818754,
@@ -2337,11 +2324,11 @@
             "pn": "sof-zephyr",
             "pr": "r0",
             "provides": "sof-zephyr ",
-            "pv": "2.5.0",
+            "pv": "2.7.0",
             "section": "kernel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:34+0000"
+            "updated": "2024-04-26T00:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2349,7 +2336,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Utilities for debugging and configuration of Sound Open Firmware",
-            "filename": "sof-tools_2.5.0.bb",
+            "filename": "sof-tools_2.7.0.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "https://www.sofproject.org",
             "id": 1818755,
@@ -2360,11 +2347,11 @@
             "pn": "sof-tools",
             "pr": "r0",
             "provides": "sof-tools ",
-            "pv": "2.5.0",
+            "pv": "2.7.0",
             "section": "Console/tools",
             "srcrev": "b637889efb5e99e9f87f0ed1b081826f6ff992f0",
             "summary": "",
-            "updated": "2023-08-09T21:08:34+0000"
+            "updated": "2024-04-26T00:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2372,7 +2359,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Sound Open Firmware",
-            "filename": "sof-imx_2.5.0.bb",
+            "filename": "sof-imx_2.7.0.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "https://www.sofproject.org",
             "id": 1818756,
@@ -2383,11 +2370,11 @@
             "pn": "sof-imx",
             "pr": "r0",
             "provides": "sof-imx ",
-            "pv": "2.5.0",
+            "pv": "2.7.0",
             "section": "kernel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:34+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2395,7 +2382,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Zephyr Demo for i.MX",
-            "filename": "zephyr-demo-imx_3.3.0.bb",
+            "filename": "zephyr-demo-imx_3.5.0.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "https://github.com/zephyrproject-rtos/zephyr",
             "id": 1818757,
@@ -2406,34 +2393,11 @@
             "pn": "zephyr-demo-imx",
             "pr": "r0",
             "provides": "zephyr-demo-imx ",
-            "pv": "3.3.0",
+            "pv": "3.5.0",
             "section": "kernel",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:34+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "  -DENABLE_EGL=ON -DENABLE_GUI=OFF -DENABLE_MULTIARCH=OFF -DENABLE_VIVANTE=OFF -DENABLE_WAFFLE=OFF -DENABLE_X11=OFF",
-            "description": "",
-            "filename": "imx-gpu-apitrace_10.0.0.bb",
-            "filepath": "recipes-graphics/imx-gpu-apitrace",
-            "homepage": "",
-            "id": 1818758,
-            "inherits": "cmake perlnative pkgconfig python3-dir python3native",
-            "layerbranch": 942566,
-            "license": "MIT",
-            "pe": "",
-            "pn": "imx-gpu-apitrace",
-            "pr": "r0",
-            "provides": "imx-gpu-apitrace ",
-            "pv": "10.0.0",
-            "section": "base",
-            "srcrev": "522cb2981289b7ba20d6dd4b4bf75097e079815b",
-            "summary": "Samples for OpenGL ES",
-            "updated": "2023-08-09T21:08:34+0000"
+            "updated": "2024-04-26T00:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2441,7 +2405,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "clblast_1.5.2.bb",
+            "filename": "clblast_1.6.1.bb",
             "filepath": "recipes-graphics/clblast",
             "homepage": "",
             "id": 1818759,
@@ -2452,11 +2416,11 @@
             "pn": "clblast",
             "pr": "r0",
             "provides": "clblast ",
-            "pv": "1.5.2",
+            "pv": "1.6.1",
             "section": "base",
-            "srcrev": "70016e869881df837402def4904b2888247e02d9",
+            "srcrev": "e3ce21bb937f07b8282dccf4823e2acbdf286d17",
             "summary": "",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2464,7 +2428,7 @@
             "bugtracker": "",
             "configopts": "  -Damdgpu=enabled -Dcairo-tests=disabled -Detnaviv=enabled -Dexynos=disabled -Dfreedreno=enabled -Dfreedreno-kgsl=false -Dinstall-test-programs=true -Dintel=enabled -Dman-pages=disabled -Dnouveau=enabled -Domap=enabled -Dradeon=enabled -Dtegra=disabled -Dtests=true -Dudev=false -Dvalgrind=disabled -Dvc4=enabled -Dvivante=false -Dvmwgfx=enabled",
             "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
-            "filename": "libdrm_2.4.114.imx.bb",
+            "filename": "libdrm_2.4.115.imx.bb",
             "filepath": "recipes-graphics/drm",
             "homepage": "http://dri.freedesktop.org",
             "id": 1818760,
@@ -2475,11 +2439,11 @@
             "pn": "libdrm",
             "pr": "r0",
             "provides": "libdrm drm",
-            "pv": "2.4.114.imx",
+            "pv": "2.4.115.imx",
             "section": "x11/base",
-            "srcrev": "3660ea0fee6f2f131eca73cd4c30d20021a84284",
+            "srcrev": "0f889a1f9640f6210132dd565141eb19005245fb",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2487,7 +2451,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "G2D library using i.MX DPU",
-            "filename": "imx-dpu-g2d_2.1.8.bb",
+            "filename": "imx-dpu-g2d_2.1.10.bb",
             "filepath": "recipes-graphics/imx-g2d",
             "homepage": "",
             "id": 1818761,
@@ -2498,11 +2462,11 @@
             "pn": "imx-dpu-g2d",
             "pr": "r0",
             "provides": "imx-dpu-g2d  virtual/libg2d",
-            "pv": "2.1.8",
+            "pv": "2.1.10",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2510,7 +2474,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "G2D library using i.MX GPU",
-            "filename": "imx-gpu-g2d_6.4.11.p1.2.bb",
+            "filename": "imx-gpu-g2d_6.4.11.p2.2.bb",
             "filepath": "recipes-graphics/imx-g2d",
             "homepage": "",
             "id": 1818762,
@@ -2521,11 +2485,11 @@
             "pn": "imx-gpu-g2d",
             "pr": "r0",
             "provides": "imx-gpu-g2d virtual/libg2d",
-            "pv": "6.4.11.p1.2",
+            "pv": "6.4.11.p2.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2548,7 +2512,7 @@
             "section": "base",
             "srcrev": "4391dcda499870418bb38fe395c3cba0664c5bab",
             "summary": "i.MX G2D Samples",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2569,9 +2533,9 @@
             "provides": "imx-pxp-g2d  virtual/libg2d",
             "pv": "2.1.0+gitX",
             "section": "base",
-            "srcrev": "667c4ccbba208f47ac6d78f11a2c30737c66600f",
+            "srcrev": "f3adab05bd0cbb7c38578110d772e8ddf52b4e8e",
             "summary": "",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2579,7 +2543,7 @@
             "bugtracker": "",
             "configopts": " -Dpipewire=false -Ddeprecated-wl-shell=true  -Dsimple-clients= -Ddemo-clients=false -Dcolor-management-colord=false -Drenderer-gl=false -Dbackend-fbdev=false -Dbackend-headless=false -Dimage-jpeg=true -Drenderer-g2d=false -Dimxgpu=false -Dbackend-drm=false -Ddeprecated-weston-launch=false -Dlauncher-libseat=true -Dcolor-management-lcms=false -Dopengl=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dsystemd=false -Dlauncher-logind=false -Dbackend-drm-screencast-vaapi=false -Dbackend-wayland=false -Dimage-webp=false -Dbackend-x11=false -Dxwayland=false",
             "description": "Weston is the reference implementation of a Wayland compositor",
-            "filename": "weston_10.0.3.imx.bb",
+            "filename": "weston_10.0.5.imx.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 1818765,
@@ -2590,19 +2554,19 @@
             "pn": "weston",
             "pr": "r0",
             "provides": "weston ",
-            "pv": "10.0.3.imx",
+            "pv": "10.0.5.imx",
             "section": "base",
-            "srcrev": "c41675dc616886828219eba9b9ce22ec17533090",
+            "srcrev": "0cc822a1e5a8faea6835a4e9259887d8792b86b4",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2023-08-09T21:08:35+0000"
+            "updated": "2024-04-26T00:04:35+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Dpipewire=false  -Dsimple-clients= -Ddemo-clients=false -Ddeprecated-color-management-colord=false -Drenderer-gl=false -Dbackend-headless=false -Dimage-jpeg=true -Drenderer-g2d=false -Dbackend-drm=false -Dlauncher-libseat=true -Dcolor-management-lcms=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dsystemd=false -Dlauncher-logind=false -Dbackend-drm-screencast-vaapi=false -Dbackend-wayland=false -Dimage-webp=false -Dbackend-x11=false -Dxwayland=false",
+            "configopts": " -Dpipewire=false  -Dsimple-clients= -Ddemo-clients=false -Ddeprecated-color-management-colord=false -Drenderer-gl=false -Dbackend-headless=false -Dimage-jpeg=true -Drenderer-g2d=false -Dbackend-drm=false -Dlauncher-libseat=true -Dcolor-management-lcms=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dshell-kiosk=true -Dsystemd=false -Dlauncher-logind=false -Dbackend-drm-screencast-vaapi=false -Dbackend-wayland=false -Dimage-webp=false -Dbackend-x11=false -Dxwayland=false",
             "description": "Weston is the reference implementation of a Wayland compositor",
-            "filename": "weston_11.0.1.imx.bb",
+            "filename": "weston_11.0.3.imx.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 1818766,
@@ -2613,11 +2577,11 @@
             "pn": "weston",
             "pr": "r0",
             "provides": "weston ",
-            "pv": "11.0.1.imx",
+            "pv": "11.0.3.imx",
             "section": "base",
-            "srcrev": "12875cd94a42fc96d4236de46762ef358e3ec913",
+            "srcrev": "a509c319b7bfc72638c9b9d8f5e4b6259aba0ab7",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2023-08-09T21:08:36+0000"
+            "updated": "2024-04-26T00:04:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2625,7 +2589,7 @@
             "bugtracker": "",
             "configopts": " -Dtests=false ",
             "description": "Wayland protocols that add functionality not available in the Wayland core protocol. Such protocols either add completely new functionality, or extend the functionality of some other protocol either in Wayland core, or some other protocol in wayland-protocols.",
-            "filename": "wayland-protocols_1.31.imx.bb",
+            "filename": "wayland-protocols_1.32.imx.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 1818767,
@@ -2636,11 +2600,11 @@
             "pn": "wayland-protocols",
             "pr": "r0",
             "provides": "wayland-protocols ",
-            "pv": "1.31.imx",
+            "pv": "1.32.imx",
             "section": "base",
-            "srcrev": "99a2a439fc6b5d25d41bfec9c9b459408a45bf92",
+            "srcrev": "7ece577d467f8afb2f5a2f7fff3761a1e0ee9dad",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2023-08-09T21:08:36+0000"
+            "updated": "2024-04-26T00:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2648,7 +2612,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p1.2-aarch64.bb",
+            "filename": "imx-gpu-viv_6.4.11.p2.2-aarch64.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 1818768,
@@ -2658,12 +2622,12 @@
             "pe": "1",
             "pn": "imx-gpu-viv",
             "pr": "r0",
-            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/egl     virtual/libopenvg     virtual/opencl-icd                 ",
-            "pv": "6.4.11.p1.2-aarch64",
+            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd             ",
+            "pv": "6.4.11.p2.2-aarch64",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:36+0000"
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2671,7 +2635,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p1.2-aarch32.bb",
+            "filename": "imx-gpu-viv_6.4.11.p2.2-aarch32.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 1818769,
@@ -2681,12 +2645,12 @@
             "pe": "1",
             "pn": "imx-gpu-viv",
             "pr": "r0",
-            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/egl     virtual/libopenvg     virtual/opencl-icd                 ",
-            "pv": "6.4.11.p1.2-aarch32",
+            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd             ",
+            "pv": "6.4.11.p2.2-aarch32",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-08-09T21:08:36+0000"
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2730,9 +2694,9 @@
             "provides": "nxp-wlan-sdk ",
             "pv": "git",
             "section": "base",
-            "srcrev": "f1382ccbd34fc22daf504e798745f6cddb702b82",
+            "srcrev": "952d10f3349426f917636a4560974117eb6eef5b",
             "summary": "NXP Wi-Fi SDK",
-            "updated": "2024-01-02T03:01:38+0000"
+            "updated": "2024-04-26T00:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2763,7 +2727,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-boot-firmware-files_8.20.bb",
+            "filename": "imx-boot-firmware-files_8.22.bb",
             "filepath": "recipes-bsp/firmware-imx",
             "homepage": "",
             "id": 1847362,
@@ -2774,11 +2738,11 @@
             "pn": "imx-boot-firmware-files",
             "pr": "r0",
             "provides": "imx-boot-firmware-files ",
-            "pv": "8.20",
+            "pv": "8.22",
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX Firmware files used for boot",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2786,7 +2750,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-m7-demos_2.13.1.bb",
+            "filename": "imx-m7-demos_2.14.1.bb",
             "filepath": "recipes-fsl/mcore-demos",
             "homepage": "",
             "id": 1847363,
@@ -2797,17 +2761,17 @@
             "pn": "imx-m7-demos",
             "pr": "r0",
             "provides": "imx-m7-demos ",
-            "pv": "2.13.1",
+            "pv": "2.14.1",
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2023-12-21T22:12:09+0000"
+            "updated": "2024-04-26T00:04:42+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DOPENCV_ICV_HASH=ad189a940fb60eb71f291321322fe3e8     -DIPPROOT=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/git/ippicv_lnx     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVX=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp4z347rjv/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/recipe-sysroot/usr/lib/python3.11/site-packages/numpy/core/include -DWITH_QT=OFF -DWITH_QT=OFF -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF  -DINSTALL_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_TIMVX=OFF -DWITH_V4L=ON -DBUILD_opencv_cvv=OFF",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DOPENCV_ICV_HASH=ad189a940fb60eb71f291321322fe3e8     -DIPPROOT=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/git/ippicv_lnx     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVX=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/opencv/4.7.0.imx-r0/recipe-sysroot/usr/lib/python3.11/site-packages/numpy/core/include -DWITH_QT=OFF -DWITH_QT=OFF -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF  -DINSTALL_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_TIMVX=OFF -DWITH_V4L=ON -DBUILD_opencv_cvv=OFF",
             "description": "",
             "filename": "opencv_4.7.0.imx.bb",
             "filepath": "recipes-support/opencv",
@@ -2824,7 +2788,306 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library, i.MX Fork",
-            "updated": "2023-08-09T21:08:37+0000"
+            "updated": "2024-04-26T00:04:41+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "pugixml_1.13.0.bb",
+            "filepath": "recipes-devtools/pugixml",
+            "homepage": "http://pugixml.org/",
+            "id": 2024820,
+            "inherits": "cmake",
+            "layerbranch": 942566,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pugixml",
+            "pr": "r0",
+            "provides": "pugixml ",
+            "pv": "1.13.0",
+            "section": "libs",
+            "srcrev": "a0e064336317c9347a91224112af9933598714e9",
+            "summary": "pugixml is a C++ XML processing library",
+            "updated": "2024-04-26T00:04:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "imx-m33-demos_2.14.2.bb",
+            "filepath": "recipes-fsl/mcore-demos",
+            "homepage": "",
+            "id": 2024821,
+            "inherits": "deploy fsl-eula-unpack fsl-eula2 fsl-eula2-unpack2",
+            "layerbranch": 942566,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "imx-m33-demos",
+            "pr": "r0",
+            "provides": "imx-m33-demos ",
+            "pv": "2.14.2",
+            "section": "app",
+            "srcrev": "",
+            "summary": "i.MX M4/M7/M33 core Demo images",
+            "updated": "2024-04-26T00:04:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Kernel module for dpdk",
+            "filename": "kernel-module-dpdk-extras_git.bb",
+            "filepath": "recipes-kernel/kernel-modules",
+            "homepage": "",
+            "id": 2024822,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 942566,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "kernel-module-dpdk-extras",
+            "pr": "r0",
+            "provides": "kernel-module-dpdk-extras ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "e53931e22a15858c5469f9cb0b631f40c3ec8db3",
+            "summary": "",
+            "updated": "2024-04-26T00:04:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "NXP Multimedia opencl converter lib",
+            "filename": "imx-opencl-converter_0.1.bb",
+            "filepath": "recipes-multimedia/imx-opencl-converter",
+            "homepage": "",
+            "id": 2024823,
+            "inherits": "autotools fsl-eula-unpack meson meson-routines pkgconfig python3-dir python3native qemu siteconfig siteinfo",
+            "layerbranch": 942566,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "imx-opencl-converter",
+            "pr": "r0",
+            "provides": "imx-opencl-converter ",
+            "pv": "0.1",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-04-26T00:04:43+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "liblc3_1.0.4.bb",
+            "filepath": "recipes-multimedia/liblc3",
+            "homepage": "https://github.com/google/liblc3",
+            "id": 2024824,
+            "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 942566,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "liblc3",
+            "pr": "r0",
+            "provides": "liblc3 ",
+            "pv": "1.0.4",
+            "section": "base",
+            "srcrev": "1a5938ebaca4f13fe79ce074f5dee079783aa29f",
+            "summary": "Low Complexity Communication Codec (LC3)",
+            "updated": "2024-04-26T00:04:43+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "https://gitlab.freedesktop.org/pipewire/pipewire/issues",
+            "configopts": "      -Devl=disabled     -Dtests=disabled     -Dudevrulesdir=/lib/udev/rules.d/     -Dsystemd-system-unit-dir=/lib/systemd/system     -Dsystemd-user-unit-dir=/usr/lib/systemd/user     -Dman=disabled     -Dsession-managers='[]'     -Dlv2=disabled     -Droc=disabled     -Dbluez5-codec-aptx=disabled     -Dbluez5-codec-ldac=disabled     -Dlegacy-rtkit=false     -Dlibmysofa=disabled   -Dalsa=enabled -Davahi=enabled -Dbluez5=enabled -Dbluez5-codec-aac=disabled -Dbluez5-backend-native-mm=disabled -Dbluez5-codec-lc3=enabled -Dbluez5-codec-opus=enabled -Ddocs=disabled -Dffmpeg=disabled -Dflatpak=enabled -Dgsettings=enabled -Dgstreamer=enabled -Djack=enabled -Dlibcamera=enabled -Dlibcanberra=disabled -Dlibusb=enabled -Dpipewire-alsa=disabled -Dpipewire-jack=disabled -Dlibpulse=enabled -Dpw-cat=enabled -Draop=enabled -Dreadline=enabled -Dsdl2=disabled -Dsndfile=enabled -Dsystemd=disabled -Dsystemd-system-service=disabled -Dsystemd-user-service=disabled -Dudev=enabled -Dv4l2=enabled -Dvolume=enabled -Dvulkan=disabled -Decho-cancel-webrtc=enabled",
+            "description": "Linux server for handling and routing audio and video streams between applications and multimedia I/O devices",
+            "filename": "pipewire_0.3.77.bb",
+            "filepath": "recipes-multimedia/pipewire",
+            "homepage": "https://pipewire.org/",
+            "id": 2024825,
+            "inherits": "gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo systemd useradd useradd_base",
+            "layerbranch": 942566,
+            "license": "MIT & LGPL-2.1-or-later & GPL-2.0-only",
+            "pe": "",
+            "pn": "pipewire",
+            "pr": "r0",
+            "provides": "pipewire ",
+            "pv": "0.3.77",
+            "section": "multimedia",
+            "srcrev": "31cd694602cc37ada3a6d02a5a381f4e3933ecef",
+            "summary": "Multimedia processing server for Linux",
+            "updated": "2024-04-26T00:04:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DPTMW_Applet=SE05X_C     -DPTMW_SE05X_Ver=07_02     -DPTMW_SE05X_Auth=None       -DPTMW_HostCrypto=OPENSSL",
+            "description": "An OpenSSL provider for NXP EdgeLock SE050 secure element product family.",
+            "filename": "openssl-provider-se050_1.0.0.bb",
+            "filepath": "recipes-security/edge-lock",
+            "homepage": "",
+            "id": 2024826,
+            "inherits": "cmake",
+            "layerbranch": 942566,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "openssl-provider-se050",
+            "pr": "r0",
+            "provides": "openssl-provider-se050 ",
+            "pv": "1.0.0",
+            "section": "libs",
+            "srcrev": "0e71c65647e531e81bc72dcce4039dcc64d4b2b4",
+            "summary": "OpenSSL Provider for SE050",
+            "updated": "2024-04-26T00:04:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "This example demonstrates Elliptic Curve Cryptography sign and verify operation using NXP Plug & Trust middleware for EdgeLock SE050 secure element family.",
+            "filename": "plug-and-trust-ecc_4.4.0.bb",
+            "filepath": "recipes-security/edge-lock",
+            "homepage": "",
+            "id": 2024827,
+            "inherits": "cmake",
+            "layerbranch": 942566,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "plug-and-trust-ecc",
+            "pr": "r0",
+            "provides": "plug-and-trust-ecc ",
+            "pv": "4.4.0",
+            "section": "apps",
+            "srcrev": "5aae9189b07286f80847d1280de3be8462e5f001",
+            "summary": "Plug & Trust ECC example for SE050",
+            "updated": "2024-04-26T00:04:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_TEE_FS_PARENT_PATH='/var/lib/tee'     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'  -DCFG_TEE_CLIENT_LOAD_PATH=/lib ",
+            "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
+            "filename": "optee-client_4.0.0.imx.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2024828,
+            "inherits": "cmake pkgconfig systemd update-rc.d",
+            "layerbranch": 942566,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-client",
+            "pr": "r0",
+            "provides": "optee-client ",
+            "pv": "4.0.0.imx",
+            "section": "base",
+            "srcrev": "acb0885c117e73cb6c5c9b1dd9054cb3f93507ee",
+            "summary": "OP-TEE Client API",
+            "updated": "2024-04-26T00:04:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OP-TEE TA devkit for build TAs",
+            "filename": "optee-os-tadevkit_4.0.0.imx.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2024829,
+            "inherits": "deploy features_check python3-dir python3native",
+            "layerbranch": 942566,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os-tadevkit",
+            "pr": "r0",
+            "provides": "optee-os-tadevkit ",
+            "pv": "4.0.0.imx",
+            "section": "base",
+            "srcrev": "a303fc80f7c4bd713315687a1fa1d6ed136e78ee",
+            "summary": "OP-TEE Trusted OS TA devkit",
+            "updated": "2024-04-26T00:04:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Trusted side of the TEE",
+            "filename": "optee-os_4.0.0.imx.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2024830,
+            "inherits": "deploy features_check python3-dir python3native",
+            "layerbranch": 942566,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os",
+            "pr": "r0",
+            "provides": "optee-os ",
+            "pv": "4.0.0.imx",
+            "section": "base",
+            "srcrev": "a303fc80f7c4bd713315687a1fa1d6ed136e78ee",
+            "summary": "OP-TEE Trusted OS",
+            "updated": "2024-04-26T00:04:45+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Test suite",
+            "filename": "optee-test_4.0.0.imx.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2024831,
+            "inherits": "ptest python3-dir python3native",
+            "layerbranch": 942566,
+            "license": "BSD-2-Clause & GPL-2.0-only",
+            "pe": "",
+            "pn": "optee-test",
+            "pr": "r0",
+            "provides": "optee-test ",
+            "pv": "4.0.0.imx",
+            "section": "base",
+            "srcrev": "38efacef3b14b32a6792ceaebe211b5718536fbb",
+            "summary": "OP-TEE sanity testsuite",
+            "updated": "2024-04-26T00:04:45+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DOPENSSL_PATH=\"/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/itest/git-r0/recipe-sysroot/usr\"     -DELE_LIB_PATH=\"/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/itest/git-r0/recipe-sysroot/usr\"     -DLIB_PATH=\"/tmp/tmppgtp4buf/tmp-glibc/work/core2-32-oe-linux/itest/git-r0/recipe-sysroot/usr/lib\"     ${EXTRA_OECMAKE_IMX} ",
+            "description": "NXP i.MX Itest",
+            "filename": "itest_git.bb",
+            "filepath": "recipes-security/smw",
+            "homepage": "",
+            "id": 2024832,
+            "inherits": "cmake",
+            "layerbranch": 942566,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "itest",
+            "pr": "r0",
+            "provides": "itest ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "4f1d1f201d9d3aaf0484cc1616c7e08026954afe",
+            "summary": "NXP i.MX Itest",
+            "updated": "2024-04-26T00:04:45+0000"
         }
     ],
     "wrtemplates": []
